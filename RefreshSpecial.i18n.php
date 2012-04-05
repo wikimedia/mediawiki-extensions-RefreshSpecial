@@ -1481,7 +1481,7 @@ Cảnh báo: việc làm mới có thể sẽ mất một lúc nếu wiki khá l
 	'refreshspecial-choice' => 'đang làm mới trang đặc biệt',
 	'refreshspecial-js-disabled' => '(<i>Bạn không thể chọn tất cả các trang trong khi JavaScript bị tắt</i>)',
 	'refreshspecial-select-all-pages' => 'Chọn tất cả các trang',
-	'refreshspecial-link-back' => 'Quay về bộ mở rộng',
+	'refreshspecial-link-back' => 'Quay về trang đặc biệt',
 	'refreshspecial-none-selected' => 'Bạn chưa chọn trang đặc biệt nào. Đang quay về lựa chọn mặc định.',
 	'refreshspecial-db-error' => 'Thất bại: lỗi cơ sở dữ liệu',
 	'refreshspecial-no-page' => 'Không có trang đặc biệt như vậy',
