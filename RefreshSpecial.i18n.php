@@ -799,6 +799,7 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Aotake
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'refreshspecial' => '特別ページを更新する',
@@ -822,7 +823,7 @@ $messages['ja'] = array(
 	'refreshspecial-reconnecting' => '接続失敗、10秒間の再接続中…',
 	'refreshspecial-page-result' => '$1{{PLURAL:$1|行}}を取得',
 	'refreshspecial-total-display' => '$1{{PLURAL:$1|ページ}} (データベース{{PLURAL:$2|行数}}合計: $2) を $3で更新しました (スクリプトの全実行時間: $4)',
-	'right-refreshspecial' => '特別ページを更新する',
+	'right-refreshspecial' => '特別ページを更新',
 );
 
 /** Khmer (ភាសាខ្មែរ)
