@@ -1003,6 +1003,7 @@ Over 10 seconden wordt weer geprobeerd verbinding te maken...',
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'refreshspecial' => 'Oppdater spesialsider',
@@ -1457,7 +1458,7 @@ $messages['uk'] = array(
 	'right-refreshspecial' => 'Оновлення спеціальних сторінок',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
