@@ -33,6 +33,11 @@ $specialPageAliases['bs'] = array(
 	'RefreshSpecial' => array( 'PosebnoOsvjezavanje' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'RefreshSpecial' => array( 'Spezialseiten_aktualisieren' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'RefreshSpecial' => array( 'تازه‌سازی_ویژه' ),
@@ -111,4 +116,9 @@ $specialPageAliases['tl'] = array(
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'RefreshSpecial' => array( 'ÖzelYenile' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'RefreshSpecial' => array( '刷新特殊页面' ),
 );
