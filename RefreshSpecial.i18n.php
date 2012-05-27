@@ -923,9 +923,9 @@ $messages['mk'] = array(
 '''Предупредување:''' Подновата може да потрае кај поголеми викија.",
 	'refreshspecial-button' => 'Поднови го избраното',
 	'refreshspecial-fail' => 'Одберете барем една специјална страница за превчитување.',
-	'refreshspecial-refreshing' => 'ажурирање на специјалните страници',
+	'refreshspecial-refreshing' => 'поднова на специјалните страници',
 	'refreshspecial-skipped' => 'грешка, прескокнато',
-	'refreshspecial-choice' => 'ажурирање на специјалните страници',
+	'refreshspecial-choice' => 'поднова на специјалните страници',
 	'refreshspecial-js-disabled' => '(<i>Не можете да ги одберете сите страници кога е исклучен JavaScript</i>)',
 	'refreshspecial-select-all-pages' => 'Одбери ги сите страници',
 	'refreshspecial-link-back' => 'Назад кон специјалната страница',
@@ -937,7 +937,7 @@ $messages['mk'] = array(
 	'refreshspecial-reconnecting' => 'Поврзувањето не успеа. Се преповрзувам за 10 секунди...',
 	'refreshspecial-page-result' => '{{PLURAL:$1|$Внесен е 1 ред|Внесени се $1 реда}} во',
 	'refreshspecial-total-display' => '{{PLURAL:$1|Подновена е $1 страница|Подновени се $1 страници}}, со вкупно $2 {{PLURAL:$2|ред|реда}} во времетраење од $3 (скриптата работи вкупно $4)',
-	'right-refreshspecial' => 'Ажурирање на специјални страници',
+	'right-refreshspecial' => 'Поднова на специјални страници',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
