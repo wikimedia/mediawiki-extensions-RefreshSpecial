@@ -23,12 +23,12 @@ $specialPageAliases['arz'] = array(
 	'RefreshSpecial' => array( 'ريفريش_مخصوص' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'RefreshSpecial' => array( 'FreskaatDibar' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'RefreshSpecial' => array( 'PosebnoOsvjezavanje' ),
 );
@@ -38,12 +38,17 @@ $specialPageAliases['de'] = array(
 	'RefreshSpecial' => array( 'Spezialseiten_aktualisieren' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'RefreshSpecial' => array( 'XısusiAneweke' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'RefreshSpecial' => array( 'تازه‌سازی_ویژه' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'RefreshSpecial' => array( 'Toimintosivujen_päivitys' ),
 );
@@ -58,12 +63,12 @@ $specialPageAliases['ht'] = array(
 	'RefreshSpecial' => array( 'EspesyalAjou' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'RefreshSpecial' => array( 'Különleges_frissítés' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'RefreshSpecial' => array( 'Refrescar_special' ),
 );
@@ -78,17 +83,22 @@ $specialPageAliases['ja'] = array(
 	'RefreshSpecial' => array( '特別ページの更新' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'RefreshSpecial' => array( '특수새로고침', '특수갱신' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'RefreshSpecial' => array( 'Spezialsäiten_aktualiséieren' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'RefreshSpecial' => array( 'ПревчитајСпецијални' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'RefreshSpecial' => array( 'Oppdater_spesialsider' ),
 );
@@ -103,7 +113,7 @@ $specialPageAliases['nl'] = array(
 	'RefreshSpecial' => array( 'SpeciaalVerversen' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'RefreshSpecial' => array( 'ŠpeciálneObnovenie' ),
 );
@@ -118,7 +128,7 @@ $specialPageAliases['tr'] = array(
 	'RefreshSpecial' => array( 'ÖzelYenile' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'RefreshSpecial' => array( '刷新特殊页面' ),
 );
