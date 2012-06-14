@@ -204,7 +204,7 @@ $messages['be-tarask'] = array(
 	'right-refreshspecial' => 'Абнавіць спэцыяльныя старонкі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -212,7 +212,7 @@ $messages['bg'] = array(
 	'refreshspecial-no-page' => 'Няма такава специална страница',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -243,7 +243,7 @@ Ur wezh dibabet an holl bajennoù hoc'h eus c'hoant da freskaat klikit war \"Fre
 	'right-refreshspecial' => 'Freskaat ar pajennoù arbennik',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -272,14 +272,14 @@ Kada odaberete sve stranice koje želite osvježiti, kliknite dugme \"Odabrano o
 	'right-refreshspecial' => 'Osvježavanje posebnih stranica',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Solde
  */
 $messages['ca'] = array(
 	'refreshspecial-select-all-pages' => 'Selecciona totes les pàgines',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
  */
@@ -428,7 +428,7 @@ $messages['eo'] = array(
 	'right-refreshspecial' => 'Refreŝigi specialajn paĝojn',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Antur
  * @author Crazymadlover
  * @author Translationista
@@ -459,7 +459,7 @@ Después de elegir todas las páginas que desee volver a cargar, haga click en e
 	'right-refreshspecial' => 'Refrescar páginas especiales',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -473,7 +473,7 @@ $messages['fa'] = array(
 	'refreshspecial' => 'تازه‌کردن صفحه‌های ویژه',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Jack Phoenix <jack@countervandalism.net>
  * @author Mobe
@@ -503,7 +503,7 @@ $messages['fi'] = array(
 	'right-refreshspecial' => 'Päivittää toimintosivuja',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author McDutchie
@@ -537,7 +537,7 @@ Attention : l’actualisation peut prendre un certain temps sur un wiki de grand
 	'right-refreshspecial' => 'Actualiser les pages spéciales',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -677,7 +677,7 @@ Warnowanje: wobnowjenje móže na wulkich wikijach chětro dołho trać.',
 	'right-refreshspecial' => 'Specialne strony wobnowić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -706,7 +706,7 @@ Ha kiválasztottad az összes frissítendő lapot, kattints a „Kijelöltek fri
 	'right-refreshspecial' => 'Speciális lapok frissítése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -768,7 +768,7 @@ Ketika Anda memilih semua halaman yang ingin Anda perbaharui, klik pada tombol \
 	'right-refreshspecial' => 'Perbaharui halaman istimewa',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author BrokenArrow
  * @author Darth Kule
  */
@@ -911,7 +911,7 @@ Opgepasst: op méi grousse Wikie kann d'Aktualisatioun eng Zäit daueren.",
 	'right-refreshspecial' => 'Spezialsäiten aktualiséieren',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1001,7 +1001,7 @@ Over 10 seconden wordt weer geprobeerd verbinding te maken...',
 	'right-refreshspecial' => "Speciale pagina's verversen",
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1030,7 +1030,7 @@ Når du har valt kva sider du ønskjer å oppdatera, klikk på 'Oppdater valte' 
 	'right-refreshspecial' => 'Oppdatera spesialsider',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1059,7 +1059,7 @@ Atencion : l’actualizacion pòt préne un cèrt temps sus de wikis que dispaus
 	'right-refreshspecial' => 'Actualizar las paginas especialas',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Jwitos
  * @author Leinad
@@ -1131,7 +1131,7 @@ $messages['ps'] = array(
 	'right-refreshspecial' => 'ځانګړي مخونه تاندول',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  */
@@ -1161,7 +1161,7 @@ Quando tiver escolhido todas as páginas que pretende refrescar, clique no botã
 	'right-refreshspecial' => 'Refrescar páginas especiais',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -1190,7 +1190,7 @@ Aviso: a atualização pode demorar um tempo considerável em wikis grandes.',
 	'right-refreshspecial' => 'Atualizar páginas especiais',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Mihai
  */
@@ -1220,7 +1220,7 @@ După ce ați ales toate paginile pe care doriți să le reîmprospătați, face
 	'right-refreshspecial' => 'Actualizez paginile speciale',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Lockal
  * @author Александр Сигачёв
@@ -1251,7 +1251,7 @@ $messages['ru'] = array(
 	'right-refreshspecial' => 'обновление служебных страниц',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1280,7 +1280,7 @@ Upozornenie: na väčších wiki môže obnovenie chvíľu trvať.',
 	'right-refreshspecial' => 'Obnoviť špeciálne stránky',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1301,7 +1301,7 @@ $messages['sr-ec'] = array(
 	'refreshspecial-page-result' => '{{PLURAL:$1|добијен је|добијена су|добијено је}} $1 {{PLURAL:$1|ред|реда|редова}} у',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  */
@@ -1341,7 +1341,7 @@ Oachtenge: Dät Aktualisierjen kon ap groote Wikis laanger duurje.',
 	'refreshspecial-link-back' => 'Tourääch tou ju Spezioalsiede',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Najami
  * @author Rotsee
  */
@@ -1428,7 +1428,7 @@ $messages['tr'] = array(
 	'refreshspecial-reconnecting' => 'Bağlantı başarısız, 10 saniye içinde yeniden bağlanılıyor...',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Prima klasy4na
  */
@@ -1506,7 +1506,7 @@ $messages['vo'] = array(
 	'refreshspecial-no-page' => 'Pad patik somik no dabinon',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  */
 $messages['zh-hans'] = array(
@@ -1522,7 +1522,7 @@ $messages['zh-hans'] = array(
 	'right-refreshspecial' => '重新载入特殊页面',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wrightbus
  */
