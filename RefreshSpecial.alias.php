@@ -53,7 +53,7 @@ $specialPageAliases['fi'] = array(
 	'RefreshSpecial' => array( 'Toimintosivujen_päivitys' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'RefreshSpecial' => array( 'Actualizar_a_páxina_especial' ),
 );
