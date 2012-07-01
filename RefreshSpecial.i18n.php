@@ -174,7 +174,7 @@ $messages['arz'] = array(
 	'right-refreshspecial' => 'إنعاش الصفحات الخاصة',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -357,7 +357,7 @@ Achtung: Das Aktualisieren kann auf großen Wikis länger dauern.',
 	'refreshspecial-none-selected' => 'Sie haben keine Spezialseiten ausgewählt; somit Zurücksetzung auf die Standardauswahl.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -559,7 +559,7 @@ $messages['frp'] = array(
 	'right-refreshspecial' => 'Rafrèchir les pâges spèciâles',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -648,7 +648,7 @@ $messages['he'] = array(
 	'right-refreshspecial' => 'רענון דפים מיוחדים',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
