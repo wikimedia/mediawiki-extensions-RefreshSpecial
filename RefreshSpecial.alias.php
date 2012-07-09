@@ -120,7 +120,7 @@ $specialPageAliases['sk'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'RefreshSpecial' => array( 'Natatanging pagsasariwa' ),
+	'RefreshSpecial' => array( 'Natatanging_pagsasariwa' ),
 );
 
 /** Turkish (Türkçe) */
