@@ -940,8 +940,7 @@ $messages['mk'] = array(
 	'right-refreshspecial' => 'Поднова на специјални страници',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1458,7 +1457,7 @@ $messages['uk'] = array(
 	'right-refreshspecial' => 'Оновлення спеціальних сторінок',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
