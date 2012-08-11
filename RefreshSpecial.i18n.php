@@ -826,6 +826,13 @@ $messages['ja'] = array(
 	'right-refreshspecial' => '特別ページを更新',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'refreshspecial-select-all-pages' => 'ყველა გვერდის არჩევა',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Thearith
  */
