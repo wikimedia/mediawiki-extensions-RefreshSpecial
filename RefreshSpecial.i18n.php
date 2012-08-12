@@ -830,6 +830,9 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'refreshspecial' => 'სპეციალური გვერდების განახლება',
+	'refreshspecial-title' => 'სპეციალური გვერდების განახლება',
+	'refreshspecial-button' => 'განახლება არჩეულია',
 	'refreshspecial-select-all-pages' => 'ყველა გვერდის არჩევა',
 );
 
@@ -1375,6 +1378,13 @@ Välj vilka sidor du vill uppdatera, och klicka på \"Uppdatera valda sidor\".
 	'refreshspecial-page-result' => 'databasen svarade med $1 {{PLURAL:$1|rad|rader}} i',
 	'refreshspecial-total-display' => 'Uppdaterade $1 {{PLURAL:$1|sida|sidor}} om sammanlagt $2 {{PLURAL:$2|rad|rader}} på $3 (skriptet har körts i sammanlagt $4)',
 	'right-refreshspecial' => 'Uppdatera specialsidor',
+);
+
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'refreshspecial-title' => 'சிறப்புப் பக்கங்களைப் புதுப்பிக்கவும்',
 );
 
 /** Telugu (తెలుగు)
