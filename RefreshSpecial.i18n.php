@@ -459,6 +459,13 @@ Después de elegir todas las páginas que desee volver a cargar, haga click en e
 	'right-refreshspecial' => 'Refrescar páginas especiales',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'refreshspecial-no-page' => 'Sellist erilehekülge ei ole',
+);
+
 /** Basque (euskara)
  * @author Kobazulo
  */
@@ -1378,6 +1385,14 @@ Välj vilka sidor du vill uppdatera, och klicka på \"Uppdatera valda sidor\".
 	'refreshspecial-page-result' => 'databasen svarade med $1 {{PLURAL:$1|rad|rader}} i',
 	'refreshspecial-total-display' => 'Uppdaterade $1 {{PLURAL:$1|sida|sidor}} om sammanlagt $2 {{PLURAL:$2|rad|rader}} på $3 (skriptet har körts i sammanlagt $4)',
 	'right-refreshspecial' => 'Uppdatera specialsidor',
+);
+
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'refreshspecial-select-all-pages' => 'Chagua kurasa zote',
+	'refreshspecial-link-back' => 'Rudi kwa ukurasa spesheli',
 );
 
 /** Tamil (தமிழ்)
