@@ -809,7 +809,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'refreshspecial' => '特別ページを更新する',
+	'refreshspecial' => '特別ページを更新',
 	'refreshspecial-desc' => '[[Special:RefreshSpecial|特別ページを手動で更新]]できるようにする',
 	'refreshspecial-title' => '特別ページの更新',
 	'refreshspecial-help' => 'この特別ページは、特別ページを手動で更新する手段を提供します。更新したい特別ページをすべて選択し、以下の「選択したものを更新」ボタンを押すと選択したページを更新します。
@@ -827,7 +827,7 @@ $messages['ja'] = array(
 	'refreshspecial-no-page' => 'そのような特別ページはありません',
 	'refreshspecial-slave-lagged' => 'スレーブサーバーの遅延、待機中...',
 	'refreshspecial-reconnected' => '再接続しました。',
-	'refreshspecial-reconnecting' => '接続失敗、10秒間の再接続中...',
+	'refreshspecial-reconnecting' => '接続失敗、10 秒後に再接続します...',
 	'refreshspecial-page-result' => '$1{{PLURAL:$1|行}}を取得',
 	'refreshspecial-total-display' => '$1{{PLURAL:$1|ページ}} (データベース{{PLURAL:$2|行数}}合計: $2) を $3で更新しました (スクリプトの全実行時間: $4)',
 	'right-refreshspecial' => '特別ページを更新',
