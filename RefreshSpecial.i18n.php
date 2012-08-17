@@ -1489,6 +1489,14 @@ $messages['uk'] = array(
 	'right-refreshspecial' => 'Оновлення спеціальних сторінок',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'refreshspecial-button' => "' تازہ کریں ' منتخب",
+	'refreshspecial-select-all-pages' => 'تمام صفحات کو منتخب کریں',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
