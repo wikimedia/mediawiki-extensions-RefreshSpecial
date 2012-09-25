@@ -98,7 +98,7 @@ $specialPageAliases['mk'] = array(
 	'RefreshSpecial' => array( 'ПревчитајСпецијални' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'RefreshSpecial' => array( 'Oppdater_spesialsider' ),
 );
@@ -128,7 +128,7 @@ $specialPageAliases['tr'] = array(
 	'RefreshSpecial' => array( 'ÖzelYenile' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'RefreshSpecial' => array( '刷新特殊页面' ),
 );
