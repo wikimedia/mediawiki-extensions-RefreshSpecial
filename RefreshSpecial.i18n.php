@@ -174,7 +174,7 @@ $messages['arz'] = array(
 	'right-refreshspecial' => 'إنعاش الصفحات الخاصة',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -343,7 +343,7 @@ Achtung: Das Aktualisieren kann auf großen Wikis länger dauern.',
 	'right-refreshspecial' => 'Spezialseiten aktualisieren',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author Revolus
  * @author Umherirrender
@@ -957,7 +957,7 @@ $messages['mk'] = array(
 	'right-refreshspecial' => 'Поднова на специјални страници',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1017,7 +1017,7 @@ Over 10 seconden wordt weer geprobeerd verbinding te maken...',
 	'right-refreshspecial' => "Speciale pagina's verversen",
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1296,7 +1296,7 @@ Upozornenie: na väčších wiki môže obnovenie chvíľu trvať.',
 	'right-refreshspecial' => 'Obnoviť špeciálne stránky',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1317,7 +1317,7 @@ $messages['sr-ec'] = array(
 	'refreshspecial-page-result' => '{{PLURAL:$1|добијен је|добијена су|добијено је}} $1 {{PLURAL:$1|ред|реда|редова}} у',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Rancher
  * @author Жељко Тодоровић
  */
@@ -1545,7 +1545,7 @@ $messages['vo'] = array(
 	'refreshspecial-no-page' => 'Pad patik somik no dabinon',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  */
 $messages['zh-hans'] = array(
@@ -1561,7 +1561,7 @@ $messages['zh-hans'] = array(
 	'right-refreshspecial' => '重新载入特殊页面',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Wrightbus
  */
