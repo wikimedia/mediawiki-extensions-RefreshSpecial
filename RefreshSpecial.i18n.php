@@ -1512,9 +1512,9 @@ $messages['vi'] = array(
 	'refreshspecial' => 'Làm mới trang đặc biệt',
 	'refreshspecial-desc' => 'Cho phép [[Special:RefreshSpecial|người dùng làm mới trang đặc biệt]]',
 	'refreshspecial-title' => 'Làm mới trang đặc biệt',
-	'refreshspecial-help' => 'Trang đặc biệt này là phương tiện để làm mới (refresh) các trang đặc biệt bằng tay.
-Khi bạn chọn các trang bạn muốn làm mới, nhấn vào nút "Làm mới" phía dưới để thực hiện làm mới các trang đặc biệt đã chọn.
-Cảnh báo: việc làm mới có thể sẽ mất một lúc nếu wiki khá lớn.',
+	'refreshspecial-help' => "Trang đặc biệt này là phương tiện để làm mới (''refresh'') các trang đặc biệt bằng tay.
+Khi bạn chọn các trang bạn muốn làm mới, nhấn vào nút “Làm mới các trang đã chọn” phía dưới để thực hiện làm mới các trang đặc biệt đã chọn.
+'''Cảnh báo:''' Việc làm mới có thể sẽ mất một lúc nếu wiki khá lớn.",
 	'refreshspecial-button' => 'Làm mới các trang đã chọn',
 	'refreshspecial-fail' => 'Xin hãy chọn ít nhất một trang đặc biệt để làm mới.',
 	'refreshspecial-refreshing' => 'đang làm mới trang đặc biệt',
@@ -1577,4 +1577,3 @@ $messages['zh-hant'] = array(
 	'refreshspecial-reconnecting' => '連接失敗，在 10 秒後重新連接...',
 	'right-refreshspecial' => '重新載入特殊頁面',
 );
-
