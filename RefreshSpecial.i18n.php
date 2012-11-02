@@ -1547,17 +1547,30 @@ $messages['vo'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'refreshspecial' => '刷新特殊页面',
+	'refreshspecial-desc' => '允许[[Special:RefreshSpecial|手动刷新特殊页面]]的特殊页面',
 	'refreshspecial-title' => '刷新特殊页面',
+	'refreshspecial-help' => "本特殊页面提供了手动刷新特殊页面的功能。
+当您选择了您想要刷新的所有页面后，点击下面的“刷新选定”按钮刷新选定的特殊页面。
+'''警告：'''在较大的wiki上刷新需要一段时间才能完成。",
 	'refreshspecial-button' => '刷新已选页面',
+	'refreshspecial-fail' => '请选择至少一个特殊页面以供刷新。',
+	'refreshspecial-refreshing' => '正在刷新特殊页面',
 	'refreshspecial-choice' => '正在刷新特殊页面',
+	'refreshspecial-js-disabled' => '(<i>JavaScript 禁用时您不能选择刷新所有页面</i>)',
 	'refreshspecial-select-all-pages' => '选择所有页面',
 	'refreshspecial-link-back' => '回到特殊页面',
+	'refreshspecial-none-selected' => '您没有选择任何特殊页面。恢复到默认的选择。',
 	'refreshspecial-db-error' => '失败：资料库错误',
 	'refreshspecial-no-page' => '此特殊页面不存在',
+	'refreshspecial-slave-lagged' => '从数据库滞后，等待中……',
+	'refreshspecial-reconnected' => '已重新连接。',
 	'refreshspecial-reconnecting' => '连接失败，在 10 秒后重新连接...',
+	'refreshspecial-page-result' => '得到了 $1 行在',
+	'refreshspecial-total-display' => '已刷新 $1 个页面，总共 $2 行花费 $3 完成（脚本总共运行了 $4）',
 	'right-refreshspecial' => '重新载入特殊页面',
 );
 
