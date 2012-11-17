@@ -78,6 +78,11 @@ $specialPageAliases['id'] = array(
 	'RefreshSpecial' => array( 'Perbarui_halaman_istimewa', 'PerbaruiHalamanIstimewa' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'RefreshSpecial' => array( 'AppositoRiavvio' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'RefreshSpecial' => array( '特別ページの更新' ),
