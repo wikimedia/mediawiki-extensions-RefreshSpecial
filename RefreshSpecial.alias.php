@@ -118,6 +118,11 @@ $specialPageAliases['nl'] = array(
 	'RefreshSpecial' => array( 'SpeciaalVerversen' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'RefreshSpecial' => array( 'AppositoRiavvio' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'RefreshSpecial' => array( 'ŠpeciálneObnovenie' ),
