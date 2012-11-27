@@ -108,7 +108,7 @@ $specialPageAliases['nb'] = array(
 	'RefreshSpecial' => array( 'Oppdater_spesialsider' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'RefreshSpecial' => array( 'Spesiaal_verniejen' ),
 );
