@@ -463,6 +463,7 @@ Después de elegir todas las páginas que desee volver a cargar, haga click en e
  * @author Avjoska
  */
 $messages['et'] = array(
+	'refreshspecial-select-all-pages' => 'Vali kõik lehed',
 	'refreshspecial-no-page' => 'Sellist erilehekülge ei ole',
 );
 
@@ -1008,7 +1009,7 @@ Waarschuwing: op grotere wiki's kan dit enige tijd duren.",
 De standaardinstellingen zijn hersteld.",
 	'refreshspecial-db-error' => 'Fout: databasefout',
 	'refreshspecial-no-page' => 'De speciale pagina bestaat niet',
-	'refreshspecial-slave-lagged' => 'De slaveserver loopt achter. Bezig met wachten...',
+	'refreshspecial-slave-lagged' => 'De slaveserver loopt achter. Een moment geduld alstublieft...',
 	'refreshspecial-reconnected' => 'Weer verbonden.',
 	'refreshspecial-reconnecting' => 'Verbinding kon niet gemaakt worden.
 Over 10 seconden wordt weer geprobeerd verbinding te maken...',
@@ -1265,6 +1266,16 @@ $messages['ru'] = array(
 	'refreshspecial-page-result' => 'выведено $1 {{PLURAL:$1|строка|строки|строк}} в',
 	'refreshspecial-total-display' => '{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страницы, содержащих|Обновлено $1 страниц, содержащих}} $2 {{PLURAL:$2|строку|строки|строк}} за время $3 (полное время выполнения скрипта составило $4)',
 	'right-refreshspecial' => 'обновление служебных страниц',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'refreshspecial-select-all-pages' => 'සියලුම පිටු තෝරාගන්න',
+	'refreshspecial-link-back' => 'විශේෂ පිටුව වෙත ආපසු යන්න',
+	'refreshspecial-no-page' => 'මෙම නමැති විශේෂ පිටුවක් නැත',
+	'refreshspecial-reconnected' => 'නැවත සම්බන්ධ කරන ලදී.',
 );
 
 /** Slovak (slovenčina)
