@@ -465,6 +465,8 @@ Después de elegir todas las páginas que desee volver a cargar, haga click en e
 $messages['et'] = array(
 	'refreshspecial-select-all-pages' => 'Vali kõik lehed',
 	'refreshspecial-no-page' => 'Sellist erilehekülge ei ole',
+	'refreshspecial-reconnected' => 'Loodi uus ühendus.',
+	'refreshspecial-reconnecting' => 'Ühendus nurjus, uus üritus 10 sekundi pärast...',
 );
 
 /** Basque (euskara)
@@ -1272,10 +1274,17 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'refreshspecial' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරන්න',
+	'refreshspecial-title' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරන්න',
+	'refreshspecial-button' => 'තෝරගත්ත නැවත ප්‍රාණවත් කරන්න',
+	'refreshspecial-refreshing' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරමින්',
+	'refreshspecial-choice' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරමින්',
 	'refreshspecial-select-all-pages' => 'සියලුම පිටු තෝරාගන්න',
 	'refreshspecial-link-back' => 'විශේෂ පිටුව වෙත ආපසු යන්න',
+	'refreshspecial-db-error' => 'අසාර්ථකයි: දත්ත සංචිතයේ දෝෂය',
 	'refreshspecial-no-page' => 'මෙම නමැති විශේෂ පිටුවක් නැත',
 	'refreshspecial-reconnected' => 'නැවත සම්බන්ධ කරන ලදී.',
+	'right-refreshspecial' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරන්න',
 );
 
 /** Slovak (slovenčina)
