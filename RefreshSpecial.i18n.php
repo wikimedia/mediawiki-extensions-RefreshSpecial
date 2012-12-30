@@ -1239,6 +1239,13 @@ După ce ați ales toate paginile pe care doriți să le reîmprospătați, face
 	'right-refreshspecial' => 'Actualizez paginile speciale',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'refreshspecial-reconnected' => 'Riconnesse.',
+);
+
 /** Russian (русский)
  * @author Ferrer
  * @author Lockal
@@ -1278,6 +1285,7 @@ $messages['si'] = array(
 	'refreshspecial-title' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරන්න',
 	'refreshspecial-button' => 'තෝරගත්ත නැවත ප්‍රාණවත් කරන්න',
 	'refreshspecial-refreshing' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරමින්',
+	'refreshspecial-skipped' => 'නොවැදගත්, මඟ හරින ලදී',
 	'refreshspecial-choice' => 'විශේෂ පිටු නැවත ප්‍රාණවත් කරමින්',
 	'refreshspecial-select-all-pages' => 'සියලුම පිටු තෝරාගන්න',
 	'refreshspecial-link-back' => 'විශේෂ පිටුව වෙත ආපසු යන්න',
