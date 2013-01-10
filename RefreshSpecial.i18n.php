@@ -41,16 +41,17 @@ When you have chosen all pages that you want to refresh, click on the "Refresh s
  * @author Darth Kule
  * @author Fryed-peach
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  * @author The Evil IP address
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'refreshspecial' => '{{Identical|Refresh special pages}}
-Title of Special:RefreshSpecial as displayed on Special:SpecialPages.',
+	'refreshspecial' => 'Title of Special:RefreshSpecial as displayed on Special:SpecialPages.
+{{Identical|Refresh special pages}}',
 	'refreshspecial-desc' => '{{desc}}',
-	'refreshspecial-title' => '{{Identical|Refresh special pages}}
-Title of the special page Special:RefreshSpecial',
+	'refreshspecial-title' => 'Title of the special page Special:RefreshSpecial
+{{Identical|Refresh special pages}}',
 	'refreshspecial-help' => 'Help displayed to the user on Special:RefreshSpecial. "Refresh selected" comes from {{msg-mw|refreshspecial-button}}.',
 	'refreshspecial-button' => 'Text displayed on the button on Special:RefreshSpecial. Clicking on the button refreshes the selected special pages.',
 	'refreshspecial-fail' => 'Failure message displayed if no special pages were checked to refresh.',
@@ -68,7 +69,8 @@ Text displayed in the subtitle below the actual page title once the user has pre
 	'refreshspecial-reconnecting' => 'Displayed if the connection to the database was lost for some reason.',
 	'refreshspecial-page-result' => 'Displayed on Special:RefreshSpecial after the user has pressed the "Refresh selected" button and results were gotten from the DB.',
 	'refreshspecial-total-display' => 'Displayed on Special:RefreshSpecial after the user has pressed the "Refresh selected" button if the refreshing was done successfully. $1 is the amount of special pages refreshed, $2 is the amount of database rows touched, $3 is the time how long it took to refresh all the selected special pages and $4 is the complete time of the script run.',
-	'right-refreshspecial' => '{{doc-right|refreshspecial}}',
+	'right-refreshspecial' => '{{doc-right|refreshspecial}}
+{{Identical|Refresh special pages}}',
 );
 
 /** Afrikaans (Afrikaans)
