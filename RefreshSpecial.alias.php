@@ -108,7 +108,7 @@ $specialPageAliases['nb'] = array(
 	'RefreshSpecial' => array( 'Oppdater_spesialsider' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'RefreshSpecial' => array( 'Spesiaal_verniejen' ),
 );
