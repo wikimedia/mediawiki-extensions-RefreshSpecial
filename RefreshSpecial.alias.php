@@ -103,7 +103,7 @@ $specialPageAliases['mk'] = array(
 	'RefreshSpecial' => array( 'ПревчитајСпецијални' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'RefreshSpecial' => array( 'Oppdater_spesialsider' ),
 );
