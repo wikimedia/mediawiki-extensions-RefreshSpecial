@@ -47,7 +47,7 @@ When you have chosen all pages that you want to refresh, click on the "Refresh s
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'refreshspecial' => 'Title of Special:RefreshSpecial as displayed on Special:SpecialPages.
+	'refreshspecial' => 'Title of Special:RefreshSpecial as displayed on [[Special:SpecialPages]].
 {{Identical|Refresh special pages}}',
 	'refreshspecial-desc' => '{{desc}}',
 	'refreshspecial-title' => 'Title of the special page Special:RefreshSpecial
