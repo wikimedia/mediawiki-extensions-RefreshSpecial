@@ -55,8 +55,8 @@ $messages['qqq'] = array(
 	'refreshspecial-help' => 'Help displayed to the user on Special:RefreshSpecial. "Refresh selected" comes from {{msg-mw|refreshspecial-button}}.',
 	'refreshspecial-button' => 'Text displayed on the button on Special:RefreshSpecial. Clicking on the button refreshes the selected special pages.',
 	'refreshspecial-fail' => 'Failure message displayed if no special pages were checked to refresh.',
-	'refreshspecial-refreshing' => '{{Identical|Refreshing special pages}}
-Text displayed in the subtitle below the actual page title once the user has pressed the "Refresh selected" button.',
+	'refreshspecial-refreshing' => 'Text displayed in the subtitle below the actual page title once the user has pressed the "Refresh selected" button.
+{{Identical|Refreshing special pages}}',
 	'refreshspecial-choice' => '{{Identical|Refreshing special pages}}',
 	'refreshspecial-js-disabled' => 'Displayed to users with JavaScript disabled so that they won\'t wonder why the "select all pages" checkbox isn\'t working properly.',
 	'refreshspecial-select-all-pages' => 'Text displayed next to a checkbox on Special:RefreshSpecial; checking the checkbox allows to select all listed pages.',
