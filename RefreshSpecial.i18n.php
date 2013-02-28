@@ -49,7 +49,7 @@ When you have chosen all pages that you want to refresh, click on the "Refresh s
 $messages['qqq'] = array(
 	'refreshspecial' => 'Title of Special:RefreshSpecial as displayed on [[Special:SpecialPages]].
 {{Identical|Refresh special pages}}',
-	'refreshspecial-desc' => '{{desc}}',
+	'refreshspecial-desc' => '{{desc|name=Refresh Special|url=http://www.mediawiki.org/wiki/Extension:RefreshSpecial}}',
 	'refreshspecial-title' => 'Title of the special page Special:RefreshSpecial
 {{Identical|Refresh special pages}}',
 	'refreshspecial-help' => 'Help displayed to the user on Special:RefreshSpecial. "Refresh selected" comes from {{msg-mw|refreshspecial-button}}.',
