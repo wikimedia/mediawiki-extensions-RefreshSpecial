@@ -47,7 +47,7 @@ When you have chosen all pages that you want to refresh, click on the "Refresh s
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'refreshspecial' => 'Title of Special:RefreshSpecial as displayed on [[Special:SpecialPages]].
+	'refreshspecial' => '{{doc-special|RefreshSpecial}}
 {{Identical|Refresh special pages}}',
 	'refreshspecial-desc' => '{{desc|name=Refresh Special|url=http://www.mediawiki.org/wiki/Extension:RefreshSpecial}}',
 	'refreshspecial-title' => 'Title of the special page Special:RefreshSpecial
