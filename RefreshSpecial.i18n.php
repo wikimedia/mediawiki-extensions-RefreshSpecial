@@ -57,6 +57,7 @@ $messages['qqq'] = array(
 	'refreshspecial-fail' => 'Failure message displayed if no special pages were checked to refresh.',
 	'refreshspecial-refreshing' => 'Text displayed in the subtitle below the actual page title once the user has pressed the "Refresh selected" button.
 {{Identical|Refreshing special pages}}',
+	'refreshspecial-skipped' => 'This message indicates "As the query is not expensive, it has been skipped".',
 	'refreshspecial-choice' => '{{Identical|Refreshing special pages}}',
 	'refreshspecial-js-disabled' => 'Displayed to users with JavaScript disabled so that they won\'t wonder why the "select all pages" checkbox isn\'t working properly.',
 	'refreshspecial-select-all-pages' => 'Text displayed next to a checkbox on Special:RefreshSpecial; checking the checkbox allows to select all listed pages.',
