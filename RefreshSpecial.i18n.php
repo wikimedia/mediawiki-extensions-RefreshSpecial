@@ -1023,7 +1023,7 @@ Waarschuwing: op grotere wiki's kan dit enige tijd duren.",
 De standaardinstellingen zijn hersteld.",
 	'refreshspecial-db-error' => 'Fout: databasefout',
 	'refreshspecial-no-page' => 'De speciale pagina bestaat niet',
-	'refreshspecial-slave-lagged' => 'De slaveserver loopt achter. Een moment geduld alstublieft...',
+	'refreshspecial-slave-lagged' => 'De slaveserver loopt achter. Een ogenblik geduld...',
 	'refreshspecial-reconnected' => 'Weer verbonden.',
 	'refreshspecial-reconnecting' => 'Verbinding kon niet gemaakt worden.
 Over 10 seconden wordt weer geprobeerd verbinding te maken...',
