@@ -884,7 +884,7 @@ $messages['km'] = array(
  */
 $messages['ksh'] = array(
 	'refreshspecial' => 'Söndersigge ier Date neu opfreshe',
-	'refreshspecial-desc' => 'Määt et müjjelesch, Söndersigge ier Date [[Special:RefreshSpecial|fun Hand neu opfreshe]] ze lohße.',
+	'refreshspecial-desc' => 'Määd et möjjelesch, Extrasigge ier Date [[Special:RefreshSpecial|fun Hand neu opfresche]] ze lohße.',
 	'refreshspecial-title' => 'Söndersigge neu aanzeije',
 	'refreshspecial-help' => 'Hee die Söndersigg jitt Der e Werkzüch för de Söndersigge ier Daten
 vun Hand neu ußrechne ze johße.
