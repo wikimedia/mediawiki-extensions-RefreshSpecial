@@ -1164,6 +1164,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  */
 $messages['pt'] = array(
@@ -1179,7 +1180,7 @@ Quando tiver escolhido todas as páginas que pretende refrescar, clique no botã
 	'refreshspecial-skipped' => 'insignificante, saltado',
 	'refreshspecial-choice' => 'a refrescar página especiais',
 	'refreshspecial-js-disabled' => '(<i>Não pode seleccionar todas as páginas quando o JavaScript está desactivado</i>)',
-	'refreshspecial-select-all-pages' => 'Seleccionar todas as páginas',
+	'refreshspecial-select-all-pages' => 'Selecionar todas as páginas',
 	'refreshspecial-link-back' => 'Voltar à extensão',
 	'refreshspecial-none-selected' => 'Não seleccionou nenhuma página especial. Revertendo para a selecção padrão.',
 	'refreshspecial-db-error' => 'Falha: erro de base de dados',
