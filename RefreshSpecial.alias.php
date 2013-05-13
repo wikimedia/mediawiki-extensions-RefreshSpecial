@@ -43,6 +43,11 @@ $specialPageAliases['diq'] = array(
 	'RefreshSpecial' => array( 'XısusiAneweke' ),
 );
 
+/** Greek (Ελληνικά) */
+$specialPageAliases['el'] = array(
+	'RefreshSpecial' => array( 'ΑνανέωσηΕιδικού' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'RefreshSpecial' => array( 'تازه‌سازی_ویژه' ),
