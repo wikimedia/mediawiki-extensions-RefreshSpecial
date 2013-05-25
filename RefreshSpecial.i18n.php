@@ -1256,6 +1256,13 @@ După ce ați ales toate paginile pe care doriți să le reîmprospătați, face
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'refreshspecial' => 'Aggiorne le pàggene speciale',
+	'refreshspecial-title' => 'Aggiorne le pàggene speciale',
+	'refreshspecial-button' => 'Aggiorne le scacchiate',
+	'refreshspecial-refreshing' => 'stoche aggiorne le pàggene speciale',
+	'refreshspecial-choice' => 'stoche aggiorne le pàggene speciale',
+	'refreshspecial-select-all-pages' => 'Scacchie tutte le pàggene',
+	'refreshspecial-no-page' => 'Nisciuna pàgena speciale',
 	'refreshspecial-reconnected' => 'Riconnesse.',
 );
 
