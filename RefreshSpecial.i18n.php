@@ -282,6 +282,23 @@ $messages['ca'] = array(
 	'refreshspecial-select-all-pages' => 'Selecciona totes les pàgines',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'refreshspecial' => 'Керла яккха белхан агӀонаш',
+	'refreshspecial-title' => 'Керла яккха белхан агӀо',
+	'refreshspecial-button' => 'Керла яккхар билгала йина',
+	'refreshspecial-fail' => 'Дехар до, къастае цхьа агӀо керла яккха.',
+	'refreshspecial-refreshing' => 'Керла яккхар белхан агӀонаш',
+	'refreshspecial-skipped' => 'чекхдалийтина гӀалат',
+	'refreshspecial-choice' => 'керла яккхар белхан агӀонаш',
+	'refreshspecial-select-all-pages' => 'Къастае ериг',
+	'refreshspecial-no-page' => 'Ишта белха агlо йац',
+	'refreshspecial-page-result' => 'гуча беккхина $1 {{PLURAL:$1|могӀа|могӀамаш}} оцу',
+	'right-refreshspecial' => 'керла яккхар белхан агӀонаш',
+);
+
 /** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
