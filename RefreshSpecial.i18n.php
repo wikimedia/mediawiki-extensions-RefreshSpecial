@@ -989,7 +989,7 @@ $messages['mk'] = array(
 	'right-refreshspecial' => 'Поднова на специјални страници',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1049,7 +1049,7 @@ Over 10 seconden wordt weer geprobeerd verbinding te maken...',
 	'right-refreshspecial' => "Speciale pagina's verversen",
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
