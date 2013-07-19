@@ -1189,9 +1189,9 @@ $messages['pt'] = array(
 	'refreshspecial-desc' => 'Permite o [[Special:RefreshSpecial|refrescamento manual]] das páginas especiais',
 	'refreshspecial-title' => 'Refrescar páginas especiais',
 	'refreshspecial-help' => "Esta página especial permite refrescar manualmente páginas especiais.
-Quando tiver escolhido todas as páginas que pretende refrescar, clique no botão \"Refrescar seleccionadas\" abaixo, para refrescar as páginas especiais que seleccionou.
+Quando tiver escolhido todas as páginas que pretende refrescar, clique no botão \"Refrescar selecionadas\" abaixo, para refrescar as páginas especiais que selecionou.
 '''Aviso:''' O refrescamento pode demorar algum tempo em wikis de tamanho considerável.",
-	'refreshspecial-button' => 'Refrescar seleccionadas',
+	'refreshspecial-button' => 'Refrescar selecionadas',
 	'refreshspecial-fail' => 'Por favor, seleccione pelo menos uma página especial para refrescar.',
 	'refreshspecial-refreshing' => 'a refrescar página especiais',
 	'refreshspecial-skipped' => 'insignificante, saltado',
