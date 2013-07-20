@@ -294,7 +294,7 @@ $messages['ce'] = array(
 	'refreshspecial-skipped' => 'чекхдалийтина гӀалат',
 	'refreshspecial-choice' => 'керла яккхар белхан агӀонаш',
 	'refreshspecial-select-all-pages' => 'Къастае ериг',
-	'refreshspecial-no-page' => 'Ишта белха агlо йац',
+	'refreshspecial-no-page' => 'Иштта белхан агӀо яц',
 	'refreshspecial-page-result' => 'гуча беккхина $1 {{PLURAL:$1|могӀа|могӀамаш}} оцу',
 	'right-refreshspecial' => 'керла яккхар белхан агӀонаш',
 );
@@ -1199,7 +1199,7 @@ Quando tiver escolhido todas as páginas que pretende refrescar, clique no botã
 	'refreshspecial-js-disabled' => '(<i>Não pode selecionar todas as páginas quando o JavaScript está desativado</i>)',
 	'refreshspecial-select-all-pages' => 'Selecionar todas as páginas',
 	'refreshspecial-link-back' => 'Voltar à extensão',
-	'refreshspecial-none-selected' => 'Não seleccionou nenhuma página especial. Revertendo para a selecção padrão.',
+	'refreshspecial-none-selected' => 'Não selecionou nenhuma página especial. Revertendo para a seleção padrão.',
 	'refreshspecial-db-error' => 'Falha: erro de base de dados',
 	'refreshspecial-no-page' => 'Página especial inexistente',
 	'refreshspecial-slave-lagged' => 'Servidor escravo com atraso, aguardando...',
