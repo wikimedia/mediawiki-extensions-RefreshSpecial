@@ -1192,7 +1192,7 @@ $messages['pt'] = array(
 Quando tiver escolhido todas as páginas que pretende refrescar, clique no botão \"Refrescar selecionadas\" abaixo, para refrescar as páginas especiais que selecionou.
 '''Aviso:''' O refrescamento pode demorar algum tempo em wikis de tamanho considerável.",
 	'refreshspecial-button' => 'Refrescar selecionadas',
-	'refreshspecial-fail' => 'Por favor, seleccione pelo menos uma página especial para refrescar.',
+	'refreshspecial-fail' => 'Por favor, selecione pelo menos uma página especial para atualizar.',
 	'refreshspecial-refreshing' => 'a refrescar página especiais',
 	'refreshspecial-skipped' => 'insignificante, saltado',
 	'refreshspecial-choice' => 'a refrescar página especiais',
