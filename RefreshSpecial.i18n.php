@@ -286,7 +286,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'refreshspecial' => 'Керла яккха белхан агӀонаш',
+	'refreshspecial' => 'Карлаяха белхан агӀонаш',
 	'refreshspecial-title' => 'Керла яккха белхан агӀо',
 	'refreshspecial-button' => 'Керла яккхар билгала йина',
 	'refreshspecial-fail' => 'Дехар до, къастае цхьа агӀо керла яккха.',
@@ -1612,6 +1612,7 @@ $messages['vo'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
+ * @author Liuxinyu970226
  * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
@@ -1624,6 +1625,7 @@ $messages['zh-hans'] = array(
 	'refreshspecial-button' => '刷新已选页面',
 	'refreshspecial-fail' => '请选择至少一个特殊页面以供刷新。',
 	'refreshspecial-refreshing' => '正在刷新特殊页面',
+	'refreshspecial-skipped' => '廉价，已跳过',
 	'refreshspecial-choice' => '正在刷新特殊页面',
 	'refreshspecial-js-disabled' => '(<i>JavaScript 禁用时您不能选择刷新所有页面</i>)',
 	'refreshspecial-select-all-pages' => '选择所有页面',
