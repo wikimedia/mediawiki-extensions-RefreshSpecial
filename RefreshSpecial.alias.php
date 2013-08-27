@@ -143,6 +143,11 @@ $specialPageAliases['tr'] = array(
 	'RefreshSpecial' => array( 'ÖzelYenile' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'RefreshSpecial' => array( 'Làm_mới_trang_đặc_biệt', 'Làm_tươi_trang_đặc_biệt' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'RefreshSpecial' => array( '刷新特殊页面' ),
