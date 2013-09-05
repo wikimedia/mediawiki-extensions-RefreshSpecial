@@ -180,6 +180,35 @@ $messages['arz'] = array(
 	'right-refreshspecial' => 'إنعاش الصفحات الخاصة',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'refreshspecial' => 'Refrescar páxines especiales',
+	'refreshspecial-desc' => 'Permite [[Special:RefreshSpecial|refrescar páxines especiales de mou manual]]',
+	'refreshspecial-title' => 'Refrescar les páxines especiales',
+	'refreshspecial-help' => "Esta páxina especial ufre medios pa refrescar les páxines especiales de mou manual.
+Cando esbille toles páxines que quier refrescar, calque nel botón \"Refrescar seleición\" más abaxo pa refrescar les páxines especiales esbillaes.
+'''Avisu:''' El refrescu pue tardar un tiempu nes wikis más grandes.",
+	'refreshspecial-button' => 'Refrescar seleición',
+	'refreshspecial-fail' => 'Por favor, marque polo menos una páxina especial a refrescar.',
+	'refreshspecial-refreshing' => 'refrescando les páxines especiales',
+	'refreshspecial-skipped' => 'superficial, saltada',
+	'refreshspecial-choice' => 'refrescando les páxines especiales',
+	'refreshspecial-js-disabled' => '(<i>Nun pue esbillar toles páxines tando JavaScript desactiváu</i>)',
+	'refreshspecial-select-all-pages' => 'Seleicionar toles páxines',
+	'refreshspecial-link-back' => 'Volver a páxina especial',
+	'refreshspecial-none-selected' => 'Nun seleicionó nenguna páxina especial. Volviendo a la seleición predeterminada.',
+	'refreshspecial-db-error' => 'Falló: Error de la base de datos',
+	'refreshspecial-no-page' => 'Nun esiste esa páxina especial',
+	'refreshspecial-slave-lagged' => 'Retrasu nel sirvidor esclavu, esperando...',
+	'refreshspecial-reconnected' => 'Reconeutáu.',
+	'refreshspecial-reconnecting' => 'Falló la conexón, reconeutando en 10 segundos...',
+	'refreshspecial-page-result' => '{{PLURAL:$1|recibióse una filera|recibiéronse $1 fileres}} en',
+	'refreshspecial-total-display' => "$1 {{PLURAL:$1|páxina refrescada|páxines refrescaes}} con un total de {{PLURAL:$2|una filera|$2 fileres}} nun tiempu de $3 (el tiempu d'execución completu del script ye de $4)",
+	'right-refreshspecial' => 'Refrescar páxines especiales',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
