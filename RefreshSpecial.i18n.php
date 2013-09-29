@@ -1205,10 +1205,10 @@ Quand it l'has sërnù tute le pàgine ch'it veule agiorné, sgnaca ël boton \"
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'refreshspecial-title' => 'ځانګړي مخونه تاندول',
+	'refreshspecial-title' => 'ځانگړي مخونه تاندول',
 	'refreshspecial-select-all-pages' => 'ټول مخونه ټاکل',
-	'refreshspecial-link-back' => 'بېرته ځانګړي مخ ته ورستنېدل',
-	'right-refreshspecial' => 'ځانګړي مخونه تاندول',
+	'refreshspecial-link-back' => 'بېرته ځانگړي مخ ته ورستنېدل',
+	'right-refreshspecial' => 'ځانگړي مخونه تاندول',
 );
 
 /** Portuguese (português)
