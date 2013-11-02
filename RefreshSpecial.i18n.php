@@ -965,6 +965,7 @@ en dä Zick fun $3, wobei dä janze Vörjang $4 jedooht hät.',
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'refreshspecial' => 'Spezialsäiten aktualiséieren',
@@ -983,7 +984,7 @@ Opgepasst: op méi grousse Wikie kann d'Aktualisatioun eng Zäit daueren.",
 	'refreshspecial-link-back' => "Zréck op d'Erweiderung",
 	'refreshspecial-none-selected' => "Dir hutt keng Spezialssäiten ausgewielt. Zrèck op d'Astellung 'par défaut'",
 	'refreshspecial-db-error' => 'Et geet net: Feeler vun der Datebank',
-	'refreshspecial-no-page' => 'Et gëtt keng esou Spezialsäit',
+	'refreshspecial-no-page' => 'Et gëtt keng sou Spezialsäit',
 	'refreshspecial-slave-lagged' => 'Aarbecht déi nach usteet, an der Maach ...',
 	'refreshspecial-reconnected' => 'Nees verbonn',
 	'refreshspecial-reconnecting' => "D'Verbindung koum net zustan, nei Verbindung an 10 Sekonnen ...",
