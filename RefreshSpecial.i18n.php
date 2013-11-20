@@ -16,7 +16,7 @@ $messages['en'] = array(
 	'refreshspecial-desc' => 'Allows [[Special:RefreshSpecial|manual special page refresh]] of special pages',
 	'refreshspecial-title' => 'Refresh special pages',
 	'refreshspecial-help' => 'This special page provides means to manually refresh special pages.
-When you have chosen all pages that you want to refresh, click on the "Refresh selected" button below to refresh the selected special pages.
+When you have chosen all pages that you want to refresh, click on the "{{int:refreshspecial-button}}" button below to refresh the selected special pages.
 \'\'\'Warning:\'\'\' The refresh may take a while on larger wikis.',
 	'refreshspecial-button' => 'Refresh selected',
 	'refreshspecial-fail' => 'Please check at least one special page to refresh.',
