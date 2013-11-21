@@ -365,6 +365,7 @@ Upozornění: na větších wiki může obnovení chvíli trvat.',
  * @author ChrisiPK
  * @author MF-Warburg
  * @author Melancholie
+ * @author Metalhead64
  * @author Purodha
  * @author Revolus
  * @author Umherirrender
@@ -373,9 +374,9 @@ $messages['de'] = array(
 	'refreshspecial' => 'Spezialseiten aktualisieren',
 	'refreshspecial-desc' => 'Erlaubt das [[Special:RefreshSpecial|manuelle Auffrischen von Spezialseiten]]',
 	'refreshspecial-title' => 'Spezialseiten aktualisieren',
-	'refreshspecial-help' => 'Diese Spezialseite stellt ein Werkzeug zum manuellen Aktualisieren der Spezialseiten bereit.
-Sobald du alle Spezialseiten zum Aktualisieren ausgewählt hast, drücke die Aktualisieren-Schaltfläche, um die Aktualisierung zu starten.
-Achtung: Das Aktualisieren kann auf großen Wikis länger dauern.',
+	'refreshspecial-help' => "Diese Spezialseite stellt ein Werkzeug zum manuellen Aktualisieren der Spezialseiten bereit.
+Sobald du alle Spezialseiten zum Aktualisieren ausgewählt hast, drücke die Schaltfläche „{{int:refreshspecial-button}}“, um die Aktualisierung zu starten.
+'''Achtung:''' Das Aktualisieren kann auf großen Wikis länger dauern.",
 	'refreshspecial-button' => 'ausgewählte auffrischen',
 	'refreshspecial-fail' => 'Bitte hake mindestens eine Spezialseite zum Auffrischen an.',
 	'refreshspecial-refreshing' => 'Spezialseiten werden aktualisiert',
@@ -566,6 +567,7 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Grondin
  * @author IAlex
  * @author McDutchie
@@ -577,9 +579,9 @@ $messages['fr'] = array(
 	'refreshspecial' => 'Actualiser les pages spéciales',
 	'refreshspecial-desc' => 'Permet [[Special:RefreshSpecial|l’actualisation manuelle]] des pages spéciales',
 	'refreshspecial-title' => 'Actualiser les pages spéciales',
-	'refreshspecial-help' => 'Cette page spéciale fournit les moyens de rafraîchir manuellement les pages spéciales.
-Quand vous avez choisi toutes les pages que vous voulez actualiser, cliquer sur le bouton « {{int:refreshspecial-button}} » ci-dessous pour actualiser les pages sélectionnées.
-Attention : l’actualisation peut prendre un certain temps sur un wiki de grande taille.',
+	'refreshspecial-help' => "Cette page spéciale fournit les moyens de rafraîchir manuellement les pages spéciales.
+Quand vous avez choisi toutes les pages que vous voulez actualiser, cliquer sur le bouton « {{int:refreshspecial-button}} » ci-dessous pour actualiser les pages sélectionnées.
+'''Attention''' : L’actualisation peut prendre un certain temps sur un wiki de grande taille.",
 	'refreshspecial-button' => 'Actualiser sélectionnées',
 	'refreshspecial-fail' => 'Veuillez cocher au moins une page spéciale à rafraichir.',
 	'refreshspecial-refreshing' => 'Actualisation des pages spéciales',
@@ -688,9 +690,9 @@ $messages['he'] = array(
 	'refreshspecial' => 'רענון דפים מיוחדים',
 	'refreshspecial-desc' => 'מתן האפשרות ל[[Special:RefreshSpecial|רענון ידני של דפים מיוחדים]]',
 	'refreshspecial-title' => 'רענון דפים מיוחדים',
-	'refreshspecial-help' => 'דף מיוחד זה מספק שיטות לרענון ידני של דפים מיוחדים.
-לאחר שתבחרו את כל הדפים אותם תרצו לרענן, לחצו על הכפתור "רענון הנבחרים" שלהלן כדי לרענן את הדפים המיוחדים שבחרתם.
-אזהרה: הרענון עלול לארוך זמן מה באתרי ויקי גדולים.',
+	'refreshspecial-help' => "דף מיוחד זה מספק שיטות לרענון ידני של דפים מיוחדים.
+לאחר שתבחרו את כל הדפים אותם תרצו לרענן, לחצו על הכפתור \"{{int:refreshspecial-button}}\" שלהלן כדי לרענן את הדפים המיוחדים שבחרתם.
+'''אזהרה''': הרענון עלול לארוך זמן מה באתרי ויקי גדולים.",
 	'refreshspecial-button' => 'רענון הנבחרים',
 	'refreshspecial-fail' => 'אנא בחרו לפחות דף מיוחד אחד לרענון.',
 	'refreshspecial-refreshing' => 'מבוצע רענון הדפים המיוחדים',
@@ -1319,6 +1321,7 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Ferrer
  * @author Lockal
+ * @author Okras
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1326,7 +1329,7 @@ $messages['ru'] = array(
 	'refreshspecial-desc' => 'Позволяет [[Special:RefreshSpecial|совершать ручное обновление]] служебных страниц',
 	'refreshspecial-title' => 'Обновить служебные страницы',
 	'refreshspecial-help' => "Эта служебная страница позволяет обновлять служебные страницы.
-Вы можете выбрать все страницы, которые вам нужно обновить, нажать «Обновление выбрано» для обновления выбранных служебных страниц.
+Вы можете выбрать все страницы, которые вам нужно обновить, нажать «{{int:refreshspecial-button}}» для обновления выбранных служебных страниц.
 '''Внимание,''' обновление может вызвать задержку в больших вики.",
 	'refreshspecial-button' => 'Обновление выбрано',
 	'refreshspecial-fail' => 'Пожалуйста, выберите одну служебную страницу для обновления.',
@@ -1559,6 +1562,7 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author AS
+ * @author Andriykopanytsia
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
@@ -1566,7 +1570,7 @@ $messages['uk'] = array(
 	'refreshspecial-desc' => 'Дозволяє [[Special:RefreshSpecial|здійснювати ручне оновлення]] спеціальних сторінок',
 	'refreshspecial-title' => 'Оновити спеціальні сторінки',
 	'refreshspecial-help' => "Ця спеціальна сторінка дозволяє вручну оновлювати спеціальні сторінки.
-Коли ви обрали всі сторінки, які ви хочете оновити, натисніть на кнопку \"Оновити вибрані\", розташовану нижче, щоб оновити вибрані спеціальні сторінки.
+Коли ви обрали всі сторінки, які ви хочете оновити, натисніть на кнопку \"{{int:refreshspecial-button}}\", розташовану нижче, щоб оновити вибрані спеціальні сторінки.
 '''Увага:''' оновлення у великих вікі може зайняти якийсь час.",
 	'refreshspecial-button' => 'Оновити вибрані',
 	'refreshspecial-fail' => 'Будь ласка, оберіть принаймні одну спеціальну сторінку для оновлення.',
