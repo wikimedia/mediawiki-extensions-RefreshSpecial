@@ -52,8 +52,12 @@ $messages['qqq'] = array(
 	'refreshspecial-desc' => '{{desc|name=Refresh Special|url=http://www.mediawiki.org/wiki/Extension:RefreshSpecial}}',
 	'refreshspecial-title' => 'Title of the special page Special:RefreshSpecial
 {{Identical|Refresh special pages}}',
-	'refreshspecial-help' => 'Help displayed to the user on Special:RefreshSpecial. "Refresh selected" comes from {{msg-mw|refreshspecial-button}}.',
-	'refreshspecial-button' => 'Text displayed on the button on Special:RefreshSpecial. Clicking on the button refreshes the selected special pages.',
+	'refreshspecial-help' => 'Help displayed to the user on [[Special:RefreshSpecial]].
+
+Refers to {{msg-mw|Refreshspecial-button}}.',
+	'refreshspecial-button' => 'Text displayed on the button on [[Special:RefreshSpecial]]. Clicking on the button refreshes the selected special pages.
+
+Used in {{msg-mw|Refreshspecial-help}}.',
 	'refreshspecial-fail' => 'Failure message displayed if no special pages were checked to refresh.',
 	'refreshspecial-refreshing' => 'Text displayed in the subtitle below the actual page title once the user has pressed the "Refresh selected" button.
 {{Identical|Refreshing special pages}}',
@@ -869,7 +873,7 @@ $messages['ja'] = array(
 	'refreshspecial' => '特別ページを更新',
 	'refreshspecial-desc' => '[[Special:RefreshSpecial|特別ページを手動で更新]]できるようにする',
 	'refreshspecial-title' => '特別ページの更新',
-	'refreshspecial-help' => 'この特別ページは、特別ページを手動で更新する手段を提供します。更新したい特別ページをすべて選択し、以下の「選択したものを更新」ボタンを押すと選択したページを更新します。
+	'refreshspecial-help' => 'この特別ページは、特別ページを手動で更新する手段を提供します。更新したい特別ページをすべて選択し、以下の「{{int:refreshspecial-button}}」ボタンを押すと選択したページを更新します。
 警告: 規模の大きなウィキでは更新にしばらくかかります。',
 	'refreshspecial-button' => '選択したものを更新',
 	'refreshspecial-fail' => '更新する特別ページを少なくとも1つ選択してください。',
