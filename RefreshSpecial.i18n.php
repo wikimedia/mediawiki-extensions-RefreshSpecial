@@ -774,6 +774,15 @@ Ha kiválasztottad az összes frissítendő lapot, kattints a „Kijelöltek fri
 	'right-refreshspecial' => 'Speciális lapok frissítése',
 );
 
+/** Armenian (Հայերեն)
+ * @author M hamlet
+ */
+$messages['hy'] = array(
+	'refreshspecial-help' => "Այս սպասարկող էջը թույլ է տալիս թարմացնել սպասարկող էջերը։
+Դուք կարող եք ընտրել բոլոր այն էջերը, որոնք ցանկանում եք թարմացնել, սեղմել «{{int:refreshspecial-button}}»՝ թարմացնելու համար ընտրված սպասարկող էջերը։
+'''Ուշադրություն,''' մեծ վիքիներում թարմացումը կարող է երկար տևել։",
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
