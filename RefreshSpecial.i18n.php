@@ -987,7 +987,7 @@ $messages['lb'] = array(
 	'refreshspecial-desc' => "Erlaabt et Spezialsäite [[Special:RefreshSpecial|manuell z'aktualiséieren]]",
 	'refreshspecial-title' => 'Spezialsäiten aktualiséieren',
 	'refreshspecial-help' => "Dës Spezialsäit erlaabt et fir Spezialsäite manuell z'aktualiséieren. 
-Wann Dir all Säiten ugewielt hutt déi dir wëllt aktualiséiert kréien, da klickt op den ''Aktualisatiouns-Knäppchen'' hei ënnendrënner fir déi gewielt Spezialsäiten z'aktualiséieren. 
+Wann Dir all Säiten ugewielt hutt déi dir wëllt aktualiséiert kréien, da klickt op den ''{{int:refreshspecial-button}}''-Knäppchen hei ënnendrënner fir déi gewielt Spezialsäiten z'aktualiséieren. 
 Opgepasst: op méi grousse Wikie kann d'Aktualisatioun eng Zäit daueren.",
 	'refreshspecial-button' => 'Déi gewielten aktualiséieren',
 	'refreshspecial-fail' => "Wielt mindestens eng Spezialsäit aus fir z'aktualiséieren.",
@@ -1016,9 +1016,9 @@ $messages['mk'] = array(
 	'refreshspecial-desc' => 'Овозможува [[Special:RefreshSpecial|рачна поднова]] на специјални страници',
 	'refreshspecial-title' => 'Превчитување на специјални страници',
 	'refreshspecial-help' => "Оваа специјална страница дава начин на рачно подновување на специјални страници.
-Откако ќе ги изберете сите страници што сакате да ги подновите, стиснете на копчето „Превчитај го одбраното“ подолу за да ги подновите тие страници.
+Откако ќе ги изберете сите страници што сакате да ги подновите, стиснете на копчето „{{int:refreshspecial-button}}“ подолу за да ги подновите тие страници.
 '''Предупредување:''' Подновата може да потрае кај поголеми викија.",
-	'refreshspecial-button' => 'Поднови го избраното',
+	'refreshspecial-button' => 'Превчитај го избраното',
 	'refreshspecial-fail' => 'Одберете барем една специјална страница за превчитување.',
 	'refreshspecial-refreshing' => 'поднова на специјалните страници',
 	'refreshspecial-skipped' => 'грешка, прескокнато',
