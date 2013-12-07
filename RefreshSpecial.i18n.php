@@ -98,7 +98,7 @@ $messages['aln'] = array(
 	'refreshspecial' => 'Rifresko faqet speciale',
 	'refreshspecial-desc' => 'Lejon [[Special:RefreshSpecial|manual rifreskoni faqen speciale]] i faqeve speciale',
 	'refreshspecial-title' => 'Rifresko faqet speciale',
-	'refreshspecial-help' => "Kjo faqe speciale siguron mjetet për të rifreskoni manualisht faqe të veçantë. Kur ju keni zgjedhur të gjitha faqet që ju doni të rifreskoni, klikoni në \"Refresh zgjedhur\" butonin e mëposhtëm për të rifreskoni të veçantë faqet e zgjedhur. \"Kujdes'':'''refresh mund të të marrë një kohë më wikis më të madhe.",
+	'refreshspecial-help' => "Kjo faqe speciale siguron mjetet për të rifreskoni manualisht faqe të veçantë. Kur ju keni zgjedhur të gjitha faqet që ju doni të rifreskoni, klikoni në \"Refresh zgjedhur\" butonin e mëposhtëm për të rifreskoni të veçantë faqet e zgjedhur. \"Kujdes'':'''refresh mund të të marrë një kohë më wikis më të madhe.", # Fuzzy
 	'refreshspecial-button' => 'Rifresko zgjedhur',
 	'refreshspecial-fail' => 'Ju lutem kontrolloni të paktën një faqe të veçantë për të rifreskuar.',
 	'refreshspecial-refreshing' => 'faqe freskuese speciale',
@@ -128,7 +128,7 @@ $messages['ar'] = array(
 	'refreshspecial-title' => 'تحديث الصفحات الخاصة',
 	'refreshspecial-help' => 'هذه الصفحة الخاصة توفر الوسيلة لتحديث الصفحات الخاصة يدويا.
 عندما تختار كل الصفحات التي تريد تحديثها، اضغط على زر "تحديث المختارة" بالأسفل لتحديث الصفحات الخاصة المختارة.
-تحذير: التحديث ربما يأخذ وقتا في الويكيات الكبيرة.',
+تحذير: التحديث ربما يأخذ وقتا في الويكيات الكبيرة.', # Fuzzy
 	'refreshspecial-button' => 'تحديث المختارة',
 	'refreshspecial-fail' => 'من فضلك علم على صفحة خاصة واحدة على الأقل للتحديث.',
 	'refreshspecial-refreshing' => 'جاري تحديث الصفحات الخاصة',
@@ -164,7 +164,7 @@ $messages['arz'] = array(
 	'refreshspecial-desc' => 'يسمح [[Special:RefreshSpecial|بتحديث يدوي]] للصفحات الخاصة',
 	'refreshspecial-title' => 'تحديث الصفحات الخاصة',
 	'refreshspecial-help' => 'الصفحة الخاصة دى بتوفر الوسيلة لتحديث الصفحات الخاصة يدويا. لما تختار كل الصفحات اللى عايز تحدثها، اضغط على زر التحديث تحت
-. تحذير: التحديث ربما ياخد وقت فى الويكيات الكبيرة.',
+. تحذير: التحديث ربما ياخد وقت فى الويكيات الكبيرة.', # Fuzzy
 	'refreshspecial-button' => 'تحديث المختارة',
 	'refreshspecial-fail' => 'من فضلك علم على صفحة خاصة واحدة على الأقل للتحديث.',
 	'refreshspecial-refreshing' => 'جارى تحديث الصفحات الخاصة',
@@ -193,7 +193,7 @@ $messages['ast'] = array(
 	'refreshspecial-title' => 'Refrescar les páxines especiales',
 	'refreshspecial-help' => "Esta páxina especial ufre medios pa refrescar les páxines especiales de mou manual.
 Cando esbille toles páxines que quier refrescar, calque nel botón \"Refrescar seleición\" más abaxo pa refrescar les páxines especiales esbillaes.
-'''Avisu:''' El refrescu pue tardar un tiempu nes wikis más grandes.",
+'''Avisu:''' El refrescu pue tardar un tiempu nes wikis más grandes.", # Fuzzy
 	'refreshspecial-button' => 'Refrescar seleición',
 	'refreshspecial-fail' => 'Por favor, marque polo menos una páxina especial a refrescar.',
 	'refreshspecial-refreshing' => 'refrescando les páxines especiales',
@@ -223,7 +223,7 @@ $messages['be-tarask'] = array(
 	'refreshspecial-title' => 'Абнаўленьне спэцыяльныя старонкі',
 	'refreshspecial-help' => 'Гэта спэцыяльная старонка дазваляе абнаўляць спэцыяльныя старонкі ў ручным рэжыме.
 Калі Вы выберыце ўсе старонкі, якія Вы жадаеце абнавіць, націсьніце кнопку «Абнавіць выбраныя» унізе, каб абнавіць іх.
-Увага: абнаўленьне можа патрабаваць пэўны час у вялікіх вікі.',
+Увага: абнаўленьне можа патрабаваць пэўны час у вялікіх вікі.', # Fuzzy
 	'refreshspecial-button' => 'Абнавіць выбраныя',
 	'refreshspecial-fail' => 'Калі ласка, пазначце хаця б адну спэцыяльную старонку для абнаўленьня.',
 	'refreshspecial-refreshing' => 'абнаўленьне спэцыяльных старонак',
@@ -262,7 +262,7 @@ $messages['br'] = array(
 	'refreshspecial-title' => 'Freskaat ar pajennoù arbennik',
 	'refreshspecial-help' => "Ar bajenn ispisial-mañ a ro an tro da freskaat pajennoù ispisial gant an dorn.
 Ur wezh dibabet an holl bajennoù hoc'h eus c'hoant da freskaat klikit war \"Freskaat\" amañ dindan evit diskouez ar pajennoù dibabet.
-'''Diwallit :''' war ar wikioù bras e c'hall padout an traoù un tamm.",
+'''Diwallit :''' war ar wikioù bras e c'hall padout an traoù un tamm.", # Fuzzy
 	'refreshspecial-button' => 'Freskaat ar re ziuzet',
 	'refreshspecial-fail' => "Mar plij gevaskit ur bajenn ispisial da freskaat d'an nebeutañ.",
 	'refreshspecial-refreshing' => 'o freskaat ar pajennoù arbennik',
@@ -291,7 +291,7 @@ $messages['bs'] = array(
 	'refreshspecial-title' => 'Osvježi posebne stranice',
 	'refreshspecial-help' => "Ova posebna stranica omogućuje da se ručno osvježe posebne stranice.
 Kada odaberete sve stranice koje želite osvježiti, kliknite dugme \"Odabrano osvježavanje\" ispod za osvježavanje odabranih posebnih stranica.
-'''Upozorenje:''' Osvježavanje može duže trajati na većim wikijima.",
+'''Upozorenje:''' Osvježavanje može duže trajati na većim wikijima.", # Fuzzy
 	'refreshspecial-button' => 'Odabrano osvježavanje',
 	'refreshspecial-fail' => 'Molimo odaberite najmanje jednu posebnu stranicu za osvježavanje.',
 	'refreshspecial-refreshing' => 'osvježavam specijalne stranice',
@@ -335,7 +335,7 @@ $messages['ce'] = array(
 	'right-refreshspecial' => 'керла яккхар белхан агӀонаш',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  * @author Mormegil
  */
@@ -345,7 +345,7 @@ $messages['cs'] = array(
 	'refreshspecial-title' => 'Obnovit speciální stránky',
 	'refreshspecial-help' => 'Tato speciální stránka slouží k manuálnímu obnovení speciálních stránek.
 Po vybrání všech stránek, které chcete obnovit, klikněte na tlačítko „Obnovit vybrané”.
-Upozornění: na větších wiki může obnovení chvíli trvat.',
+Upozornění: na větších wiki může obnovení chvíli trvat.', # Fuzzy
 	'refreshspecial-button' => 'Obnovit vybrané',
 	'refreshspecial-fail' => 'Prosím, vyberte alespoň jednu speciální stránku, která se má obnovit',
 	'refreshspecial-refreshing' => 'obnovují se speciální stránky',
@@ -408,7 +408,7 @@ Sobald du alle Spezialseiten zum Aktualisieren ausgewählt hast, drücke die Sch
 $messages['de-formal'] = array(
 	'refreshspecial-help' => 'Diese Spezialseite stellt ein Werkzeug zum manuellen Aktualisieren der Spezialseiten bereit.
 Sobald Sie alle Spezialseiten zum Aktualisieren ausgewählt haben, drücken Sie die Aktualisieren-Schaltfläche, um die Aktualisierung zu starten.
-Achtung: Das Aktualisieren kann auf großen Wikis länger dauern.',
+Achtung: Das Aktualisieren kann auf großen Wikis länger dauern.', # Fuzzy
 	'refreshspecial-fail' => 'Bitte haken Sie mindestens eine Spezialseite zum Auffrischen ab.',
 	'refreshspecial-js-disabled' => '(<i>Sie können nicht alle Seiten auswählen, wenn Sie Javascript deaktiviert haben</i>)',
 	'refreshspecial-none-selected' => 'Sie haben keine Spezialseiten ausgewählt; somit Zurücksetzung auf die Standardauswahl.',
@@ -423,7 +423,7 @@ $messages['dsb'] = array(
 	'refreshspecial-title' => 'Specialne boki wobnowiś',
 	'refreshspecial-help' => 'Toś ten specialny bok staja rěd za manuelne wobnowjenje specialnych bokow k dispoziciji.
 Gaž sy wubrał wše boki, kótarež coš wobnowiś, klikni na tłocašk "Wubrane wobnowiś" dołojce, aby wobnowił specialne wubrane boki.
-Warnowanje: Wobnowjenje móžo na wjelikich wikijach wobdłujko traś.',
+Warnowanje: Wobnowjenje móžo na wjelikich wikijach wobdłujko traś.', # Fuzzy
 	'refreshspecial-button' => 'Wubrane wobnowiś',
 	'refreshspecial-fail' => 'Pšosym wubjeŕ nanejmjenjej jaden specialny bok za wobnowjenje.',
 	'refreshspecial-refreshing' => 'specialne boki se wobnowjaju',
@@ -496,7 +496,7 @@ $messages['es'] = array(
 	'refreshspecial-title' => 'Refrescar páginas especiales',
 	'refreshspecial-help' => "Esta página especial provee las herramientas necesarias para volver a cargar páginas especiales manualmente.
 Después de elegir todas las páginas que desee volver a cargar, haga click en el botón \"actualizar selección\" mostrado abajo para volver a cargar las páginas especiales seleccionadas.
-'''Advertencia:''' La actualización puede tardar un poco en wikis más extensos.",
+'''Advertencia:''' La actualización puede tardar un poco en wikis más extensos.", # Fuzzy
 	'refreshspecial-button' => 'Actualizar selección',
 	'refreshspecial-fail' => 'Por favor chequee al menos una página especial a refrescar.',
 	'refreshspecial-refreshing' => 'refrescando páginas especiales',
@@ -551,7 +551,7 @@ $messages['fi'] = array(
 	'refreshspecial' => 'Päivitä toimintosivuja',
 	'refreshspecial-desc' => 'Mahdollistaa [[Special:RefreshSpecial|toimintosivujen päivittämisen manuaalisesti]].',
 	'refreshspecial-title' => 'Päivitä toimintosivuja',
-	'refreshspecial-help' => 'Tämä toimintosivu tarjoaa keinoja päivittää toimintosivuja manuaalisesti. Kun olet valinnut kaikki sivut, jotka haluat päivittää, napsauta ”Päivitä valitut” -nappia alapuolella päivittääksesi valitut. Varoitus: Päivittäminen saattaa kestää jonkin aikaa isommissa wikeissä.',
+	'refreshspecial-help' => 'Tämä toimintosivu tarjoaa keinoja päivittää toimintosivuja manuaalisesti. Kun olet valinnut kaikki sivut, jotka haluat päivittää, napsauta ”Päivitä valitut” -nappia alapuolella päivittääksesi valitut. Varoitus: Päivittäminen saattaa kestää jonkin aikaa isommissa wikeissä.', # Fuzzy
 	'refreshspecial-button' => 'Päivitä valitut',
 	'refreshspecial-fail' => 'Valitse ainakin yksi päivitettävä toimintosivu.',
 	'refreshspecial-refreshing' => 'päivitetään toimintosivuja',
@@ -636,7 +636,7 @@ $messages['gl'] = array(
 	'refreshspecial-title' => 'Refrescar as páxinas especiais',
 	'refreshspecial-help' => "Esta páxina especial proporciona medios para refrescar manualmente as páxinas especiais.
 Cando escolla todas as páxinas que quere refrescar, prema no botón \"Actualizar o seleccionado\" para levar a cabo a acción.
-'''Aviso:''' O refrescado pode levar uns intres nos wikis grandes.",
+'''Aviso:''' O refrescado pode levar uns intres nos wikis grandes.", # Fuzzy
 	'refreshspecial-button' => 'Actualizar o seleccionado',
 	'refreshspecial-fail' => 'Por favor, comprobe polo menos unha páxina especial para refrescar.',
 	'refreshspecial-refreshing' => 'actualizando as páxinas especiais',
@@ -665,7 +665,7 @@ $messages['gsw'] = array(
 	'refreshspecial-title' => 'Spezialsyten aktualisiere',
 	'refreshspecial-help' => 'Uf däre Spezialsyte git s e Wärchzyyg zum manuälle Aktualisiere vu Spezialsyte.
 Wänn Du alli Spezialsyte zum Aktualisiere uusgwehlt hesch, druck d Aktualisiere-Schaltflächi go d Aktualisierig aafange.
-Obacht: S Aktualisiere cha uf große Wiki lenger goh.',
+Obacht: S Aktualisiere cha uf große Wiki lenger goh.', # Fuzzy
 	'refreshspecial-button' => 'Uusgwehlti aktualisiere',
 	'refreshspecial-fail' => 'Bitte chryz zmindescht ei Spezialsyte zum Aktualisieren aa.',
 	'refreshspecial-refreshing' => 'Spezialsyte wäre aktualisiert',
@@ -725,7 +725,7 @@ $messages['hsb'] = array(
 	'refreshspecial-title' => 'Specialne strony wobnowić',
 	'refreshspecial-help' => 'Tua specialna strona staja srědki za manuelne wobnowjenje specialnych bokow k dispoziciji.
 Hdyž sy wšě strony wubrał, kotrež chceš wobnowić, klikń na tłóčatko "Wubrane wobnowić" deleka, zo by wubrane specialne strony wobnowił.
-Warnowanje: wobnowjenje móže na wulkich wikijach chětro dołho trać.',
+Warnowanje: wobnowjenje móže na wulkich wikijach chětro dołho trać.', # Fuzzy
 	'refreshspecial-button' => 'Wubrane wobnowić',
 	'refreshspecial-fail' => 'Prošu wubjer znajmjeńša jednu stronu za wobnowjenje.',
 	'refreshspecial-refreshing' => 'Specialne strony so wobnowjeja',
@@ -754,7 +754,7 @@ $messages['hu'] = array(
 	'refreshspecial-title' => 'Speciális lapok frissítése',
 	'refreshspecial-help' => "Ez a speciális lap lehetőségeket biztosít más speciális lapok kézi frissítésére.
 Ha kiválasztottad az összes frissítendő lapot, kattints a „Kijelöltek frissítése” gombra alul a kiválasztott lapok aktualizálásához.
-'''Figyelem:''' a frissítés eltarthat egy ideig nagyobb wikiken.",
+'''Figyelem:''' a frissítés eltarthat egy ideig nagyobb wikiken.", # Fuzzy
 	'refreshspecial-button' => 'Kiválasztottak frissítése',
 	'refreshspecial-fail' => 'Jelölj ki legalább egy speciális lapot frissítésre.',
 	'refreshspecial-refreshing' => 'speciális lapok frissítése',
@@ -792,7 +792,7 @@ $messages['ia'] = array(
 	'refreshspecial-title' => 'Refrescar paginas special',
 	'refreshspecial-help' => 'Iste pagina special forni un modo manual de refrescar paginas special.
 Quando tu ha seligite tote le paginas que tu vole refrescar, clicca super le button "Refrescar selection" in basso pro refrescar le paginas special seligite.
-Attention: le refrescamento pote durar un poco de tempore in wikis plus grande.',
+Attention: le refrescamento pote durar un poco de tempore in wikis plus grande.', # Fuzzy
 	'refreshspecial-button' => 'Refrescar selection',
 	'refreshspecial-fail' => 'Per favor marca al minus un pagina special a refrescar.',
 	'refreshspecial-refreshing' => 'refrescamento de paginas special in curso',
@@ -825,7 +825,7 @@ $messages['id'] = array(
 
 Halaman istimewa ini menyediakan sarana untuk secara manual memperbaharui halaman istimewa. 
 Ketika Anda memilih semua halaman yang ingin Anda perbaharui, klik pada tombol \"Refresh dipilih\" di bawah ini untuk memperbaharui  halaman istimewa yang dipilih. 
-'''Peringatan:''' Pembaharuan mungkin memerlukan waktu di wiki yang besar.",
+'''Peringatan:''' Pembaharuan mungkin memerlukan waktu di wiki yang besar.", # Fuzzy
 	'refreshspecial-button' => 'Pembaharuan terpilih',
 	'refreshspecial-fail' => 'Silakan periksa setidaknya satu halaman istimewa untuk diperbarui.',
 	'refreshspecial-refreshing' => 'memutakhirkan halaman istimewa',
@@ -853,7 +853,7 @@ $messages['it'] = array(
 	'refreshspecial' => 'Aggiorna pagine speciali',
 	'refreshspecial-desc' => "Permette l'[[Special:RefreshSpecial|aggiornamento manuale]] delle pagine speciali",
 	'refreshspecial-title' => 'Aggiorna pagine speciali',
-	'refreshspecial-help' => 'Questa pagina speciale permette di aggiornare manualmente le pagine speciali. Quando hai scelto tutte le pagine che vuoi aggiornare, fai clic sul pulsante "Aggiorna pagine selezionate" per aggiornare le pagine speciali selezionate. Attenzione: l\'aggiornamento potrebbe richiedere un po\' di tempo sulle wiki più grandi.',
+	'refreshspecial-help' => 'Questa pagina speciale permette di aggiornare manualmente le pagine speciali. Quando hai scelto tutte le pagine che vuoi aggiornare, fai clic sul pulsante "Aggiorna pagine selezionate" per aggiornare le pagine speciali selezionate. Attenzione: l\'aggiornamento potrebbe richiedere un po\' di tempo sulle wiki più grandi.', # Fuzzy
 	'refreshspecial-button' => 'Aggiorna pagine selezionate',
 	'refreshspecial-fail' => 'Seleziona almeno una pagina speciale da aggiornare.',
 	'refreshspecial-refreshing' => 'aggiornamento pagine speciali',
@@ -954,7 +954,7 @@ $messages['ksh'] = array(
 vun Hand neu ußrechne ze johße.
 Wann De all die Söndersigge doför ußjewählt häs, donn op dä Knopp
 „{{int:refreshspecial-button}}“ klekke, öm dat neu Opnämme aanzefange.
-Opjepaß: Dat op jruuße Wikis sing Zick doore.',
+Opjepaß: Dat op jruuße Wikis sing Zick doore.', # Fuzzy
 	'refreshspecial-button' => 'Uswahl neu opfreshe',
 	'refreshspecial-fail' => 'Bes esu joot, un donn winnishsdens ein Sigg zom Opfresche ußwähle.',
 	'refreshspecial-refreshing' => 'Ben de Söndersigge am opfresche',
@@ -1046,7 +1046,7 @@ $messages['nb'] = array(
 	'refreshspecial-title' => 'Oppdater spesialsider',
 	'refreshspecial-help' => "Denne spesialsiden tilbyr metoder for å manuelt oppdatere spesialsider.
 Når du har valgt alle sidene du vil oppdatere, klikk på «Oppdater valgte»-knappen for å gjennomføre oppdateringen på de valgte spesialsidene.
-'''Advarsel:''' Oppdateringen kan ta en stund på større wikier.",
+'''Advarsel:''' Oppdateringen kan ta en stund på større wikier.", # Fuzzy
 	'refreshspecial-button' => 'Oppdater valgte',
 	'refreshspecial-fail' => 'Merk minst én spesialside for oppdatering',
 	'refreshspecial-refreshing' => 'oppdaterer spesialsider',
@@ -1074,8 +1074,8 @@ $messages['nl'] = array(
 	'refreshspecial-desc' => "Maakt het mogelijk om [[Special:RefreshSpecial|handmatig speciale pagina's te verversen]]",
 	'refreshspecial-title' => "Speciale pagina's verversen",
 	'refreshspecial-help' => "Via deze pagina kunt u speciale pagina's handmatig verversen.
-Nadat u alle gewenste pagina's hebt aangevinkt, kunt u 'Geselecteerde pagina's verversen' kiezen om de geselecteerde speciale pagina's bij te laten werken.
-Waarschuwing: op grotere wiki's kan dit enige tijd duren.",
+Nadat u alle gewenste pagina's hebt aangevinkt, kunt u \"{{int:refreshspecial-button}}\" kiezen om de geselecteerde speciale pagina's bij te laten werken.
+<strong>Waarschuwing:</strong> op grotere wiki's kan dit enige tijd duren.",
 	'refreshspecial-button' => "Geselecteerde pagina's verversen",
 	'refreshspecial-fail' => 'Vink tenminste één te verversen pagina aan.',
 	'refreshspecial-refreshing' => "bezig met het verversen van speciale pagina's",
@@ -1106,7 +1106,7 @@ $messages['nn'] = array(
 	'refreshspecial-desc' => 'Mogleggjer [[Special:RefreshSpecial|manuell oppdatering]] av spesialsider',
 	'refreshspecial-title' => 'Oppdater spesialsider',
 	'refreshspecial-help' => "Denne spesialsida gjer at ein manuelt kan oppdatera spesialsider. 
-Når du har valt kva sider du ønskjer å oppdatera, klikk på 'Oppdater valte' for å gjennomføra oppdateringa. Åtvaring: Oppdatering kan ta ei stund på større wikiar.",
+Når du har valt kva sider du ønskjer å oppdatera, klikk på 'Oppdater valte' for å gjennomføra oppdateringa. Åtvaring: Oppdatering kan ta ei stund på større wikiar.", # Fuzzy
 	'refreshspecial-button' => 'Oppdater valte',
 	'refreshspecial-fail' => 'Merk av minst éi spesialsida som skal oppdaterast',
 	'refreshspecial-refreshing' => 'oppdaterer spesialsider',
@@ -1135,7 +1135,7 @@ $messages['oc'] = array(
 	'refreshspecial-title' => 'Refrescar las paginas especialas',
 	'refreshspecial-help' => 'Aquesta pagina especiala provesís los mejans de refrescar manualament las paginas especialas.
 Quand avètz causit totas las paginas que volètz actualizar, clicatz sul bouton « Actualizar » çaijós per actualizar las paginas seleccionadas.
-Atencion : l’actualizacion pòt préne un cèrt temps sus de wikis que dispausan d’una talha bèla.',
+Atencion : l’actualizacion pòt préne un cèrt temps sus de wikis que dispausan d’una talha bèla.', # Fuzzy
 	'refreshspecial-button' => 'Actualizacion seleccionada',
 	'refreshspecial-fail' => 'Marcatz al mens una pagina especiala de refrescar.',
 	'refreshspecial-refreshing' => 'Actualizacion de las paginas especialas',
@@ -1167,7 +1167,7 @@ $messages['pl'] = array(
 	'refreshspecial-title' => 'Odśwież strony specjalne',
 	'refreshspecial-help' => 'Strona pozwala ręcznie odświeżać strony specjalne.
 Po wybraniu wszystkich stron do odświeżenia należy kliknąć znajdujący się poniżej przycisk „Odśwież wybrane” aby wymusić odświeżenie.
-Uwaga – odświeżenie może trwać długo na dużej wiki.',
+Uwaga – odświeżenie może trwać długo na dużej wiki.', # Fuzzy
 	'refreshspecial-button' => 'Odśwież wybrane',
 	'refreshspecial-fail' => 'Proszę zaznaczyć co najmniej jedną stronę specjalną do odświeżenia.',
 	'refreshspecial-refreshing' => 'odświeżanie stron specjalnych',
@@ -1197,7 +1197,7 @@ $messages['pms'] = array(
 	'refreshspecial-title' => 'Agiorna le pàgine speciaj',
 	'refreshspecial-help' => "Sta pàgina special-sì a dà ij mojen për agiorné le pàgine speciaj.
 Quand it l'has sërnù tute le pàgine ch'it veule agiorné, sgnaca ël boton \"Agiorna selessionà\" sì-sota për agiorné le pàgine speciaj selessionà.
-'''Atension:''' L'agiornament a peul duré bastansa dzora a wiki gròsse.",
+'''Atension:''' L'agiornament a peul duré bastansa dzora a wiki gròsse.", # Fuzzy
 	'refreshspecial-button' => 'Agiorna selessionà',
 	'refreshspecial-fail' => 'Për piasì contròla almanch na pàgina special da agiorné.',
 	'refreshspecial-refreshing' => 'agiornament pàgine speciaj',
@@ -1238,7 +1238,7 @@ $messages['pt'] = array(
 	'refreshspecial-title' => 'Refrescar páginas especiais',
 	'refreshspecial-help' => "Esta página especial permite refrescar manualmente páginas especiais.
 Quando tiver escolhido todas as páginas que pretende refrescar, clique no botão \"Refrescar selecionadas\" abaixo, para refrescar as páginas especiais que selecionou.
-'''Aviso:''' O refrescamento pode demorar algum tempo em wikis de tamanho considerável.",
+'''Aviso:''' O refrescamento pode demorar algum tempo em wikis de tamanho considerável.", # Fuzzy
 	'refreshspecial-button' => 'Refrescar selecionadas',
 	'refreshspecial-fail' => 'Por favor, selecione pelo menos uma página especial para atualizar.',
 	'refreshspecial-refreshing' => 'a refrescar página especiais',
@@ -1267,7 +1267,7 @@ $messages['pt-br'] = array(
 	'refreshspecial-title' => 'Atualizar páginas especiais',
 	'refreshspecial-help' => 'Esta página especial providencia uma forma de atualizar páginas especiais manualmente.
 Quando tiver escolhido todas as páginas que pretende atualizar, clique no botão "Atualizar selecionadas" abaixo para atualizar as páginas especiais selecionadas.
-Aviso: a atualização pode demorar um tempo considerável em wikis grandes.',
+Aviso: a atualização pode demorar um tempo considerável em wikis grandes.', # Fuzzy
 	'refreshspecial-button' => 'Atualizar selecionadas',
 	'refreshspecial-fail' => 'Por favor, selecione pelo menos uma página especial para atualizar.',
 	'refreshspecial-refreshing' => 'atualizando páginas especiais',
@@ -1297,7 +1297,7 @@ $messages['ro'] = array(
 	'refreshspecial-title' => 'Actualizează paginile speciale',
 	'refreshspecial-help' => "Această pagină specială furnizează mijloacele pentru a actualiza manual paginile speciale.
 După ce ați ales toate paginile pe care doriți să le reîmprospătați, faceți clic pe butonul de mai jos, \"Actualizează marcările\", pentru a actualiza paginile speciale marcate.
-'''Atenție:''' Actualizarea poate dura un timp mai îndelungat în wiki-urile mari.",
+'''Atenție:''' Actualizarea poate dura un timp mai îndelungat în wiki-urile mari.", # Fuzzy
 	'refreshspecial-button' => 'Actualizează marcările',
 	'refreshspecial-fail' => 'Te rog marchează cel puțin o pagină specială care să fie actualizată',
 	'refreshspecial-refreshing' => 'se actualizează paginile speciale',
@@ -1390,7 +1390,7 @@ $messages['sk'] = array(
 	'refreshspecial-title' => 'Obnoviť špeciálne stránky',
 	'refreshspecial-help' => 'Táto špeciálna stránka slúži na manuálne obnovenie špeciálnych stránok.
 Po vybraní všetkých stránok, ktoré chcete obnoviť, kliknite na tlačidlo „Obnoviť vybrané“.
-Upozornenie: na väčších wiki môže obnovenie chvíľu trvať.',
+Upozornenie: na väčších wiki môže obnovenie chvíľu trvať.', # Fuzzy
 	'refreshspecial-button' => 'Obnoviť vybrané',
 	'refreshspecial-fail' => 'Prosím, vyberte aspoň jednu špeciálnu stránku, ktorá sa má obnoviť',
 	'refreshspecial-refreshing' => 'obnovujú sa špeciálne stránky',
@@ -1460,7 +1460,7 @@ $messages['stq'] = array(
 	'refreshspecial-title' => 'Spezioalsieden aktualisierje',
 	'refreshspecial-help' => 'Disse Spezioalsiede stoalt ne Reewe toun manuellen Aktualisierjen fon do Spezioalsieden kloor.
 Sogau du aal Spezioalsieden toun Aktualisierjen uutwääld hääst, druk ju Aktualisierje-Skaltfläche, uum ju Aktualisierenge tou starjen.
-Oachtenge: Dät Aktualisierjen kon ap groote Wikis laanger duurje.',
+Oachtenge: Dät Aktualisierjen kon ap groote Wikis laanger duurje.', # Fuzzy
 	'refreshspecial-button' => 'uutwäälde apfriskje',
 	'refreshspecial-fail' => 'Hoak toumindest een Spezioalsiede toun Apfriskjen an.',
 	'refreshspecial-refreshing' => 'Spezioalsieden wäide aktualisierd',
@@ -1481,7 +1481,7 @@ $messages['sv'] = array(
 	'refreshspecial-title' => 'Uppdatera specialsidor',
 	'refreshspecial-help' => "Den här specialsidan låter dig uppdatera andra specialsidor manuellt.
 Välj vilka sidor du vill uppdatera, och klicka på \"Uppdatera valda sidor\".
-'''Obs:''' Uppdateringen kan ta en lång stund på en stor wiki.",
+'''Obs:''' Uppdateringen kan ta en lång stund på en stor wiki.", # Fuzzy
 	'refreshspecial-button' => 'Uppdatera valda sidor',
 	'refreshspecial-fail' => 'Välj minst en sida att uppdatera.',
 	'refreshspecial-refreshing' => 'uppdaterar specialsidor',
@@ -1539,7 +1539,7 @@ $messages['tl'] = array(
 	'refreshspecial' => 'Sariwain ang natatanging mga pahina',
 	'refreshspecial-desc' => 'Nagpapahintulot ng [[Special:RefreshSpecial|kinakamay na pagsasariwa ng natatanging pahina]] ng mga natatanging pahina',
 	'refreshspecial-title' => 'Sariwain ang natatanging mga pahina',
-	'refreshspecial-help' => "Nagbibigay ang natatanging pahinang ito ng paraan kung paano makakamay ang pagsasariwa ng natatanging mga pahina.  Kapag napili mo na ang lahat ng mga pahinang nais mong sariwain, pindutin ang  pindutang ''Pinili ang sariwain'' na sa ibaba upang masariwa ang napiling natatanging mga pahina.  Babala: maaaring maging matagal ang pagsasariwa sa mas malalaking mga wiki.",
+	'refreshspecial-help' => "Nagbibigay ang natatanging pahinang ito ng paraan kung paano makakamay ang pagsasariwa ng natatanging mga pahina.  Kapag napili mo na ang lahat ng mga pahinang nais mong sariwain, pindutin ang  pindutang ''Pinili ang sariwain'' na sa ibaba upang masariwa ang napiling natatanging mga pahina.  Babala: maaaring maging matagal ang pagsasariwa sa mas malalaking mga wiki.", # Fuzzy
 	'refreshspecial-button' => 'Pinili ang pagsasariwa',
 	'refreshspecial-fail' => 'Pakilagyan ng tsek ang kahit isang natatanging pahinang sasariwain.',
 	'refreshspecial-refreshing' => 'sinasariwa ang natatanging mga pahina',
@@ -1629,7 +1629,7 @@ $messages['vi'] = array(
 	'refreshspecial-title' => 'Làm mới trang đặc biệt',
 	'refreshspecial-help' => "Trang đặc biệt này là phương tiện để làm mới (''refresh'') các trang đặc biệt bằng tay.
 Khi bạn chọn các trang bạn muốn làm mới, nhấn vào nút “Làm mới các trang đã chọn” phía dưới để thực hiện làm mới các trang đặc biệt đã chọn.
-'''Cảnh báo:''' Việc làm mới có thể sẽ mất một lúc nếu wiki khá lớn.",
+'''Cảnh báo:''' Việc làm mới có thể sẽ mất một lúc nếu wiki khá lớn.", # Fuzzy
 	'refreshspecial-button' => 'Làm mới các trang đã chọn',
 	'refreshspecial-fail' => 'Xin hãy chọn ít nhất một trang đặc biệt để làm mới.',
 	'refreshspecial-refreshing' => 'đang làm mới trang đặc biệt',
@@ -1671,7 +1671,7 @@ $messages['zh-hans'] = array(
 	'refreshspecial-title' => '刷新特殊页面',
 	'refreshspecial-help' => "本特殊页面提供了手动刷新特殊页面的功能。
 当您选择了您想要刷新的所有页面后，点击下面的“刷新选定”按钮刷新选定的特殊页面。
-'''警告：'''在较大的wiki上刷新需要一段时间才能完成。",
+'''警告：'''在较大的wiki上刷新需要一段时间才能完成。", # Fuzzy
 	'refreshspecial-button' => '刷新已选页面',
 	'refreshspecial-fail' => '请选择至少一个特殊页面以供刷新。',
 	'refreshspecial-refreshing' => '正在刷新特殊页面',
