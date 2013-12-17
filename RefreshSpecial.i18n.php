@@ -323,7 +323,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'refreshspecial' => 'Карлаяха белхан агӀонаш',
-	'refreshspecial-title' => 'Керла яккха белхан агӀо',
+	'refreshspecial-title' => 'Карлаяха белхан агӀонаш',
 	'refreshspecial-button' => 'Керла яккхар билгала йина',
 	'refreshspecial-fail' => 'Дехар до, къастае цхьа агӀо керла яккха.',
 	'refreshspecial-refreshing' => 'Керла яккхар белхан агӀонаш',
