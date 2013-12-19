@@ -846,6 +846,7 @@ Ketika Anda memilih semua halaman yang ingin Anda perbaharui, klik pada tombol \
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
  */
@@ -853,7 +854,9 @@ $messages['it'] = array(
 	'refreshspecial' => 'Aggiorna pagine speciali',
 	'refreshspecial-desc' => "Permette l'[[Special:RefreshSpecial|aggiornamento manuale]] delle pagine speciali",
 	'refreshspecial-title' => 'Aggiorna pagine speciali',
-	'refreshspecial-help' => 'Questa pagina speciale permette di aggiornare manualmente le pagine speciali. Quando hai scelto tutte le pagine che vuoi aggiornare, fai clic sul pulsante "Aggiorna pagine selezionate" per aggiornare le pagine speciali selezionate. Attenzione: l\'aggiornamento potrebbe richiedere un po\' di tempo sulle wiki più grandi.', # Fuzzy
+	'refreshspecial-help' => 'Questa pagina speciale permette di aggiornare manualmente le pagine speciali.
+Quando hai scelto tutte le pagine che vuoi aggiornare, fai clic sul pulsante "{{int:refreshspecial-button}}" per aggiornare le pagine speciali selezionate.
+Attenzione: l\'aggiornamento potrebbe richiedere un po\' di tempo sui wiki più grandi.',
 	'refreshspecial-button' => 'Aggiorna pagine selezionate',
 	'refreshspecial-fail' => 'Seleziona almeno una pagina speciale da aggiornare.',
 	'refreshspecial-refreshing' => 'aggiornamento pagine speciali',
