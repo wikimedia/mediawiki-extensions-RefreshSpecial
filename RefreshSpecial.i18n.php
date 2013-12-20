@@ -1073,17 +1073,17 @@ Når du har valgt alle sidene du vil oppdatere, klikk på «Oppdater valgte»-kn
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'refreshspecial' => "Speciale pagina's verversen",
-	'refreshspecial-desc' => "Maakt het mogelijk om [[Special:RefreshSpecial|handmatig speciale pagina's te verversen]]",
-	'refreshspecial-title' => "Speciale pagina's verversen",
-	'refreshspecial-help' => "Via deze pagina kunt u speciale pagina's handmatig verversen.
+	'refreshspecial' => "Speciale pagina's vernieuwen",
+	'refreshspecial-desc' => "Maakt het mogelijk om [[Special:RefreshSpecial|handmatig speciale pagina's te vernieuwen]]",
+	'refreshspecial-title' => "Speciale pagina's vernieuwen",
+	'refreshspecial-help' => "Via deze pagina kunt u speciale pagina's handmatig vernieuwen.
 Nadat u alle gewenste pagina's hebt aangevinkt, kunt u \"{{int:refreshspecial-button}}\" kiezen om de geselecteerde speciale pagina's bij te laten werken.
 <strong>Waarschuwing:</strong> op grotere wiki's kan dit enige tijd duren.",
-	'refreshspecial-button' => "Geselecteerde pagina's verversen",
-	'refreshspecial-fail' => 'Vink tenminste één te verversen pagina aan.',
-	'refreshspecial-refreshing' => "bezig met het verversen van speciale pagina's",
+	'refreshspecial-button' => "Geselecteerde pagina's vernieuwen",
+	'refreshspecial-fail' => 'Vink tenminste één te vernieuwen pagina aan.',
+	'refreshspecial-refreshing' => "bezig met het vernieuwen van speciale pagina's",
 	'refreshspecial-skipped' => 'goedkoop, overgeslagen',
-	'refreshspecial-choice' => "bezig met het verversen van speciale pagina's",
+	'refreshspecial-choice' => "bezig met het vernieuwen van speciale pagina's",
 	'refreshspecial-js-disabled' => "(<i>U kunt alle pagina's niet selecteren als JavaScript is uitgeschakeld</i>)",
 	'refreshspecial-select-all-pages' => "Alle pagina's selecteren",
 	'refreshspecial-link-back' => 'Terug naar uitbreiding',
@@ -1097,7 +1097,7 @@ De standaardinstellingen zijn hersteld.",
 Over 10 seconden wordt weer geprobeerd verbinding te maken...',
 	'refreshspecial-page-result' => '$1 {{PLURAL:$1|rij|rijen}} verwerkt in',
 	'refreshspecial-total-display' => "Er {{PLURAL:$1|is $1 pagina|zijn $1 pagina's}} ververst met $2 {{PLURAL:$2|rij|rijen}} in $3 tijd (totale duur van de verwerking was $4)",
-	'right-refreshspecial' => "Speciale pagina's verversen",
+	'right-refreshspecial' => "Speciale pagina's vernieuwen",
 );
 
 /** Norwegian Nynorsk (norsk nynorsk)
