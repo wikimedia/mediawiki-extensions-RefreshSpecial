@@ -105,7 +105,7 @@ class RefreshSpecialForm {
 		foreach ( $wgQueryPages as $page ) {
 			@list( $class, $special, $limit ) = $page;
 
-			$specialObj = SpecialPage::getPage( $special );
+			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
 		  		$wgOut->addWikiText( wfMsg( 'refreshspecial-no-page' ) . " $special\n" );
 				exit;
@@ -191,7 +191,7 @@ class RefreshSpecialForm {
 				continue;
 			}
 
-			$specialObj = SpecialPage::getPage( $special );
+			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
 			 	$wgOut->addWikiText( wfMsg( 'refreshspecial-no-page' ).": $special\n" );
 				exit;
