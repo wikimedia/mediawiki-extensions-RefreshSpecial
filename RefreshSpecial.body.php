@@ -80,7 +80,7 @@ class RefreshSpecialForm {
 
 		$token = htmlspecialchars( $wgUser->editToken() );
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
-		$action = $titleObj->escapeLocalURL( 'action=submit' );
+		$action = htmlspecialchars( $titleObj->getLocalURL( 'action=submit' ) );
 
 		if ( '' != $err ) {
 			$wgOut->setSubtitle( wfMsgHtml( 'formerror' ) );
