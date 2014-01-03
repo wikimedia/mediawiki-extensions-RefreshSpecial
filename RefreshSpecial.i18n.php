@@ -331,7 +331,7 @@ $messages['ce'] = array(
 	'refreshspecial-choice' => 'керла яккхар белхан агӀонаш',
 	'refreshspecial-select-all-pages' => 'Къастае ериг',
 	'refreshspecial-no-page' => 'Иштта белхан агӀо яц',
-	'refreshspecial-page-result' => 'гуча беккхина $1 {{PLURAL:$1|могӀа|могӀамаш}} оцу',
+	'refreshspecial-page-result' => 'гуча беккхина $1 {{PLURAL:$1|1=могӀа|могӀамаш}} оцу', # Fuzzy
 	'right-refreshspecial' => 'керла яккхар белхан агӀонаш',
 );
 
@@ -1361,8 +1361,8 @@ $messages['ru'] = array(
 	'refreshspecial-slave-lagged' => 'Лаг зависимого сервера, ожидание...',
 	'refreshspecial-reconnected' => 'Пересоединение.',
 	'refreshspecial-reconnecting' => 'Соединение неудачно, пересоединение через 10 секунд...',
-	'refreshspecial-page-result' => 'выведено $1 {{PLURAL:$1|строка|строки|строк}} в',
-	'refreshspecial-total-display' => '{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страницы, содержащих|Обновлено $1 страниц, содержащих}} $2 {{PLURAL:$2|строку|строки|строк}} за время $3 (полное время выполнения скрипта составило $4)',
+	'refreshspecial-page-result' => 'выведено $1 {{PLURAL:$1|строка|строк|строки}} в', # Fuzzy
+	'refreshspecial-total-display' => '{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страниц, содержащих|Обновлено $1 страницы, содержащих}} $2 {{PLURAL:$2|строку|строк|строки}} за время $3 (полное время выполнения скрипта составило $4)', # Fuzzy
 	'right-refreshspecial' => 'обновление служебных страниц',
 );
 
