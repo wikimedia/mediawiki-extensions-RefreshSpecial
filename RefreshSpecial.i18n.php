@@ -1673,8 +1673,8 @@ $messages['zh-hans'] = array(
 	'refreshspecial-desc' => '允许[[Special:RefreshSpecial|手动刷新特殊页面]]的特殊页面',
 	'refreshspecial-title' => '刷新特殊页面',
 	'refreshspecial-help' => "本特殊页面提供了手动刷新特殊页面的功能。
-当您选择了您想要刷新的所有页面后，点击下面的“刷新选定”按钮刷新选定的特殊页面。
-'''警告：'''在较大的wiki上刷新需要一段时间才能完成。", # Fuzzy
+当您选择了您想要刷新的所有页面后，点击下面的“{{int:refreshspecial-button}}”按钮刷新选定的特殊页面。
+'''警告：'''在较大的wiki上刷新需要一段时间才能完成。",
 	'refreshspecial-button' => '刷新已选页面',
 	'refreshspecial-fail' => '请选择至少一个特殊页面以供刷新。',
 	'refreshspecial-refreshing' => '正在刷新特殊页面',
