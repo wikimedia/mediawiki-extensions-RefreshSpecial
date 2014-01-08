@@ -192,8 +192,8 @@ $messages['ast'] = array(
 	'refreshspecial-desc' => 'Permite [[Special:RefreshSpecial|refrescar páxines especiales de mou manual]]',
 	'refreshspecial-title' => 'Refrescar les páxines especiales',
 	'refreshspecial-help' => "Esta páxina especial ufre medios pa refrescar les páxines especiales de mou manual.
-Cando esbille toles páxines que quier refrescar, calque nel botón \"Refrescar seleición\" más abaxo pa refrescar les páxines especiales esbillaes.
-'''Avisu:''' El refrescu pue tardar un tiempu nes wikis más grandes.", # Fuzzy
+Cando esbille toles páxines que quier refrescar, calque nel botón \"{{int:refreshspecial-button}}\" más abaxo pa refrescar les páxines especiales esbillaes.
+'''Avisu:''' El refrescu pue tardar un tiempu nes wikis más grandes.",
 	'refreshspecial-button' => 'Refrescar seleición',
 	'refreshspecial-fail' => 'Por favor, marque polo menos una páxina especial a refrescar.',
 	'refreshspecial-refreshing' => 'refrescando les páxines especiales',
@@ -790,9 +790,9 @@ $messages['ia'] = array(
 	'refreshspecial' => 'Refrescar paginas special',
 	'refreshspecial-desc' => 'Permitte le [[Special:RefreshSpecial|refrescamento manual]] de paginas special',
 	'refreshspecial-title' => 'Refrescar paginas special',
-	'refreshspecial-help' => 'Iste pagina special forni un modo manual de refrescar paginas special.
-Quando tu ha seligite tote le paginas que tu vole refrescar, clicca super le button "Refrescar selection" in basso pro refrescar le paginas special seligite.
-Attention: le refrescamento pote durar un poco de tempore in wikis plus grande.', # Fuzzy
+	'refreshspecial-help' => "Iste pagina special forni un modo manual de refrescar paginas special.
+Quando tu ha seligite tote le paginas que tu vole refrescar, clicca super le button \"{{int:refreshspecial-button}}\" in basso pro refrescar le paginas special seligite.
+'''Attention:''' le refrescamento pote durar un poco de tempore in wikis plus grande.",
 	'refreshspecial-button' => 'Refrescar selection',
 	'refreshspecial-fail' => 'Per favor marca al minus un pagina special a refrescar.',
 	'refreshspecial-refreshing' => 'refrescamento de paginas special in curso',
@@ -1336,6 +1336,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author Ferrer
+ * @author Kaganer
  * @author Lockal
  * @author Okras
  * @author Александр Сигачёв
@@ -1361,8 +1362,8 @@ $messages['ru'] = array(
 	'refreshspecial-slave-lagged' => 'Лаг зависимого сервера, ожидание...',
 	'refreshspecial-reconnected' => 'Пересоединение.',
 	'refreshspecial-reconnecting' => 'Соединение неудачно, пересоединение через 10 секунд...',
-	'refreshspecial-page-result' => 'выведено $1 {{PLURAL:$1|строка|строк|строки}} в', # Fuzzy
-	'refreshspecial-total-display' => '{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страниц, содержащих|Обновлено $1 страницы, содержащих}} $2 {{PLURAL:$2|строку|строк|строки}} за время $3 (полное время выполнения скрипта составило $4)', # Fuzzy
+	'refreshspecial-page-result' => 'выведено $1 {{PLURAL:$1|строка|строк|строки}} в',
+	'refreshspecial-total-display' => '{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страниц, содержащих|Обновлено $1 страницы, содержащих}} $2 {{PLURAL:$2|строку|строк|строки}} за время $3 (полное время выполнения скрипта составило $4)',
 	'right-refreshspecial' => 'обновление служебных страниц',
 );
 
