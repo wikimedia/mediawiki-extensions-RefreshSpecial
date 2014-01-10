@@ -78,7 +78,7 @@ class RefreshSpecialForm {
 	function showForm( $err ) {
 		global $wgOut, $wgUser, $wgRequest, $wgScriptPath, $wgQueryPages;
 
-		$token = htmlspecialchars( $wgUser->editToken() );
+		$token = htmlspecialchars( $wgUser->getEditToken() );
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
 		$action = htmlspecialchars( $titleObj->getLocalURL( 'action=submit' ) );
 
