@@ -946,6 +946,24 @@ $messages['km'] = array(
 	'right-refreshspecial' => 'ធ្វើឱ្យ​ទំព័រពិសេសស្រស់',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'refreshspecial' => '특수 문서 새로 고침',
+	'refreshspecial-title' => '모든 특수 문서 새로 고치기',
+	'refreshspecial-button' => '선택된 새로 고침',
+	'refreshspecial-refreshing' => '특수 문서 새로 고치는 중',
+	'refreshspecial-skipped' => '부하기 낮아  넘어감',
+	'refreshspecial-choice' => '특수 문서를 새로 고침',
+	'refreshspecial-select-all-pages' => '모든 페이지 선택',
+	'refreshspecial-link-back' => '특수 문서로 돌아가기',
+	'refreshspecial-db-error' => '실패: 데이터베이스  오류',
+	'refreshspecial-no-page' => '해당하는 특수 문서가 없습니다.',
+	'refreshspecial-reconnected' => '다시 연결됨.',
+	'right-refreshspecial' => '특수 문서를 새로 고침',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
