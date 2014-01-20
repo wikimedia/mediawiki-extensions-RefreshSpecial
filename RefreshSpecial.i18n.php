@@ -951,6 +951,7 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'refreshspecial' => '특수 문서 새로 고침',
+	'refreshspecial-desc' => '[[Special:RefreshSpecial|수동으로 특수문서 새로 고침]]을 허용',
 	'refreshspecial-title' => '모든 특수 문서 새로 고치기',
 	'refreshspecial-button' => '선택된 새로 고침',
 	'refreshspecial-refreshing' => '특수 문서 새로 고치는 중',
@@ -960,7 +961,10 @@ $messages['ko'] = array(
 	'refreshspecial-link-back' => '특수 문서로 돌아가기',
 	'refreshspecial-db-error' => '실패: 데이터베이스  오류',
 	'refreshspecial-no-page' => '해당하는 특수 문서가 없습니다.',
+	'refreshspecial-slave-lagged' => '슬레이브 지연됨, 대기 중...',
 	'refreshspecial-reconnected' => '다시 연결됨.',
+	'refreshspecial-reconnecting' => '연결 실패, 10초 후에 다시 연결...',
+	'refreshspecial-page-result' => '$1 {{PLURAL:$1|행}}을 얻음',
 	'right-refreshspecial' => '특수 문서를 새로 고침',
 );
 
