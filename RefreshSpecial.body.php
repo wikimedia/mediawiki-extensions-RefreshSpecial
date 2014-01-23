@@ -276,7 +276,7 @@ class RefreshSpecialForm {
 	 * On submit
 	 */
 	function doSubmit() {
-		global $wgOut, $wgUser, $wgRequest;
+		global $wgOut, $wgRequest;
 		/* guard against an empty array */
 		$array = $wgRequest->getArray( 'wpSpecial' );
 		if ( !is_array( $array ) || empty( $array ) || is_null( $array ) ) {
@@ -286,9 +286,8 @@ class RefreshSpecialForm {
 
 		$wgOut->setSubTitle( wfMsg( 'refreshspecial-choice', wfMsg( 'refreshspecial-refreshing' ) ) );
 		$this->refreshSpecial();
-		$sk = $wgUser->getSkin();
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
-		$link_back = $sk->makeKnownLinkObj( $titleObj, wfMsg( 'refreshspecial-link-back' ) );
+		$link_back = Linker::makeKnownLinkObj( $titleObj, wfMsg( 'refreshspecial-link-back' ) );
 		$wgOut->addHTML( '<br /><b>' . $link_back . '</b>' );
 	}
 }
