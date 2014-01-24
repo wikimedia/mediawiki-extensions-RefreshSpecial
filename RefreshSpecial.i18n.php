@@ -534,10 +534,26 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Ebraminio
  */
 $messages['fa'] = array(
 	'refreshspecial' => 'تازه‌کردن صفحه‌های ویژه',
+	'refreshspecial-title' => 'تازه کردن صفحات ویژه',
+	'refreshspecial-button' => 'تازه کردن انتخاب شده',
+	'refreshspecial-fail' => 'لطفاً حداقل یک صفحهٔ ویژه را برای تازه کردن بررسی کنید.',
+	'refreshspecial-refreshing' => 'تازه کردن صفحات ویژه',
+	'refreshspecial-skipped' => 'ارزان، نادیده گرفته شده',
+	'refreshspecial-choice' => 'تازه کردن صفحات ویژه',
+	'refreshspecial-js-disabled' => '(<i>هنگامی که جاوااسکریپت غیرفعال است، شما نمی‌توانید همهٔ صفحات را انتخاب کنید</i>)',
+	'refreshspecial-select-all-pages' => 'انتخاب همهٔ صفحات',
+	'refreshspecial-link-back' => 'بازگشت به صفحهٔ ویژه',
+	'refreshspecial-none-selected' => 'شما هیچ صفحهٔ ویژه‌ای را انتخاب نکرده‌اید. بازگرداندن به انتخاب پیش‌فرض.',
+	'refreshspecial-db-error' => 'عدم موفقیت: خطای پایگاه اطلاعاتی',
+	'refreshspecial-no-page' => 'چنین صفحهٔ ویژه‌ای وجود ندارد',
+	'refreshspecial-reconnected' => 'مجدداً متصل شده.',
+	'refreshspecial-reconnecting' => 'عدم موفقیت اتصال، در حال اتصال مجدد در ۱۰ ثانیه...',
+	'right-refreshspecial' => 'تازه کردن صفحات ویژه',
 );
 
 /** Finnish (suomi)
