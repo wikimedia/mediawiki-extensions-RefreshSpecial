@@ -539,7 +539,11 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'refreshspecial' => 'تازه‌کردن صفحه‌های ویژه',
+	'refreshspecial-desc' => 'اجازهٔ [[Special:RefreshSpecial|تازه کردن دستی صفحهٔ ویژه]] صفحات ویژه',
 	'refreshspecial-title' => 'تازه کردن صفحات ویژه',
+	'refreshspecial-help' => "این صفحهٔ ویژه معنی برای تازه کردن دستی صفحات ویژه را ارائه می‌دهد.
+هنگامی که شما همهٔ صفحاتی را که می‌خواهید تازه کنید را انتخاب کرده‌اید، بر روی دکمهٔ \"{{int:refreshspecial-button}}\" زیر برای تازه کردن صفحات ویژهٔ انتخاب شده، کلیک کنید.
+'''هشدار:''' ممکن است تازه کردن، در ویکی‌های بزرگتر زمانی طول بکشد.",
 	'refreshspecial-button' => 'تازه کردن انتخاب شده',
 	'refreshspecial-fail' => 'لطفاً حداقل یک صفحهٔ ویژه را برای تازه کردن بررسی کنید.',
 	'refreshspecial-refreshing' => 'تازه کردن صفحات ویژه',
@@ -551,8 +555,11 @@ $messages['fa'] = array(
 	'refreshspecial-none-selected' => 'شما هیچ صفحهٔ ویژه‌ای را انتخاب نکرده‌اید. بازگرداندن به انتخاب پیش‌فرض.',
 	'refreshspecial-db-error' => 'عدم موفقیت: خطای پایگاه اطلاعاتی',
 	'refreshspecial-no-page' => 'چنین صفحهٔ ویژه‌ای وجود ندارد',
+	'refreshspecial-slave-lagged' => 'وقفه گرفتاری، انتظار...',
 	'refreshspecial-reconnected' => 'مجدداً متصل شده.',
 	'refreshspecial-reconnecting' => 'عدم موفقیت اتصال، در حال اتصال مجدد در ۱۰ ثانیه...',
+	'refreshspecial-page-result' => '$1 {{PLURAL:$1|ردیف|ردیف}} شدن در',
+	'refreshspecial-total-display' => 'تازه شدن $1 {{PLURAL:$1|صفحه|صفحه‌ها}} در کل $2 {{PLURAL:$2|ردیف|ردیف‌ها}} در زمان $3 (زمان کامل اجرای متن $4 است)',
 	'right-refreshspecial' => 'تازه کردن صفحات ویژه',
 );
 
