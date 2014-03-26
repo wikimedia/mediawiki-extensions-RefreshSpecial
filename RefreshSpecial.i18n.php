@@ -421,9 +421,9 @@ $messages['dsb'] = array(
 	'refreshspecial' => 'Specialne boki wobnowiś',
 	'refreshspecial-desc' => 'Zmóžnja [[Special:RefreshSpecial|manuelne wobnowjenje specialnych bokow]]',
 	'refreshspecial-title' => 'Specialne boki wobnowiś',
-	'refreshspecial-help' => 'Toś ten specialny bok staja rěd za manuelne wobnowjenje specialnych bokow k dispoziciji.
-Gaž sy wubrał wše boki, kótarež coš wobnowiś, klikni na tłocašk "Wubrane wobnowiś" dołojce, aby wobnowił specialne wubrane boki.
-Warnowanje: Wobnowjenje móžo na wjelikich wikijach wobdłujko traś.', # Fuzzy
+	'refreshspecial-help' => "Toś ten specialny bok staja rěd za manuelne wobnowjenje specialnych bokow k dispoziciji.
+Gaž sy wubrał wše boki, kótarež coš wobnowiś, klikni na tłocašk\"{{int:refreshspecial-button}}\" dołojce, aby wobnowił specialne wubrane boki.
+'''Warnowanje:''' Wobnowjenje móžo na wjelikich wikijach wobdłujko traś.",
 	'refreshspecial-button' => 'Wubrane wobnowiś',
 	'refreshspecial-fail' => 'Pšosym wubjeŕ nanejmjenjej jaden specialny bok za wobnowjenje.',
 	'refreshspecial-refreshing' => 'specialne boki se wobnowjaju',
@@ -746,9 +746,9 @@ $messages['hsb'] = array(
 	'refreshspecial' => 'Specialne strony aktualizować',
 	'refreshspecial-desc' => 'Zmóznja [[Special:RefreshSpecial|manuelne wobnowjenje specialnych stronow]]',
 	'refreshspecial-title' => 'Specialne strony wobnowić',
-	'refreshspecial-help' => 'Tua specialna strona staja srědki za manuelne wobnowjenje specialnych bokow k dispoziciji.
-Hdyž sy wšě strony wubrał, kotrež chceš wobnowić, klikń na tłóčatko "Wubrane wobnowić" deleka, zo by wubrane specialne strony wobnowił.
-Warnowanje: wobnowjenje móže na wulkich wikijach chětro dołho trać.', # Fuzzy
+	'refreshspecial-help' => "Tuta specialna strona staja srědki za manuelne wobnowjenje specialnych bokow k dispoziciji.
+Hdyž sy wšě strony wubrał, kotrež chceš wobnowić, klikń na tłóčatko \"{{int:refreshspecial-button}}\" deleka, zo by wubrane specialne strony wobnowił.
+'''Warnowanje:''' Wobnowjenje móže na wulkich wikijach chětro dołho trać.",
 	'refreshspecial-button' => 'Wubrane wobnowić',
 	'refreshspecial-fail' => 'Prošu wubjer znajmjeńša jednu stronu za wobnowjenje.',
 	'refreshspecial-refreshing' => 'Specialne strony so wobnowjeja',
