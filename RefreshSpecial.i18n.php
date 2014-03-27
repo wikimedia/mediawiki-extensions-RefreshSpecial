@@ -344,8 +344,8 @@ $messages['cs'] = array(
 	'refreshspecial-desc' => 'Umožňuje [[Special:RefreshSpecial|ruční obnovení speciálních stránek]]',
 	'refreshspecial-title' => 'Obnovit speciální stránky',
 	'refreshspecial-help' => 'Tato speciální stránka slouží k manuálnímu obnovení speciálních stránek.
-Po vybrání všech stránek, které chcete obnovit, klikněte na tlačítko „Obnovit vybrané”.
-Upozornění: na větších wiki může obnovení chvíli trvat.', # Fuzzy
+Po vybrání všech stránek, které chcete obnovit, klikněte na tlačítko „{{int:refreshspecial-button}}”.
+Upozornění: na větších wiki může obnovení chvíli trvat.',
 	'refreshspecial-button' => 'Obnovit vybrané',
 	'refreshspecial-fail' => 'Prosím, vyberte alespoň jednu speciální stránku, která se má obnovit',
 	'refreshspecial-refreshing' => 'obnovují se speciální stránky',
