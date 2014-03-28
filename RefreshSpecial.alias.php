@@ -153,3 +153,8 @@ $specialPageAliases['vi'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'RefreshSpecial' => array( '刷新特殊页面' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'RefreshSpecial' => array( '特殊重新載入' ),
+);

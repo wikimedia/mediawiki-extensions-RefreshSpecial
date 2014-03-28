@@ -1313,15 +1313,16 @@ Quando tiver escolhido todas as páginas que pretende refrescar, clique no botã
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'refreshspecial' => 'Atualizar páginas especiais',
 	'refreshspecial-desc' => 'Permite a [[Special:RefreshSpecial|atualização manual]] das páginas especiais',
 	'refreshspecial-title' => 'Atualizar páginas especiais',
-	'refreshspecial-help' => 'Esta página especial providencia uma forma de atualizar páginas especiais manualmente.
-Quando tiver escolhido todas as páginas que pretende atualizar, clique no botão "Atualizar selecionadas" abaixo para atualizar as páginas especiais selecionadas.
-Aviso: a atualização pode demorar um tempo considerável em wikis grandes.', # Fuzzy
+	'refreshspecial-help' => "Esta página especial providencia uma forma de atualizar páginas especiais manualmente.
+Quando tiver escolhido todas as páginas que pretende atualizar, clique no botão \"{{int:refreshspecial-button}}\" abaixo para atualizar as páginas especiais selecionadas.
+'''Atenção''': a atualização pode demorar um tempo considerável em wikis grandes.",
 	'refreshspecial-button' => 'Atualizar selecionadas',
 	'refreshspecial-fail' => 'Por favor, selecione pelo menos uma página especial para atualizar.',
 	'refreshspecial-refreshing' => 'atualizando páginas especiais',
