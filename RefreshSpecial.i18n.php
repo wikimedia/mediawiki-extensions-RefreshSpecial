@@ -658,9 +658,9 @@ $messages['gl'] = array(
 	'refreshspecial-desc' => 'Permite [[Special:RefreshSpecial|refrescar páxinas especiais manualmente]]',
 	'refreshspecial-title' => 'Refrescar as páxinas especiais',
 	'refreshspecial-help' => "Esta páxina especial proporciona medios para refrescar manualmente as páxinas especiais.
-Cando escolla todas as páxinas que quere refrescar, prema no botón \"Actualizar o seleccionado\" para levar a cabo a acción.
-'''Aviso:''' O refrescado pode levar uns intres nos wikis grandes.", # Fuzzy
-	'refreshspecial-button' => 'Actualizar o seleccionado',
+Cando escolla todas as páxinas que quere refrescar, prema no botón \"{{int:refreshspecial-button}}\" para levar a cabo a acción.
+'''Aviso:''' O refrescado pode levar uns intres nos wikis grandes.",
+	'refreshspecial-button' => 'Actualizar a selección',
 	'refreshspecial-fail' => 'Por favor, comprobe polo menos unha páxina especial para refrescar.',
 	'refreshspecial-refreshing' => 'actualizando as páxinas especiais',
 	'refreshspecial-skipped' => 'superficial, saltado',
