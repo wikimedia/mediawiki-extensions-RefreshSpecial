@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fohanno",
+            "Fulup",
+            "Y-M D"
+        ]
+    },
+    "refreshspecial": "Freskaat ar bajennoù ispisial",
+    "refreshspecial-desc": "Aotreañ a ra ar [[Special:RefreshSpecial|freskadur gant an dorn]] eus ar bajennoù ispisial",
+    "refreshspecial-title": "Freskaat ar pajennoù arbennik",
+    "refreshspecial-help": "Ar bajenn ispisial-mañ a ro an tro da freskaat pajennoù ispisial gant an dorn.\nUr wezh dibabet an holl bajennoù hoc'h eus c'hoant da freskaat klikit war \"Freskaat\" amañ dindan evit diskouez ar pajennoù dibabet.\n'''Diwallit :''' war ar wikioù bras e c'hall padout an traoù un tamm.",
+    "refreshspecial-button": "Freskaat ar re ziuzet",
+    "refreshspecial-fail": "Mar plij gevaskit ur bajenn ispisial da freskaat d'an nebeutañ.",
+    "refreshspecial-refreshing": "o freskaat ar pajennoù arbennik",
+    "refreshspecial-skipped": "diwar gorre, lammet",
+    "refreshspecial-choice": "o freskaat pajennoù ispisial",
+    "refreshspecial-js-disabled": "(<i>Ne c'hellit ket dibab an holl pajennoù pa 'z eo diweredekaet JavaScript</i>)",
+    "refreshspecial-select-all-pages": "Diuzañ an holl bajennoù",
+    "refreshspecial-link-back": "Distreiñ d'ar bajenn dibar",
+    "refreshspecial-none-selected": "N'ho peus dibabet pajenn ispisial ebet. Distro davet an dibab dre ziouer.",
+    "refreshspecial-db-error": "C'hwitet : fazi gant an diaz roadennoù",
+    "refreshspecial-no-page": "N'eus ket eus ar bajenn dibar-mañ",
+    "refreshspecial-slave-lagged": "Dale war ar servijer sklav, o gortoz...",
+    "refreshspecial-reconnected": "Adkevreet.",
+    "refreshspecial-reconnecting": "N'oc'h ket bet kevreadet, adkevreadenn a-benn 10 eilenn...",
+    "refreshspecial-page-result": "bet $1 linenn{{PLURAL:$1||}} e",
+    "refreshspecial-total-display": "$1 pajenn freskaet{{PLURAL:$1||}} evit un hollad a $2 linenn{{PLURAL:$2||}} e-pad $3 (sevenadur hollek ar skript en deus padet $4)",
+    "right-refreshspecial": "Freskaat ar pajennoù arbennik"
+}

@@ -4,7 +4,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 1.2.1
  * @author Bartek Łapiński <bartek@wikia-inc.com>
  * @author Jack Phoenix <jack@countervandalism.net>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -20,7 +19,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Refresh Special',
 	'author' => array( 'Bartek Łapiński', 'Jack Phoenix' ),
-	'version' => '1.2.1',
+	'version' => '1.3.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:RefreshSpecial',
 	'descriptionmsg' => 'refreshspecial-desc',
 );
@@ -31,6 +30,7 @@ $wgGroupPermissions['bureaucrat']['refreshspecial'] = true;
 
 // Set up the new special page
 $dir = dirname(__FILE__) . '/';
+$wgMessagesDirs['RefreshSpecial'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['RefreshSpecial'] = $dir . 'RefreshSpecial.i18n.php';
 $wgExtensionMessagesFiles['RefreshSpecialAlias'] = $dir . 'RefreshSpecial.alias.php';
 $wgAutoloadClasses['RefreshSpecial'] = $dir. 'RefreshSpecial.body.php';

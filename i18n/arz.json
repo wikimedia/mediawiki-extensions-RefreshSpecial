@@ -1,0 +1,29 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ghaly",
+            "Meno25"
+        ]
+    },
+    "refreshspecial": "تحديث الصفحات الخاصة",
+    "refreshspecial-desc": "يسمح [[Special:RefreshSpecial|بتحديث يدوي]] للصفحات الخاصة",
+    "refreshspecial-title": "تحديث الصفحات الخاصة",
+    "refreshspecial-help": "الصفحة الخاصة دى بتوفر الوسيلة لتحديث الصفحات الخاصة يدويا. لما تختار كل الصفحات اللى عايز تحدثها، اضغط على زر التحديث تحت\n. تحذير: التحديث ربما ياخد وقت فى الويكيات الكبيرة.",
+    "refreshspecial-button": "تحديث المختارة",
+    "refreshspecial-fail": "من فضلك علم على صفحة خاصة واحدة على الأقل للتحديث.",
+    "refreshspecial-refreshing": "جارى تحديث الصفحات الخاصة",
+    "refreshspecial-skipped": "رخيصة، تم تجاوزها",
+    "refreshspecial-choice": "تحديث الصفحات الخاصة",
+    "refreshspecial-js-disabled": "(<i>أنت لا يمكنك اختيار كل الصفحات عندما تكون الجافاسكريبت معطلة</i>)",
+    "refreshspecial-select-all-pages": "اختار كل الصفحات",
+    "refreshspecial-link-back": "رجوع إلى الامتداد",
+    "refreshspecial-none-selected": "أنت لم تختر أى صفحة خاصة. استرجاع إلى الاختيار الافتراضى.",
+    "refreshspecial-db-error": "فشل: خطأ قاعدة بيانات",
+    "refreshspecial-no-page": "لا توجد صفحة خاصة كهذه",
+    "refreshspecial-slave-lagged": "الخادم التابع تأخر، جارى الانتظار...",
+    "refreshspecial-reconnected": "تمت إعادة التوصيل.",
+    "refreshspecial-reconnecting": "التوصيل فشل، إعادة التوصيل خلال 10 ثوانى...",
+    "refreshspecial-page-result": "حصل على $1 {{PLURAL:$1|صف|صف}} فى",
+    "refreshspecial-total-display": "تحديث $1 {{PLURAL:$1|صفحة|صفحة}} بإجمالى $2 {{PLURAL:$2|صف|صف}} فى وقت $3 (الزمن الإجمالى لعمل السكريبت هو $4)",
+    "right-refreshspecial": "إنعاش الصفحات الخاصة"
+}

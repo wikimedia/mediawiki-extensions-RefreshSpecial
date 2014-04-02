@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Avjoska"
+        ]
+    },
+    "refreshspecial-select-all-pages": "Vali kõik lehed",
+    "refreshspecial-no-page": "Sellist erilehekülge ei ole",
+    "refreshspecial-reconnected": "Loodi uus ühendus.",
+    "refreshspecial-reconnecting": "Ühendus nurjus, uus üritus 10 sekundi pärast..."
+}

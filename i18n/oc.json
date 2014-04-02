@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cedric31"
+        ]
+    },
+    "refreshspecial": "Refrescar las paginas especialas",
+    "refreshspecial-desc": "Permet [[Special:RefreshSpecial|l’actualizacion de las paginas especialas del manual]] de las paginas concernidas",
+    "refreshspecial-title": "Refrescar las paginas especialas",
+    "refreshspecial-help": "Aquesta pagina especiala provesís los mejans de refrescar manualament las paginas especialas.\nQuand avètz causit totas las paginas que volètz actualizar, clicatz sul bouton « Actualizar » çaijós per actualizar las paginas seleccionadas.\nAtencion : l’actualizacion pòt préne un cèrt temps sus de wikis que dispausan d’una talha bèla.",
+    "refreshspecial-button": "Actualizacion seleccionada",
+    "refreshspecial-fail": "Marcatz al mens una pagina especiala de refrescar.",
+    "refreshspecial-refreshing": "Actualizacion de las paginas especialas",
+    "refreshspecial-skipped": "superficial, sautat",
+    "refreshspecial-choice": "actualizacion de las paginas especialas",
+    "refreshspecial-js-disabled": "(<i>Podètz pas seleccionar totas las paginas quand JavaScript es desactivat</i>)",
+    "refreshspecial-select-all-pages": "Seleccionar totas las paginas",
+    "refreshspecial-link-back": "Tornar a l’extension",
+    "refreshspecial-none-selected": "Avètz pas seleccionat cap de paginas especialas. Retorn cap a la seleccion per defaut.",
+    "refreshspecial-db-error": "Fracàs : error de la banca de donada",
+    "refreshspecial-no-page": "Pas cap de pagina especiala",
+    "refreshspecial-slave-lagged": "Trabalh retardat, en cors...",
+    "refreshspecial-reconnected": "Reconnectat.",
+    "refreshspecial-reconnecting": "Fracàs de la connexion, reconnexion dins 10 segondas...",
+    "refreshspecial-page-result": "$1 {{PLURAL:$1|linha obtenguda|linhas obtengudas}} en",
+    "refreshspecial-total-display": "$1 {{PLURAL:$1|pagina actualizada|paginas actualizadas}} totalizant $2 {{PLURAL:$2|linha|linhas}} sus una durada de $3 (la durada completa de l’accion de l'escript es de $4)",
+    "right-refreshspecial": "Actualizar las paginas especialas"
+}

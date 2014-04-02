@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "Les Meloures",
+            "Robby",
+            "Soued031"
+        ]
+    },
+    "refreshspecial": "Spezialsäiten aktualiséieren",
+    "refreshspecial-desc": "Erlaabt et Spezialsäite [[Special:RefreshSpecial|manuell z'aktualiséieren]]",
+    "refreshspecial-title": "Spezialsäiten aktualiséieren",
+    "refreshspecial-help": "Dës Spezialsäit erlaabt et fir Spezialsäite manuell z'aktualiséieren. \nWann Dir all Säiten ugewielt hutt déi dir wëllt aktualiséiert kréien, da klickt op den ''{{int:refreshspecial-button}}''-Knäppchen hei ënnendrënner fir déi gewielt Spezialsäiten z'aktualiséieren. \nOpgepasst: op méi grousse Wikie kann d'Aktualisatioun eng Zäit daueren.",
+    "refreshspecial-button": "Déi gewielten aktualiséieren",
+    "refreshspecial-fail": "Wielt mindestens eng Spezialsäit aus fir z'aktualiséieren.",
+    "refreshspecial-refreshing": "Spezialsäiten aktualiséieren",
+    "refreshspecial-skipped": "bëlleg, iwwersprong",
+    "refreshspecial-choice": "Aktualisatioun vu Spezialsäiten",
+    "refreshspecial-js-disabled": "(<i>dir kënnt net all d'Säiten auswielen, wa JavaScript ausgeschalt ass</i>)",
+    "refreshspecial-select-all-pages": " All Säiten auswielen",
+    "refreshspecial-link-back": "Zréck op d'Erweiderung",
+    "refreshspecial-none-selected": "Dir hutt keng Spezialssäiten ausgewielt. Zrèck op d'Astellung 'par défaut'",
+    "refreshspecial-db-error": "Et geet net: Feeler vun der Datebank",
+    "refreshspecial-no-page": "Et gëtt keng sou Spezialsäit",
+    "refreshspecial-slave-lagged": "Aarbecht déi nach usteet, an der Maach ...",
+    "refreshspecial-reconnected": "Nees verbonn",
+    "refreshspecial-reconnecting": "D'Verbindung koum net zustan, nei Verbindung an 10 Sekonnen ...",
+    "refreshspecial-page-result": " {{PLURAL:$1|eng Rei|$1 Reie}} kritt an",
+    "refreshspecial-total-display": "$1 {{PLURAL:$1|Säit|Säiten}} aktuliséiert mat am Ganzen $2 {{PLURAL:$2|Rei|Reien}} an $3 (Dauer) (d'Gesamtzäit déi de Script gebraucht huet ass $4)",
+    "right-refreshspecial": "Spezialsäiten aktualiséieren"
+}

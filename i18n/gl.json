@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "refreshspecial": "Refrescar a páxina especial",
+    "refreshspecial-desc": "Permite [[Special:RefreshSpecial|refrescar páxinas especiais manualmente]]",
+    "refreshspecial-title": "Refrescar as páxinas especiais",
+    "refreshspecial-help": "Esta páxina especial proporciona medios para refrescar manualmente as páxinas especiais.\nCando escolla todas as páxinas que quere refrescar, prema no botón \"{{int:refreshspecial-button}}\" para levar a cabo a acción.\n'''Aviso:''' O refrescado pode levar uns intres nos wikis grandes.",
+    "refreshspecial-button": "Actualizar a selección",
+    "refreshspecial-fail": "Por favor, comprobe polo menos unha páxina especial para refrescar.",
+    "refreshspecial-refreshing": "actualizando as páxinas especiais",
+    "refreshspecial-skipped": "superficial, saltado",
+    "refreshspecial-choice": "actualizando as páxinas especiais",
+    "refreshspecial-js-disabled": "(<i>Non pode seleccionar todas as páxinas cando o JavaScript está deshabilitado</i>)",
+    "refreshspecial-select-all-pages": "Seleccionar todas as páxinas",
+    "refreshspecial-link-back": "Volver á extensión",
+    "refreshspecial-none-selected": "Non seleccionou ningunha páxina especial. Revertendo á selección por defecto.",
+    "refreshspecial-db-error": "Fallou: erro da base de datos",
+    "refreshspecial-no-page": "Non existe tal páxina especial",
+    "refreshspecial-slave-lagged": "Intervalo de atraso, agardando...",
+    "refreshspecial-reconnected": "Reconectado.",
+    "refreshspecial-reconnecting": "Fallou a conexión, reconectando en 10 segundos...",
+    "refreshspecial-page-result": "{{PLURAL:$1|Obtívose unha liña|Obtivéronse $1 liñas}} en",
+    "refreshspecial-total-display": "$1 {{PLURAL:$1|páxina refrescada|páxinas refrescadas}} dun total {{PLURAL:$2|dunha liña|de $2 liñas}} dunha duración de $3 (a duración completa da escritura é de $4)",
+    "right-refreshspecial": "Actualizar as páxinas especiais"
+}

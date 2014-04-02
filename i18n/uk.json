@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "AS",
+            "Andriykopanytsia",
+            "Prima klasy4na"
+        ]
+    },
+    "refreshspecial": "Оновити спеціальні сторінки",
+    "refreshspecial-desc": "Дозволяє [[Special:RefreshSpecial|здійснювати ручне оновлення]] спеціальних сторінок",
+    "refreshspecial-title": "Оновити спеціальні сторінки",
+    "refreshspecial-help": "Ця спеціальна сторінка дозволяє вручну оновлювати спеціальні сторінки.\nКоли ви обрали всі сторінки, які ви хочете оновити, натисніть на кнопку \"{{int:refreshspecial-button}}\", розташовану нижче, щоб оновити вибрані спеціальні сторінки.\n'''Увага:''' оновлення у великих вікі може зайняти якийсь час.",
+    "refreshspecial-button": "Оновити вибрані",
+    "refreshspecial-fail": "Будь ласка, оберіть принаймні одну спеціальну сторінку для оновлення.",
+    "refreshspecial-refreshing": "оновлення спеціальних сторінок",
+    "refreshspecial-skipped": "незначна помилка, пропущена",
+    "refreshspecial-choice": "оновлення спеціальних сторінок",
+    "refreshspecial-js-disabled": "(<i>Ви не можете вибрати всі сторінки, коли відключений JavaScript</i>)",
+    "refreshspecial-select-all-pages": "Виділити всі сторінки",
+    "refreshspecial-link-back": "Повернутись до спеціальної сторінки",
+    "refreshspecial-none-selected": "Ви не обрали жодної спеціальної сторінки. Повернення до вибору за умовчанням.",
+    "refreshspecial-db-error": "Помилка: Помилка бази даних",
+    "refreshspecial-no-page": "Немає такої спеціальної сторінки",
+    "refreshspecial-slave-lagged": "Запізнення у обміні з залежним сервером, очікування...",
+    "refreshspecial-reconnected": "Повторне з'єднання.",
+    "refreshspecial-reconnecting": "Не вдалося встановити з'єднання, повтор через 10 секунд ...",
+    "refreshspecial-page-result": "отримано $1 {{PLURAL:$1|рядок|рядки|рядків}} за",
+    "refreshspecial-total-display": "Оновлено $1 {{PLURAL:$1|сторінку, що містить|сторінки, що містять|сторінок, що містять}} $2 {{PLURAL:$2|рядок|рядки|рядків}} за час $3 (загальний час роботи скрипту $4)",
+    "right-refreshspecial": "Оновлення спеціальних сторінок"
+}

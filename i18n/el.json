@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Omnipaedista",
+            "ZaDiak"
+        ]
+    },
+    "refreshspecial": "Ανανέωση ειδικών σελίδων",
+    "refreshspecial-title": "Ανανέωση ειδικών σελίδων",
+    "refreshspecial-button": "Επιλέχθηκε ανανέωση",
+    "refreshspecial-refreshing": "ανανέωση ειδικών σελίδων",
+    "refreshspecial-skipped": "φθηνό, παρακάμφθηκε",
+    "refreshspecial-choice": "ανανέωση ειδικών σελίδων",
+    "refreshspecial-select-all-pages": "Επιλογή όλων των σελίδων",
+    "refreshspecial-link-back": "Πήγαινε πίσω στην ειδική σελίδα",
+    "refreshspecial-db-error": "Απέτυχε: Σφάλμα βάσης δεδομένων",
+    "refreshspecial-no-page": "Καμιά τέτοια ειδική σελίδα",
+    "refreshspecial-reconnected": "Επανασυνδέθηκε.",
+    "refreshspecial-reconnecting": "Η σύνδεση απέτυχε, επανασύνδεση σε 10 δευτερόλεπτα...",
+    "refreshspecial-page-result": "πήρε $1 {{PLURAL:$1|σειρά|σειρές}} σε",
+    "right-refreshspecial": "Ανανέωση ειδικών σελίδων"
+}

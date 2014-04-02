@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "David1010"
+        ]
+    },
+    "refreshspecial": "სპეციალური გვერდების განახლება",
+    "refreshspecial-title": "სპეციალური გვერდების განახლება",
+    "refreshspecial-button": "განახლება არჩეულია",
+    "refreshspecial-fail": "გთხოვთ, აირჩიოთ ერთი სპეციალური გვერდი განახლებისათვის.",
+    "refreshspecial-refreshing": "სპეციალური გვერდების განახლება",
+    "refreshspecial-skipped": "შეცდომა, გამოტოვებულია",
+    "refreshspecial-choice": "სპეციალური გვერდების განახლება",
+    "refreshspecial-js-disabled": "(<i>თქვენ არ შეგიძლიათ ყველა გვერდის არჩევა, როცა JavaScript გათიშულია</i>)",
+    "refreshspecial-select-all-pages": "ყველა გვერდის არჩევა",
+    "refreshspecial-link-back": "სპეციალურ გვერდზე დაბრუნება",
+    "refreshspecial-db-error": "ჩაიშალა: მონაცემთა ბაზის შეცდომა",
+    "refreshspecial-no-page": "სპეციალური გვერდი არ არსებობს",
+    "right-refreshspecial": "სპეციალური გვერდების განახლება"
+}

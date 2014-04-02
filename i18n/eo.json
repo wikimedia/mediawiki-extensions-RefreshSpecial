@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Yekrats"
+        ]
+    },
+    "refreshspecial": "Refreŝigi specialajn paĝojn",
+    "refreshspecial-desc": "Permesas [[Special:RefreshSpecial|permanan refreŝigon de specialaj paĝoj]]",
+    "refreshspecial-title": "Refreŝigi specialajn paĝojn",
+    "refreshspecial-button": "Refreŝigi selektaĵojn",
+    "refreshspecial-refreshing": "refreŝigante specialajn paĝojn",
+    "refreshspecial-choice": "refreŝigante specialajn paĝojn",
+    "refreshspecial-js-disabled": "(<i>Vi ne povas selekti ĉiujn paĝojn kiam JavaScript estas malŝalta</i>)",
+    "refreshspecial-select-all-pages": "Selekti ĉiujn paĝojn",
+    "refreshspecial-link-back": "Reiri al speciala paĝo",
+    "refreshspecial-none-selected": "Vi ne selektis iujn ajn specialajn paĝojn. Reŝanĝante al defaŭlta selekto.",
+    "refreshspecial-db-error": "Malsukcesis: Datenbaza eraro",
+    "refreshspecial-no-page": "Nenia speciala paĝo",
+    "refreshspecial-reconnected": "Rekonektita.",
+    "refreshspecial-reconnecting": "Konekto malsukcesis; rekonekante en 10 sekundoj...",
+    "right-refreshspecial": "Refreŝigi specialajn paĝojn"
+}

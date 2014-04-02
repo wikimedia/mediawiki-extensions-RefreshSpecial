@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Veeven"
+        ]
+    },
+    "refreshspecial": "ప్రత్యేక పేజీలను తాజాకరించు",
+    "refreshspecial-title": "ప్రత్యేక పేజీల తాజాకరణ",
+    "refreshspecial-refreshing": "ప్రత్యేక పేజీలను తాజాకరిస్తున్నాం",
+    "refreshspecial-choice": "ప్రత్యేక పేజీలను తాజాకరిస్తున్నాం",
+    "refreshspecial-js-disabled": "(<i>జావాస్క్రిప్ట్ అచేతనంగా ఉన్నప్పుడు అన్నీ పేజీలను మీరు ఎంచుకోలేరు</i>)",
+    "refreshspecial-select-all-pages": "అన్ని పేజీలను ఎంచుకోండి",
+    "refreshspecial-link-back": "తిరిగి పొడగింతకు వెళ్ళండి",
+    "refreshspecial-db-error": "విఫలం: డాటాబేసు పొరపాటు",
+    "refreshspecial-no-page": "అటువంటి ప్రత్యేక పేజీ లేదు",
+    "right-refreshspecial": "ప్రత్యేక పేజీలను తాజాకరించడం"
+}

@@ -1,0 +1,28 @@
+{
+    "@metadata": {
+        "authors": [
+            "AnakngAraw"
+        ]
+    },
+    "refreshspecial": "Sariwain ang natatanging mga pahina",
+    "refreshspecial-desc": "Nagpapahintulot ng [[Special:RefreshSpecial|kinakamay na pagsasariwa ng natatanging pahina]] ng mga natatanging pahina",
+    "refreshspecial-title": "Sariwain ang natatanging mga pahina",
+    "refreshspecial-help": "Nagbibigay ang natatanging pahinang ito ng paraan kung paano makakamay ang pagsasariwa ng natatanging mga pahina.  Kapag napili mo na ang lahat ng mga pahinang nais mong sariwain, pindutin ang  pindutang ''Pinili ang sariwain'' na sa ibaba upang masariwa ang napiling natatanging mga pahina.  Babala: maaaring maging matagal ang pagsasariwa sa mas malalaking mga wiki.",
+    "refreshspecial-button": "Pinili ang pagsasariwa",
+    "refreshspecial-fail": "Pakilagyan ng tsek ang kahit isang natatanging pahinang sasariwain.",
+    "refreshspecial-refreshing": "sinasariwa ang natatanging mga pahina",
+    "refreshspecial-skipped": "mababa ang halaga, nilaktawan",
+    "refreshspecial-choice": "sinasariwa ang natatanging mga pahina",
+    "refreshspecial-js-disabled": "(<i>Hindi mo mapipili ang lahat ng mga pahina kapag hindi gumagana ang JavaScript</i>)",
+    "refreshspecial-select-all-pages": "Piliin lahat ng mga pahina",
+    "refreshspecial-link-back": "Magbalik sa karugtong",
+    "refreshspecial-none-selected": "Hindi ka pumili ng anumang natatanging mga pahina.  Nagbabalik sa likas na nakatakdang pagpipilian.",
+    "refreshspecial-db-error": "Nabigo: kamalian sa kalipunan ng dato",
+    "refreshspecial-no-page": "Walang ganyang natatanging pahina",
+    "refreshspecial-slave-lagged": "Naiwan/bumagal ang alipin, naghihintay...",
+    "refreshspecial-reconnected": "Muli nang naugnay.",
+    "refreshspecial-reconnecting": "Nabigo ang pagkakaugnay (koneksyon), muling uugnay sa loob ng 10 segundo...",
+    "refreshspecial-page-result": "nakakuha ng $1 {{PLURAL:$1|pahalang na hanay|pahalang na mga hanay}} mula sa",
+    "refreshspecial-total-display": "Nasariwa na ang $1 mga pahina na may kabuoang $2 {{PLURAL:$2|pahalang na hanay|pahalang na mga hanay}} sa panahong $3 (buong panahon ng pagtakbo sa panitik ay $4)",
+    "right-refreshspecial": "Sariwain ang natatanging mga pahina"
+}
