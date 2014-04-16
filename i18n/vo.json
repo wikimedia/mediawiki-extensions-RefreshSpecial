@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Smeira"
-        ]
-    },
-    "refreshspecial-select-all-pages": "Välön padis valik",
-    "refreshspecial-link-back": "Geikön lü pad patik",
-    "refreshspecial-none-selected": "Evälol padis patik nonik. Geikobs lü stad kösömik.",
-    "refreshspecial-db-error": "No eplöpon sekü nünodemapök",
-    "refreshspecial-no-page": "Pad patik somik no dabinon"
+	"@metadata": {
+		"authors": [
+			"Smeira"
+		]
+	},
+	"refreshspecial-select-all-pages": "Välön padis valik",
+	"refreshspecial-link-back": "Geikön lü pad patik",
+	"refreshspecial-none-selected": "Evälol padis patik nonik. Geikobs lü stad kösömik.",
+	"refreshspecial-db-error": "No eplöpon sekü nünodemapök",
+	"refreshspecial-no-page": "Pad patik somik no dabinon"
 }

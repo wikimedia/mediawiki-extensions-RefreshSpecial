@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "McDutchie"
-        ]
-    },
-    "refreshspecial": "Refrescar paginas special",
-    "refreshspecial-desc": "Permitte le [[Special:RefreshSpecial|refrescamento manual]] de paginas special",
-    "refreshspecial-title": "Refrescar paginas special",
-    "refreshspecial-help": "Iste pagina special forni un modo manual de refrescar paginas special.\nQuando tu ha seligite tote le paginas que tu vole refrescar, clicca super le button \"{{int:refreshspecial-button}}\" in basso pro refrescar le paginas special seligite.\n'''Attention:''' le refrescamento pote durar un poco de tempore in wikis plus grande.",
-    "refreshspecial-button": "Refrescar selection",
-    "refreshspecial-fail": "Per favor marca al minus un pagina special a refrescar.",
-    "refreshspecial-refreshing": "refrescamento de paginas special in curso",
-    "refreshspecial-skipped": "superficial, omittite",
-    "refreshspecial-choice": "refrescamento de paginas special",
-    "refreshspecial-js-disabled": "<i>(Tu non pote seliger tote le paginas si JavaScript non es active)</i>",
-    "refreshspecial-select-all-pages": "Seliger tote le paginas",
-    "refreshspecial-link-back": "Retornar al extension",
-    "refreshspecial-none-selected": "Tu non ha seligite alcun pagina special. Le selection retorna al predefinite.",
-    "refreshspecial-db-error": "Falta: error del base de datos",
-    "refreshspecial-no-page": "Iste pagina special non existe",
-    "refreshspecial-slave-lagged": "Sclavo in retardo; attende...",
-    "refreshspecial-reconnected": "Reconnectite.",
-    "refreshspecial-reconnecting": "Connexion fallite, reconnexion post 10 secundas...",
-    "refreshspecial-page-result": "obteneva $1 {{PLURAL:$1|linea|lineas}} in",
-    "refreshspecial-total-display": "Refrescava $1 {{PLURAL:$1|pagina|paginas}} con un total de $2 {{PLURAL:$2|linea|lineas}} durante $3 (le durata total del execution del script es $4)",
-    "right-refreshspecial": "Refrescar paginas special"
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"refreshspecial": "Refrescar paginas special",
+	"refreshspecial-desc": "Permitte le [[Special:RefreshSpecial|refrescamento manual]] de paginas special",
+	"refreshspecial-title": "Refrescar paginas special",
+	"refreshspecial-help": "Iste pagina special forni un modo manual de refrescar paginas special.\nQuando tu ha seligite tote le paginas que tu vole refrescar, clicca super le button \"{{int:refreshspecial-button}}\" in basso pro refrescar le paginas special seligite.\n'''Attention:''' le refrescamento pote durar un poco de tempore in wikis plus grande.",
+	"refreshspecial-button": "Refrescar selection",
+	"refreshspecial-fail": "Per favor marca al minus un pagina special a refrescar.",
+	"refreshspecial-refreshing": "refrescamento de paginas special in curso",
+	"refreshspecial-skipped": "superficial, omittite",
+	"refreshspecial-choice": "refrescamento de paginas special",
+	"refreshspecial-js-disabled": "<i>(Tu non pote seliger tote le paginas si JavaScript non es active)</i>",
+	"refreshspecial-select-all-pages": "Seliger tote le paginas",
+	"refreshspecial-link-back": "Retornar al extension",
+	"refreshspecial-none-selected": "Tu non ha seligite alcun pagina special. Le selection retorna al predefinite.",
+	"refreshspecial-db-error": "Falta: error del base de datos",
+	"refreshspecial-no-page": "Iste pagina special non existe",
+	"refreshspecial-slave-lagged": "Sclavo in retardo; attende...",
+	"refreshspecial-reconnected": "Reconnectite.",
+	"refreshspecial-reconnecting": "Connexion fallite, reconnexion post 10 secundas...",
+	"refreshspecial-page-result": "obteneva $1 {{PLURAL:$1|linea|lineas}} in",
+	"refreshspecial-total-display": "Refrescava $1 {{PLURAL:$1|pagina|paginas}} con un total de $2 {{PLURAL:$2|linea|lineas}} durante $3 (le durata total del execution del script es $4)",
+	"right-refreshspecial": "Refrescar paginas special"
 }

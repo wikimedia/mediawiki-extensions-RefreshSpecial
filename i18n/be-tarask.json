@@ -1,29 +1,29 @@
 {
-    "@metadata": {
-        "authors": [
-            "EugeneZelenko",
-            "Jim-by"
-        ]
-    },
-    "refreshspecial": "Абнавіць спэцыяльныя старонкі",
-    "refreshspecial-desc": "Дазваляе [[Special:RefreshSpecial|ручное абнаўленьне]] спэцыяльных старонак",
-    "refreshspecial-title": "Абнаўленьне спэцыяльныя старонкі",
-    "refreshspecial-help": "Гэта спэцыяльная старонка дазваляе абнаўляць спэцыяльныя старонкі ў ручным рэжыме.\nКалі Вы выберыце ўсе старонкі, якія Вы жадаеце абнавіць, націсьніце кнопку «Абнавіць выбраныя» унізе, каб абнавіць іх.\nУвага: абнаўленьне можа патрабаваць пэўны час у вялікіх вікі.",
-    "refreshspecial-button": "Абнавіць выбраныя",
-    "refreshspecial-fail": "Калі ласка, пазначце хаця б адну спэцыяльную старонку для абнаўленьня.",
-    "refreshspecial-refreshing": "абнаўленьне спэцыяльных старонак",
-    "refreshspecial-skipped": "няважнае, прапушчанае",
-    "refreshspecial-choice": "абнаўленьне спэцыяльных старонак",
-    "refreshspecial-js-disabled": "(<i>Вы ня можаце выбраць усе старонкі, калі JavaScript адключаны</i>)",
-    "refreshspecial-select-all-pages": "Выбраць усе старонкі",
-    "refreshspecial-link-back": "Вярнуцца на спэцыяльную старонку",
-    "refreshspecial-none-selected": "Вы ня выбралі ніякай спэцыяльнай старонкі. Вярнуцца да выбару па змоўчваньні.",
-    "refreshspecial-db-error": "Памылка базы зьвестак",
-    "refreshspecial-no-page": "Няма такой спэцыяльнай старонкі",
-    "refreshspecial-slave-lagged": "Праблемы сувязі з падпарадкаванай сыстэмай. Калі ласка, пачакайце...",
-    "refreshspecial-reconnected": "Перадалучэньне.",
-    "refreshspecial-reconnecting": "Памылка злучэньня, перадалучэньне праз 10 сэкундаў...",
-    "refreshspecial-page-result": "{{PLURAL:$1|атрыманы $1 радок у|атрыманыя $1 радкі ў|атрыманыя $1 радкоў у}}",
-    "refreshspecial-total-display": "{{PLURAL:$1|Адноўленая $1 старонка|Адноўленыя $1 старонкі|Адноўленыя $1 старонак}} уключаючы $2 {{PLURAL:$2|радок|радкі|радкоў}} за $3 (поўны час выкананьня скрыпта $4)",
-    "right-refreshspecial": "Абнавіць спэцыяльныя старонкі"
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"refreshspecial": "Абнавіць спэцыяльныя старонкі",
+	"refreshspecial-desc": "Дазваляе [[Special:RefreshSpecial|ручное абнаўленьне]] спэцыяльных старонак",
+	"refreshspecial-title": "Абнаўленьне спэцыяльныя старонкі",
+	"refreshspecial-help": "Гэта спэцыяльная старонка дазваляе абнаўляць спэцыяльныя старонкі ў ручным рэжыме.\nКалі Вы выберыце ўсе старонкі, якія Вы жадаеце абнавіць, націсьніце кнопку «Абнавіць выбраныя» унізе, каб абнавіць іх.\nУвага: абнаўленьне можа патрабаваць пэўны час у вялікіх вікі.",
+	"refreshspecial-button": "Абнавіць выбраныя",
+	"refreshspecial-fail": "Калі ласка, пазначце хаця б адну спэцыяльную старонку для абнаўленьня.",
+	"refreshspecial-refreshing": "абнаўленьне спэцыяльных старонак",
+	"refreshspecial-skipped": "няважнае, прапушчанае",
+	"refreshspecial-choice": "абнаўленьне спэцыяльных старонак",
+	"refreshspecial-js-disabled": "(<i>Вы ня можаце выбраць усе старонкі, калі JavaScript адключаны</i>)",
+	"refreshspecial-select-all-pages": "Выбраць усе старонкі",
+	"refreshspecial-link-back": "Вярнуцца на спэцыяльную старонку",
+	"refreshspecial-none-selected": "Вы ня выбралі ніякай спэцыяльнай старонкі. Вярнуцца да выбару па змоўчваньні.",
+	"refreshspecial-db-error": "Памылка базы зьвестак",
+	"refreshspecial-no-page": "Няма такой спэцыяльнай старонкі",
+	"refreshspecial-slave-lagged": "Праблемы сувязі з падпарадкаванай сыстэмай. Калі ласка, пачакайце...",
+	"refreshspecial-reconnected": "Перадалучэньне.",
+	"refreshspecial-reconnecting": "Памылка злучэньня, перадалучэньне праз 10 сэкундаў...",
+	"refreshspecial-page-result": "{{PLURAL:$1|атрыманы $1 радок у|атрыманыя $1 радкі ў|атрыманыя $1 радкоў у}}",
+	"refreshspecial-total-display": "{{PLURAL:$1|Адноўленая $1 старонка|Адноўленыя $1 старонкі|Адноўленыя $1 старонак}} уключаючы $2 {{PLURAL:$2|радок|радкі|радкоў}} за $3 (поўны час выкананьня скрыпта $4)",
+	"right-refreshspecial": "Абнавіць спэцыяльныя старонкі"
 }

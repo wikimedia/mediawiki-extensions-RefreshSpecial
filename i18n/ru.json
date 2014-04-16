@@ -1,32 +1,32 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ferrer",
-            "Kaganer",
-            "Lockal",
-            "Okras",
-            "Александр Сигачёв"
-        ]
-    },
-    "refreshspecial": "Обновить служебные страницы",
-    "refreshspecial-desc": "Позволяет [[Special:RefreshSpecial|совершать ручное обновление]] служебных страниц",
-    "refreshspecial-title": "Обновить служебные страницы",
-    "refreshspecial-help": "Эта служебная страница позволяет обновлять служебные страницы.\nВы можете выбрать все страницы, которые вам нужно обновить, нажать «{{int:refreshspecial-button}}» для обновления выбранных служебных страниц.\n'''Внимание,''' обновление может вызвать задержку в больших вики.",
-    "refreshspecial-button": "Обновление выбрано",
-    "refreshspecial-fail": "Пожалуйста, выберите одну служебную страницу для обновления.",
-    "refreshspecial-refreshing": "обновление служебных страниц",
-    "refreshspecial-skipped": "ошибка, пропущена",
-    "refreshspecial-choice": "обновление служебных страниц",
-    "refreshspecial-js-disabled": "(<i>Вы не можете выбрать все страницы, когда JavaScript отключён</i>)",
-    "refreshspecial-select-all-pages": "Выбрать все страницы",
-    "refreshspecial-link-back": "Вернуться к служебной странице",
-    "refreshspecial-none-selected": "Вы не выбрали служебных страниц. Возвращение к выбору по умолчанию.",
-    "refreshspecial-db-error": "Неудачно. Ошибка базы данных.",
-    "refreshspecial-no-page": "Нет такой служебной страницы",
-    "refreshspecial-slave-lagged": "Лаг зависимого сервера, ожидание...",
-    "refreshspecial-reconnected": "Пересоединение.",
-    "refreshspecial-reconnecting": "Соединение неудачно, пересоединение через 10 секунд...",
-    "refreshspecial-page-result": "выведено $1 {{PLURAL:$1|строка|строк|строки}} в",
-    "refreshspecial-total-display": "{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страниц, содержащих|Обновлено $1 страницы, содержащих}} $2 {{PLURAL:$2|строку|строк|строки}} за время $3 (полное время выполнения скрипта составило $4)",
-    "right-refreshspecial": "обновление служебных страниц"
+	"@metadata": {
+		"authors": [
+			"Ferrer",
+			"Kaganer",
+			"Lockal",
+			"Okras",
+			"Александр Сигачёв"
+		]
+	},
+	"refreshspecial": "Обновить служебные страницы",
+	"refreshspecial-desc": "Позволяет [[Special:RefreshSpecial|совершать ручное обновление]] служебных страниц",
+	"refreshspecial-title": "Обновить служебные страницы",
+	"refreshspecial-help": "Эта служебная страница позволяет обновлять служебные страницы.\nВы можете выбрать все страницы, которые вам нужно обновить, нажать «{{int:refreshspecial-button}}» для обновления выбранных служебных страниц.\n'''Внимание,''' обновление может вызвать задержку в больших вики.",
+	"refreshspecial-button": "Обновление выбрано",
+	"refreshspecial-fail": "Пожалуйста, выберите одну служебную страницу для обновления.",
+	"refreshspecial-refreshing": "обновление служебных страниц",
+	"refreshspecial-skipped": "ошибка, пропущена",
+	"refreshspecial-choice": "обновление служебных страниц",
+	"refreshspecial-js-disabled": "(<i>Вы не можете выбрать все страницы, когда JavaScript отключён</i>)",
+	"refreshspecial-select-all-pages": "Выбрать все страницы",
+	"refreshspecial-link-back": "Вернуться к служебной странице",
+	"refreshspecial-none-selected": "Вы не выбрали служебных страниц. Возвращение к выбору по умолчанию.",
+	"refreshspecial-db-error": "Неудачно. Ошибка базы данных.",
+	"refreshspecial-no-page": "Нет такой служебной страницы",
+	"refreshspecial-slave-lagged": "Лаг зависимого сервера, ожидание...",
+	"refreshspecial-reconnected": "Пересоединение.",
+	"refreshspecial-reconnecting": "Соединение неудачно, пересоединение через 10 секунд...",
+	"refreshspecial-page-result": "выведено $1 {{PLURAL:$1|строка|строк|строки}} в",
+	"refreshspecial-total-display": "{{PLURAL:$1|Обновлена $1 страница, содержащая|Обновлено $1 страниц, содержащих|Обновлено $1 страницы, содержащих}} $2 {{PLURAL:$2|строку|строк|строки}} за время $3 (полное время выполнения скрипта составило $4)",
+	"right-refreshspecial": "обновление служебных страниц"
 }

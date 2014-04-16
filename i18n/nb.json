@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nghtwlkr"
-        ]
-    },
-    "refreshspecial": "Oppdater spesialsider",
-    "refreshspecial-desc": "Muliggjør [[Special:RefreshSpecial|manuell oppdatering]] av spesialsider",
-    "refreshspecial-title": "Oppdater spesialsider",
-    "refreshspecial-help": "Denne spesialsiden tilbyr metoder for å manuelt oppdatere spesialsider.\nNår du har valgt alle sidene du vil oppdatere, klikk på «Oppdater valgte»-knappen for å gjennomføre oppdateringen på de valgte spesialsidene.\n'''Advarsel:''' Oppdateringen kan ta en stund på større wikier.",
-    "refreshspecial-button": "Oppdater valgte",
-    "refreshspecial-fail": "Merk minst én spesialside for oppdatering",
-    "refreshspecial-refreshing": "oppdaterer spesialsider",
-    "refreshspecial-skipped": "billig, hoppet over",
-    "refreshspecial-choice": "oppdaterer spesialsider",
-    "refreshspecial-js-disabled": "(''Du kan ikke merke alle sider om JavaScript er slått av'')",
-    "refreshspecial-select-all-pages": "Merk alle sider",
-    "refreshspecial-link-back": "Tilbake til utvidelsen",
-    "refreshspecial-none-selected": "Du har ikke merket noen spesialsider. Tilbakestiller til standardvalg.",
-    "refreshspecial-db-error": "Mislyktes: databasefeil",
-    "refreshspecial-no-page": "Ingen slik spesialside",
-    "refreshspecial-slave-lagged": "Forsinkelse i slavetjeneren, venter ...",
-    "refreshspecial-reconnected": "Tilkoblet på nytt.",
-    "refreshspecial-reconnecting": "Tilkobling mislyktes, prøver igjen om ti sekunder ...",
-    "refreshspecial-page-result": "fikk {{PLURAL:$1|én rad|$1 rader}} i",
-    "refreshspecial-total-display": "Oppdaterte {{PLURAL:$1|én side|$1 sider}} med totalt {{PLURAL:$2|én rad|$2 rader}} på tiden $3 (total skriptkjøretid er $4)",
-    "right-refreshspecial": "Oppdater spesialsider"
+	"@metadata": {
+		"authors": [
+			"Nghtwlkr"
+		]
+	},
+	"refreshspecial": "Oppdater spesialsider",
+	"refreshspecial-desc": "Muliggjør [[Special:RefreshSpecial|manuell oppdatering]] av spesialsider",
+	"refreshspecial-title": "Oppdater spesialsider",
+	"refreshspecial-help": "Denne spesialsiden tilbyr metoder for å manuelt oppdatere spesialsider.\nNår du har valgt alle sidene du vil oppdatere, klikk på «Oppdater valgte»-knappen for å gjennomføre oppdateringen på de valgte spesialsidene.\n'''Advarsel:''' Oppdateringen kan ta en stund på større wikier.",
+	"refreshspecial-button": "Oppdater valgte",
+	"refreshspecial-fail": "Merk minst én spesialside for oppdatering",
+	"refreshspecial-refreshing": "oppdaterer spesialsider",
+	"refreshspecial-skipped": "billig, hoppet over",
+	"refreshspecial-choice": "oppdaterer spesialsider",
+	"refreshspecial-js-disabled": "(''Du kan ikke merke alle sider om JavaScript er slått av'')",
+	"refreshspecial-select-all-pages": "Merk alle sider",
+	"refreshspecial-link-back": "Tilbake til utvidelsen",
+	"refreshspecial-none-selected": "Du har ikke merket noen spesialsider. Tilbakestiller til standardvalg.",
+	"refreshspecial-db-error": "Mislyktes: databasefeil",
+	"refreshspecial-no-page": "Ingen slik spesialside",
+	"refreshspecial-slave-lagged": "Forsinkelse i slavetjeneren, venter ...",
+	"refreshspecial-reconnected": "Tilkoblet på nytt.",
+	"refreshspecial-reconnecting": "Tilkobling mislyktes, prøver igjen om ti sekunder ...",
+	"refreshspecial-page-result": "fikk {{PLURAL:$1|én rad|$1 rader}} i",
+	"refreshspecial-total-display": "Oppdaterte {{PLURAL:$1|én side|$1 sider}} med totalt {{PLURAL:$2|én rad|$2 rader}} på tiden $3 (total skriptkjøretid er $4)",
+	"right-refreshspecial": "Oppdater spesialsider"
 }

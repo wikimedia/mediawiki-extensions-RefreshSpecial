@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "refreshspecial": "Specialne strony aktualizować",
-    "refreshspecial-desc": "Zmóznja [[Special:RefreshSpecial|manuelne wobnowjenje specialnych stronow]]",
-    "refreshspecial-title": "Specialne strony wobnowić",
-    "refreshspecial-help": "Tuta specialna strona staja srědki za manuelne wobnowjenje specialnych bokow k dispoziciji.\nHdyž sy wšě strony wubrał, kotrež chceš wobnowić, klikń na tłóčatko \"{{int:refreshspecial-button}}\" deleka, zo by wubrane specialne strony wobnowił.\n'''Warnowanje:''' Wobnowjenje móže na wulkich wikijach chětro dołho trać.",
-    "refreshspecial-button": "Wubrane wobnowić",
-    "refreshspecial-fail": "Prošu wubjer znajmjeńša jednu stronu za wobnowjenje.",
-    "refreshspecial-refreshing": "Specialne strony so wobnowjeja",
-    "refreshspecial-skipped": "tuni, přeskočeny",
-    "refreshspecial-choice": "specialne strony so wobnowjeja",
-    "refreshspecial-js-disabled": "(<i>Njemóžeš wšě strony wubrać, hdyž sy JavaScript znjemóžnił</i>)",
-    "refreshspecial-select-all-pages": "Wšě strony wubrać",
-    "refreshspecial-link-back": "Wróćo k specialnej stronje",
-    "refreshspecial-none-selected": "Njejsy specialne strony wubrał. Nawrót k standardnemu wuběrej",
-    "refreshspecial-db-error": "Njewuspěch: zmylk datoweje banki",
-    "refreshspecial-no-page": "Žana tajka specialna strona",
-    "refreshspecial-slave-lagged": "Zwisk ze serwerom slave je pomały, čaka so...",
-    "refreshspecial-reconnected": "Znowa zwjazany.",
-    "refreshspecial-reconnecting": "Zwisk je so njeporadźił, znowazwjazowanje za 10 sekundow...",
-    "refreshspecial-page-result": "wobsahuje $1 {{PLURAL:$1|rjad|rjadaj|rjady|rjadow}} w",
-    "refreshspecial-total-display": "Zaktualizowa $1 {{PLURAL:$1|stronu|stronje|strony|stronow}}, w cyłku $2 {{PLURAL:$2|rjad|rjadaj|rjady|rjadow}} w dobje $3 (cyłkowny čas běha skripta je $4)",
-    "right-refreshspecial": "Specialne strony wobnowić"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"refreshspecial": "Specialne strony aktualizować",
+	"refreshspecial-desc": "Zmóznja [[Special:RefreshSpecial|manuelne wobnowjenje specialnych stronow]]",
+	"refreshspecial-title": "Specialne strony wobnowić",
+	"refreshspecial-help": "Tuta specialna strona staja srědki za manuelne wobnowjenje specialnych bokow k dispoziciji.\nHdyž sy wšě strony wubrał, kotrež chceš wobnowić, klikń na tłóčatko \"{{int:refreshspecial-button}}\" deleka, zo by wubrane specialne strony wobnowił.\n'''Warnowanje:''' Wobnowjenje móže na wulkich wikijach chětro dołho trać.",
+	"refreshspecial-button": "Wubrane wobnowić",
+	"refreshspecial-fail": "Prošu wubjer znajmjeńša jednu stronu za wobnowjenje.",
+	"refreshspecial-refreshing": "Specialne strony so wobnowjeja",
+	"refreshspecial-skipped": "tuni, přeskočeny",
+	"refreshspecial-choice": "specialne strony so wobnowjeja",
+	"refreshspecial-js-disabled": "(<i>Njemóžeš wšě strony wubrać, hdyž sy JavaScript znjemóžnił</i>)",
+	"refreshspecial-select-all-pages": "Wšě strony wubrać",
+	"refreshspecial-link-back": "Wróćo k specialnej stronje",
+	"refreshspecial-none-selected": "Njejsy specialne strony wubrał. Nawrót k standardnemu wuběrej",
+	"refreshspecial-db-error": "Njewuspěch: zmylk datoweje banki",
+	"refreshspecial-no-page": "Žana tajka specialna strona",
+	"refreshspecial-slave-lagged": "Zwisk ze serwerom slave je pomały, čaka so...",
+	"refreshspecial-reconnected": "Znowa zwjazany.",
+	"refreshspecial-reconnecting": "Zwisk je so njeporadźił, znowazwjazowanje za 10 sekundow...",
+	"refreshspecial-page-result": "wobsahuje $1 {{PLURAL:$1|rjad|rjadaj|rjady|rjadow}} w",
+	"refreshspecial-total-display": "Zaktualizowa $1 {{PLURAL:$1|stronu|stronje|strony|stronow}}, w cyłku $2 {{PLURAL:$2|rjad|rjadaj|rjady|rjadow}} w dobje $3 (cyłkowny čas běha skripta je $4)",
+	"right-refreshspecial": "Specialne strony wobnowić"
 }

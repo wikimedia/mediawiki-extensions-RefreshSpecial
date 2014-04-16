@@ -1,31 +1,31 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crt",
-            "Jack Phoenix <jack@countervandalism.net>",
-            "Mobe",
-            "Nike",
-            "Vililikku"
-        ]
-    },
-    "refreshspecial": "Päivitä toimintosivuja",
-    "refreshspecial-desc": "Mahdollistaa [[Special:RefreshSpecial|toimintosivujen päivittämisen manuaalisesti]].",
-    "refreshspecial-title": "Päivitä toimintosivuja",
-    "refreshspecial-help": "Tämä toimintosivu tarjoaa keinoja päivittää toimintosivuja manuaalisesti. Kun olet valinnut kaikki sivut, jotka haluat päivittää, napsauta ”Päivitä valitut” -nappia alapuolella päivittääksesi valitut. Varoitus: Päivittäminen saattaa kestää jonkin aikaa isommissa wikeissä.",
-    "refreshspecial-button": "Päivitä valitut",
-    "refreshspecial-fail": "Valitse ainakin yksi päivitettävä toimintosivu.",
-    "refreshspecial-refreshing": "päivitetään toimintosivuja",
-    "refreshspecial-skipped": "halpa, ohitettu",
-    "refreshspecial-choice": "päivitetään toimintosivuja",
-    "refreshspecial-js-disabled": "(<i>Et voi valita kaikkia sivuja, kun JavaScript on pois käytöstä</i>)",
-    "refreshspecial-select-all-pages": "Valitse kaikki sivut",
-    "refreshspecial-link-back": "Palaa takaisin",
-    "refreshspecial-none-selected": "Et ole valinnut yhtään toimintosivua. Palataan oletusasetuksiin.",
-    "refreshspecial-db-error": "Epäonnistui: Tietokantavirhe",
-    "refreshspecial-no-page": "Kyseistä toimintosivua ei ole",
-    "refreshspecial-slave-lagged": "Toisiopalvelin on jäänyt jälkeen. Odotetaan...",
-    "refreshspecial-reconnected": "Yhdistetty uudelleen.",
-    "refreshspecial-reconnecting": "Yhteys epäonnistui, yritetään uudelleen 10 sekunnin kuluttua...",
-    "refreshspecial-total-display": "Päivitettiin {{PLURAL:$1|yksi sivu|$1 sivua}}. Yhteensä {{PLURAL:$2|yksi rivi|$2 riviä}} ajassa $3. Yhteensä komentosarjan suorittamiseen meni aikaa $4.",
-    "right-refreshspecial": "Päivittää toimintosivuja"
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Jack Phoenix <jack@countervandalism.net>",
+			"Mobe",
+			"Nike",
+			"Vililikku"
+		]
+	},
+	"refreshspecial": "Päivitä toimintosivuja",
+	"refreshspecial-desc": "Mahdollistaa [[Special:RefreshSpecial|toimintosivujen päivittämisen manuaalisesti]].",
+	"refreshspecial-title": "Päivitä toimintosivuja",
+	"refreshspecial-help": "Tämä toimintosivu tarjoaa keinoja päivittää toimintosivuja manuaalisesti. Kun olet valinnut kaikki sivut, jotka haluat päivittää, napsauta ”Päivitä valitut” -nappia alapuolella päivittääksesi valitut. Varoitus: Päivittäminen saattaa kestää jonkin aikaa isommissa wikeissä.",
+	"refreshspecial-button": "Päivitä valitut",
+	"refreshspecial-fail": "Valitse ainakin yksi päivitettävä toimintosivu.",
+	"refreshspecial-refreshing": "päivitetään toimintosivuja",
+	"refreshspecial-skipped": "halpa, ohitettu",
+	"refreshspecial-choice": "päivitetään toimintosivuja",
+	"refreshspecial-js-disabled": "(<i>Et voi valita kaikkia sivuja, kun JavaScript on pois käytöstä</i>)",
+	"refreshspecial-select-all-pages": "Valitse kaikki sivut",
+	"refreshspecial-link-back": "Palaa takaisin",
+	"refreshspecial-none-selected": "Et ole valinnut yhtään toimintosivua. Palataan oletusasetuksiin.",
+	"refreshspecial-db-error": "Epäonnistui: Tietokantavirhe",
+	"refreshspecial-no-page": "Kyseistä toimintosivua ei ole",
+	"refreshspecial-slave-lagged": "Toisiopalvelin on jäänyt jälkeen. Odotetaan...",
+	"refreshspecial-reconnected": "Yhdistetty uudelleen.",
+	"refreshspecial-reconnecting": "Yhteys epäonnistui, yritetään uudelleen 10 sekunnin kuluttua...",
+	"refreshspecial-total-display": "Päivitettiin {{PLURAL:$1|yksi sivu|$1 sivua}}. Yhteensä {{PLURAL:$2|yksi rivi|$2 riviä}} ajassa $3. Yhteensä komentosarjan suorittamiseen meni aikaa $4.",
+	"right-refreshspecial": "Päivittää toimintosivuja"
 }

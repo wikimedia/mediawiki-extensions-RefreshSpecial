@@ -1,34 +1,34 @@
 {
-    "@metadata": {
-        "authors": [
-            "ChrisiPK",
-            "MF-Warburg",
-            "Melancholie",
-            "Metalhead64",
-            "Purodha",
-            "Revolus",
-            "Umherirrender"
-        ]
-    },
-    "refreshspecial": "Spezialseiten aktualisieren",
-    "refreshspecial-desc": "Erlaubt das [[Special:RefreshSpecial|manuelle Auffrischen von Spezialseiten]]",
-    "refreshspecial-title": "Spezialseiten aktualisieren",
-    "refreshspecial-help": "Diese Spezialseite stellt ein Werkzeug zum manuellen Aktualisieren der Spezialseiten bereit.\nSobald du alle Spezialseiten zum Aktualisieren ausgewählt hast, drücke die Schaltfläche „{{int:refreshspecial-button}}“, um die Aktualisierung zu starten.\n'''Achtung:''' Das Aktualisieren kann auf großen Wikis länger dauern.",
-    "refreshspecial-button": "ausgewählte auffrischen",
-    "refreshspecial-fail": "Bitte hake mindestens eine Spezialseite zum Auffrischen an.",
-    "refreshspecial-refreshing": "Spezialseiten werden aktualisiert",
-    "refreshspecial-skipped": "wertlos, übersprungen",
-    "refreshspecial-choice": "aktualisiere Spezialseiten",
-    "refreshspecial-js-disabled": "(<i>Du kannst nicht alle Seiten auswählen, wenn du Javascript deaktiviert hast</i>)",
-    "refreshspecial-select-all-pages": "Alle Seiten auswählen",
-    "refreshspecial-link-back": "Zurück zur Erweiterung",
-    "refreshspecial-none-selected": "Du hast keine Spezialseiten ausgewählt; somit Zurücksetzung auf die Standardauswahl.",
-    "refreshspecial-db-error": "Störung: Datenbankfehler",
-    "refreshspecial-no-page": "Keine solche Spezialseite",
-    "refreshspecial-slave-lagged": "Slave-Server hängt hinterher, warten …",
-    "refreshspecial-reconnected": "Wiederverbunden.",
-    "refreshspecial-reconnecting": "Verbindung fehlgeschlagen, wiederverbinde in 10 Sekunden …",
-    "refreshspecial-page-result": "enthält {{PLURAL:$1|eine Reihe|$1 Reihen}} in",
-    "refreshspecial-total-display": "Aktualisierte $1 {{PLURAL:$1|Seite|Seiten}}, insgesamt $2 {{PLURAL:$2|Zeile|Zeilen}} in einer Zeit von $3 (Gesamtlaufzeit des Skripts: $4)",
-    "right-refreshspecial": "Spezialseiten aktualisieren"
+	"@metadata": {
+		"authors": [
+			"ChrisiPK",
+			"MF-Warburg",
+			"Melancholie",
+			"Metalhead64",
+			"Purodha",
+			"Revolus",
+			"Umherirrender"
+		]
+	},
+	"refreshspecial": "Spezialseiten aktualisieren",
+	"refreshspecial-desc": "Erlaubt das [[Special:RefreshSpecial|manuelle Auffrischen von Spezialseiten]]",
+	"refreshspecial-title": "Spezialseiten aktualisieren",
+	"refreshspecial-help": "Diese Spezialseite stellt ein Werkzeug zum manuellen Aktualisieren der Spezialseiten bereit.\nSobald du alle Spezialseiten zum Aktualisieren ausgewählt hast, drücke die Schaltfläche „{{int:refreshspecial-button}}“, um die Aktualisierung zu starten.\n'''Achtung:''' Das Aktualisieren kann auf großen Wikis länger dauern.",
+	"refreshspecial-button": "ausgewählte auffrischen",
+	"refreshspecial-fail": "Bitte hake mindestens eine Spezialseite zum Auffrischen an.",
+	"refreshspecial-refreshing": "Spezialseiten werden aktualisiert",
+	"refreshspecial-skipped": "wertlos, übersprungen",
+	"refreshspecial-choice": "aktualisiere Spezialseiten",
+	"refreshspecial-js-disabled": "(<i>Du kannst nicht alle Seiten auswählen, wenn du Javascript deaktiviert hast</i>)",
+	"refreshspecial-select-all-pages": "Alle Seiten auswählen",
+	"refreshspecial-link-back": "Zurück zur Erweiterung",
+	"refreshspecial-none-selected": "Du hast keine Spezialseiten ausgewählt; somit Zurücksetzung auf die Standardauswahl.",
+	"refreshspecial-db-error": "Störung: Datenbankfehler",
+	"refreshspecial-no-page": "Keine solche Spezialseite",
+	"refreshspecial-slave-lagged": "Slave-Server hängt hinterher, warten …",
+	"refreshspecial-reconnected": "Wiederverbunden.",
+	"refreshspecial-reconnecting": "Verbindung fehlgeschlagen, wiederverbinde in 10 Sekunden …",
+	"refreshspecial-page-result": "enthält {{PLURAL:$1|eine Reihe|$1 Reihen}} in",
+	"refreshspecial-total-display": "Aktualisierte $1 {{PLURAL:$1|Seite|Seiten}}, insgesamt $2 {{PLURAL:$2|Zeile|Zeilen}} in einer Zeit von $3 (Gesamtlaufzeit des Skripts: $4)",
+	"right-refreshspecial": "Spezialseiten aktualisieren"
 }

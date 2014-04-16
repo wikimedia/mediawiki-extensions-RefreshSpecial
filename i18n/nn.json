@@ -1,29 +1,29 @@
 {
-    "@metadata": {
-        "authors": [
-            "Harald Khan",
-            "Njardarlogar"
-        ]
-    },
-    "refreshspecial": "Oppdater spesialsider",
-    "refreshspecial-desc": "Mogleggjer [[Special:RefreshSpecial|manuell oppdatering]] av spesialsider",
-    "refreshspecial-title": "Oppdater spesialsider",
-    "refreshspecial-help": "Denne spesialsida gjer at ein manuelt kan oppdatera spesialsider. \nNår du har valt kva sider du ønskjer å oppdatera, klikk på 'Oppdater valte' for å gjennomføra oppdateringa. Åtvaring: Oppdatering kan ta ei stund på større wikiar.",
-    "refreshspecial-button": "Oppdater valte",
-    "refreshspecial-fail": "Merk av minst éi spesialsida som skal oppdaterast",
-    "refreshspecial-refreshing": "oppdaterer spesialsider",
-    "refreshspecial-skipped": "billig, hoppa over",
-    "refreshspecial-choice": "oppdaterer spesialsider",
-    "refreshspecial-js-disabled": "(<i>Du kan ikkje merkja alle sider om JavaScript er slege av</i>)",
-    "refreshspecial-select-all-pages": "Merk alle sider",
-    "refreshspecial-link-back": "Gå attende til utvidinga",
-    "refreshspecial-none-selected": "Du har ikkje merkt noka spesialsida. Stiller attende til standardval.",
-    "refreshspecial-db-error": "Mislukkast: databasefeil",
-    "refreshspecial-no-page": "Spesialsida finst ikkje",
-    "refreshspecial-slave-lagged": "Forseinking i slavetenaren, ventar...",
-    "refreshspecial-reconnected": "Kopla til på nytt.",
-    "refreshspecial-reconnecting": "Tilkopling mislukkast, prøver om att om ti sekund...",
-    "refreshspecial-page-result": "fekk {{PLURAL:$1|éi rekkja|$1 rekkjer}} i",
-    "refreshspecial-total-display": "Oppdaterte {{PLURAL:$1|éi sida|$1 sider}} med totalt {{PLURAL:$2|éi rekkja|$2 rekkjer}} med tida $3 (total skriptkøyretid er $4)",
-    "right-refreshspecial": "Oppdatera spesialsider"
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"refreshspecial": "Oppdater spesialsider",
+	"refreshspecial-desc": "Mogleggjer [[Special:RefreshSpecial|manuell oppdatering]] av spesialsider",
+	"refreshspecial-title": "Oppdater spesialsider",
+	"refreshspecial-help": "Denne spesialsida gjer at ein manuelt kan oppdatera spesialsider. \nNår du har valt kva sider du ønskjer å oppdatera, klikk på 'Oppdater valte' for å gjennomføra oppdateringa. Åtvaring: Oppdatering kan ta ei stund på større wikiar.",
+	"refreshspecial-button": "Oppdater valte",
+	"refreshspecial-fail": "Merk av minst éi spesialsida som skal oppdaterast",
+	"refreshspecial-refreshing": "oppdaterer spesialsider",
+	"refreshspecial-skipped": "billig, hoppa over",
+	"refreshspecial-choice": "oppdaterer spesialsider",
+	"refreshspecial-js-disabled": "(<i>Du kan ikkje merkja alle sider om JavaScript er slege av</i>)",
+	"refreshspecial-select-all-pages": "Merk alle sider",
+	"refreshspecial-link-back": "Gå attende til utvidinga",
+	"refreshspecial-none-selected": "Du har ikkje merkt noka spesialsida. Stiller attende til standardval.",
+	"refreshspecial-db-error": "Mislukkast: databasefeil",
+	"refreshspecial-no-page": "Spesialsida finst ikkje",
+	"refreshspecial-slave-lagged": "Forseinking i slavetenaren, ventar...",
+	"refreshspecial-reconnected": "Kopla til på nytt.",
+	"refreshspecial-reconnecting": "Tilkopling mislukkast, prøver om att om ti sekund...",
+	"refreshspecial-page-result": "fekk {{PLURAL:$1|éi rekkja|$1 rekkjer}} i",
+	"refreshspecial-total-display": "Oppdaterte {{PLURAL:$1|éi sida|$1 sider}} med totalt {{PLURAL:$2|éi rekkja|$2 rekkjer}} med tida $3 (total skriptkøyretid er $4)",
+	"right-refreshspecial": "Oppdatera spesialsider"
 }

@@ -1,30 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Antur",
-            "Crazymadlover",
-            "Translationista"
-        ]
-    },
-    "refreshspecial": "Refrescar páginas especiales",
-    "refreshspecial-desc": "Permite [[Special:RefreshSpecial|refrescamiento de paginas especiales manualmente]] de paginas especiales",
-    "refreshspecial-title": "Refrescar páginas especiales",
-    "refreshspecial-help": "Esta página especial provee las herramientas necesarias para volver a cargar páginas especiales manualmente.\nDespués de elegir todas las páginas que desee volver a cargar, haga click en el botón \"actualizar selección\" mostrado abajo para volver a cargar las páginas especiales seleccionadas.\n'''Advertencia:''' La actualización puede tardar un poco en wikis más extensos.",
-    "refreshspecial-button": "Actualizar selección",
-    "refreshspecial-fail": "Por favor chequee al menos una página especial a refrescar.",
-    "refreshspecial-refreshing": "refrescando páginas especiales",
-    "refreshspecial-skipped": "ordinario, omitido",
-    "refreshspecial-choice": "refrescando páginas especiales",
-    "refreshspecial-js-disabled": "(<i>Usted no puede seleccionar todas las páginas donde JavaScript está deshabiltada</i>)",
-    "refreshspecial-select-all-pages": "Seleccione todas las páginas",
-    "refreshspecial-link-back": "Regresar a página especial",
-    "refreshspecial-none-selected": "No has seleccionado ninguna pagina especial. Revertiendo a la selección por defecto.",
-    "refreshspecial-db-error": "Fracasado: error en base de datos",
-    "refreshspecial-no-page": "No tal página especial",
-    "refreshspecial-slave-lagged": "Retraso del servidor esclavo, esperando...",
-    "refreshspecial-reconnected": "Reconectado.",
-    "refreshspecial-reconnecting": "Conexión falló, reconectando en 10 segundos...",
-    "refreshspecial-page-result": "obtener $1 {{PLURAL:$1|fila|filas}} en",
-    "refreshspecial-total-display": "$1 {{PLURAL:$1|página actualizada|páginas actualizadas}} de un total de $2 {{PLURAL:$2|línea|líneas}} durante $3 (la duración completa de la acción del script es de $4)",
-    "right-refreshspecial": "Refrescar páginas especiales"
+	"@metadata": {
+		"authors": [
+			"Antur",
+			"Crazymadlover",
+			"Translationista"
+		]
+	},
+	"refreshspecial": "Refrescar páginas especiales",
+	"refreshspecial-desc": "Permite [[Special:RefreshSpecial|refrescamiento de paginas especiales manualmente]] de paginas especiales",
+	"refreshspecial-title": "Refrescar páginas especiales",
+	"refreshspecial-help": "Esta página especial provee las herramientas necesarias para volver a cargar páginas especiales manualmente.\nDespués de elegir todas las páginas que desee volver a cargar, haga click en el botón \"actualizar selección\" mostrado abajo para volver a cargar las páginas especiales seleccionadas.\n'''Advertencia:''' La actualización puede tardar un poco en wikis más extensos.",
+	"refreshspecial-button": "Actualizar selección",
+	"refreshspecial-fail": "Por favor chequee al menos una página especial a refrescar.",
+	"refreshspecial-refreshing": "refrescando páginas especiales",
+	"refreshspecial-skipped": "ordinario, omitido",
+	"refreshspecial-choice": "refrescando páginas especiales",
+	"refreshspecial-js-disabled": "(<i>Usted no puede seleccionar todas las páginas donde JavaScript está deshabiltada</i>)",
+	"refreshspecial-select-all-pages": "Seleccione todas las páginas",
+	"refreshspecial-link-back": "Regresar a página especial",
+	"refreshspecial-none-selected": "No has seleccionado ninguna pagina especial. Revertiendo a la selección por defecto.",
+	"refreshspecial-db-error": "Fracasado: error en base de datos",
+	"refreshspecial-no-page": "No tal página especial",
+	"refreshspecial-slave-lagged": "Retraso del servidor esclavo, esperando...",
+	"refreshspecial-reconnected": "Reconectado.",
+	"refreshspecial-reconnecting": "Conexión falló, reconectando en 10 segundos...",
+	"refreshspecial-page-result": "obtener $1 {{PLURAL:$1|fila|filas}} en",
+	"refreshspecial-total-display": "$1 {{PLURAL:$1|página actualizada|páginas actualizadas}} de un total de $2 {{PLURAL:$2|línea|líneas}} durante $3 (la duración completa de la acción del script es de $4)",
+	"right-refreshspecial": "Refrescar páginas especiales"
 }

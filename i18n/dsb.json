@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "refreshspecial": "Specialne boki wobnowiś",
-    "refreshspecial-desc": "Zmóžnja [[Special:RefreshSpecial|manuelne wobnowjenje specialnych bokow]]",
-    "refreshspecial-title": "Specialne boki wobnowiś",
-    "refreshspecial-help": "Toś ten specialny bok staja rěd za manuelne wobnowjenje specialnych bokow k dispoziciji.\nGaž sy wubrał wše boki, kótarež coš wobnowiś, klikni na tłocašk\"{{int:refreshspecial-button}}\" dołojce, aby wobnowił specialne wubrane boki.\n'''Warnowanje:''' Wobnowjenje móžo na wjelikich wikijach wobdłujko traś.",
-    "refreshspecial-button": "Wubrane wobnowiś",
-    "refreshspecial-fail": "Pšosym wubjeŕ nanejmjenjej jaden specialny bok za wobnowjenje.",
-    "refreshspecial-refreshing": "specialne boki se wobnowjaju",
-    "refreshspecial-skipped": "bźeze gódnoty, pśeskocony",
-    "refreshspecial-choice": "specialne boki se wobnowjaju",
-    "refreshspecial-js-disabled": "(<i>Njamóžoš wše boki wubraś, gaž JavaScript jo znjemóžnjony</i>)",
-    "refreshspecial-select-all-pages": "Wše boki wubraś",
-    "refreshspecial-link-back": "Slědk k specialnemu bokoju",
-    "refreshspecial-none-selected": "Njejsy wubrał specialne boki. Wrośenje k standardnemu wuběrkoju.",
-    "refreshspecial-db-error": "Njewuspěch: zmólka datoweje banki",
-    "refreshspecial-no-page": "Žeden taki specialny bok",
-    "refreshspecial-slave-lagged": "Serwer slave jo pómały, caka se...",
-    "refreshspecial-reconnected": "Znowego zwězany.",
-    "refreshspecial-reconnecting": "Zwisk jo se njeraźił, znowegozwězowanje za 10 sekundow...",
-    "refreshspecial-page-result": "wopśimujo $1 {{PLURAL:$1|rěd|rěda|rědy|rědow}} w",
-    "refreshspecial-total-display": "Som wobnowił $1 {{PLURAL:$1|bok|boka|boki|bokow}}, dogromady $2 {{PLURAL:$2|rěd|rěda|rědy|rědow}} w casu $3 (ceły cas běga jo $4)",
-    "right-refreshspecial": "Specialne boki wobnowiś"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"refreshspecial": "Specialne boki wobnowiś",
+	"refreshspecial-desc": "Zmóžnja [[Special:RefreshSpecial|manuelne wobnowjenje specialnych bokow]]",
+	"refreshspecial-title": "Specialne boki wobnowiś",
+	"refreshspecial-help": "Toś ten specialny bok staja rěd za manuelne wobnowjenje specialnych bokow k dispoziciji.\nGaž sy wubrał wše boki, kótarež coš wobnowiś, klikni na tłocašk\"{{int:refreshspecial-button}}\" dołojce, aby wobnowił specialne wubrane boki.\n'''Warnowanje:''' Wobnowjenje móžo na wjelikich wikijach wobdłujko traś.",
+	"refreshspecial-button": "Wubrane wobnowiś",
+	"refreshspecial-fail": "Pšosym wubjeŕ nanejmjenjej jaden specialny bok za wobnowjenje.",
+	"refreshspecial-refreshing": "specialne boki se wobnowjaju",
+	"refreshspecial-skipped": "bźeze gódnoty, pśeskocony",
+	"refreshspecial-choice": "specialne boki se wobnowjaju",
+	"refreshspecial-js-disabled": "(<i>Njamóžoš wše boki wubraś, gaž JavaScript jo znjemóžnjony</i>)",
+	"refreshspecial-select-all-pages": "Wše boki wubraś",
+	"refreshspecial-link-back": "Slědk k specialnemu bokoju",
+	"refreshspecial-none-selected": "Njejsy wubrał specialne boki. Wrośenje k standardnemu wuběrkoju.",
+	"refreshspecial-db-error": "Njewuspěch: zmólka datoweje banki",
+	"refreshspecial-no-page": "Žeden taki specialny bok",
+	"refreshspecial-slave-lagged": "Serwer slave jo pómały, caka se...",
+	"refreshspecial-reconnected": "Znowego zwězany.",
+	"refreshspecial-reconnecting": "Zwisk jo se njeraźił, znowegozwězowanje za 10 sekundow...",
+	"refreshspecial-page-result": "wopśimujo $1 {{PLURAL:$1|rěd|rěda|rědy|rědow}} w",
+	"refreshspecial-total-display": "Som wobnowił $1 {{PLURAL:$1|bok|boka|boki|bokow}}, dogromady $2 {{PLURAL:$2|rěd|rěda|rědy|rědow}} w casu $3 (ceły cas běga jo $4)",
+	"right-refreshspecial": "Specialne boki wobnowiś"
 }

@@ -1,30 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hamilton Abreu",
-            "Luckas",
-            "Malafaya"
-        ]
-    },
-    "refreshspecial": "Refrescar páginas especiais",
-    "refreshspecial-desc": "Permite o [[Special:RefreshSpecial|refrescamento manual]] das páginas especiais",
-    "refreshspecial-title": "Refrescar páginas especiais",
-    "refreshspecial-help": "Esta página especial permite refrescar manualmente páginas especiais.\nQuando tiver escolhido todas as páginas que pretende refrescar, clique no botão \"Refrescar selecionadas\" abaixo, para refrescar as páginas especiais que selecionou.\n'''Aviso:''' O refrescamento pode demorar algum tempo em wikis de tamanho considerável.",
-    "refreshspecial-button": "Refrescar selecionadas",
-    "refreshspecial-fail": "Por favor, selecione pelo menos uma página especial para atualizar.",
-    "refreshspecial-refreshing": "a refrescar página especiais",
-    "refreshspecial-skipped": "insignificante, saltado",
-    "refreshspecial-choice": "a refrescar página especiais",
-    "refreshspecial-js-disabled": "(<i>Não pode selecionar todas as páginas quando o JavaScript está desativado</i>)",
-    "refreshspecial-select-all-pages": "Selecionar todas as páginas",
-    "refreshspecial-link-back": "Voltar à extensão",
-    "refreshspecial-none-selected": "Não selecionou nenhuma página especial. Revertendo para a seleção padrão.",
-    "refreshspecial-db-error": "Falha: erro de base de dados",
-    "refreshspecial-no-page": "Página especial inexistente",
-    "refreshspecial-slave-lagged": "Servidor escravo com atraso, aguardando...",
-    "refreshspecial-reconnected": "Novamente ligado.",
-    "refreshspecial-reconnecting": "Ligação falhou, nova tentativa em 10 segundos...",
-    "refreshspecial-page-result": "{{PLURAL:$1|obtida 1 linha|obtidas $1 linhas}} em",
-    "refreshspecial-total-display": "$1 {{PLURAL:$1|página refrescada|páginas refrescadas}}, totalizando $2 {{PLURAL:$2|linha|linhas}} em tempo $3 (tempo total de execução do script é $4)",
-    "right-refreshspecial": "Refrescar páginas especiais"
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Luckas",
+			"Malafaya"
+		]
+	},
+	"refreshspecial": "Refrescar páginas especiais",
+	"refreshspecial-desc": "Permite o [[Special:RefreshSpecial|refrescamento manual]] das páginas especiais",
+	"refreshspecial-title": "Refrescar páginas especiais",
+	"refreshspecial-help": "Esta página especial permite refrescar manualmente páginas especiais.\nQuando tiver escolhido todas as páginas que pretende refrescar, clique no botão \"Refrescar selecionadas\" abaixo, para refrescar as páginas especiais que selecionou.\n'''Aviso:''' O refrescamento pode demorar algum tempo em wikis de tamanho considerável.",
+	"refreshspecial-button": "Refrescar selecionadas",
+	"refreshspecial-fail": "Por favor, selecione pelo menos uma página especial para atualizar.",
+	"refreshspecial-refreshing": "a refrescar página especiais",
+	"refreshspecial-skipped": "insignificante, saltado",
+	"refreshspecial-choice": "a refrescar página especiais",
+	"refreshspecial-js-disabled": "(<i>Não pode selecionar todas as páginas quando o JavaScript está desativado</i>)",
+	"refreshspecial-select-all-pages": "Selecionar todas as páginas",
+	"refreshspecial-link-back": "Voltar à extensão",
+	"refreshspecial-none-selected": "Não selecionou nenhuma página especial. Revertendo para a seleção padrão.",
+	"refreshspecial-db-error": "Falha: erro de base de dados",
+	"refreshspecial-no-page": "Página especial inexistente",
+	"refreshspecial-slave-lagged": "Servidor escravo com atraso, aguardando...",
+	"refreshspecial-reconnected": "Novamente ligado.",
+	"refreshspecial-reconnecting": "Ligação falhou, nova tentativa em 10 segundos...",
+	"refreshspecial-page-result": "{{PLURAL:$1|obtida 1 linha|obtidas $1 linhas}} em",
+	"refreshspecial-total-display": "$1 {{PLURAL:$1|página refrescada|páginas refrescadas}}, totalizando $2 {{PLURAL:$2|linha|linhas}} em tempo $3 (tempo total de execução do script é $4)",
+	"right-refreshspecial": "Refrescar páginas especiais"
 }

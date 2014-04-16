@@ -1,29 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Najami",
-            "Rotsee"
-        ]
-    },
-    "refreshspecial": "Uppdatera specialsidor",
-    "refreshspecial-desc": "Möjliggör [[Special:RefreshSpecial|manuell uppdatering]] av specialsidor",
-    "refreshspecial-title": "Uppdatera specialsidor",
-    "refreshspecial-help": "Den här specialsidan låter dig uppdatera andra specialsidor manuellt.\nVälj vilka sidor du vill uppdatera, och klicka på \"Uppdatera valda sidor\".\n'''Obs:''' Uppdateringen kan ta en lång stund på en stor wiki.",
-    "refreshspecial-button": "Uppdatera valda sidor",
-    "refreshspecial-fail": "Välj minst en sida att uppdatera.",
-    "refreshspecial-refreshing": "uppdaterar specialsidor",
-    "refreshspecial-skipped": "överhoppad",
-    "refreshspecial-choice": "uppdaterar specialsidor",
-    "refreshspecial-js-disabled": "(''Du behöver slå på JavaScript för att kunna markera alla sidor'')",
-    "refreshspecial-select-all-pages": "Välj alla sidor",
-    "refreshspecial-link-back": "Tillbaka till specialsidan",
-    "refreshspecial-none-selected": "Du har inte valt någon specialsida. Återställer standardvalet.",
-    "refreshspecial-db-error": "Misslyckades: Databasfel",
-    "refreshspecial-no-page": "Ingen sådan specialsida",
-    "refreshspecial-slave-lagged": "Slavservern släpar efter, väntar ...",
-    "refreshspecial-reconnected": "Återansluten.",
-    "refreshspecial-reconnecting": "Anslutning misslyckades, återansluter om 10 sekunder...",
-    "refreshspecial-page-result": "databasen svarade med $1 {{PLURAL:$1|rad|rader}} i",
-    "refreshspecial-total-display": "Uppdaterade $1 {{PLURAL:$1|sida|sidor}} om sammanlagt $2 {{PLURAL:$2|rad|rader}} på $3 (skriptet har körts i sammanlagt $4)",
-    "right-refreshspecial": "Uppdatera specialsidor"
+	"@metadata": {
+		"authors": [
+			"Najami",
+			"Rotsee",
+			"Lokal Profil"
+		]
+	},
+	"refreshspecial": "Uppdatera specialsidor",
+	"refreshspecial-desc": "Möjliggör [[Special:RefreshSpecial|manuell uppdatering]] av specialsidor",
+	"refreshspecial-title": "Uppdatera specialsidor",
+	"refreshspecial-help": "Den här specialsidan låter dig uppdatera andra specialsidor manuellt.\nNär du valt alla sidor du vill uppdatera, klicka på \"{{int:refreshspecial-button}}\"-knappen nedan för att uppdatera specialsidorna.\n'''Obs:''' Uppdateringen kan ta en lång stund på en stor wiki.",
+	"refreshspecial-button": "Uppdatera valda sidor",
+	"refreshspecial-fail": "Välj minst en sida att uppdatera.",
+	"refreshspecial-refreshing": "uppdaterar specialsidor",
+	"refreshspecial-skipped": "överhoppad",
+	"refreshspecial-choice": "uppdaterar specialsidor",
+	"refreshspecial-js-disabled": "(''Du behöver slå på JavaScript för att kunna markera alla sidor'')",
+	"refreshspecial-select-all-pages": "Välj alla sidor",
+	"refreshspecial-link-back": "Tillbaka till specialsidan",
+	"refreshspecial-none-selected": "Du har inte valt någon specialsida. Återställer standardvalet.",
+	"refreshspecial-db-error": "Misslyckades: Databasfel",
+	"refreshspecial-no-page": "Ingen sådan specialsida",
+	"refreshspecial-slave-lagged": "Slavservern släpar efter, väntar ...",
+	"refreshspecial-reconnected": "Återansluten.",
+	"refreshspecial-reconnecting": "Anslutning misslyckades, återansluter om 10 sekunder...",
+	"refreshspecial-page-result": "databasen svarade med $1 {{PLURAL:$1|rad|rader}} i",
+	"refreshspecial-total-display": "Uppdaterade $1 {{PLURAL:$1|sida|sidor}} om sammanlagt $2 {{PLURAL:$2|rad|rader}} på $3 (skriptet har körts i sammanlagt $4)",
+	"right-refreshspecial": "Uppdatera specialsidor"
 }

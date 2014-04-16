@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Priviet"
-        ]
-    },
-    "refreshspecial": "특수 문서 새로 고침",
-    "refreshspecial-desc": "[[Special:RefreshSpecial|수동으로 특수문서 새로 고침]]을 허용",
-    "refreshspecial-title": "모든 특수 문서 새로 고치기",
-    "refreshspecial-help": "이 특수 문서로 특수 문서를 수동적으로 새로 고칠 수 있습니다.\n새로 고치려는 모든 문서를 선택하면 아래의 \"{{int:refreshspecial-button}}\" 버튼을 클릭하여 선택된 특수 문서를 새로 고치세요. '''경고:''' 새로 고침은 대부분의 위키에서 시간이 좀 걸립니다.",
-    "refreshspecial-button": "선택된 새로 고침",
-    "refreshspecial-fail": "새로 고침 작업을 수행하려면 최소 하나의 특수문서를선택해야 합니다.",
-    "refreshspecial-refreshing": "특수 문서 새로 고치는 중",
-    "refreshspecial-skipped": "부하기 낮아  넘어감",
-    "refreshspecial-choice": "특수 문서를 새로 고침",
-    "refreshspecial-js-disabled": "(자바스크립트가 비활성화되어 있을 때는 모든 페이지를 선택할 수 없습니다.)",
-    "refreshspecial-select-all-pages": "모든 페이지 선택",
-    "refreshspecial-link-back": "특수 문서로 돌아가기",
-    "refreshspecial-none-selected": "어떠한 특수 문서도 선택하지 않았습니다. 기본 선택으로 되돌립니다.",
-    "refreshspecial-db-error": "실패: 데이터베이스  오류",
-    "refreshspecial-no-page": "해당하는 특수 문서가 없습니다.",
-    "refreshspecial-slave-lagged": "슬레이브 지연됨, 대기 중...",
-    "refreshspecial-reconnected": "다시 연결됨.",
-    "refreshspecial-reconnecting": "연결 실패, 10초 후에 다시 연결...",
-    "refreshspecial-page-result": "$1 {{PLURAL:$1|행}}을 얻음",
-    "refreshspecial-total-display": " $3 동안(스크립트 실행 완수는 $4) $2 {{PLURAL:$2|행}}의 총계를 구하는 $1 {{PLURAL:$1|문서}}를 새로 고침",
-    "right-refreshspecial": "특수 문서를 새로 고침"
+	"@metadata": {
+		"authors": [
+			"Priviet"
+		]
+	},
+	"refreshspecial": "특수 문서 새로 고침",
+	"refreshspecial-desc": "[[Special:RefreshSpecial|수동으로 특수문서 새로 고침]]을 허용",
+	"refreshspecial-title": "모든 특수 문서 새로 고치기",
+	"refreshspecial-help": "이 특수 문서로 특수 문서를 수동적으로 새로 고칠 수 있습니다.\n새로 고치려는 모든 문서를 선택하면 아래의 \"{{int:refreshspecial-button}}\" 버튼을 클릭하여 선택된 특수 문서를 새로 고치세요. '''경고:''' 새로 고침은 대부분의 위키에서 시간이 좀 걸립니다.",
+	"refreshspecial-button": "선택된 새로 고침",
+	"refreshspecial-fail": "새로 고침 작업을 수행하려면 최소 하나의 특수문서를선택해야 합니다.",
+	"refreshspecial-refreshing": "특수 문서 새로 고치는 중",
+	"refreshspecial-skipped": "부하기 낮아  넘어감",
+	"refreshspecial-choice": "특수 문서를 새로 고침",
+	"refreshspecial-js-disabled": "(자바스크립트가 비활성화되어 있을 때는 모든 페이지를 선택할 수 없습니다.)",
+	"refreshspecial-select-all-pages": "모든 페이지 선택",
+	"refreshspecial-link-back": "특수 문서로 돌아가기",
+	"refreshspecial-none-selected": "어떠한 특수 문서도 선택하지 않았습니다. 기본 선택으로 되돌립니다.",
+	"refreshspecial-db-error": "실패: 데이터베이스  오류",
+	"refreshspecial-no-page": "해당하는 특수 문서가 없습니다.",
+	"refreshspecial-slave-lagged": "슬레이브 지연됨, 대기 중...",
+	"refreshspecial-reconnected": "다시 연결됨.",
+	"refreshspecial-reconnecting": "연결 실패, 10초 후에 다시 연결...",
+	"refreshspecial-page-result": "$1 {{PLURAL:$1|행}}을 얻음",
+	"refreshspecial-total-display": " $3 동안(스크립트 실행 완수는 $4) $2 {{PLURAL:$2|행}}의 총계를 구하는 $1 {{PLURAL:$1|문서}}를 새로 고침",
+	"right-refreshspecial": "특수 문서를 새로 고침"
 }

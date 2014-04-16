@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Helix84"
-        ]
-    },
-    "refreshspecial": "Obnoviť špeciálne stránky",
-    "refreshspecial-desc": "Umožňuje manuálne [[Special:RefreshSpecial|obnovenie špeciálnych stránok]]",
-    "refreshspecial-title": "Obnoviť špeciálne stránky",
-    "refreshspecial-help": "Táto špeciálna stránka slúži na manuálne obnovenie špeciálnych stránok.\nPo vybraní všetkých stránok, ktoré chcete obnoviť, kliknite na tlačidlo „Obnoviť vybrané“.\nUpozornenie: na väčších wiki môže obnovenie chvíľu trvať.",
-    "refreshspecial-button": "Obnoviť vybrané",
-    "refreshspecial-fail": "Prosím, vyberte aspoň jednu špeciálnu stránku, ktorá sa má obnoviť",
-    "refreshspecial-refreshing": "obnovujú sa špeciálne stránky",
-    "refreshspecial-skipped": "lacné, preskočené",
-    "refreshspecial-choice": "obnovujú sa špeciálne stránky",
-    "refreshspecial-js-disabled": "(<i>Nie je možné použiť funkciu výberu všetkých stránok, keď máte vypnutý JavaScript.</i>)",
-    "refreshspecial-select-all-pages": "Vybrať všetky stránky",
-    "refreshspecial-link-back": "Späť na rozšírenie",
-    "refreshspecial-none-selected": "Nevybrali ste žiadne špeciálne stránky. Vracia sa pôvodný výber.",
-    "refreshspecial-db-error": "Chyba: chyba databázy",
-    "refreshspecial-no-page": "Taká špeciálna stránka neexistuje",
-    "refreshspecial-slave-lagged": "Spojenie s databázovým slave je pomalé, čaká sa...",
-    "refreshspecial-reconnected": "Znovu pripojený.",
-    "refreshspecial-reconnecting": "Spojenie zlyhalo, opätovné pripojenie o 10 sekúnd...",
-    "refreshspecial-page-result": "{{PLURAL:$1|zadaný $1 riadok|zadané $1 riadky|zadaných $1 riadkov}}",
-    "refreshspecial-total-display": "{{PLURAL:$1|Obnovená $1 stránka|Obnovené $1 stránky|Obnovených $1 stránok}}, čo činí $2 {{PLURAL:$2|riadok|riadky|riadkov}} za čas $3 (celkový čas behu skriptu je $4)",
-    "right-refreshspecial": "Obnoviť špeciálne stránky"
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"refreshspecial": "Obnoviť špeciálne stránky",
+	"refreshspecial-desc": "Umožňuje manuálne [[Special:RefreshSpecial|obnovenie špeciálnych stránok]]",
+	"refreshspecial-title": "Obnoviť špeciálne stránky",
+	"refreshspecial-help": "Táto špeciálna stránka slúži na manuálne obnovenie špeciálnych stránok.\nPo vybraní všetkých stránok, ktoré chcete obnoviť, kliknite na tlačidlo „Obnoviť vybrané“.\nUpozornenie: na väčších wiki môže obnovenie chvíľu trvať.",
+	"refreshspecial-button": "Obnoviť vybrané",
+	"refreshspecial-fail": "Prosím, vyberte aspoň jednu špeciálnu stránku, ktorá sa má obnoviť",
+	"refreshspecial-refreshing": "obnovujú sa špeciálne stránky",
+	"refreshspecial-skipped": "lacné, preskočené",
+	"refreshspecial-choice": "obnovujú sa špeciálne stránky",
+	"refreshspecial-js-disabled": "(<i>Nie je možné použiť funkciu výberu všetkých stránok, keď máte vypnutý JavaScript.</i>)",
+	"refreshspecial-select-all-pages": "Vybrať všetky stránky",
+	"refreshspecial-link-back": "Späť na rozšírenie",
+	"refreshspecial-none-selected": "Nevybrali ste žiadne špeciálne stránky. Vracia sa pôvodný výber.",
+	"refreshspecial-db-error": "Chyba: chyba databázy",
+	"refreshspecial-no-page": "Taká špeciálna stránka neexistuje",
+	"refreshspecial-slave-lagged": "Spojenie s databázovým slave je pomalé, čaká sa...",
+	"refreshspecial-reconnected": "Znovu pripojený.",
+	"refreshspecial-reconnecting": "Spojenie zlyhalo, opätovné pripojenie o 10 sekúnd...",
+	"refreshspecial-page-result": "{{PLURAL:$1|zadaný $1 riadok|zadané $1 riadky|zadaných $1 riadkov}}",
+	"refreshspecial-total-display": "{{PLURAL:$1|Obnovená $1 stránka|Obnovené $1 stránky|Obnovených $1 stránok}}, čo činí $2 {{PLURAL:$2|riadok|riadky|riadkov}} za čas $3 (celkový čas behu skriptu je $4)",
+	"right-refreshspecial": "Obnoviť špeciálne stránky"
 }

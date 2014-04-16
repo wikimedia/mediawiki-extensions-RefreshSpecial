@@ -1,30 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Aotake",
-            "Fryed-peach",
-            "Shirayuki"
-        ]
-    },
-    "refreshspecial": "特別ページを更新",
-    "refreshspecial-desc": "[[Special:RefreshSpecial|特別ページを手動で更新]]できるようにする",
-    "refreshspecial-title": "特別ページの更新",
-    "refreshspecial-help": "この特別ページは、特別ページを手動で更新する手段を提供します。更新したい特別ページをすべて選択し、以下の「{{int:refreshspecial-button}}」ボタンを押すと選択したページを更新します。\n警告: 規模の大きなウィキでは更新にしばらくかかります。",
-    "refreshspecial-button": "選択したものを更新",
-    "refreshspecial-fail": "更新する特別ページを少なくとも1つ選択してください。",
-    "refreshspecial-refreshing": "特別ページを更新中",
-    "refreshspecial-skipped": "負荷が低いため飛ばしました",
-    "refreshspecial-choice": "特別ページを更新中",
-    "refreshspecial-js-disabled": "(<i>JavaScript を無効にしていると「すべてのページを選択」機能が使えません</i>)",
-    "refreshspecial-select-all-pages": "すべてのページを選択",
-    "refreshspecial-link-back": "元のページに戻る",
-    "refreshspecial-none-selected": "特別ページを1つも選択していません。既定の選択状態に戻します。",
-    "refreshspecial-db-error": "失敗: データベースのエラー",
-    "refreshspecial-no-page": "そのような特別ページはありません",
-    "refreshspecial-slave-lagged": "スレーブサーバーの遅延、待機中...",
-    "refreshspecial-reconnected": "再接続しました。",
-    "refreshspecial-reconnecting": "接続失敗、10 秒後に再接続します...",
-    "refreshspecial-page-result": "$1{{PLURAL:$1|行}}を取得",
-    "refreshspecial-total-display": "$1{{PLURAL:$1|ページ}} (データベース{{PLURAL:$2|行数}}合計: $2) を $3で更新しました (スクリプトの全実行時間: $4)",
-    "right-refreshspecial": "特別ページを更新"
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"refreshspecial": "特別ページを更新",
+	"refreshspecial-desc": "[[Special:RefreshSpecial|特別ページを手動で更新]]できるようにする",
+	"refreshspecial-title": "特別ページの更新",
+	"refreshspecial-help": "この特別ページは、特別ページを手動で更新する手段を提供します。更新したい特別ページをすべて選択し、以下の「{{int:refreshspecial-button}}」ボタンを押すと選択したページを更新します。\n警告: 規模の大きなウィキでは更新にしばらくかかります。",
+	"refreshspecial-button": "選択したものを更新",
+	"refreshspecial-fail": "更新する特別ページを少なくとも1つ選択してください。",
+	"refreshspecial-refreshing": "特別ページを更新中",
+	"refreshspecial-skipped": "負荷が低いため飛ばしました",
+	"refreshspecial-choice": "特別ページを更新中",
+	"refreshspecial-js-disabled": "(<i>JavaScript を無効にしていると「すべてのページを選択」機能が使えません</i>)",
+	"refreshspecial-select-all-pages": "すべてのページを選択",
+	"refreshspecial-link-back": "元のページに戻る",
+	"refreshspecial-none-selected": "特別ページを1つも選択していません。既定の選択状態に戻します。",
+	"refreshspecial-db-error": "失敗: データベースのエラー",
+	"refreshspecial-no-page": "そのような特別ページはありません",
+	"refreshspecial-slave-lagged": "スレーブサーバーの遅延、待機中...",
+	"refreshspecial-reconnected": "再接続しました。",
+	"refreshspecial-reconnecting": "接続失敗、10 秒後に再接続します...",
+	"refreshspecial-page-result": "$1{{PLURAL:$1|行}}を取得",
+	"refreshspecial-total-display": "$1{{PLURAL:$1|ページ}} (データベース{{PLURAL:$2|行数}}合計: $2) を $3で更新しました (スクリプトの全実行時間: $4)",
+	"right-refreshspecial": "特別ページを更新"
 }
