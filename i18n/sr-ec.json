@@ -3,9 +3,11 @@
 		"authors": [
 			"Rancher",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Milicevic01"
 		]
 	},
+	"refreshspecial": "Освежи посебне странице",
 	"refreshspecial-button": "Освежи изабрано",
 	"refreshspecial-fail": "Изаберите барем једну посебну страницу за освежавање.",
 	"refreshspecial-refreshing": "освежавам посебне странице",
