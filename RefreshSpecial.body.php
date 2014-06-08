@@ -3,10 +3,9 @@
  * Protect against register_globals vulnerabilities.
  * This line must be present before any global variable is referenced.
  */
-if ( !defined( 'MEDIAWIKI' ) )
+if ( !defined( 'MEDIAWIKI' ) ) {
 	die( "This is not a valid entry point.\n" );
-
-require_once("QueryPage.php"); //sigh, this line has to be there so that the extension works
+}
 
 class RefreshSpecial extends SpecialPage {
 
@@ -102,7 +101,7 @@ class RefreshSpecialForm {
 		 * I guess it's not that important, since we have a 1000 rows limit on refresh?
 		 * that brings up an interesting question - do we need that limit or not?
 		 */
-		foreach ( $wgQueryPages as $page ) {
+		foreach ( QueryPage::getPages() as $page ) {
 			@list( $class, $special, $limit ) = $page;
 
 			$specialObj = SpecialPageFactory::getPage( $special );
