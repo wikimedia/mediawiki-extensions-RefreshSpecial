@@ -64,6 +64,11 @@ $specialPageAliases['gl'] = array(
 	'RefreshSpecial' => array( 'Actualizar_a_páxina_especial' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'RefreshSpecial' => array( 'Specialne_strony_aktualizować' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'RefreshSpecial' => array( 'EspesyalAjou' ),

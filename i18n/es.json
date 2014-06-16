@@ -3,13 +3,14 @@
 		"authors": [
 			"Antur",
 			"Crazymadlover",
-			"Translationista"
+			"Translationista",
+			"Macofe"
 		]
 	},
 	"refreshspecial": "Refrescar páginas especiales",
 	"refreshspecial-desc": "Permite [[Special:RefreshSpecial|refrescamiento de paginas especiales manualmente]] de paginas especiales",
 	"refreshspecial-title": "Refrescar páginas especiales",
-	"refreshspecial-help": "Esta página especial provee las herramientas necesarias para volver a cargar páginas especiales manualmente.\nDespués de elegir todas las páginas que desee volver a cargar, haga click en el botón \"actualizar selección\" mostrado abajo para volver a cargar las páginas especiales seleccionadas.\n'''Advertencia:''' La actualización puede tardar un poco en wikis más extensos.",
+	"refreshspecial-help": "Esta página especial provee los medios para recargar manualmente páginas especiales.\nDespués de elegir todas las páginas que desee recargar, haga click en el botón \"{{int:refreshspecial-button}}\" mostrado abajo para recargar las páginas especiales seleccionadas.\n'''Advertencia:''' La recarga puede tardar un poco en wikis más grandes.",
 	"refreshspecial-button": "Actualizar selección",
 	"refreshspecial-fail": "Por favor chequee al menos una página especial a refrescar.",
 	"refreshspecial-refreshing": "refrescando páginas especiales",
