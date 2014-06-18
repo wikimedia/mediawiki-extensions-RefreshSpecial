@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Glanthor Reviol"
+			"Glanthor Reviol",
+			"Tacsipacsi"
 		]
 	},
 	"refreshspecial": "Speciális lapok frissítése",
 	"refreshspecial-desc": "Lehetővé teszi a [[Special:RefreshSpecial|speciális lapok kézi frissítését]]",
 	"refreshspecial-title": "Speciális lapok frissítése",
-	"refreshspecial-help": "Ez a speciális lap lehetőségeket biztosít más speciális lapok kézi frissítésére.\nHa kiválasztottad az összes frissítendő lapot, kattints a „Kijelöltek frissítése” gombra alul a kiválasztott lapok aktualizálásához.\n'''Figyelem:''' a frissítés eltarthat egy ideig nagyobb wikiken.",
+	"refreshspecial-help": "Ez a speciális lap lehetőségeket biztosít más speciális lapok kézi frissítésére.\nHa kiválasztottad az összes frissítendő lapot, kattints a „{{int:refreshspecial-button}}” gombra alul a kiválasztott lapok aktualizálásához.\n'''Figyelem:''' a frissítés eltarthat egy ideig nagyobb wikiken.",
 	"refreshspecial-button": "Kiválasztottak frissítése",
 	"refreshspecial-fail": "Jelölj ki legalább egy speciális lapot frissítésre.",
 	"refreshspecial-refreshing": "speciális lapok frissítése",
