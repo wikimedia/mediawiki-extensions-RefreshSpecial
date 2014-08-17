@@ -67,7 +67,7 @@ class RefreshSpecial extends SpecialPage {
  * Constructs and displays the form
  */
 class RefreshSpecialForm {
-	var $mMode, $mLink;
+	public $mMode, $mLink;
 
 	/**
 	 * Show the actual form
