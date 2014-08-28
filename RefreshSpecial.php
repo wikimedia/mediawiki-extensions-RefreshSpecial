@@ -7,10 +7,10 @@
  * @author Bartek Łapiński <bartek@wikia-inc.com>
  * @author Jack Phoenix <jack@countervandalism.net>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
- * @link http://www.mediawiki.org/wiki/Extension:RefreshSpecial Documentation
+ * @link https://www.mediawiki.org/wiki/Extension:RefreshSpecial Documentation
  */
 
-if( !defined( 'MEDIAWIKI' ) ){
+if ( !defined( 'MEDIAWIKI' ) ){
 	die( "This is not a valid entry point.\n" );
 }
 
@@ -19,9 +19,16 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Refresh Special',
 	'author' => array( 'Bartek Łapiński', 'Jack Phoenix' ),
-	'version' => '1.3.0',
+	'version' => '1.4.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:RefreshSpecial',
 	'descriptionmsg' => 'refreshspecial-desc',
+);
+
+// ResourceLoader support for MediaWiki 1.17+
+$wgResourceModules['ext.refreshspecial'] = array(
+	'scripts' => 'RefreshSpecial.js',
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'RefreshSpecial'
 );
 
 // New user right, required to use Special:RefreshSpecial
@@ -29,19 +36,18 @@ $wgAvailableRights[] = 'refreshspecial';
 $wgGroupPermissions['bureaucrat']['refreshspecial'] = true;
 
 // Set up the new special page
-$dir = dirname(__FILE__) . '/';
 $wgMessagesDirs['RefreshSpecial'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['RefreshSpecial'] = $dir . 'RefreshSpecial.i18n.php';
-$wgExtensionMessagesFiles['RefreshSpecialAlias'] = $dir . 'RefreshSpecial.alias.php';
-$wgAutoloadClasses['RefreshSpecial'] = $dir. 'RefreshSpecial.body.php';
+$wgExtensionMessagesFiles['RefreshSpecial'] = __DIR__ . '/RefreshSpecial.i18n.php';
+$wgExtensionMessagesFiles['RefreshSpecialAlias'] = __DIR__ . '/RefreshSpecial.alias.php';
+$wgAutoloadClasses['RefreshSpecial'] = __DIR__ . '/RefreshSpecial.body.php';
 $wgSpecialPages['RefreshSpecial'] = 'RefreshSpecial';
 $wgSpecialPageGroups['RefreshSpecial'] = 'wiki';
 
 /* limits the number of refreshed rows */
-define('REFRESHSPECIAL_ROW_LIMIT', 1000);
+define( 'REFRESHSPECIAL_ROW_LIMIT', 1000 );
 /* interval between reconnects */
-define('REFRESHSPECIAL_RECONNECTION_SLEEP', 10);
+define( 'REFRESHSPECIAL_RECONNECTION_SLEEP', 10 );
 /* amount of acceptable slave lag  */
-define('REFRESHSPECIAL_SLAVE_LAG_LIMIT', 600);
+define( 'REFRESHSPECIAL_SLAVE_LAG_LIMIT', 600 );
 /* interval when slave is lagged */
-define('REFRESHSPECIAL_SLAVE_LAG_SLEEP', 30);
+define( 'REFRESHSPECIAL_SLAVE_LAG_SLEEP', 30 );

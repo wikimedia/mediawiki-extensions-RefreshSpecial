@@ -19,42 +19,37 @@ class RefreshSpecial extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $par Mixed: parameter passed to the page or null
+	 * @param mixed $par Parameter passed to the page or null
 	 */
 	public function execute( $par ) {
-		global $wgOut, $wgUser, $wgRequest;
+		$out = $this->getOutput();
+		$request = $this->getRequest();
+		$user = $this->getUser();
 
+		// Can the user execute the action?
+		$this->checkPermissions();
 
+		// Is the database in read-only mode?
+		$this->checkReadOnly();
 
-		$wgOut->setPageTitle( wfMsg( 'refreshspecial-title' ) );
-
-		# If the user doesn't have the required permission, display an error
-		if( !$wgUser->isAllowed( 'refreshspecial' ) ) {
-			$wgOut->permissionRequired( 'refreshspecial' );
+		// Is the user blocked? If so they can't make new wikis
+		if ( $user->isBlocked() ) {
+			$out->blockedPage();
 			return;
 		}
 
-		# Show a message if the database is in read-only mode
-		if ( wfReadOnly() ) {
-			$wgOut->readOnlyPage();
-			return;
-		}
-
-		# If user is blocked, s/he doesn't need to access this page
-		if ( $wgUser->isBlocked() ) {
-			$wgOut->blockedPage();
-			return;
-		}
+		$out->setPageTitle( $this->msg( 'refreshspecial-title' )->plain() );
 
 		$cSF = new RefreshSpecialForm();
+		$cSF->setContext( $this->getContext() );
 
-		$action = $wgRequest->getVal( 'action' );
-		if( 'success' == $action ) {
+		$action = $request->getVal( 'action' );
+		if ( $action == 'success' ) {
 			/* do something */
-		} elseif( 'failure' == $action ) {
-			$cSF->showForm( wfMsg('refreshspecial-fail') );
-		} elseif( $wgRequest->wasPosted() && 'submit' == $action &&
-			$wgUser->matchEditToken( $wgRequest->getVal( 'wpEditToken' ) ) ) {
+		} elseif ( $action == 'failure' ) {
+			$cSF->showForm( $this->msg( 'refreshspecial-fail' )->plain() );
+		} elseif ( $request->wasPosted() && $action == 'submit' &&
+			$user->matchEditToken( $request->getVal( 'wpEditToken' ) ) ) {
 			$cSF->doSubmit();
 		} else {
 			$cSF->showForm( '' );
@@ -66,33 +61,40 @@ class RefreshSpecial extends SpecialPage {
  * RefreshSpecialForm class
  * Constructs and displays the form
  */
-class RefreshSpecialForm {
-	public $mMode, $mLink;
+class RefreshSpecialForm extends ContextSource {
+	public $mLink;
 
 	/**
 	 * Show the actual form
 	 *
-	 * @param $err string Error message if there was an error, otherwise null
+	 * @param string $err Error message if there was an error, otherwise empty
 	 */
 	function showForm( $err ) {
-		global $wgOut, $wgUser, $wgRequest, $wgScriptPath, $wgQueryPages;
+		$out = $this->getOutput();
 
-		$token = htmlspecialchars( $wgUser->getEditToken() );
+		$token = htmlspecialchars( $this->getUser()->getEditToken() );
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
 		$action = htmlspecialchars( $titleObj->getLocalURL( 'action=submit' ) );
 
-		if ( '' != $err ) {
-			$wgOut->setSubtitle( wfMsgHtml( 'formerror' ) );
-			$wgOut->addHTML( "<p class='error'>{$err}</p>\n" );
+		if ( $err != '' ) {
+			$out->setSubtitle( $this->msg( 'formerror' )->escaped() );
+			$out->addHTML( "<p class='error'>{$err}</p>\n" );
 		}
 
-		$wgOut->addWikiMsg( 'refreshspecial-help' );
+		$out->addWikiMsg( 'refreshspecial-help' );
 
-		( 'submit' == $wgRequest->getVal( 'action' ) ) ? $scLink = htmlspecialchars( $this->mLink ) : $scLink = '';
+		$scLink = '';
+		if ( $this->getRequest()->getVal( 'action' ) == 'submit' ) {
+			$scLink = htmlspecialchars( $this->mLink );
+		}
 
-		$wgOut->addScriptFile( $wgScriptPath . '/extensions/RefreshSpecial/RefreshSpecial.js' );
-		$wgOut->addHTML( "<form name=\"RefreshSpecial\" method=\"post\" action=\"{$action}\">
-						<ul>\n" );
+		// Add the JavaScript via ResourceLoader
+		$out->addModules( 'ext.refreshspecial' );
+
+		$out->addHTML(
+			"<form name=\"RefreshSpecial\" method=\"post\" action=\"{$action}\">
+				<ul>\n"
+		);
 
 		/**
 		 * List pages right here
@@ -106,11 +108,15 @@ class RefreshSpecialForm {
 
 			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
-		  		$wgOut->addWikiText( wfMsg( 'refreshspecial-no-page' ) . " $special\n" );
+		  		$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
 			}
 			$file = $specialObj->getFile();
 			if ( $file ) {
+				// @todo FIXME: I have *no* clue why this fugly hack is needed,
+				// but without it MW constructs an invalid include path and due
+				// to the very nature of require_once(), we get lovely fatals.
+				$file = str_replace( 'specialpage/', '', $file );
 				require_once( $file );
 			}
 			$queryPage = new $class;
@@ -118,29 +124,33 @@ class RefreshSpecialForm {
 			if ( $queryPage->isExpensive() ) {
 				$checked = 'checked="checked"';
 				$specialEsc = htmlspecialchars( $special );
-				$wgOut->addHTML("\t\t\t\t\t<li>
+				$out->addHTML(
+					"\t\t\t\t\t<li>
 						<input type=\"checkbox\" name=\"wpSpecial[]\" value=\"$specialEsc\" $checked />
 						<b>"  . htmlspecialchars( $specialObj->getDescription() ) . "</b>
-					</li>\n");
+					</li>\n"
+				);
 			}
 		}
 
-			$wgOut->addHTML( "\t\t\t\t\t" . '<li>
-						<input type="checkbox" name="check_all" id="refreshSpecialCheckAll" onclick="refreshSpecialCheck(this.form);" />
-						<label for="refreshSpecialCheckAll">&#160;' . wfMsg( 'refreshspecial-select-all-pages' ) . '
-							<noscript>' . wfMsg( 'refreshspecial-js-disabled' ) . '</noscript>
+		$out->addHTML(
+			"\t\t\t\t\t" . '<li>
+						<input type="checkbox" name="check_all" id="refreshSpecialCheckAll" />
+						<label for="refreshSpecialCheckAll">&#160;' . $this->msg( 'refreshspecial-select-all-pages' )->plain() . '
+							<noscript>' . $this->msg( 'refreshspecial-js-disabled' )->parse() . '</noscript>
 						</label>
 					</li>
 				</ul>
-				<input tabindex="5" name="wpRefreshSpecialSubmit" type="submit" value="'. wfMsg( 'refreshspecial-button' ). '" />
-				<input type="hidden" name="wpEditToken" value="'. $token .'" />
-			</form>' . "\n" );
+				<input tabindex="5" name="wpRefreshSpecialSubmit" type="submit" value="' . $this->msg( 'refreshspecial-button' )->plain() . '" />
+				<input type="hidden" name="wpEditToken" value="' . $token . '" />
+			</form>' . "\n"
+		);
 	}
 
 	/**
 	 * Take amount of elapsed time, produce hours (hopefully never needed...), minutes, seconds
 	 *
-	 * @param $amount int
+	 * @param int $amount
 	 * @return array Amount of elapsed time
 	 */
 	function computeTime( $amount ) {
@@ -154,9 +164,9 @@ class RefreshSpecialForm {
 	/**
 	 * Format the time message
 	 *
-	 * @param $time mixed Amount of time, with h, m or s appended to it
-	 * @param $message mixed Message displayed to the user containing the elapsed time
-	 * @return true
+	 * @param mixed $time Amount of time, with h, m or s appended to it
+	 * @param mixed $message Message displayed to the user containing the elapsed time
+	 * @return bool
 	 */
 	function formatTimeMessage( $time, &$message ) {
 		if ( $time['hours'] ) {
@@ -174,9 +184,10 @@ class RefreshSpecialForm {
 	 * Will need to be modified further
 	 */
 	function refreshSpecial() {
-		global $wgRequest, $wgQueryPages, $wgOut;
+		$out = $this->getOutput();
+
 		$dbw = wfGetDB( DB_MASTER );
-		$to_refresh = $wgRequest->getArray( 'wpSpecial' );
+		$to_refresh = $this->getRequest()->getArray( 'wpSpecial' );
 		$total = array(
 			'pages' => 0,
 			'rows' => 0,
@@ -184,7 +195,7 @@ class RefreshSpecialForm {
 			'total_elapsed' => 0
 		);
 
-		foreach ( $wgQueryPages as $page ) {
+		foreach ( QueryPage::getPages() as $page ) {
 			@list( $class, $special, $limit ) = $page;
 			if ( !in_array( $special, $to_refresh ) ) {
 				continue;
@@ -192,18 +203,22 @@ class RefreshSpecialForm {
 
 			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
-			 	$wgOut->addWikiText( wfMsg( 'refreshspecial-no-page' ).": $special\n" );
+			 	$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
 			}
 			$file = $specialObj->getFile();
 			if ( $file ) {
+				// @todo FIXME: I have *no* clue why this fugly hack is needed,
+				// but without it MW constructs an invalid include path and due
+				// to the very nature of require_once(), we get lovely fatals.
+				$file = str_replace( 'specialpage/', '', $file );
 				require_once( $file );
 			}
 			$queryPage = new $class;
 
 			$message = '';
-			if( !( isset( $options['only'] ) ) or ( $options['only'] == $queryPage->getName() ) ) {
-				$wgOut->addHTML( "<b>$special</b>: " );
+			if( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
+				$out->addHTML( "<b>$special</b>: " );
 
 				if ( $queryPage->isExpensive() ) {
 					$t1 = explode( ' ', microtime() );
@@ -212,28 +227,31 @@ class RefreshSpecialForm {
 					$t2 = explode( ' ', microtime() );
 
 			  		if ( $num === false ) {
-						$wgOut->addHTML( wfMsg( 'refreshspecial-db-error' ) . '<br />' );
+						$out->addHTML( $this->msg( 'refreshspecial-db-error' )->plain() . '<br />' );
 					} else {
-			  			$message = wfMsgExt( 'refreshspecial-page-result', array( 'escape', 'parsemag' ), $num ) . '&#160;';
+			  			$message = $this->msg(
+							'refreshspecial-page-result',
+							$num
+						)->parse() . '&#160;';
 						$elapsed = ( $t2[0] - $t1[0] ) + ( $t2[1] - $t1[1] );
 						$total['elapsed'] += $elapsed;
 						$total['rows'] += $num;
 						$total['pages']++;
 						$ftime = $this->computeTime( $elapsed );
 						$this->formatTimeMessage( $ftime, $message );
-						$wgOut->addHTML( "$message<br />" );
+						$out->addHTML( "$message<br />" );
 					}
 
 					$t1 = explode( ' ', microtime() );
 
 					# Reopen any connections that have closed
 					if ( !wfGetLB()->pingAll() ) {
-						$wgOut->addHTML( '<br />' );
+						$out->addHTML( '<br />' );
 						do {
-							$wgOut->addHTML( wfMsg( 'refreshspecial-reconnecting' ) . '<br />' );
+							$out->addHTML( $this->msg( 'refreshspecial-reconnecting' )->plain() . '<br />' );
 							sleep( REFRESHSPECIAL_RECONNECTION_SLEEP );
 						} while ( !wfGetLB()->pingAll() );
-						$wgOut->addHTML( wfMsg( 'refreshspecial-reconnected' ) . '<br /><br />' );
+						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->plain() . '<br /><br />' );
 					} else {
 						# Commit the results
 						$dbw->commit();
@@ -241,52 +259,61 @@ class RefreshSpecialForm {
 
 					# Wait for the slave to catch up
 					$slaveDB = wfGetDB( DB_SLAVE, array( 'QueryPage::recache', 'vslow' ) );
-					while( wfGetLB()->safeGetLag( $slaveDB ) > REFRESHSPECIAL_SLAVE_LAG_LIMIT ) {
-						$wgOut->addHTML( wfMsg( 'refreshspecial-slave-lagged' ) . '<br />' );
+					while ( wfGetLB()->safeGetLag( $slaveDB ) > REFRESHSPECIAL_SLAVE_LAG_LIMIT ) {
+						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
 						sleep( REFRESHSPECIAL_SLAVE_LAG_SLEEP );
 					}
 
 					$t2 = explode( ' ', microtime() );
-					$elapsed_total = ($t2[0] - $t1[0]) + ($t2[1] - $t1[1]);
+					$elapsed_total = ( $t2[0] - $t1[0] ) + ( $t2[1] - $t1[1] );
 					$total['total_elapsed'] += $elapsed + $elapsed_total;
 				} else {
-					$wgOut->addHTML( wfMsg( 'refreshspecial-skipped' ) . '<br />' );
+					$out->addHTML( $this->msg( 'refreshspecial-skipped' )->plain() . '<br />' );
 				}
 			}
 		}
+
 		/* display all stats */
 		$elapsed_message = '';
 		$total_elapsed_message = '';
 		$this->formatTimeMessage( $this->computeTime( $total['elapsed'] ), $elapsed_message );
 		$this->formatTimeMessage( $this->computeTime( $total['total_elapsed'] ), $total_elapsed_message );
-		$wgOut->addHTML( '<br />' .
-			wfMsgExt( 'refreshspecial-total-display',
-				array( 'escape', 'parsemag' ),
+		$out->addHTML( '<br />' .
+			$this->msg(
+				'refreshspecial-total-display',
 				$total['pages'],
 				$total['rows'],
 				$elapsed_message,
 				$total_elapsed_message
-			)
+			)->parse()
 		);
-		$wgOut->addHTML( '</ul></form>' );
+		$out->addHTML( '</ul></form>' );
 	}
 
 	/**
 	 * On submit
+	 * Check that we weren't passed an empty array of special pages to refresh,
+	 * and if we were, inform the user about that.
+	 * Otherwise set the correct subtitle, perform the refreshing and render a
+	 * link that points back to the special page.
 	 */
 	function doSubmit() {
-		global $wgOut, $wgRequest;
 		/* guard against an empty array */
-		$array = $wgRequest->getArray( 'wpSpecial' );
+		$array = $this->getRequest()->getArray( 'wpSpecial' );
 		if ( !is_array( $array ) || empty( $array ) || is_null( $array ) ) {
-			$this->showForm( wfMsg( 'refreshspecial-none-selected' ) );
+			$this->showForm( $this->msg( 'refreshspecial-none-selected' )->plain() );
 			return;
 		}
 
-		$wgOut->setSubTitle( wfMsg( 'refreshspecial-choice', wfMsg( 'refreshspecial-refreshing' ) ) );
+		$this->getOutput()->setSubtitle(
+			$this->msg( 'refreshspecial-choice',
+				$this->msg( 'refreshspecial-refreshing' )->plain()
+			)->plain()
+		);
 		$this->refreshSpecial();
+
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
-		$link_back = Linker::makeKnownLinkObj( $titleObj, wfMsg( 'refreshspecial-link-back' ) );
-		$wgOut->addHTML( '<br /><b>' . $link_back . '</b>' );
+		$link_back = Linker::linkKnown( $titleObj, $this->msg( 'refreshspecial-link-back' )->plain() );
+		$this->getOutput()->addHTML( '<br /><b>' . $link_back . '</b>' );
 	}
 }
