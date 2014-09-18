@@ -111,7 +111,7 @@ $specialPageAliases['lb'] = array(
 
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
-	'RefreshSpecial' => array( 'ПревчитајСпецијални' ),
+	'RefreshSpecial' => array( 'ПревчитајСлужбени' ),
 );
 
 /** Norwegian Bokmål (norsk bokmål) */
