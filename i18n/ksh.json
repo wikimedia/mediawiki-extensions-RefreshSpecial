@@ -7,7 +7,7 @@
 	"refreshspecial": "Söndersigge ier Date neu opfreshe",
 	"refreshspecial-desc": "Määd et möjjelesch, Extrasigge ier Date [[Special:RefreshSpecial|fun Hand neu opfresche]] ze lohße.",
 	"refreshspecial-title": "Söndersigge neu aanzeije",
-	"refreshspecial-help": "Hee die Söndersigg jitt Der e Werkzüch för de Söndersigge ier Daten\nvun Hand neu ußrechne ze johße.\nWann De all die Söndersigge doför ußjewählt häs, donn op dä Knopp\n„{{int:refreshspecial-button}}“ klekke, öm dat neu Opnämme aanzefange.\nOpjepaß: Dat op jruuße Wikis sing Zick doore.",
+	"refreshspecial-help": "Heh di Söndersigg jitt Der e Wärkzüch för de Söndersigge ier Ennhallde\nvun Hand neu ußrechne ze lohße.\nWann De all di Söndersigge doför ußjewählt häs, donn op dä Knopp\n„{{int:refreshspecial-button}}“ klekke, öm dat neu Opnämme aanzefange.\n'''Opjepaß:''' Dat deihd op jruuße Wikis sing Zick dohre.",
 	"refreshspecial-button": "Uswahl neu opfreshe",
 	"refreshspecial-fail": "Bes esu joot, un donn winnishsdens ein Sigg zom Opfresche ußwähle.",
 	"refreshspecial-refreshing": "Ben de Söndersigge am opfresche",
@@ -21,8 +21,8 @@
 	"refreshspecial-no-page": "Esu en Söndersigg ham_mer nit.",
 	"refreshspecial-slave-lagged": "Ene nohjeschaldte ẞööver eß hengerher aam hingke, mer sen am waade&nbsp;&hellip;",
 	"refreshspecial-reconnected": "De Verbendong es widder do.",
-	"refreshspecial-reconnecting": "De Verbendong es fott. Weed widder opjebout in 10 Sekunde&nbsp;...",
+	"refreshspecial-reconnecting": "De Verbendong es fott. Weed wider opjebout in 10 Sekonde&nbsp;...",
 	"refreshspecial-page-result": "hät {{PLURAL:$1|ein Reih|$1 Reije|kein einzije Reih}} en",
-	"refreshspecial-total-display": "Han {{PLURAL:$1|ein Sigg|$1 Sigge|kein Sigg}} op der neuste Shtand jebraat,\nmet ensjesamp {{PLURAL:$2|ein Reih|$2 Reije|kein Reih}},\nen dä Zick fun $3, wobei dä janze Vörjang $4 jedooht hät.",
-	"right-refreshspecial": "Söndersigge ier Date neu opfreshe"
+	"refreshspecial-total-display": "Han {{PLURAL:$1|ein Sigg|$1 Sigge|kein Sigg}} op der neuste Schtand jebraat,\nmet ensjesamp {{PLURAL:$2|ein Reih|$2 Reije|kein Reih}},\nen dä Zick fun $3, wobei dä janze Vörjang $4 jedohert hät.",
+	"right-refreshspecial": "De Söndersigge ier Dahte neu opfresche"
 }
