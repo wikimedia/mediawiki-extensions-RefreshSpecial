@@ -38,6 +38,11 @@ class RefreshSpecial extends SpecialPage {
 			return;
 		}
 
+		// Bump up PHP's memory and time limits a bit, the defaults aren't good
+		// enough; this extension's pretty intensive
+		ini_set( 'memory_limit', '512M' );
+		set_time_limit( 240 );
+
 		$out->setPageTitle( $this->msg( 'refreshspecial-title' )->plain() );
 
 		$cSF = new RefreshSpecialForm();
@@ -104,21 +109,29 @@ class RefreshSpecialForm extends ContextSource {
 		 * that brings up an interesting question - do we need that limit or not?
 		 */
 		foreach ( QueryPage::getPages() as $page ) {
-			@list( $class, $special, $limit ) = $page;
+			list( $class, $special ) = $page;
+			$limit = isset( $page[2] ) ? $page[2] : null;
 
 			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
 		  		$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
 			}
-			$file = $specialObj->getFile();
-			if ( $file ) {
-				// @todo FIXME: I have *no* clue why this fugly hack is needed,
-				// but without it MW constructs an invalid include path and due
-				// to the very nature of require_once(), we get lovely fatals.
-				$file = str_replace( 'specialpage/', '', $file );
-				require_once( $file );
+
+			if ( $specialObj instanceof QueryPage ) {
+				$queryPage = $specialObj;
+			} else {
+				if ( !class_exists( $class ) ) {
+					$file = $specialObj->getFile();
+					// @todo FIXME: I have *no* clue why this fugly hack is needed,
+					// but without it MW constructs an invalid include path and due
+					// to the very nature of require_once(), we get lovely fatals.
+					$file = str_replace( 'specialpage/', '', $file );
+					require_once $file;
+				}
+				$queryPage = new $class;
 			}
+
 			$queryPage = new $class;
 			$checked = '';
 			if ( $queryPage->isExpensive() ) {
@@ -196,7 +209,8 @@ class RefreshSpecialForm extends ContextSource {
 		);
 
 		foreach ( QueryPage::getPages() as $page ) {
-			@list( $class, $special, $limit ) = $page;
+			list( $class, $special ) = $page;
+			$limit = isset( $page[2] ) ? $page[2] : null;
 			if ( !in_array( $special, $to_refresh ) ) {
 				continue;
 			}
@@ -206,13 +220,18 @@ class RefreshSpecialForm extends ContextSource {
 			 	$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
 			}
-			$file = $specialObj->getFile();
-			if ( $file ) {
-				// @todo FIXME: I have *no* clue why this fugly hack is needed,
-				// but without it MW constructs an invalid include path and due
-				// to the very nature of require_once(), we get lovely fatals.
-				$file = str_replace( 'specialpage/', '', $file );
-				require_once( $file );
+			if ( $specialObj instanceof QueryPage ) {
+				$queryPage = $specialObj;
+			} else {
+				if ( !class_exists( $class ) ) {
+					$file = $specialObj->getFile();
+					// @todo FIXME: I have *no* clue why this fugly hack is needed,
+					// but without it MW constructs an invalid include path and due
+					// to the very nature of require_once(), we get lovely fatals.
+					$file = str_replace( 'specialpage/', '', $file );
+					require_once $file;
+				}
+				$queryPage = new $class;
 			}
 			$queryPage = new $class;
 
