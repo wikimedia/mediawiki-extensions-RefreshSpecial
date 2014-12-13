@@ -154,6 +154,11 @@ $specialPageAliases['vi'] = array(
 	'RefreshSpecial' => array( 'Làm_mới_trang_đặc_biệt', 'Làm_tươi_trang_đặc_biệt' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'RefreshSpecial' => array( '刷新特殊页面', '刷新特殊頁面', '重新整理特殊頁面' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'RefreshSpecial' => array( '刷新特殊页面' ),
