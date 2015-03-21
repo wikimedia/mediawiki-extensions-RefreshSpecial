@@ -40,6 +40,7 @@ $wgMessagesDirs['RefreshSpecial'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['RefreshSpecial'] = __DIR__ . '/RefreshSpecial.i18n.php';
 $wgExtensionMessagesFiles['RefreshSpecialAlias'] = __DIR__ . '/RefreshSpecial.alias.php';
 $wgAutoloadClasses['RefreshSpecial'] = __DIR__ . '/RefreshSpecial.body.php';
+$wgAutoloadClasses['RefreshSpecialForm'] = __DIR__ . '/RefreshSpecial.body.php';
 $wgSpecialPages['RefreshSpecial'] = 'RefreshSpecial';
 $wgSpecialPageGroups['RefreshSpecial'] = 'wiki';
 
