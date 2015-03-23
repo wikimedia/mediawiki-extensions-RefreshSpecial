@@ -11,7 +11,7 @@
 		]
 	},
 	"refreshspecial": "{{doc-special|RefreshSpecial}}\n{{Identical|Refresh special pages}}",
-	"refreshspecial-desc": "{{desc|name=Refresh Special|url=http://www.mediawiki.org/wiki/Extension:RefreshSpecial}}",
+	"refreshspecial-desc": "{{desc|name=Refresh Special|url=https://www.mediawiki.org/wiki/Extension:RefreshSpecial}}",
 	"refreshspecial-title": "Title of the special page Special:RefreshSpecial\n{{Identical|Refresh special pages}}",
 	"refreshspecial-help": "Help displayed to the user on [[Special:RefreshSpecial]].\n\nRefers to {{msg-mw|Refreshspecial-button}}.",
 	"refreshspecial-button": "Text displayed on the button on [[Special:RefreshSpecial]]. Clicking on the button refreshes the selected special pages.\n\nUsed in {{msg-mw|Refreshspecial-help}}.",
