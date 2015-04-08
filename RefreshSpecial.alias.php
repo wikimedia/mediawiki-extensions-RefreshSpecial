@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'RefreshSpecial' => array( 'ريفريش_مخصوص' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'RefreshSpecial' => array( 'خاسین_تازه_گ_کورتین' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'RefreshSpecial' => array( 'FreskaatDibar' ),
