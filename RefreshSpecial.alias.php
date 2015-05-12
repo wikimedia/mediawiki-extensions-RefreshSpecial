@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'RefreshSpecial' => array( 'تحديث_خاص' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'RefreshSpecial' => array( 'ريفريش_مخصوص' ),
 );

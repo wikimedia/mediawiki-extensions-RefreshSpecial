@@ -19,7 +19,7 @@
 	"refreshspecial-js-disabled": "(<i>Usted no puede seleccionar todas las páginas donde JavaScript está deshabiltada</i>)",
 	"refreshspecial-select-all-pages": "Seleccione todas las páginas",
 	"refreshspecial-link-back": "Regresar a página especial",
-	"refreshspecial-none-selected": "No has seleccionado ninguna pagina especial. Revertiendo a la selección por defecto.",
+	"refreshspecial-none-selected": "No has seleccionado ninguna página especial. Se revierte a la selección predeterminada.",
 	"refreshspecial-db-error": "Fracasado: error en base de datos",
 	"refreshspecial-no-page": "No tal página especial",
 	"refreshspecial-slave-lagged": "Retraso del servidor esclavo, esperando...",
