@@ -42,7 +42,6 @@ $wgExtensionMessagesFiles['RefreshSpecialAlias'] = __DIR__ . '/RefreshSpecial.al
 $wgAutoloadClasses['RefreshSpecial'] = __DIR__ . '/RefreshSpecial.body.php';
 $wgAutoloadClasses['RefreshSpecialForm'] = __DIR__ . '/RefreshSpecial.body.php';
 $wgSpecialPages['RefreshSpecial'] = 'RefreshSpecial';
-$wgSpecialPageGroups['RefreshSpecial'] = 'wiki';
 
 /* limits the number of refreshed rows */
 define( 'REFRESHSPECIAL_ROW_LIMIT', 1000 );

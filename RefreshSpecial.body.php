@@ -60,6 +60,10 @@ class RefreshSpecial extends SpecialPage {
 			$cSF->showForm( '' );
 		}
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }
 
 /**
