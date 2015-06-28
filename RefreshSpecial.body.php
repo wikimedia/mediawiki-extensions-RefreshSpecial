@@ -1,13 +1,24 @@
 <?php
 /**
- * Protect against register_globals vulnerabilities.
- * This line must be present before any global variable is referenced.
+ * A special page providing means to manually refresh special pages
+ *
+ * @file
+ * @ingroup Extensions
+ * @author Bartek Łapiński <bartek@wikia-inc.com>
+ * @author Jack Phoenix <jack@countervandalism.net>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @link https://www.mediawiki.org/wiki/Extension:RefreshSpecial Documentation
  */
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( "This is not a valid entry point.\n" );
-}
-
 class RefreshSpecial extends SpecialPage {
+
+	/* limits the number of refreshed rows */
+	const ROW_LIMIT = 1000;
+	/* interval between reconnects */
+	const RECONNECTION_SLEEP = 10;
+	/* amount of acceptable slave lag  */
+	const SLAVE_LAG_LIMIT = 600;
+	/* interval when slave is lagged */
+	const SLAVE_LAG_SLEEP = 30;
 
 	/**
 	 * Constructor
@@ -246,7 +257,7 @@ class RefreshSpecialForm extends ContextSource {
 				if ( $queryPage->isExpensive() ) {
 					$t1 = explode( ' ', microtime() );
 					# Do the query
-					$num = $queryPage->recache( $limit === null ? REFRESHSPECIAL_ROW_LIMIT : $limit );
+					$num = $queryPage->recache( $limit === null ? RefreshSpecial::ROW_LIMIT : $limit );
 					$t2 = explode( ' ', microtime() );
 
 			  		if ( $num === false ) {
@@ -272,7 +283,7 @@ class RefreshSpecialForm extends ContextSource {
 						$out->addHTML( '<br />' );
 						do {
 							$out->addHTML( $this->msg( 'refreshspecial-reconnecting' )->plain() . '<br />' );
-							sleep( REFRESHSPECIAL_RECONNECTION_SLEEP );
+							sleep( RefreshSpecial::RECONNECTION_SLEEP );
 						} while ( !wfGetLB()->pingAll() );
 						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->plain() . '<br /><br />' );
 					} else {
@@ -282,9 +293,9 @@ class RefreshSpecialForm extends ContextSource {
 
 					# Wait for the slave to catch up
 					$slaveDB = wfGetDB( DB_SLAVE, array( 'QueryPage::recache', 'vslow' ) );
-					while ( wfGetLB()->safeGetLag( $slaveDB ) > REFRESHSPECIAL_SLAVE_LAG_LIMIT ) {
+					while ( wfGetLB()->safeGetLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
 						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
-						sleep( REFRESHSPECIAL_SLAVE_LAG_SLEEP );
+						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
 					}
 
 					$t2 = explode( ' ', microtime() );

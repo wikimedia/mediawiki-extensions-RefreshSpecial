@@ -1,0 +1,46 @@
+{
+	"name": "RefreshSpecial",
+	"version": "1.5.0",
+	"author": [
+		"Bartek Łapiński",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:RefreshSpecial",
+	"descriptionmsg": "refreshspecial-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"RefreshSpecial": "RefreshSpecial"
+	},
+	"MessagesDirs": {
+		"RefreshSpecial": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"RefreshSpecialAlias": "RefreshSpecial.alias.php"
+	},
+	"AutoloadClasses": {
+		"RefreshSpecial": "RefreshSpecial.body.php",
+		"RefreshSpecialForm": "RefreshSpecial.body.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "RefreshSpecial"
+	},
+	"ResourceModules": {
+		"ext.refreshspecial": {
+			"scripts": "RefreshSpecial.js",
+			"position": "bottom"
+		}
+	},
+	"AvailableRights": [
+		"refreshspecial"
+	],
+	"GroupPermissions": {
+		"bureaucrat": {
+			"refreshspecial": true
+		}
+	},
+	"manifest_version": 1
+}
