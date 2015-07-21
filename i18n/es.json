@@ -14,7 +14,7 @@
 	"refreshspecial-button": "Actualizar selección",
 	"refreshspecial-fail": "Por favor chequee al menos una página especial a refrescar.",
 	"refreshspecial-refreshing": "refrescando páginas especiales",
-	"refreshspecial-skipped": "ordinario, omitido",
+	"refreshspecial-skipped": "fácil, omitida",
 	"refreshspecial-choice": "refrescando páginas especiales",
 	"refreshspecial-js-disabled": "(<i>Usted no puede seleccionar todas las páginas donde JavaScript está deshabiltada</i>)",
 	"refreshspecial-select-all-pages": "Seleccione todas las páginas",
