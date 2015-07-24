@@ -8,7 +8,7 @@
 		]
 	},
 	"refreshspecial": "Refrescar páginas especiales",
-	"refreshspecial-desc": "Permite [[Special:RefreshSpecial|refrescamiento de paginas especiales manualmente]] de paginas especiales",
+	"refreshspecial-desc": "Permite la [[Special:RefreshSpecial|actualización manual de páginas especiales]]",
 	"refreshspecial-title": "Refrescar páginas especiales",
 	"refreshspecial-help": "Esta página especial provee los medios para recargar manualmente páginas especiales.\nDespués de elegir todas las páginas que desee recargar, haga click en el botón \"{{int:refreshspecial-button}}\" mostrado abajo para recargar las páginas especiales seleccionadas.\n'''Advertencia:''' La recarga puede tardar un poco en wikis más grandes.",
 	"refreshspecial-button": "Actualizar selección",
