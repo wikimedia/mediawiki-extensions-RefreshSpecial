@@ -24,6 +24,6 @@
 	"refreshspecial-reconnected": "Đã kết nối lại.",
 	"refreshspecial-reconnecting": "Kết nối thất bại, đang kết nối lại trong 10 giây nữa...",
 	"refreshspecial-page-result": "có $1 {{PLURAL:$1|hàng|hàng}} trong",
-	"refreshspecial-total-display": "Đã làm mới $1 {{PLURAL:$1|trang|trang}}, tổng cộng là $2 {{PLURAL:$2|hàng|hàng}} trong thời gian $3 (thời gian để hoàn thành chạy mã kịch bản là $4)",
+	"refreshspecial-total-display": "Đã làm mới $1 trang, tổng cộng là $2 hàng trong thời gian $3 (thời gian để hoàn thành chạy mã kịch bản là $4)",
 	"right-refreshspecial": "Làm mới trang đặc biệt"
 }
