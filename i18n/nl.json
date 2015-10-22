@@ -9,7 +9,7 @@
 	"refreshspecial-title": "Speciale pagina's vernieuwen",
 	"refreshspecial-help": "Via deze pagina kunt u speciale pagina's handmatig vernieuwen.\nNadat u alle gewenste pagina's hebt aangevinkt, kunt u \"{{int:refreshspecial-button}}\" kiezen om de geselecteerde speciale pagina's bij te laten werken.\n<strong>Waarschuwing:</strong> op grotere wiki's kan dit enige tijd duren.",
 	"refreshspecial-button": "Geselecteerde pagina's vernieuwen",
-	"refreshspecial-fail": "Vink tenminste één te vernieuwen pagina aan.",
+	"refreshspecial-fail": "Selecteer tenminste één te vernieuwen pagina.",
 	"refreshspecial-refreshing": "bezig met het vernieuwen van speciale pagina's",
 	"refreshspecial-skipped": "goedkoop, overgeslagen",
 	"refreshspecial-choice": "bezig met het vernieuwen van speciale pagina's",
