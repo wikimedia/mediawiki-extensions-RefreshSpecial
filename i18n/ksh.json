@@ -14,7 +14,7 @@
 	"refreshspecial-skipped": "bellesch, övverjange",
 	"refreshspecial-choice": "Ben de {{int:specialpages}} aam opfresche",
 	"refreshspecial-js-disabled": "(<i>De kanns nit all Sigge ußwähle, wann JavaSkipp nit jeiht</i>)",
-	"refreshspecial-select-all-pages": "All Sigge ußwähle",
+	"refreshspecial-select-all-pages": "Alle Sigge ußwähle",
 	"refreshspecial-link-back": "Jangk retuhr op di {{int:specialpage}}",
 	"refreshspecial-none-selected": "Do häs kein {{int:specialpages}} ußjgewählt.\nMer jonn dröm op de Schtandatt-Ußwahl.",
 	"refreshspecial-db-error": "Dat es donevve jejange: Mer hatte ene Datebangk-Fähler.",
