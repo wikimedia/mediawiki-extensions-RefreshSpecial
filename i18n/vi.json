@@ -20,10 +20,10 @@
 	"refreshspecial-none-selected": "Bạn chưa chọn trang đặc biệt nào. Đang quay về lựa chọn mặc định.",
 	"refreshspecial-db-error": "Thất bại: lỗi cơ sở dữ liệu",
 	"refreshspecial-no-page": "Không có trang đặc biệt như vậy",
-	"refreshspecial-slave-lagged": "Máy phụ bị trễ, đang chờ...",
+	"refreshspecial-slave-lagged": "Máy phụ bị trễ, đang chờ…",
 	"refreshspecial-reconnected": "Đã kết nối lại.",
-	"refreshspecial-reconnecting": "Kết nối thất bại, đang kết nối lại trong 10 giây nữa...",
-	"refreshspecial-page-result": "có $1 {{PLURAL:$1|hàng|hàng}} trong",
+	"refreshspecial-reconnecting": "Kết nối thất bại, đang kết nối lại trong 10 giây nữa…",
+	"refreshspecial-page-result": "có $1 hàng trong",
 	"refreshspecial-total-display": "Đã làm mới $1 trang, tổng cộng là $2 hàng trong thời gian $3 (thời gian để hoàn thành chạy mã kịch bản là $4)",
 	"right-refreshspecial": "Làm mới trang đặc biệt"
 }
