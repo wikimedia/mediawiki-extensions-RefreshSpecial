@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lakzon"
+		]
+	},
+	"refreshspecial-total-display": "تازه شدن $1 {{PLURAL:$1|صفحه|صفحات}} در کل $2 {{PLURAL:$2|ردیف|ردیف‌ها}} در زمان $3 (زمان کامل اجرای متن $4 است)"
+}
