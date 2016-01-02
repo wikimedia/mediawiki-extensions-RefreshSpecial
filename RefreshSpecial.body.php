@@ -45,8 +45,7 @@ class RefreshSpecial extends SpecialPage {
 
 		// Is the user blocked? If so they can't make new wikis
 		if ( $user->isBlocked() ) {
-			$out->blockedPage();
-			return;
+			throw new UserBlockedError( $user->getBlock() );
 		}
 
 		// Bump up PHP's memory and time limits a bit, the defaults aren't good
