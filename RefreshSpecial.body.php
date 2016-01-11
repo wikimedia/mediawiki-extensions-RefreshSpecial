@@ -287,7 +287,7 @@ class RefreshSpecialForm extends ContextSource {
 						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->plain() . '<br /><br />' );
 					} else {
 						# Commit the results
-						$dbw->commit();
+						$dbw->commit( __METHOD__ );
 					}
 
 					# Wait for the slave to catch up
