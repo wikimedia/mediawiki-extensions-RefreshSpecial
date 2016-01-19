@@ -27,6 +27,10 @@ class RefreshSpecial extends SpecialPage {
 		parent::__construct( 'RefreshSpecial'/*class*/, 'refreshspecial'/*restriction*/ );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Show the special page
 	 *
