@@ -24,5 +24,6 @@
 	"refreshspecial-reconnecting": "Connection failed, reconnecting in 10 seconds...",
 	"refreshspecial-page-result": "got $1 {{PLURAL:$1|row|rows}} in",
 	"refreshspecial-total-display": "Refreshed $1 {{PLURAL:$1|page|pages}} totaling $2 {{PLURAL:$2|row|rows}} in time $3 (complete time of the script run is $4)",
+	"action-refreshspecial": "refresh special pages",
 	"right-refreshspecial": "Refresh special pages"
 }
