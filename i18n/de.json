@@ -30,5 +30,6 @@
 	"refreshspecial-reconnecting": "Verbindung fehlgeschlagen, wiederverbinde in 10 Sekunden …",
 	"refreshspecial-page-result": "enthält {{PLURAL:$1|eine Reihe|$1 Reihen}} in",
 	"refreshspecial-total-display": "Aktualisierte $1 {{PLURAL:$1|Seite|Seiten}}, insgesamt $2 {{PLURAL:$2|Zeile|Zeilen}} in einer Zeit von $3 (Gesamtlaufzeit des Skripts: $4)",
+	"action-refreshspecial": "Spezialseiten zu aktualisieren",
 	"right-refreshspecial": "Spezialseiten aktualisieren"
 }

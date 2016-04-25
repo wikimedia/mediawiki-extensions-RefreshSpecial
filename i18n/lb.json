@@ -26,5 +26,6 @@
 	"refreshspecial-reconnecting": "D'Verbindung koum net zustan, nei Verbindung an 10 Sekonnen ...",
 	"refreshspecial-page-result": " {{PLURAL:$1|eng Rei|$1 Reie}} kritt an",
 	"refreshspecial-total-display": "$1 {{PLURAL:$1|Säit|Säiten}} aktuliséiert mat am Ganzen $2 {{PLURAL:$2|Rei|Reien}} an $3 (Dauer) (d'Gesamtzäit déi de Script gebraucht huet ass $4)",
+	"action-refreshspecial": "Spezialsäiten aktualiséieren",
 	"right-refreshspecial": "Spezialsäiten aktualiséieren"
 }

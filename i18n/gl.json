@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"refreshspecial": "Refrescar a páxina especial",
@@ -24,5 +25,6 @@
 	"refreshspecial-reconnecting": "Fallou a conexión, reconectando en 10 segundos...",
 	"refreshspecial-page-result": "{{PLURAL:$1|Obtívose unha liña|Obtivéronse $1 liñas}} en",
 	"refreshspecial-total-display": "$1 {{PLURAL:$1|páxina refrescada|páxinas refrescadas}} dun total {{PLURAL:$2|dunha liña|de $2 liñas}} dunha duración de $3 (a duración completa da escritura é de $4)",
+	"action-refreshspecial": "refrescar as páxinas especiais",
 	"right-refreshspecial": "Actualizar as páxinas especiais"
 }
