@@ -26,5 +26,6 @@
 	"refreshspecial-reconnecting": "Connessione fallita, prossimo tentativo fra 10 secondi...",
 	"refreshspecial-page-result": "{{PLURAL:$1|ottenuta 1 riga|ottenute $1 righe}} in",
 	"refreshspecial-total-display": "$1 {{PLURAL:$1|pagina aggiornata|pagine aggiornate}} per un totale di $2 {{PLURAL:$1|linea|linee}} in un tempo di $3 (il tempo totale di esecuzione dello script è di $4)",
+	"action-refreshspecial": "aggiornare pagine speciali",
 	"right-refreshspecial": "Aggiorna pagine speciali"
 }

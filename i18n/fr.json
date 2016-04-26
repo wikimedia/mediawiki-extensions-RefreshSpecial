@@ -7,7 +7,8 @@
 			"McDutchie",
 			"Urhixidur",
 			"Verdy p",
-			"Zetud"
+			"Zetud",
+			"Wladek92"
 		]
 	},
 	"refreshspecial": "Actualiser les pages spéciales",
@@ -30,5 +31,6 @@
 	"refreshspecial-reconnecting": "Échec de la connexion, reconnexion dans 10 secondes...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|ligne obtenue|lignes obtenues}} en",
 	"refreshspecial-total-display": "$1 {{PLURAL:$1|page actualisée|pages actualisées}} pour un total de $2 ligne{{PLURAL:$2||s}} durant $3 (l’exécution complète du script a duré $4)",
+	"action-refreshspecial": "actualiser les pages spéciales",
 	"right-refreshspecial": "Actualiser les pages spéciales"
 }
