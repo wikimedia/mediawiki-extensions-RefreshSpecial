@@ -24,5 +24,6 @@
 	"refreshspecial-reconnecting": "Falló la conexón, reconeutando en 10 segundos...",
 	"refreshspecial-page-result": "{{PLURAL:$1|recibióse una filera|recibiéronse $1 fileres}} en",
 	"refreshspecial-total-display": "$1 {{PLURAL:$1|páxina refrescada|páxines refrescaes}} con un total de {{PLURAL:$2|una filera|$2 fileres}} nun tiempu de $3 (el tiempu d'execución completu del script ye de $4)",
+	"action-refreshspecial": "refrescar páxines especiales",
 	"right-refreshspecial": "Refrescar páxines especiales"
 }
