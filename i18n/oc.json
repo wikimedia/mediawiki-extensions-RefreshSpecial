@@ -17,7 +17,7 @@
 	"refreshspecial-select-all-pages": "Seleccionar totas las paginas",
 	"refreshspecial-link-back": "Tornar a l’extension",
 	"refreshspecial-none-selected": "Avètz pas seleccionat cap de paginas especialas. Retorn cap a la seleccion per defaut.",
-	"refreshspecial-db-error": "Fracàs : error de la banca de donada",
+	"refreshspecial-db-error": "Fracàs : error de la basa de donada",
 	"refreshspecial-no-page": "Pas cap de pagina especiala",
 	"refreshspecial-slave-lagged": "Trabalh retardat, en cors...",
 	"refreshspecial-reconnected": "Reconnectat.",
