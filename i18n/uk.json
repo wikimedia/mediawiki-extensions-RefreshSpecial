@@ -4,7 +4,8 @@
 			"AS",
 			"Andriykopanytsia",
 			"Prima klasy4na",
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"refreshspecial": "Оновити спеціальні сторінки",
@@ -27,5 +28,6 @@
 	"refreshspecial-reconnecting": "Не вдалося встановити з'єднання, повтор через 10 секунд ...",
 	"refreshspecial-page-result": "отримано $1 {{PLURAL:$1|рядок|рядки|рядків}} за",
 	"refreshspecial-total-display": "Оновлено $1 {{PLURAL:$1|сторінку, що містить|сторінки, що містять|сторінок, що містять}} $2 {{PLURAL:$2|рядок|рядки|рядків}} за час $3 (загальний час роботи скрипту $4)",
+	"action-refreshspecial": "оновити спеціальні сторінки",
 	"right-refreshspecial": "Оновлення спеціальних сторінок"
 }
