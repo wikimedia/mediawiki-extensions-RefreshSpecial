@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"refreshspecial": "Oppdater spesialsider",
 	"refreshspecial-desc": "Muliggjør [[Special:RefreshSpecial|manuell oppdatering]] av spesialsider",
 	"refreshspecial-title": "Oppdater spesialsider",
-	"refreshspecial-help": "Denne spesialsiden tilbyr metoder for å manuelt oppdatere spesialsider.\nNår du har valgt alle sidene du vil oppdatere, klikk på «Oppdater valgte»-knappen for å gjennomføre oppdateringen på de valgte spesialsidene.\n'''Advarsel:''' Oppdateringen kan ta en stund på større wikier.",
+	"refreshspecial-help": "Denne spesialsiden tilbyr metoder for å manuelt oppdatere spesialsider.\nNår du har valgt alle sidene du vil oppdatere, klikk på «{{int:refreshspecial-button}}»-knappen for å gjennomføre oppdateringen på de valgte spesialsidene.\n'''Advarsel:''' Oppdateringen kan ta en stund på større wikier.",
 	"refreshspecial-button": "Oppdater valgte",
 	"refreshspecial-fail": "Merk minst én spesialside for oppdatering",
 	"refreshspecial-refreshing": "oppdaterer spesialsider",
@@ -24,5 +25,6 @@
 	"refreshspecial-reconnecting": "Tilkobling mislyktes, prøver igjen om ti sekunder ...",
 	"refreshspecial-page-result": "fikk {{PLURAL:$1|én rad|$1 rader}} i",
 	"refreshspecial-total-display": "Oppdaterte {{PLURAL:$1|én side|$1 sider}} med totalt {{PLURAL:$2|én rad|$2 rader}} på tiden $3 (total skriptkjøretid er $4)",
+	"action-refreshspecial": "oppdater spesialsider",
 	"right-refreshspecial": "Oppdater spesialsider"
 }
