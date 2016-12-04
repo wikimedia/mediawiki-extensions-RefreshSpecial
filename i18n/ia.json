@@ -24,5 +24,6 @@
 	"refreshspecial-reconnecting": "Connexion fallite, reconnexion post 10 secundas...",
 	"refreshspecial-page-result": "obteneva $1 {{PLURAL:$1|linea|lineas}} in",
 	"refreshspecial-total-display": "Refrescava $1 {{PLURAL:$1|pagina|paginas}} con un total de $2 {{PLURAL:$2|linea|lineas}} durante $3 (le durata total del execution del script es $4)",
+	"action-refreshspecial": "refrescar paginas special",
 	"right-refreshspecial": "Refrescar paginas special"
 }
