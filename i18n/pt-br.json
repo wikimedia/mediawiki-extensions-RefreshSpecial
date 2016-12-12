@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cainamarques",
-			"Eduardo.mps"
+			"Eduardo.mps",
+			"!Silent"
 		]
 	},
 	"refreshspecial": "Atualizar páginas especiais",
@@ -25,5 +26,6 @@
 	"refreshspecial-reconnecting": "Conexão falhou, reconectando em 10 segundos...",
 	"refreshspecial-page-result": "{{PLURAL:$1|obtida 1 linha|obtidas $1 linhas}} em",
 	"refreshspecial-total-display": "$1 {{PLURAL:$1|página atualizada|páginas atualizadas}}, totalizando $2 {{PLURAL:$2|linha|linhas}} em tempo $3 (tempo total de execução do script é $4)",
+	"action-refreshspecial": "atualizar páginas especiais",
 	"right-refreshspecial": "Atualizar páginas especiais"
 }
