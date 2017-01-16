@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"refreshspecial": "Аналлаах сирэйдэри саҥарт",
+	"refreshspecial-desc": "Аналлаах сирэйдэри [[Special:RefreshSpecial|саҥардар кыаҕы]] биэрэр",
+	"refreshspecial-title": "Аналлаах сирэйдэри саҥарт",
+	"refreshspecial-help": "Бу сирэйгэ аналлаах сирэйдэри саҥардан биэриэххэ сөп.\nБарытын саҥардыаххын сөп, эбэтэр маны бааттаан «{{int:refreshspecial-button}}» сорох сирэйдэри талан саҥардыаххын сөп.\n'''Болҕой,''' бөдөҥ биикини саҥардыы бытаардыан сөп.",
+	"refreshspecial-button": "Саҥардыы талылынна",
+	"refreshspecial-fail": "Саҥардар сирэйгин тал.",
+	"refreshspecial-refreshing": "аналлаах сирэйдэри саҥардан биэрии",
+	"refreshspecial-skipped": "алҕас, көппүт",
+	"refreshspecial-choice": "аналлаах сирэйдэри саҥардыы",
+	"refreshspecial-js-disabled": "(<i>JavaScript арахса сылдьар кэмигэр сирэйи барытын талар кыах суох</i>)",
+	"refreshspecial-select-all-pages": "Бары сирэйи тал",
+	"refreshspecial-link-back": "Аналлаах сирэйгэ төнүн"
+}
