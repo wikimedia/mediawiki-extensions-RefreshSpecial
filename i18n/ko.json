@@ -6,7 +6,7 @@
 		]
 	},
 	"refreshspecial": "특수 문서 새로 고침",
-	"refreshspecial-desc": "[[Special:RefreshSpecial|수동으로 특수문서 새로 고침]]을 허용",
+	"refreshspecial-desc": "특수 문서의 [[Special:RefreshSpecial|수동으로 특수 문서 새로 고침]]할 수 있도록 합니다",
 	"refreshspecial-title": "특수 문서를 새로 고침",
 	"refreshspecial-help": "이 특수 문서로 특수 문서를 수동적으로 새로 고칠 수 있습니다.\n새로 고치려는 모든 문서를 선택하면 아래의 \"{{int:refreshspecial-button}}\" 버튼을 클릭하여 선택된 특수 문서를 새로 고치세요.\n'''경고:''' 새로 고침은 대부분의 위키에서 시간이 좀 걸립니다.",
 	"refreshspecial-button": "선택된 새로 고침",
