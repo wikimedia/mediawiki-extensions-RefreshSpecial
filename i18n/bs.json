@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"refreshspecial": "Osvježenje posebnih stranica",
 	"refreshspecial-desc": "Omogućava [[Special:RefreshSpecial|posebnu stranicu za ručno osvježavanje]] posebnih stranica",
 	"refreshspecial-title": "Osvježi posebne stranice",
-	"refreshspecial-help": "Ova posebna stranica omogućuje da se ručno osvježe posebne stranice.\nKada odaberete sve stranice koje želite osvježiti, kliknite dugme \"Odabrano osvježavanje\" ispod za osvježavanje odabranih posebnih stranica.\n'''Upozorenje:''' Osvježavanje može duže trajati na većim wikijima.",
+	"refreshspecial-help": "Ova posebna stranica omogućuje da se ručno osvježe posebne stranice.\nKada odaberete sve stranice koje želite osvježiti, kliknite dugme \"{{int:refreshspecial-button}}\" ispod za osvježavanje odabranih posebnih stranica.\n'''Upozorenje:''' Osvježavanje može duže trajati na većim wikijima.",
 	"refreshspecial-button": "Odabrano osvježavanje",
 	"refreshspecial-fail": "Molimo odaberite najmanje jednu posebnu stranicu za osvježavanje.",
 	"refreshspecial-refreshing": "osvježavam specijalne stranice",

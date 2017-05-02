@@ -4,13 +4,14 @@
 			"Derbeth",
 			"Jwitos",
 			"Leinad",
-			"Sp5uhe"
+			"Sp5uhe",
+			"Woytecr"
 		]
 	},
 	"refreshspecial": "Odśwież strony specjalne",
 	"refreshspecial-desc": "Umożliwia [[Special:RefreshSpecial|za pomocą strony specjalnej wymusić odświeżenie]] zawartości innych stron specjalnych",
 	"refreshspecial-title": "Odśwież strony specjalne",
-	"refreshspecial-help": "Strona pozwala ręcznie odświeżać strony specjalne.\nPo wybraniu wszystkich stron do odświeżenia należy kliknąć znajdujący się poniżej przycisk „Odśwież wybrane” aby wymusić odświeżenie.\nUwaga – odświeżenie może trwać długo na dużej wiki.",
+	"refreshspecial-help": "Ta strona pozwala ręcznie odświeżać strony specjalne.\nPo wybraniu wszystkich stron do odświeżenia należy kliknąć znajdujący się poniżej przycisk „{{int:refreshspecial-button}}” aby dokonać odświeżania.\n'''Uwaga''' – odświeżenie może trwać długo na dużej wiki.",
 	"refreshspecial-button": "Odśwież wybrane",
 	"refreshspecial-fail": "Proszę zaznaczyć co najmniej jedną stronę specjalną do odświeżenia.",
 	"refreshspecial-refreshing": "odświeżanie stron specjalnych",
@@ -27,5 +28,6 @@
 	"refreshspecial-reconnecting": "Połączenie nie powiodło się, ponowne połączenie nastąpi za 10 sekund...",
 	"refreshspecial-page-result": "otrzymała $1 {{PLURAL:$1|wiersz|wiersze|wierszy}} w",
 	"refreshspecial-total-display": "Odświeżono $1 {{PLURAL:$1|stronę|strony|stron}} łącznie $2 {{PLURAL:$2|wiersz|wiersze|wierszy}} w czasie $3 (pełny czas wykonania skryptu $4)",
+	"action-refreshspecial": "odświeżania stron specjalnych",
 	"right-refreshspecial": "Odświeżanie stron specjalnych"
 }
