@@ -289,9 +289,6 @@ class RefreshSpecialForm extends ContextSource {
 							sleep( RefreshSpecial::RECONNECTION_SLEEP );
 						} while ( !wfGetLB()->pingAll() );
 						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->plain() . '<br /><br />' );
-					} else {
-						# Commit the results
-						$dbw->commit( __METHOD__ );
 					}
 
 					# Wait for the slave to catch up
