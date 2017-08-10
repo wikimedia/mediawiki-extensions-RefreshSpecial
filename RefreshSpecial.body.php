@@ -1,4 +1,5 @@
 <?php
+
 /**
  * A special page providing means to manually refresh special pages
  *
@@ -106,11 +107,6 @@ class RefreshSpecialForm extends ContextSource {
 
 		$out->addWikiMsg( 'refreshspecial-help' );
 
-		$scLink = '';
-		if ( $this->getRequest()->getVal( 'action' ) == 'submit' ) {
-			$scLink = htmlspecialchars( $this->mLink );
-		}
-
 		// Add the JavaScript via ResourceLoader
 		$out->addModules( 'ext.refreshspecial' );
 
@@ -128,30 +124,17 @@ class RefreshSpecialForm extends ContextSource {
 		 */
 		foreach ( QueryPage::getPages() as $page ) {
 			list( $class, $special ) = $page;
-			$limit = isset( $page[2] ) ? $page[2] : null;
 
+			/** @var QueryPage $specialObj */
 			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
 		  		$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
 			}
 
-			if ( $specialObj instanceof QueryPage ) {
-				$queryPage = $specialObj;
-			} else {
-				if ( !class_exists( $class ) ) {
-					$file = $specialObj->getFile();
-					// @todo FIXME: I have *no* clue why this fugly hack is needed,
-					// but without it MW constructs an invalid include path and due
-					// to the very nature of require_once(), we get lovely fatals.
-					$file = str_replace( 'specialpage/', '', $file );
-					require_once $file;
-				}
-				$queryPage = new $class;
-			}
-
+			/** @var QueryPage $queryPage */
 			$queryPage = new $class;
-			$checked = '';
+
 			if ( $queryPage->isExpensive() ) {
 				$checked = 'checked="checked"';
 				$specialEsc = htmlspecialchars( $special );
@@ -217,7 +200,6 @@ class RefreshSpecialForm extends ContextSource {
 	function refreshSpecial() {
 		$out = $this->getOutput();
 
-		$dbw = wfGetDB( DB_MASTER );
 		$to_refresh = $this->getRequest()->getArray( 'wpSpecial' );
 		$total = array(
 			'pages' => 0,
@@ -233,27 +215,16 @@ class RefreshSpecialForm extends ContextSource {
 				continue;
 			}
 
+			/** @var QueryPage $specialObj */
 			$specialObj = SpecialPageFactory::getPage( $special );
 			if ( !$specialObj ) {
 			 	$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
 			}
-			if ( $specialObj instanceof QueryPage ) {
-				$queryPage = $specialObj;
-			} else {
-				if ( !class_exists( $class ) ) {
-					$file = $specialObj->getFile();
-					// @todo FIXME: I have *no* clue why this fugly hack is needed,
-					// but without it MW constructs an invalid include path and due
-					// to the very nature of require_once(), we get lovely fatals.
-					$file = str_replace( 'specialpage/', '', $file );
-					require_once $file;
-				}
-				$queryPage = new $class;
-			}
+
+			/** @var QueryPage $queryPage */
 			$queryPage = new $class;
 
-			$message = '';
 			if( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
 				$out->addHTML( "<b>$special</b>: " );
 
@@ -350,4 +321,5 @@ class RefreshSpecialForm extends ContextSource {
 		$link_back = Linker::linkKnown( $titleObj, $this->msg( 'refreshspecial-link-back' )->plain() );
 		$this->getOutput()->addHTML( '<br /><b>' . $link_back . '</b>' );
 	}
+
 }
