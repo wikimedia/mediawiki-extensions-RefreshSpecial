@@ -263,7 +263,7 @@ class RefreshSpecialForm extends ContextSource {
 					}
 
 					# Wait for the slave to catch up
-					$slaveDB = wfGetDB( DB_SLAVE, array( 'QueryPage::recache', 'vslow' ) );
+					$slaveDB = wfGetDB( DB_REPLICA, array( 'QueryPage::recache', 'vslow' ) );
 					while ( wfGetLB()->safeGetLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
 						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
