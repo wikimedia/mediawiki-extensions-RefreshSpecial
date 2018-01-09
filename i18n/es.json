@@ -5,13 +5,14 @@
 			"Crazymadlover",
 			"Translationista",
 			"Macofe",
-			"Indiralena"
+			"Indiralena",
+			"Fitoschido"
 		]
 	},
 	"refreshspecial": "Refrescar páginas especiales",
 	"refreshspecial-desc": "Permite la [[Special:RefreshSpecial|actualización manual de páginas especiales]]",
 	"refreshspecial-title": "Refrescar páginas especiales",
-	"refreshspecial-help": "Esta página especial provee los medios para recargar manualmente páginas especiales.\nDespués de elegir todas las páginas que desee recargar, haga click en el botón \"{{int:refreshspecial-button}}\" mostrado abajo para recargar las páginas especiales seleccionadas.\n'''Advertencia:''' La recarga puede tardar un poco en wikis más grandes.",
+	"refreshspecial-help": "Esta página especial proporciona maneras de actualizar manualmente otras páginas especiales.\nCuando hayas elegido todas las páginas que quieras actualizar, pulsa en el botón «{{int:refreshspecial-button}}» más abajo.\n'''Atención:''' la actualización puede demorar en wikis grandes.",
 	"refreshspecial-button": "Actualizar selección",
 	"refreshspecial-fail": "Verifica al menos una página especial que actualizar.",
 	"refreshspecial-refreshing": "refrescando páginas especiales",
