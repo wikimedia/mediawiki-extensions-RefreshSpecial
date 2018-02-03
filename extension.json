@@ -30,8 +30,7 @@
 	},
 	"ResourceModules": {
 		"ext.refreshspecial": {
-			"scripts": "RefreshSpecial.js",
-			"position": "bottom"
+			"scripts": "RefreshSpecial.js"
 		}
 	},
 	"AvailableRights": [
