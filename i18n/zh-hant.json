@@ -3,18 +3,30 @@
 		"authors": [
 			"Mark85296341",
 			"Wrightbus",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
-	"refreshspecial": "重新載入特殊頁面",
-	"refreshspecial-title": "重新載入特殊頁面",
-	"refreshspecial-button": "重新載入已選頁面",
+	"refreshspecial": "重整特殊頁面",
+	"refreshspecial-desc": "允許[[Special:RefreshSpecial|手動重整特殊頁面]]",
+	"refreshspecial-title": "重整特殊頁面",
+	"refreshspecial-help": "此特殊頁面提供能採取手動來重整特殊頁面。\n當您挑選完所有您想掉重整的頁面後，點擊下方的 \"{{int:refreshspecial-button}}\" 按鍵來重整所選特殊頁面。\n'''警告：'''在較大的 wiki 上會花費一段時間重整。",
+	"refreshspecial-button": "重整已選頁面",
+	"refreshspecial-fail": "請至少檢查一個特殊頁面來重整。",
 	"refreshspecial-refreshing": "正在重新載入特殊頁面",
+	"refreshspecial-skipped": "不重要，已略過",
 	"refreshspecial-choice": "正在重新載入特殊頁面",
+	"refreshspecial-js-disabled": "（<i>當停用 JavaScript 時您不可選擇所有頁面</i>）",
 	"refreshspecial-select-all-pages": "選擇所有頁面",
 	"refreshspecial-link-back": "回到特殊頁面",
+	"refreshspecial-none-selected": "您尚未選擇任何特殊頁面。恢復至預設選項。",
 	"refreshspecial-db-error": "失敗：資料庫錯誤",
 	"refreshspecial-no-page": "此特殊頁面不存在",
+	"refreshspecial-slave-lagged": "從資料庫延遲，等待中...",
+	"refreshspecial-reconnected": "已重新連接。",
 	"refreshspecial-reconnecting": "連接失敗，在 10 秒後重新連接...",
-	"right-refreshspecial": "重新載入特殊頁面"
+	"refreshspecial-page-result": "取得了 $1 {{PLURAL:$1|列|列}}於",
+	"refreshspecial-total-display": "已重整 $1 {{PLURAL:$1|個頁面|個頁面}}，在 $3 裡共觸動了 $2 {{PLURAL:$2|列|列}}（腳本運作的全部時間為 $4）",
+	"action-refreshspecial": "重整特殊頁面",
+	"right-refreshspecial": "重整特殊頁面"
 }
