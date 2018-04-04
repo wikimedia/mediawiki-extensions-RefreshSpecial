@@ -5,7 +5,8 @@
 			"Mobe",
 			"Nike",
 			"Vililikku",
-			"Jack Phoenix"
+			"Jack Phoenix",
+			"Pyscowicz"
 		]
 	},
 	"refreshspecial": "Päivitä toimintosivuja",
@@ -27,5 +28,6 @@
 	"refreshspecial-reconnected": "Yhdistetty uudelleen.",
 	"refreshspecial-reconnecting": "Yhteys epäonnistui, yritetään uudelleen 10 sekunnin kuluttua...",
 	"refreshspecial-total-display": "Päivitettiin {{PLURAL:$1|yksi sivu|$1 sivua}}. Yhteensä {{PLURAL:$2|yksi rivi|$2 riviä}} ajassa $3. Yhteensä komentosarjan suorittamiseen meni aikaa $4.",
+	"action-refreshspecial": "päivitä toimintosivuja",
 	"right-refreshspecial": "Päivittää toimintosivuja"
 }
