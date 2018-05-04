@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * A special page providing means to manually refresh special pages
  *
@@ -252,18 +255,19 @@ class RefreshSpecialForm extends ContextSource {
 					$t1 = explode( ' ', microtime() );
 
 					# Reopen any connections that have closed
-					if ( !wfGetLB()->pingAll() ) {
+					$lb = MediaWikiServices::getInstance()->getDBLoadBalancer();
+					if ( !$lb->pingAll() ) {
 						$out->addHTML( '<br />' );
 						do {
 							$out->addHTML( $this->msg( 'refreshspecial-reconnecting' )->plain() . '<br />' );
 							sleep( RefreshSpecial::RECONNECTION_SLEEP );
-						} while ( !wfGetLB()->pingAll() );
+						} while ( !$lb->pingAll() );
 						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->plain() . '<br /><br />' );
 					}
 
 					# Wait for the slave to catch up
-					$slaveDB = wfGetDB( DB_REPLICA, array( 'QueryPage::recache', 'vslow' ) );
-					while ( wfGetLB()->safeGetLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
+					$slaveDB = $lb->getConnection( DB_REPLICA, array( 'QueryPage::recache', 'vslow' ) );
+					while ( $lb->safeGetLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
 						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
 					}

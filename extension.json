@@ -9,6 +9,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:RefreshSpecial",
 	"descriptionmsg": "refreshspecial-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
 	"SpecialPages": {
 		"RefreshSpecial": "RefreshSpecial"
 	},
