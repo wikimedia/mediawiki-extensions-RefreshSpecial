@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Nikosgranturismogt"
 		]
 	},
 	"refreshspecial": "Ανανέωση ειδικών σελίδων",
+	"refreshspecial-desc": "Επιτρέπει την [[Special:RefreshSpecial|χειροκίνητη ανανέωση]] ειδικών σελίδων",
 	"refreshspecial-title": "Ανανέωση ειδικών σελίδων",
 	"refreshspecial-button": "Επιλέχθηκε ανανέωση",
 	"refreshspecial-refreshing": "ανανέωση ειδικών σελίδων",
@@ -13,10 +15,12 @@
 	"refreshspecial-choice": "ανανέωση ειδικών σελίδων",
 	"refreshspecial-select-all-pages": "Επιλογή όλων των σελίδων",
 	"refreshspecial-link-back": "Πήγαινε πίσω στην ειδική σελίδα",
+	"refreshspecial-none-selected": "Δεν έχετε επιλέξει κάποια ειδική σελίδα. Γίνεται αναστροφή στην προεπιλεγμένη επιλογή.",
 	"refreshspecial-db-error": "Απέτυχε: Σφάλμα βάσης δεδομένων",
 	"refreshspecial-no-page": "Καμιά τέτοια ειδική σελίδα",
 	"refreshspecial-reconnected": "Επανασυνδέθηκε.",
 	"refreshspecial-reconnecting": "Η σύνδεση απέτυχε, επανασύνδεση σε 10 δευτερόλεπτα...",
 	"refreshspecial-page-result": "πήρε $1 {{PLURAL:$1|σειρά|σειρές}} σε",
+	"action-refreshspecial": "Ανανέωση ειδικών σελίδων",
 	"right-refreshspecial": "Ανανέωση ειδικών σελίδων"
 }
