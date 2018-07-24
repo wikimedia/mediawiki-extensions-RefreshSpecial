@@ -151,7 +151,7 @@ class RefreshSpecialForm extends ContextSource {
 
 		$out->addHTML(
 			"\t\t\t\t\t" . '<li>
-						<input type="checkbox" name="check_all" id="refreshSpecialCheckAll" />
+						<input type="checkbox" name="check_all" id="refreshSpecialCheckAll" checked="checked" />
 						<label for="refreshSpecialCheckAll">&#160;' . $this->msg( 'refreshspecial-select-all-pages' )->plain() . '
 							<noscript>' . $this->msg( 'refreshspecial-js-disabled' )->parse() . '</noscript>
 						</label>
