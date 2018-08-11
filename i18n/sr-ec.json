@@ -4,7 +4,8 @@
 			"Rancher",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Milicevic01"
+			"Milicevic01",
+			"BadDog"
 		]
 	},
 	"refreshspecial": "Освежи посебне странице",
@@ -16,7 +17,7 @@
 	"refreshspecial-select-all-pages": "Изабери све странице",
 	"refreshspecial-link-back": "Назад на посебну страницу",
 	"refreshspecial-none-selected": "Нисте изабрали ниједну посебну страницу. Враћам на подразумевани избор.",
-	"refreshspecial-db-error": "Неуспешно: грешка у бази података",
+	"refreshspecial-db-error": "Неуспело: грешка у бази података",
 	"refreshspecial-no-page": "Нема такве посебне странице",
 	"refreshspecial-reconnected": "Преповезано.",
 	"refreshspecial-reconnecting": "Не могу да се повежем. Преповезивање за десет секунди…",
