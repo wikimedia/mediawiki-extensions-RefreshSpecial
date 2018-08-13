@@ -10,7 +10,7 @@
 	},
 	"refreshspecial": "Освежи посебне странице",
 	"refreshspecial-button": "Освежи изабрано",
-	"refreshspecial-fail": "Изаберите барем једну посебну страницу за освежавање.",
+	"refreshspecial-fail": "Изаберите најмање једну посебну страницу за освежавање.",
 	"refreshspecial-refreshing": "освежавам посебне странице",
 	"refreshspecial-choice": "освежавам посебне странице",
 	"refreshspecial-js-disabled": "(<i>Не можете изабрати све странице када је онемогућен јаваскрипт</i>)",
