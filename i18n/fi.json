@@ -6,7 +6,8 @@
 			"Nike",
 			"Vililikku",
 			"Jack Phoenix",
-			"Pyscowicz"
+			"Pyscowicz",
+			"01miki10"
 		]
 	},
 	"refreshspecial": "Päivitä toimintosivuja",
@@ -27,7 +28,8 @@
 	"refreshspecial-slave-lagged": "Toisiopalvelin on jäänyt jälkeen. Odotetaan...",
 	"refreshspecial-reconnected": "Yhdistetty uudelleen.",
 	"refreshspecial-reconnecting": "Yhteys epäonnistui, yritetään uudelleen 10 sekunnin kuluttua...",
+	"refreshspecial-page-result": "saatiin $1 {{PLURAL:$1|rivi|riviä}} ajassa",
 	"refreshspecial-total-display": "Päivitettiin {{PLURAL:$1|yksi sivu|$1 sivua}}. Yhteensä {{PLURAL:$2|yksi rivi|$2 riviä}} ajassa $3. Yhteensä komentosarjan suorittamiseen meni aikaa $4.",
-	"action-refreshspecial": "päivitä toimintosivuja",
+	"action-refreshspecial": "päivittää toimintosivuja",
 	"right-refreshspecial": "Päivittää toimintosivuja"
 }
