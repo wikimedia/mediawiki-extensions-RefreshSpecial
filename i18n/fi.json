@@ -7,13 +7,14 @@
 			"Vililikku",
 			"Jack Phoenix",
 			"Pyscowicz",
-			"01miki10"
+			"01miki10",
+			"Valtlait"
 		]
 	},
 	"refreshspecial": "Päivitä toimintosivuja",
 	"refreshspecial-desc": "Mahdollistaa [[Special:RefreshSpecial|toimintosivujen päivittämisen manuaalisesti]].",
 	"refreshspecial-title": "Päivitä toimintosivuja",
-	"refreshspecial-help": "Tämä toimintosivu tarjoaa keinoja päivittää toimintosivuja manuaalisesti. Kun olet valinnut kaikki sivut, jotka haluat päivittää, napsauta \"{{int:refreshspecial-button}}\" -nappia alapuolella päivittääksesi valitut.\n'''Varoitus:''' Päivittäminen saattaa kestää jonkin aikaa isommissa wikeissä.",
+	"refreshspecial-help": "Tämä toimintosivu tarjoaa keinoja päivittää toimintosivuja manuaalisesti. Kun olet valinnut kaikki sivut, jotka haluat päivittää, napsauta ”{{int:refreshspecial-button}}” -nappia alapuolella päivittääksesi valitut.\n'''Varoitus:''' Päivittäminen saattaa kestää jonkin aikaa isommissa wikeissä.",
 	"refreshspecial-button": "Päivitä valitut",
 	"refreshspecial-fail": "Valitse ainakin yksi päivitettävä toimintosivu.",
 	"refreshspecial-refreshing": "päivitetään toimintosivuja",
