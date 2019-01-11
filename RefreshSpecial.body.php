@@ -128,7 +128,7 @@ class RefreshSpecialForm extends ContextSource {
 			list( $class, $special ) = $page;
 
 			/** @var QueryPage $specialObj */
-			$specialObj = SpecialPageFactory::getPage( $special );
+			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
 			if ( !$specialObj ) {
 		  		$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
@@ -203,12 +203,12 @@ class RefreshSpecialForm extends ContextSource {
 		$out = $this->getOutput();
 
 		$to_refresh = $this->getRequest()->getArray( 'wpSpecial' );
-		$total = array(
+		$total = [
 			'pages' => 0,
 			'rows' => 0,
 			'elapsed' => 0,
 			'total_elapsed' => 0
-		);
+		];
 
 		foreach ( QueryPage::getPages() as $page ) {
 			list( $class, $special ) = $page;
@@ -218,7 +218,7 @@ class RefreshSpecialForm extends ContextSource {
 			}
 
 			/** @var QueryPage $specialObj */
-			$specialObj = SpecialPageFactory::getPage( $special );
+			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
 			if ( !$specialObj ) {
 			 	$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
@@ -266,7 +266,7 @@ class RefreshSpecialForm extends ContextSource {
 					}
 
 					# Wait for the slave to catch up
-					$slaveDB = $lb->getConnection( DB_REPLICA, array( 'QueryPage::recache', 'vslow' ) );
+					$slaveDB = $lb->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
 					while ( $lb->safeGetLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
 						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
@@ -321,7 +321,10 @@ class RefreshSpecialForm extends ContextSource {
 		$this->refreshSpecial();
 
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
-		$link_back = Linker::linkKnown( $titleObj, $this->msg( 'refreshspecial-link-back' )->plain() );
+		$link_back = MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
+			$titleObj,
+			$this->msg( 'refreshspecial-link-back' )->plain()
+		);
 		$this->getOutput()->addHTML( '<br /><b>' . $link_back . '</b>' );
 	}
 
