@@ -5,11 +5,25 @@
 		]
 	},
 	"refreshspecial": "Aggiorne le pàggene speciale",
+	"refreshspecial-desc": "Dèje l'[[Special:RefreshSpecial|aggiornamende a màne]] de le pàggene speciale",
 	"refreshspecial-title": "Aggiorne le pàggene speciale",
+	"refreshspecial-help": "Sta pàgena speciale face aggiornà a màne le pòggene speciale.\nQuanne è scacchiate tutte le pàggene ca vuè ccu aggiorne, cazze sus a 'u buttone \"{{int:refreshspecial-button}}\" pe aggiornà le pàggen speciale scacchiate.\nIapre l'uecchije: l'aggiornamende pò vulè 'nu picche de tiembe sus a le uicchi cchiù granne.",
 	"refreshspecial-button": "Aggiorne le scacchiate",
+	"refreshspecial-fail": "Scacchie ninde ninde 'na pàgena speciale da aggiornà.",
 	"refreshspecial-refreshing": "stoche aggiorne le pàggene speciale",
+	"refreshspecial-skipped": "non 'mbortande, zumbate",
 	"refreshspecial-choice": "stoche aggiorne le pàggene speciale",
+	"refreshspecial-js-disabled": "(<i>Non g'è possibbele scacchià tutte le pàggene ce 'u JavaScript jè disabbilitate</i>)",
 	"refreshspecial-select-all-pages": "Scacchie tutte le pàggene",
+	"refreshspecial-link-back": "Tuèrne rrete a 'a pàgena speciale",
+	"refreshspecial-none-selected": "Nonn g'ha state scacchiate nisciuna pàgena speciale. Repristine 'u scacchiamende predefinite.",
+	"refreshspecial-db-error": "Fallite: Errore d'u database",
 	"refreshspecial-no-page": "Nisciuna pàgena speciale",
-	"refreshspecial-reconnected": "Riconnesse."
+	"refreshspecial-slave-lagged": "Stoche aspette pe 'nu retarde d'u server slave...",
+	"refreshspecial-reconnected": "Riconnesse.",
+	"refreshspecial-reconnecting": "Connessione sciute a male, 'u prosseme tendative 'mbrà 10 seconde...",
+	"refreshspecial-page-result": "pigghiate {{PLURAL:$1|'na righe|$1 righe}} jndr'à",
+	"refreshspecial-total-display": "$1 {{PLURAL:$1|pàgene|pàggne}} aggiornate pe 'nu totale de $2 {{PLURAL:$1|linèe}} jndr'à 'nu tiembe de $3 ('u tiembe totale de esecuzione d'u script jè de $4)",
+	"action-refreshspecial": "aggiorne le pàggene speciale",
+	"right-refreshspecial": "Aggiorne le pàggene speciale"
 }
