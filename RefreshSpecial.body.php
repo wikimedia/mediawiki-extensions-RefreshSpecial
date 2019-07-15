@@ -130,7 +130,7 @@ class RefreshSpecialForm extends ContextSource {
 			/** @var QueryPage $specialObj */
 			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
 			if ( !$specialObj ) {
-		  		$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
+		  		$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
 			}
 
@@ -220,7 +220,7 @@ class RefreshSpecialForm extends ContextSource {
 			/** @var QueryPage $specialObj */
 			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
 			if ( !$specialObj ) {
-			 	$out->addWikiText( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
+			 	$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
 			}
 
