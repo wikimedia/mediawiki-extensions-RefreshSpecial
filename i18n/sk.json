@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"TomášPolonec"
 		]
 	},
 	"refreshspecial": "Obnoviť špeciálne stránky",
 	"refreshspecial-desc": "Umožňuje manuálne [[Special:RefreshSpecial|obnovenie špeciálnych stránok]]",
 	"refreshspecial-title": "Obnoviť špeciálne stránky",
-	"refreshspecial-help": "Táto špeciálna stránka slúži na manuálne obnovenie špeciálnych stránok.\nPo vybraní všetkých stránok, ktoré chcete obnoviť, kliknite na tlačidlo „Obnoviť vybrané“.\nUpozornenie: na väčších wiki môže obnovenie chvíľu trvať.",
+	"refreshspecial-help": "Táto špeciálna stránka slúži na manuálne obnovenie špeciálnych stránok.\nPo vybraní všetkých stránok, ktoré chcete obnoviť, kliknite na tlačidlo „{{int:refreshspecial-button}}“.\nUpozornenie: na väčších wiki môže obnovenie chvíľu trvať.",
 	"refreshspecial-button": "Obnoviť vybrané",
 	"refreshspecial-fail": "Prosím, vyberte aspoň jednu špeciálnu stránku, ktorá sa má obnoviť",
 	"refreshspecial-refreshing": "obnovujú sa špeciálne stránky",
