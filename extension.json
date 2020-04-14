@@ -24,8 +24,8 @@
 		"RefreshSpecialAlias": "RefreshSpecial.alias.php"
 	},
 	"AutoloadClasses": {
-		"RefreshSpecial": "RefreshSpecial.body.php",
-		"RefreshSpecialForm": "RefreshSpecial.body.php"
+		"RefreshSpecial": "src/RefreshSpecial.php",
+		"RefreshSpecialForm": "src/RefreshSpecialForm.php"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
