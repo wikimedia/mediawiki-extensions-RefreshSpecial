@@ -7,7 +7,7 @@
  * @ingroup Extensions
  * @author Bartek Łapiński <bartek@wikia-inc.com>
  * @author Jack Phoenix
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  * @link https://www.mediawiki.org/wiki/Extension:RefreshSpecial Documentation
  */
 class RefreshSpecial extends SpecialPage {
@@ -76,6 +76,9 @@ class RefreshSpecial extends SpecialPage {
 		}
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getGroupName() {
 		return 'wiki';
 	}

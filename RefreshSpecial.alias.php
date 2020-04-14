@@ -6,169 +6,169 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'RefreshSpecial' => array( 'RefreshSpecial' ),
-);
+$specialPageAliases['en'] = [
+	'RefreshSpecial' => [ 'RefreshSpecial' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'RefreshSpecial' => array( 'تحديث_خاص' ),
-);
+$specialPageAliases['ar'] = [
+	'RefreshSpecial' => [ 'تحديث_خاص' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'RefreshSpecial' => array( 'ريفريش_مخصوص' ),
-);
+$specialPageAliases['arz'] = [
+	'RefreshSpecial' => [ 'ريفريش_مخصوص' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'RefreshSpecial' => array( 'خاسین_تازه_گ_کورتین' ),
-);
+$specialPageAliases['bgn'] = [
+	'RefreshSpecial' => [ 'خاسین_تازه_گ_کورتین' ],
+];
 
 /** Breton (brezhoneg) */
-$specialPageAliases['br'] = array(
-	'RefreshSpecial' => array( 'FreskaatDibar' ),
-);
+$specialPageAliases['br'] = [
+	'RefreshSpecial' => [ 'FreskaatDibar' ],
+];
 
 /** Bosnian (bosanski) */
-$specialPageAliases['bs'] = array(
-	'RefreshSpecial' => array( 'PosebnoOsvjezavanje' ),
-);
+$specialPageAliases['bs'] = [
+	'RefreshSpecial' => [ 'PosebnoOsvjezavanje' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'RefreshSpecial' => array( 'Spezialseiten_aktualisieren' ),
-);
+$specialPageAliases['de'] = [
+	'RefreshSpecial' => [ 'Spezialseiten_aktualisieren' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'RefreshSpecial' => array( 'BağseAneweke' ),
-);
+$specialPageAliases['diq'] = [
+	'RefreshSpecial' => [ 'BağseAneweke' ],
+];
 
 /** Greek (Ελληνικά) */
-$specialPageAliases['el'] = array(
-	'RefreshSpecial' => array( 'ΑνανέωσηΕιδικού' ),
-);
+$specialPageAliases['el'] = [
+	'RefreshSpecial' => [ 'ΑνανέωσηΕιδικού' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'RefreshSpecial' => array( 'تازه‌سازی_ویژه' ),
-);
+$specialPageAliases['fa'] = [
+	'RefreshSpecial' => [ 'تازه‌سازی_ویژه' ],
+];
 
 /** Finnish (suomi) */
-$specialPageAliases['fi'] = array(
-	'RefreshSpecial' => array( 'Toimintosivujen_päivitys' ),
-);
+$specialPageAliases['fi'] = [
+	'RefreshSpecial' => [ 'Toimintosivujen_päivitys' ],
+];
 
 /** Galician (galego) */
-$specialPageAliases['gl'] = array(
-	'RefreshSpecial' => array( 'Actualizar_a_páxina_especial' ),
-);
+$specialPageAliases['gl'] = [
+	'RefreshSpecial' => [ 'Actualizar_a_páxina_especial' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'RefreshSpecial' => array( 'Specialne_strony_aktualizować' ),
-);
+$specialPageAliases['hsb'] = [
+	'RefreshSpecial' => [ 'Specialne_strony_aktualizować' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'RefreshSpecial' => array( 'EspesyalAjou' ),
-);
+$specialPageAliases['ht'] = [
+	'RefreshSpecial' => [ 'EspesyalAjou' ],
+];
 
 /** Hungarian (magyar) */
-$specialPageAliases['hu'] = array(
-	'RefreshSpecial' => array( 'Különleges_frissítés' ),
-);
+$specialPageAliases['hu'] = [
+	'RefreshSpecial' => [ 'Különleges_frissítés' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'RefreshSpecial' => array( 'Refrescar_special' ),
-);
+$specialPageAliases['ia'] = [
+	'RefreshSpecial' => [ 'Refrescar_special' ],
+];
 
 /** Indonesian (Bahasa Indonesia) */
-$specialPageAliases['id'] = array(
-	'RefreshSpecial' => array( 'Perbarui_halaman_istimewa', 'PerbaruiHalamanIstimewa' ),
-);
+$specialPageAliases['id'] = [
+	'RefreshSpecial' => [ 'Perbarui_halaman_istimewa', 'PerbaruiHalamanIstimewa' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'RefreshSpecial' => array( 'AppositoRiavvio' ),
-);
+$specialPageAliases['it'] = [
+	'RefreshSpecial' => [ 'AppositoRiavvio' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'RefreshSpecial' => array( '特別ページの更新' ),
-);
+$specialPageAliases['ja'] = [
+	'RefreshSpecial' => [ '特別ページの更新' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'RefreshSpecial' => array( '특수새로고침', '특수갱신' ),
-);
+$specialPageAliases['ko'] = [
+	'RefreshSpecial' => [ '특수새로고침', '특수갱신' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'RefreshSpecial' => array( 'Spezialsäiten_aktualiséieren' ),
-);
+$specialPageAliases['lb'] = [
+	'RefreshSpecial' => [ 'Spezialsäiten_aktualiséieren' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'RefreshSpecial' => array( 'ПревчитајСлужбени' ),
-);
+$specialPageAliases['mk'] = [
+	'RefreshSpecial' => [ 'ПревчитајСлужбени' ],
+];
 
 /** Norwegian Bokmål (norsk bokmål) */
-$specialPageAliases['nb'] = array(
-	'RefreshSpecial' => array( 'Oppdater_spesialsider' ),
-);
+$specialPageAliases['nb'] = [
+	'RefreshSpecial' => [ 'Oppdater_spesialsider' ],
+];
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
-$specialPageAliases['nds-nl'] = array(
-	'RefreshSpecial' => array( 'Spesiaal_verniejen' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'RefreshSpecial' => [ 'Spesiaal_verniejen' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'RefreshSpecial' => array( 'SpeciaalVerversen' ),
-);
+$specialPageAliases['nl'] = [
+	'RefreshSpecial' => [ 'SpeciaalVerversen' ],
+];
 
 /** Sicilian (sicilianu) */
-$specialPageAliases['scn'] = array(
-	'RefreshSpecial' => array( 'AppositoRiavvio' ),
-);
+$specialPageAliases['scn'] = [
+	'RefreshSpecial' => [ 'AppositoRiavvio' ],
+];
 
 /** Slovak (slovenčina) */
-$specialPageAliases['sk'] = array(
-	'RefreshSpecial' => array( 'ŠpeciálneObnovenie' ),
-);
+$specialPageAliases['sk'] = [
+	'RefreshSpecial' => [ 'ŠpeciálneObnovenie' ],
+];
 
 /** Tagalog (Tagalog) */
-$specialPageAliases['tl'] = array(
-	'RefreshSpecial' => array( 'Natatanging_pagsasariwa' ),
-);
+$specialPageAliases['tl'] = [
+	'RefreshSpecial' => [ 'Natatanging_pagsasariwa' ],
+];
 
 /** Turkish (Türkçe) */
-$specialPageAliases['tr'] = array(
-	'RefreshSpecial' => array( 'ÖzelYenile' ),
-);
+$specialPageAliases['tr'] = [
+	'RefreshSpecial' => [ 'ÖzelYenile' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'RefreshSpecial' => array( 'Làm_mới_trang_đặc_biệt', 'Làm_tươi_trang_đặc_biệt' ),
-);
+$specialPageAliases['vi'] = [
+	'RefreshSpecial' => [ 'Làm_mới_trang_đặc_biệt', 'Làm_tươi_trang_đặc_biệt' ],
+];
 
 /** Chinese (中文) */
-$specialPageAliases['zh'] = array(
-	'RefreshSpecial' => array( '刷新特殊页面', '刷新特殊頁面', '重新整理特殊頁面' ),
-);
+$specialPageAliases['zh'] = [
+	'RefreshSpecial' => [ '刷新特殊页面', '刷新特殊頁面', '重新整理特殊頁面' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'RefreshSpecial' => array( '刷新特殊页面' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'RefreshSpecial' => [ '刷新特殊页面' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'RefreshSpecial' => array( '特殊重新載入' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'RefreshSpecial' => [ '特殊重新載入' ],
+];

@@ -49,7 +49,7 @@ class RefreshSpecialForm extends ContextSource {
 			/** @var QueryPage $specialObj */
 			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
 			if ( !$specialObj ) {
-		  		$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
+				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
 			}
 
@@ -62,7 +62,7 @@ class RefreshSpecialForm extends ContextSource {
 				$out->addHTML(
 					"\t\t\t\t\t<li>
 						<input type=\"checkbox\" name=\"wpSpecial[]\" value=\"$specialEsc\" $checked />
-						<b>"  . htmlspecialchars( $specialObj->getDescription() ) . "</b>
+						<b>" . htmlspecialchars( $specialObj->getDescription() ) . "</b>
 					</li>\n"
 				);
 			}
@@ -89,7 +89,7 @@ class RefreshSpecialForm extends ContextSource {
 	 * @return array Amount of elapsed time
 	 */
 	function computeTime( $amount ) {
-		$return_array = array();
+		$return_array = [];
 		$return_array['hours'] = intval( $amount / 3600 );
 		$return_array['minutes'] = intval( $amount % 3600 / 60 );
 		$return_array['seconds'] = $amount - $return_array['hours'] * 3600 - $return_array['minutes'] * 60;
@@ -100,7 +100,7 @@ class RefreshSpecialForm extends ContextSource {
 	 * Format the time message
 	 *
 	 * @param mixed $time Amount of time, with h, m or s appended to it
-	 * @param mixed $message Message displayed to the user containing the elapsed time
+	 * @param mixed &$message Message displayed to the user containing the elapsed time
 	 * @return bool
 	 */
 	function formatTimeMessage( $time, &$message ) {
@@ -139,14 +139,14 @@ class RefreshSpecialForm extends ContextSource {
 			/** @var QueryPage $specialObj */
 			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
 			if ( !$specialObj ) {
-			 	$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
+				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
 			}
 
 			/** @var QueryPage $queryPage */
 			$queryPage = new $class;
 
-			if( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
+			if ( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
 				$out->addHTML( "<b>$special</b>: " );
 
 				if ( $queryPage->isExpensive() ) {
@@ -155,10 +155,10 @@ class RefreshSpecialForm extends ContextSource {
 					$num = $queryPage->recache( $limit === null ? RefreshSpecial::ROW_LIMIT : $limit );
 					$t2 = explode( ' ', microtime() );
 
-			  		if ( $num === false ) {
+					if ( $num === false ) {
 						$out->addHTML( $this->msg( 'refreshspecial-db-error' )->plain() . '<br />' );
 					} else {
-			  			$message = $this->msg(
+						$message = $this->msg(
 							'refreshspecial-page-result',
 							$num
 						)->parse() . '&#160;';
@@ -227,7 +227,7 @@ class RefreshSpecialForm extends ContextSource {
 	function doSubmit() {
 		/* guard against an empty array */
 		$array = $this->getRequest()->getArray( 'wpSpecial' );
-		if ( !is_array( $array ) || empty( $array ) || is_null( $array ) ) {
+		if ( !is_array( $array ) || empty( $array ) || $array === null ) {
 			$this->showForm( $this->msg( 'refreshspecial-none-selected' )->plain() );
 			return;
 		}
