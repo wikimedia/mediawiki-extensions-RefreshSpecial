@@ -44,17 +44,14 @@ class RefreshSpecialForm extends ContextSource {
 		 * that brings up an interesting question - do we need that limit or not?
 		 */
 		foreach ( QueryPage::getPages() as $page ) {
-			list( $class, $special ) = $page;
+			list( , $special ) = $page;
 
-			/** @var QueryPage $specialObj */
-			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
-			if ( !$specialObj ) {
+			/** @var QueryPage $queryPage */
+			$queryPage = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
+			if ( !$queryPage ) {
 				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
 			}
-
-			/** @var QueryPage $queryPage */
-			$queryPage = new $class;
 
 			if ( $queryPage->isExpensive() ) {
 				$checked = 'checked="checked"';
@@ -62,7 +59,7 @@ class RefreshSpecialForm extends ContextSource {
 				$out->addHTML(
 					"\t\t\t\t\t<li>
 						<input type=\"checkbox\" name=\"wpSpecial[]\" value=\"$specialEsc\" $checked />
-						<b>" . htmlspecialchars( $specialObj->getDescription() ) . "</b>
+						<b>" . htmlspecialchars( $queryPage->getDescription() ) . "</b>
 					</li>\n"
 				);
 			}
@@ -130,21 +127,18 @@ class RefreshSpecialForm extends ContextSource {
 		];
 
 		foreach ( QueryPage::getPages() as $page ) {
-			list( $class, $special ) = $page;
+			list( , $special ) = $page;
 			$limit = isset( $page[2] ) ? $page[2] : null;
 			if ( !in_array( $special, $to_refresh ) ) {
 				continue;
 			}
 
-			/** @var QueryPage $specialObj */
-			$specialObj = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
-			if ( !$specialObj ) {
+			/** @var QueryPage $queryPage */
+			$queryPage = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
+			if ( !$queryPage ) {
 				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
 			}
-
-			/** @var QueryPage $queryPage */
-			$queryPage = new $class;
 
 			if ( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
 				$out->addHTML( "<b>$special</b>: " );
