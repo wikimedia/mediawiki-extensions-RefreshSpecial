@@ -180,7 +180,7 @@ class RefreshSpecialForm extends ContextSource {
 
 					# Wait for the slave to catch up
 					$slaveDB = $lb->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
-					while ( $lb->safeGetLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
+					while ( $lb->getLag( $slaveDB ) > RefreshSpecial::SLAVE_LAG_LIMIT ) {
 						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
 					}
