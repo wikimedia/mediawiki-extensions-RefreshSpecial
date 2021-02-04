@@ -128,7 +128,7 @@ class RefreshSpecialForm extends ContextSource {
 
 		foreach ( QueryPage::getPages() as $page ) {
 			list( , $special ) = $page;
-			$limit = isset( $page[2] ) ? $page[2] : null;
+			$limit = $page[2] ?? null;
 			if ( !in_array( $special, $to_refresh ) ) {
 				continue;
 			}
@@ -144,10 +144,10 @@ class RefreshSpecialForm extends ContextSource {
 				$out->addHTML( "<b>$special</b>: " );
 
 				if ( $queryPage->isExpensive() ) {
-					$t1 = explode( ' ', microtime() );
+					$t1 = microtime( true );
 					# Do the query
 					$num = $queryPage->recache( $limit === null ? RefreshSpecial::ROW_LIMIT : $limit );
-					$t2 = explode( ' ', microtime() );
+					$t2 = microtime( true );
 
 					if ( $num === false ) {
 						$out->addHTML( $this->msg( 'refreshspecial-db-error' )->plain() . '<br />' );
@@ -156,7 +156,7 @@ class RefreshSpecialForm extends ContextSource {
 							'refreshspecial-page-result',
 							$num
 						)->parse() . '&#160;';
-						$elapsed = ( $t2[0] - $t1[0] ) + ( $t2[1] - $t1[1] );
+						$elapsed = $t2 - $t1;
 						$total['elapsed'] += $elapsed;
 						$total['rows'] += $num;
 						$total['pages']++;
@@ -165,7 +165,7 @@ class RefreshSpecialForm extends ContextSource {
 						$out->addHTML( "$message<br />" );
 					}
 
-					$t1 = explode( ' ', microtime() );
+					$t1 = microtime( true );
 
 					# Reopen any connections that have closed
 					$lb = MediaWikiServices::getInstance()->getDBLoadBalancer();
@@ -185,8 +185,7 @@ class RefreshSpecialForm extends ContextSource {
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
 					}
 
-					$t2 = explode( ' ', microtime() );
-					$elapsed_total = ( $t2[0] - $t1[0] ) + ( $t2[1] - $t1[1] );
+					$elapsed_total = microtime( true ) - $t1;
 					$total['total_elapsed'] += $elapsed + $elapsed_total;
 				} else {
 					$out->addHTML( $this->msg( 'refreshspecial-skipped' )->plain() . '<br />' );
@@ -221,7 +220,7 @@ class RefreshSpecialForm extends ContextSource {
 	function doSubmit() {
 		/* guard against an empty array */
 		$array = $this->getRequest()->getArray( 'wpSpecial' );
-		if ( !is_array( $array ) || empty( $array ) || $array === null ) {
+		if ( !$array ) {
 			$this->showForm( $this->msg( 'refreshspecial-none-selected' )->plain() );
 			return;
 		}
