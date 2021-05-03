@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renan"
+		]
+	},
+	"refreshspecial": "Refriscar special págines",
+	"refreshspecial-desc": "Permisser [[Special:RefreshSpecial|refriscament manual]] de special págines",
+	"refreshspecial-title": "Refriscar special págines",
+	"refreshspecial-button": "Refriscar págines selectet",
+	"refreshspecial-choice": "refriscant special págines",
+	"refreshspecial-select-all-pages": "Selecter omni li págines",
+	"refreshspecial-link-back": "Retornar a special págine",
+	"refreshspecial-none-selected": "Vu ne have selectet qualcunc special págines. Reverter a selection uniform.",
+	"refreshspecial-no-page": "Nequant special págine",
+	"refreshspecial-page-result": "obtenet $1 {{PLURAL:$1|linea|lineas}} in",
+	"refreshspecial-total-display": "Refriscat $1 {{PLURAL:$1|págine|págines}}, totalisant $2 {{PLURAL:$2|linea|lineas}} in témpor $3 (témpor total de execution del scrite es $4)",
+	"right-refreshspecial": "Refriscar special págines"
+}
