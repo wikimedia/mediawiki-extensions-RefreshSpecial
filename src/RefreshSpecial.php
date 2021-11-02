@@ -49,7 +49,7 @@ class RefreshSpecial extends SpecialPage {
 		$this->checkReadOnly();
 
 		// Is the user blocked? If so they can't make new wikis
-		if ( $user->isBlocked() ) {
+		if ( $user->getBlock() ) {
 			throw new UserBlockedError( $user->getBlock() );
 		}
 
