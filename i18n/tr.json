@@ -3,11 +3,12 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Karduelis",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Rapsar"
 		]
 	},
 	"refreshspecial": "Yenilen özel sayfalar",
-	"refreshspecial-desc": "Özel sayfaların [[Special:RefreshSpecial|manüel özel sayfa yenilemesine]] izin verir",
+	"refreshspecial-desc": "Özel sayfaların [[Special:RefreshSpecial|elle özel sayfa yenilemesine]] izin verir",
 	"refreshspecial-title": "Yenilen özel sayfalar",
 	"refreshspecial-help": "Bu özel sayfa, özel sayfaları manuel olarak yenilemek için araçlar sağlar.\nYenilemek istediğiniz tüm sayfaları seçtiğinizde, seçilen özel sayfaları yenilemek için aşağıdaki \"{{int:refreshspecial-button}}\" düğmesini tıklayın.\n'''Uyarı:''' Daha büyük wikilerde yenileme biraz zaman alabilir.",
 	"refreshspecial-button": "Seçileni yenile",

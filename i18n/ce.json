@@ -4,15 +4,15 @@
 			"Умар"
 		]
 	},
-	"refreshspecial": "Карлаяха белхан агӀонаш",
-	"refreshspecial-title": "Карлаяха белхан агӀонаш",
-	"refreshspecial-button": "Керла яккхар билгала йина",
-	"refreshspecial-fail": "Дехар до, къастае цхьа агӀо керла яккха.",
-	"refreshspecial-refreshing": "Керла яккхар белхан агӀонаш",
+	"refreshspecial": "Карлайаха белхан агӀонаш",
+	"refreshspecial-title": "Карлайаха белхан агӀонаш",
+	"refreshspecial-button": "Керлайаккхар билгалдина",
+	"refreshspecial-fail": "Дехар до, къастае цхьа агӀо керла йаккха.",
+	"refreshspecial-refreshing": "Керлайаккхар белхан агӀонаш",
 	"refreshspecial-skipped": "чекхдалийтина гӀалат",
-	"refreshspecial-choice": "керла яккхар белхан агӀонаш",
+	"refreshspecial-choice": "керлайаккхар белхан агӀонаш",
 	"refreshspecial-select-all-pages": "Харжа массо агӀонаш",
-	"refreshspecial-no-page": "Иштта белхан агӀо яц",
+	"refreshspecial-no-page": "Иштта белхан агӀо йац",
 	"refreshspecial-page-result": "гуча беккхина $1 {{PLURAL:$1|1=могӀа|могӀамаш}} оцу",
-	"right-refreshspecial": "керла яккхар белхан агӀонаш"
+	"right-refreshspecial": "керлайаккхар белхан агӀонаш"
 }

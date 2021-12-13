@@ -7,7 +7,7 @@
 	"refreshspecial": "Refrescar paginas special",
 	"refreshspecial-desc": "Permitte le [[Special:RefreshSpecial|refrescamento manual]] de paginas special",
 	"refreshspecial-title": "Refrescar paginas special",
-	"refreshspecial-help": "Iste pagina special forni un modo manual de refrescar paginas special.\nQuando tu ha seligite tote le paginas que tu vole refrescar, clicca super le button \"{{int:refreshspecial-button}}\" in basso pro refrescar le paginas special seligite.\n'''Attention:''' le refrescamento pote durar un poco de tempore in wikis plus grande.",
+	"refreshspecial-help": "Iste pagina special forni un modo manual de refrescar paginas special.\nQuando tu ha seligite tote le paginas que tu vole refrescar, clicca sur le button \"{{int:refreshspecial-button}}\" in basso pro refrescar le paginas special seligite.\n'''Attention:''' le refrescamento pote prender un tempore in wikis plus grande.",
 	"refreshspecial-button": "Refrescar selection",
 	"refreshspecial-fail": "Per favor marca al minus un pagina special a refrescar.",
 	"refreshspecial-refreshing": "refrescamento de paginas special in curso",
