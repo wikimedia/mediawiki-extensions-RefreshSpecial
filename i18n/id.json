@@ -27,5 +27,6 @@
 	"refreshspecial-reconnecting": "Gagal tersambung. Menghubungkan kembali dalam 10 detik...",
 	"refreshspecial-page-result": "mendapat $1 {{PLURAL:$1|baris|baris}} pada",
 	"refreshspecial-total-display": "Pembaharuan $1 {{PLURAL:$1|halaman|halaman}} dengan jumlah $2 {{PLURAL:$2|baris|baris}} selama $3 (waktu selesai script berjalan adalah $4)",
+	"action-refreshspecial": "memutakhirkan halaman istimewa",
 	"right-refreshspecial": "Perbaharui halaman istimewa"
 }
