@@ -17,7 +17,7 @@
 	"refreshspecial-skipped": "ارزان، نادیده گرفته شده",
 	"refreshspecial-choice": "تازه کردن صفحه‌های ویژه",
 	"refreshspecial-js-disabled": "(<i>هنگامی که جاوااسکریپت غیرفعال است، شما نمی‌توانید همهٔ صفحات را انتخاب کنید</i>)",
-	"refreshspecial-select-all-pages": "انتخاب همهٔ صفحات",
+	"refreshspecial-select-all-pages": "انتخاب همهٔ صفحه‌ها",
 	"refreshspecial-link-back": "بازگشت به صفحهٔ ویژه",
 	"refreshspecial-none-selected": "شما هیچ صفحهٔ ویژه‌ای را انتخاب نکرده‌اید. بازگرداندن به انتخاب پیش‌فرض.",
 	"refreshspecial-db-error": "عدم موفقیت: خطای پایگاه اطلاعاتی",
