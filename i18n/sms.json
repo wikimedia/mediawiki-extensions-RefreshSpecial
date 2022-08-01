@@ -4,7 +4,9 @@
 			"Yupik"
 		]
 	},
-	"refreshspecial": "Peeiʹvet tuåimmseeidaid",
-	"refreshspecial-title": "Peeiʹvet tuåimmseeidaid",
-	"refreshspecial-no-page": "Tät tuåimmseidd ij kaunnu"
+	"refreshspecial": "Peiʹvved tuåimmseeidaid",
+	"refreshspecial-title": "Peiʹvved tuåimmseeidaid",
+	"refreshspecial-no-page": "Tät tuåimmseidd ij kaunnu",
+	"action-refreshspecial": "tuåimmseeidaid peiʹvveed",
+	"right-refreshspecial": "Tuåimmseeidaid peiʹvveed"
 }
