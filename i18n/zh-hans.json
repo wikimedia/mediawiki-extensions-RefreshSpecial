@@ -3,6 +3,7 @@
 		"authors": [
 			"Gzdavidwong",
 			"Liuxinyu970226",
+			"Stang",
 			"Yfdyh000"
 		]
 	},
@@ -27,5 +28,5 @@
 	"refreshspecial-page-result": "得到了 $1 行在",
 	"refreshspecial-total-display": "已刷新 $1 个页面，总共 $2 行花费 $3 完成（脚本总共运行了 $4）",
 	"action-refreshspecial": "刷新特殊页面",
-	"right-refreshspecial": "重新载入特殊页面"
+	"right-refreshspecial": "重新加载特殊页面"
 }
