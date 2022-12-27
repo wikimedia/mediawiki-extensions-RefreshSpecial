@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"refreshspecial": "Osveževanje posebnih strani",
+	"refreshspecial-desc": "Omogoča [[Special:RefreshSpecial|ročno posebno osveževanje]] posebnih strani",
+	"refreshspecial-title": "Osveževanje posebnih strani",
+	"refreshspecial-help": "Ta posebna stran zagotavlja način za ročno osveževanje posebnih strani.\nKo izberete vse strani, ki jih želite osvežiti, kliknite spodnji gumb  »{{int:refreshspecial-button}}«, da osvežite izbrane posebne strani.\n'''Opozorilo:''' Osvežitev lahko v večjih vikijih traja nekaj časa.",
+	"refreshspecial-button": "Osveži izbrane",
+	"refreshspecial-fail": "Za osvežitev izberite vsaj eno posebno stran.",
+	"refreshspecial-refreshing": "osveževanje posebnih strani",
+	"refreshspecial-skipped": "nepomembno, preskočeno",
+	"refreshspecial-choice": "osveževanje posebnih strani",
+	"refreshspecial-js-disabled": "(<i>Ko je JavaScript onemogočen, ne morete izbrati vseh strani</i> )",
+	"refreshspecial-select-all-pages": "Izberi vse strani",
+	"refreshspecial-link-back": "Vrnitev na posebno stran",
+	"refreshspecial-none-selected": "Izbrali niste nobene posebne strani. Vrnitev na privzeto izbiro.",
+	"refreshspecial-db-error": "Neuspešno: Napaka podatkovne zbirke",
+	"refreshspecial-no-page": "Ni take posebne strani",
+	"refreshspecial-slave-lagged": "Zakasnitev podrejenega strežnika, čakanje ...",
+	"refreshspecial-reconnected": "Ponovna povezava.",
+	"refreshspecial-reconnecting": "Povezava ni uspela, ponovna povezava čez 10 sekund ...",
+	"refreshspecial-page-result": "{{PLURAL:$1|prejeta|prejeti|prejete|prejetih}} $1 {{PLURAL:$1|vrstica|vrstici|vrstice|vrstic}}",
+	"refreshspecial-total-display": "{{PLURAL:$1|Osvežena|Osveženi|Osvežene|Osveženih}} $1 {{PLURAL:$1|stran|strani}}, skupaj $2 {{PLURAL:$2|vrstica|vrstici|vrstice|vrstic}} v času $3 (celotni čas izvajanja skripta: $4)",
+	"action-refreshspecial": "osveževanje posebnih strani",
+	"right-refreshspecial": "Osveževanje posebnih strani"
+}
