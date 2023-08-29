@@ -1,8 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zygimantus"
+			"Zygimantus",
+			"Nokeoo"
 		]
 	},
-	"action-refreshspecial": "atnaujinti specialius puslapius"
+	"refreshspecial": "Atnaujinti specialius puslapius",
+	"refreshspecial-desc": "Leidžia [[Special:RefreshSpecial|rankinį specialaus puslapio atnaujinimą]] specialiems puslapiams",
+	"refreshspecial-title": "Atnaujinti specialius puslapius",
+	"refreshspecial-help": "Šis specialus puslapis leidžia rankiniu būdu atnaujinti specialius puslapius.\nKai pasirinksite visus atnaujintinus puslapius, paspauskite „{{int:refreshspecial-button}}“ mygtuką žemiau, kad atnaujintumėte specialius puslapius.\n'''Įspėjimas:''' Atnaujinimas gali užtrukti didesnėse viki.",
+	"refreshspecial-button": "Atnaujinimas pasirinktas",
+	"refreshspecial-fail": "Pasirinkite bent vieną specialų puslapį atnaujinimui.",
+	"refreshspecial-refreshing": "atnaujinami specialūs puslapiai",
+	"refreshspecial-choice": "atnaujinami specialūs puslapiai",
+	"refreshspecial-js-disabled": "(<i>Negalite pasirinkti visų puslapių, kai JavaScript išjungtas</i>)",
+	"refreshspecial-select-all-pages": "Pasirinkite visus puslapius",
+	"refreshspecial-link-back": "Grįžti į specialų puslapį",
+	"refreshspecial-none-selected": "Nepasirinkote jokių specialių puslapių. Grąžinama į numatytąjį pasirinkimą.",
+	"refreshspecial-db-error": "Nepavyko: duomenų bazės klaida",
+	"refreshspecial-no-page": "Nėra tokio specialaus puslapio",
+	"refreshspecial-reconnected": "Prisijungta iš naujo.",
+	"refreshspecial-reconnecting": "Nepavyko prisijungti, vėl bus prisijungiama po 10 sekundžių...",
+	"refreshspecial-page-result": "gauta $1 {{PLURAL:$1|eilutė|eilutės}}",
+	"refreshspecial-total-display": "Atnaujinta 1 {{PLURAL:$1|puslapis|puslapiai}} sudarantys $2 {{PLURAL:$2|eilutę|eilutes}} per $3 (bendras kodo įvykdymo laikas $4)",
+	"action-refreshspecial": "atnaujinti specialius puslapius",
+	"right-refreshspecial": "Atnaujinti specialius puslapius"
 }
