@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gzdavidwong",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"Stang",
 			"Yfdyh000"
@@ -21,7 +22,7 @@
 	"refreshspecial-link-back": "回到特殊页面",
 	"refreshspecial-none-selected": "您没有选择任何特殊页面。恢复到默认的选择。",
 	"refreshspecial-db-error": "失败：资料库错误",
-	"refreshspecial-no-page": "此特殊页面不存在",
+	"refreshspecial-no-page": "没有此特殊页面",
 	"refreshspecial-slave-lagged": "从数据库滞后，等待中……",
 	"refreshspecial-reconnected": "已重新连接。",
 	"refreshspecial-reconnecting": "连接失败，在 10 秒后重新连接...",
