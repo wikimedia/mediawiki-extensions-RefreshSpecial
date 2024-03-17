@@ -44,7 +44,7 @@ class RefreshSpecialForm extends ContextSource {
 		 * that brings up an interesting question - do we need that limit or not?
 		 */
 		foreach ( QueryPage::getPages() as $page ) {
-			list( , $special ) = $page;
+			[ , $special ] = $page;
 
 			/** @var QueryPage $queryPage */
 			$queryPage = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
@@ -127,7 +127,7 @@ class RefreshSpecialForm extends ContextSource {
 		];
 
 		foreach ( QueryPage::getPages() as $page ) {
-			list( , $special ) = $page;
+			[ , $special ] = $page;
 			$limit = $page[2] ?? null;
 			if ( !in_array( $special, $to_refresh ) ) {
 				continue;
