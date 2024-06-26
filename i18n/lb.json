@@ -3,7 +3,8 @@
 		"authors": [
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"refreshspecial": "Spezialsäiten aktualiséieren",
@@ -24,8 +25,8 @@
 	"refreshspecial-slave-lagged": "Aarbecht déi nach usteet, an der Maach ...",
 	"refreshspecial-reconnected": "Nees verbonn",
 	"refreshspecial-reconnecting": "D'Verbindung koum net zustan, nei Verbindung an 10 Sekonnen ...",
-	"refreshspecial-page-result": " {{PLURAL:$1|eng Rei|$1 Reie}} kritt an",
-	"refreshspecial-total-display": "$1 {{PLURAL:$1|Säit|Säiten}} aktualiséiert mat am Ganzen $2 {{PLURAL:$2|Rei|Reien}} an $3 (Dauer) (d'Gesamtzäit déi de Skript gebraucht huet ass $4)",
+	"refreshspecial-page-result": "huet {{PLURAL:$1|eng Zeil|$1 Zeilen}} an",
+	"refreshspecial-total-display": "$1 {{PLURAL:$1|Säit|Säiten}} aktualiséiert mat am Ganzen $2 {{PLURAL:$2|Zeil|Zeilen}} an enger Zäit vun $3 (d'Gesamtzäit, déi de Skript gebraucht huet, ass $4)",
 	"action-refreshspecial": "Spezialsäiten aktualiséieren",
 	"right-refreshspecial": "Spezialsäiten aktualiséieren"
 }
