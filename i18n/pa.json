@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabal"
+		]
+	},
+	"refreshspecial": "ਖ਼ਾਸ ਵਰਕਿਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ",
+	"refreshspecial-title": "ਖ਼ਾਸ ਵਰਕਿਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ",
+	"refreshspecial-button": "ਚੋਣ ਕੀਤੇ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ",
+	"refreshspecial-fail": "ਤਾਜ਼ਾ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵਿਸ਼ੇਸ਼ ਸਫ਼ੇ ਦੀ ਜਾਂਚ ਕਰੋ।",
+	"refreshspecial-refreshing": "ਖ਼ਾਸ ਵਰਕਿਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
+	"refreshspecial-skipped": "ਸਸਤੀ, ਛੱਡੀ ਗਈ",
+	"refreshspecial-choice": "ਖ਼ਾਸ ਵਰਕਿਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ",
+	"refreshspecial-select-all-pages": "ਸਾਰੇ ਸਫ਼ੇ ਚੁਣੋ",
+	"refreshspecial-link-back": "ਵਿਸ਼ੇਸ਼ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਸ ਜਾਓ",
+	"refreshspecial-no-page": "ਅਜਿਹਾ ਕੋਈ ਖ਼ਾਸ ਸਫ਼ਾ ਨਹੀਂ ਹੈ",
+	"refreshspecial-slave-lagged": "ਗੁਲਾਮ ਪਿੱਛੇ ਰਹਿ ਗਿਆ, ਉਡੀਕ ਕਰ ਰਿਹਾ...",
+	"refreshspecial-reconnected": "ਮੁੜ-ਜੋੜਿਆ ਗਿਆ ਹੈ।",
+	"action-refreshspecial": "ਖ਼ਾਸ ਵਰਕਿਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ",
+	"right-refreshspecial": "ਖ਼ਾਸ ਵਰਕਿਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ"
+}
