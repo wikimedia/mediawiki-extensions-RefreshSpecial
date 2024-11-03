@@ -58,7 +58,7 @@ class RefreshSpecial extends SpecialPage {
 		ini_set( 'memory_limit', '512M' );
 		set_time_limit( 240 );
 
-		$out->setPageTitle( $this->msg( 'refreshspecial-title' )->plain() );
+		$out->setPageTitle( $this->msg( 'refreshspecial-title' )->escaped() );
 
 		$cSF = new RefreshSpecialForm();
 		$cSF->setContext( $this->getContext() );
