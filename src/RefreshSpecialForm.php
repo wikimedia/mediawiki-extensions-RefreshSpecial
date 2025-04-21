@@ -23,7 +23,9 @@ class RefreshSpecialForm extends ContextSource {
 
 		if ( $err != '' ) {
 			$out->setSubtitle( $this->msg( 'formerror' )->escaped() );
-			$out->addHTML( "<p class='error'>{$err}</p>\n" );
+			$out->addHTML( \Html::element( 'p', [
+				'class' => 'error',
+			], $err ) . "\n" );
 		}
 
 		$out->addWikiMsg( 'refreshspecial-help' );
@@ -68,12 +70,12 @@ class RefreshSpecialForm extends ContextSource {
 		$out->addHTML(
 			"\t\t\t\t\t" . '<li>
 						<input type="checkbox" name="check_all" id="refreshSpecialCheckAll" checked="checked" />
-						<label for="refreshSpecialCheckAll">&#160;' . $this->msg( 'refreshspecial-select-all-pages' )->plain() . '
+						<label for="refreshSpecialCheckAll">&#160;' . $this->msg( 'refreshspecial-select-all-pages' )->escaped() . '
 							<noscript>' . $this->msg( 'refreshspecial-js-disabled' )->parse() . '</noscript>
 						</label>
 					</li>
 				</ul>
-				<input tabindex="5" name="wpRefreshSpecialSubmit" type="submit" value="' . $this->msg( 'refreshspecial-button' )->plain() . '" />
+				<input tabindex="5" name="wpRefreshSpecialSubmit" type="submit" value="' . $this->msg( 'refreshspecial-button' )->escaped() . '" />
 				<input type="hidden" name="wpEditToken" value="' . $token . '" />
 			</form>' . "\n"
 		);
@@ -141,7 +143,7 @@ class RefreshSpecialForm extends ContextSource {
 			}
 
 			if ( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
-				$out->addHTML( "<b>$special</b>: " );
+				$out->addHTML( \Html::element( 'b', [], $special ) . ': ' );
 
 				if ( $queryPage->isExpensive() ) {
 					$t1 = microtime( true );
@@ -150,7 +152,7 @@ class RefreshSpecialForm extends ContextSource {
 					$t2 = microtime( true );
 
 					if ( $num === false ) {
-						$out->addHTML( $this->msg( 'refreshspecial-db-error' )->plain() . '<br />' );
+						$out->addHTML( $this->msg( 'refreshspecial-db-error' )->escaped() . '<br />' );
 					} else {
 						$message = $this->msg(
 							'refreshspecial-page-result',
@@ -172,23 +174,23 @@ class RefreshSpecialForm extends ContextSource {
 					if ( !$lb->pingAll() ) {
 						$out->addHTML( '<br />' );
 						do {
-							$out->addHTML( $this->msg( 'refreshspecial-reconnecting' )->plain() . '<br />' );
+							$out->addHTML( $this->msg( 'refreshspecial-reconnecting' )->escaped() . '<br />' );
 							sleep( RefreshSpecial::RECONNECTION_SLEEP );
 						} while ( !$lb->pingAll() );
-						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->plain() . '<br /><br />' );
+						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->escaped() . '<br /><br />' );
 					}
 
 					# Wait for the slave to catch up
 					$slaveDB = $lb->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
 					while ( $slaveDB->getLag() > RefreshSpecial::SLAVE_LAG_LIMIT ) {
-						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->plain() . '<br />' );
+						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->escaped() . '<br />' );
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
 					}
 
 					$elapsed_total = microtime( true ) - $t1;
 					$total['total_elapsed'] += $elapsed + $elapsed_total;
 				} else {
-					$out->addHTML( $this->msg( 'refreshspecial-skipped' )->plain() . '<br />' );
+					$out->addHTML( $this->msg( 'refreshspecial-skipped' )->escaped() . '<br />' );
 				}
 			}
 		}
@@ -228,7 +230,7 @@ class RefreshSpecialForm extends ContextSource {
 		$this->getOutput()->setSubtitle(
 			$this->msg( 'refreshspecial-choice',
 				$this->msg( 'refreshspecial-refreshing' )->plain()
-			)->plain()
+			)->escaped()
 		);
 		$this->refreshSpecial();
 
