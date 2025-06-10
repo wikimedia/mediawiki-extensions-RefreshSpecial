@@ -1,11 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"refreshspecial": "ځانگړي مخونه تاندول",
+	"refreshspecial-desc": "[[Special:RefreshSpecial|د ځانگړو مخونو تاندول لارښود]] ځانگړو مخونو ته اجازه ورکوي",
 	"refreshspecial-title": "ځانگړي مخونه تاندول",
+	"refreshspecial-button": "ټاکلی تاندول",
+	"refreshspecial-refreshing": "ځانگړي مخونه تاندول",
+	"refreshspecial-choice": "ځانگړي مخونه تاندول",
+	"refreshspecial-js-disabled": "(<i> کله چې جاواسکريپټ ناچارن وي، تاسو نشئ کولای چې ټول مخونه وټاکئ</i>)",
 	"refreshspecial-select-all-pages": "ټول مخونه ټاکل",
 	"refreshspecial-link-back": "بېرته ځانگړي مخ ته ورستنېدل",
+	"refreshspecial-db-error": "پاتې‌راغی: اومتوک‌اډانې تېروتنه",
+	"refreshspecial-no-page": "داسې هيڅ ځانگړی مخ نشته",
+	"refreshspecial-page-result": "$1 {{PLURAL:$1|کتار|کتارونه}} ترلاسه شو په",
+	"refreshspecial-total-display": "$1 {{PLURAL:$1|مخ|مخونه}} ټولټال $2 {{PLURAL:$2|کتار|کتارونه}} $3 وخت کې تازه شوې ( ډ بشپړ سکريپټ چلېدلو وخت $4)",
+	"action-refreshspecial": "ځانگړي مخونه تاندول",
 	"right-refreshspecial": "ځانگړي مخونه تاندول"
 }
