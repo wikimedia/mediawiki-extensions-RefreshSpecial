@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"refreshspecial": "Speciale pagina's vernieuwen",
@@ -13,7 +14,7 @@
 	"refreshspecial-fail": "Selecteer ten minste één te vernieuwen pagina.",
 	"refreshspecial-refreshing": "bezig met het vernieuwen van speciale pagina's",
 	"refreshspecial-skipped": "niet intensief, overgeslagen",
-	"refreshspecial-choice": "bezig met het vernieuwen van speciale pagina's",
+	"refreshspecial-choice": "vernieuwen van speciale pagina’s",
 	"refreshspecial-js-disabled": "(<i>U kunt alle pagina's niet selecteren wanneer JavaScript is uitgeschakeld</i>)",
 	"refreshspecial-select-all-pages": "Alle pagina's selecteren",
 	"refreshspecial-link-back": "Terug naar uitbreiding",
