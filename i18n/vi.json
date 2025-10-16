@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
+			"Nvdtn19",
 			"SongNgu.xyz",
 			"Vinhtantran"
 		]
@@ -19,7 +20,7 @@
 	"refreshspecial-select-all-pages": "Chọn tất cả các trang",
 	"refreshspecial-link-back": "Quay về trang đặc biệt",
 	"refreshspecial-none-selected": "Bạn chưa chọn trang đặc biệt nào. Đang quay về lựa chọn mặc định.",
-	"refreshspecial-db-error": "Thất bại: lỗi cơ sở dữ liệu",
+	"refreshspecial-db-error": "Không thành công: lỗi cơ sở dữ liệu",
 	"refreshspecial-no-page": "Không có trang đặc biệt như vậy",
 	"refreshspecial-slave-lagged": "Máy phụ bị trễ, đang chờ…",
 	"refreshspecial-reconnected": "Đã kết nối lại.",
