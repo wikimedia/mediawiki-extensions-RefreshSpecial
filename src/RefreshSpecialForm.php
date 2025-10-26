@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -23,7 +24,7 @@ class RefreshSpecialForm extends ContextSource {
 
 		if ( $err != '' ) {
 			$out->setSubtitle( $this->msg( 'formerror' )->escaped() );
-			$out->addHTML( \Html::element( 'p', [
+			$out->addHTML( Html::element( 'p', [
 				'class' => 'error',
 			], $err ) . "\n" );
 		}
@@ -143,7 +144,7 @@ class RefreshSpecialForm extends ContextSource {
 			}
 
 			if ( !( isset( $options['only'] ) ) || ( $options['only'] == $queryPage->getName() ) ) {
-				$out->addHTML( \Html::element( 'b', [], $special ) . ': ' );
+				$out->addHTML( Html::element( 'b', [], $special ) . ': ' );
 
 				if ( $queryPage->isExpensive() ) {
 					$t1 = microtime( true );
