@@ -158,12 +158,17 @@ $specialPageAliases['vi'] = [
 	'RefreshSpecial' => [ 'Làm_mới_trang_đặc_biệt', 'Làm_tươi_trang_đặc_biệt' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'RefreshSpecial' => [ 'RefreshSpecial' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'RefreshSpecial' => [ '刷新特殊页面' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'RefreshSpecial' => [ '重新整理特殊頁面', '重整特殊頁面', '刷新特殊頁面', '特殊重新載入' ],
 ];
