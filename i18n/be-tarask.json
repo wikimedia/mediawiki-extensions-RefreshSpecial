@@ -18,7 +18,7 @@
 	"refreshspecial-js-disabled": "(<i>Вы ня можаце выбраць усе старонкі, калі JavaScript адключаны</i>)",
 	"refreshspecial-select-all-pages": "Выбраць усе старонкі",
 	"refreshspecial-link-back": "Вярнуцца на спэцыяльную старонку",
-	"refreshspecial-none-selected": "Вы ня выбралі ніякай спэцыяльнай старонкі. Вярнуцца да выбару па змоўчваньні.",
+	"refreshspecial-none-selected": "Вы не абралі ніякай спэцыяльнай старонкі. Вярнуцца да перадвызначанага выбару.",
 	"refreshspecial-db-error": "Памылка базы зьвестак",
 	"refreshspecial-no-page": "Няма такой спэцыяльнай старонкі",
 	"refreshspecial-slave-lagged": "Праблемы сувязі з падпарадкаванай сыстэмай. Калі ласка, пачакайце...",
