@@ -188,11 +188,11 @@ class RefreshSpecialForm extends ContextSource {
 						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->escaped() . '<br /><br />' );
 					}
 
-					# Wait for the slave to catch up
-					$slaveDB = $this->dbLoadBalancer->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
-					while ( $slaveDB->getLag() > RefreshSpecial::SLAVE_LAG_LIMIT ) {
-						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->escaped() . '<br />' );
-						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
+					# Wait for the replica to catch up
+					$replicaDB = $this->dbLoadBalancer->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
+					while ( $replicaDB->getLag() > RefreshSpecial::REPLICA_LAG_LIMIT ) {
+						$out->addHTML( $this->msg( 'refreshspecial-replica-lagged' )->escaped() . '<br />' );
+						sleep( RefreshSpecial::REPLICA_LAG_SLEEP );
 					}
 
 					$elapsed_total = microtime( true ) - $t1;

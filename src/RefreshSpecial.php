@@ -19,10 +19,10 @@ class RefreshSpecial extends SpecialPage {
 	public const ROW_LIMIT = 1000;
 	/** @var int interval between reconnects */
 	public const RECONNECTION_SLEEP = 10;
-	/** @var int amount of acceptable slave lag */
-	public const SLAVE_LAG_LIMIT = 600;
-	/** @var int interval when slave is lagged */
-	public const SLAVE_LAG_SLEEP = 30;
+	/** @var int amount of acceptable replica lag */
+	public const REPLICA_LAG_LIMIT = 600;
+	/** @var int interval when replica is lagged */
+	public const REPLICA_LAG_SLEEP = 30;
 
 	public function __construct(
 		private readonly ILoadBalancer $dbLoadBalancer,

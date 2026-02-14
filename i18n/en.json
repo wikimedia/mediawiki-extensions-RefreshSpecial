@@ -19,7 +19,7 @@
 	"refreshspecial-none-selected": "You have not selected any special pages. Reverting to default selection.",
 	"refreshspecial-db-error": "Failed: Database error",
 	"refreshspecial-no-page": "No such special page",
-	"refreshspecial-slave-lagged": "Slave lagged, waiting...",
+	"refreshspecial-replica-lagged": "Replica lagged, waiting...",
 	"refreshspecial-reconnected": "Reconnected.",
 	"refreshspecial-reconnecting": "Connection failed, reconnecting in 10 seconds...",
 	"refreshspecial-page-result": "got $1 {{PLURAL:$1|row|rows}} in",

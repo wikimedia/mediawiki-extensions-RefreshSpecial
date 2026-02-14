@@ -25,7 +25,7 @@
 	"refreshspecial-none-selected": "If the user pressed the \"Refresh selected\" button without checking any of the checkboxes, this message will be displayed to him/her.",
 	"refreshspecial-db-error": "Error message shown to the user if a database error is encountered while trying to do the necessary queries.",
 	"refreshspecial-no-page": "If an invalid special page is encountered, this message will be displayed.",
-	"refreshspecial-slave-lagged": "Displayed if a slave database server is lagging",
+	"refreshspecial-replica-lagged": "Displayed if a replica database server is lagging",
 	"refreshspecial-reconnected": "Displayed if the connection to the database was lost for some reason but the extension was able to reconnect to it.",
 	"refreshspecial-reconnecting": "Displayed if the connection to the database was lost for some reason.",
 	"refreshspecial-page-result": "Displayed on Special:RefreshSpecial after the user has pressed the \"Refresh selected\" button and results were gotten from the DB.\n\nParameters:\n* $1 - limit number of rows. Default value: 1000",
