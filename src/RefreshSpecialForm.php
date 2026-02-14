@@ -8,14 +8,13 @@ use MediaWiki\MediaWikiServices;
  * Constructs and displays the form
  */
 class RefreshSpecialForm extends ContextSource {
-	public $mLink;
 
 	/**
 	 * Show the actual form
 	 *
 	 * @param string $err Error message if there was an error, otherwise empty
 	 */
-	function showForm( $err ) {
+	public function showForm( string $err ): void {
 		$out = $this->getOutput();
 
 		$token = htmlspecialchars( $this->getUser()->getEditToken() );
@@ -86,14 +85,16 @@ class RefreshSpecialForm extends ContextSource {
 	 * Take amount of elapsed time, produce hours (hopefully never needed...), minutes, seconds
 	 *
 	 * @param int $amount
-	 * @return array Amount of elapsed time
+	 * @return int[] Amount of elapsed time
 	 */
-	function computeTime( $amount ) {
-		$return_array = [];
-		$return_array['hours'] = intval( $amount / 3600 );
-		$return_array['minutes'] = intval( $amount % 3600 / 60 );
-		$return_array['seconds'] = $amount - $return_array['hours'] * 3600 - $return_array['minutes'] * 60;
-		return $return_array;
+	private function computeTime( $amount ): array {
+		$hours = intval( $amount / 3600 );
+		$minutes = intval( (int)$amount % 3600 / 60 );
+		return [
+			'hours' => $hours,
+			'minutes' => $minutes,
+			'seconds' => $amount - $hours * 3600 - $minutes * 60
+		];
 	}
 
 	/**
@@ -101,9 +102,8 @@ class RefreshSpecialForm extends ContextSource {
 	 *
 	 * @param mixed $time Amount of time, with h, m or s appended to it
 	 * @param mixed &$message Message displayed to the user containing the elapsed time
-	 * @return bool
 	 */
-	function formatTimeMessage( $time, &$message ) {
+	private function formatTimeMessage( $time, &$message ): void {
 		if ( $time['hours'] ) {
 			$message .= $time['hours'] . 'h ';
 		}
@@ -111,14 +111,13 @@ class RefreshSpecialForm extends ContextSource {
 			$message .= $time['minutes'] . 'm ';
 		}
 		$message .= $time['seconds'] . 's';
-		return true;
 	}
 
 	/**
 	 * This actually refreshes the special pages
 	 * Will need to be modified further
 	 */
-	function refreshSpecial() {
+	private function refreshSpecial(): void {
 		$out = $this->getOutput();
 
 		$to_refresh = $this->getRequest()->getArray( 'wpSpecial' );
@@ -220,7 +219,7 @@ class RefreshSpecialForm extends ContextSource {
 	 * Otherwise set the correct subtitle, perform the refreshing and render a
 	 * link that points back to the special page.
 	 */
-	function doSubmit() {
+	public function doSubmit(): void {
 		/* guard against an empty array */
 		$array = $this->getRequest()->getArray( 'wpSpecial' );
 		if ( !$array ) {

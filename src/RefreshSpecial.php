@@ -3,7 +3,6 @@
 /**
  * A special page providing means to manually refresh special pages
  *
- * @file
  * @ingroup Extensions
  * @author Bartek Łapiński <bartek@wikia-inc.com>
  * @author Jack Phoenix
@@ -12,32 +11,26 @@
  */
 class RefreshSpecial extends SpecialPage {
 
-	/* limits the number of refreshed rows */
-	const ROW_LIMIT = 1000;
-	/* interval between reconnects */
-	const RECONNECTION_SLEEP = 10;
-	/* amount of acceptable slave lag  */
-	const SLAVE_LAG_LIMIT = 600;
-	/* interval when slave is lagged */
-	const SLAVE_LAG_SLEEP = 30;
+	/** @var int limits the number of refreshed rows */
+	public const ROW_LIMIT = 1000;
+	/** @var int interval between reconnects */
+	public const RECONNECTION_SLEEP = 10;
+	/** @var int amount of acceptable slave lag */
+	public const SLAVE_LAG_LIMIT = 600;
+	/** @var int interval when slave is lagged */
+	public const SLAVE_LAG_SLEEP = 30;
 
-	/**
-	 * Constructor
-	 */
 	public function __construct() {
-		parent::__construct( 'RefreshSpecial'/*class*/, 'refreshspecial'/*restriction*/ );
+		parent::__construct( 'RefreshSpecial', 'refreshspecial' );
 	}
 
+	/** @inheritDoc */
 	public function doesWrites() {
 		return true;
 	}
 
-	/**
-	 * Show the special page
-	 *
-	 * @param mixed $par Parameter passed to the page or null
-	 */
-	public function execute( $par ) {
+	/** @inheritDoc */
+	public function execute( $par ): void {
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 		$user = $this->getUser();
@@ -58,17 +51,17 @@ class RefreshSpecial extends SpecialPage {
 		ini_set( 'memory_limit', '512M' );
 		set_time_limit( 240 );
 
-		$out->setPageTitle( $this->msg( 'refreshspecial-title' )->escaped() );
+		$out->setPageTitleMsg( $this->msg( 'refreshspecial-title' ) );
 
 		$cSF = new RefreshSpecialForm();
 		$cSF->setContext( $this->getContext() );
 
 		$action = $request->getVal( 'action' );
-		if ( $action == 'success' ) {
+		if ( $action === 'success' ) {
 			/* do something */
-		} elseif ( $action == 'failure' ) {
+		} elseif ( $action === 'failure' ) {
 			$cSF->showForm( $this->msg( 'refreshspecial-fail' )->plain() );
-		} elseif ( $request->wasPosted() && $action == 'submit' &&
+		} elseif ( $request->wasPosted() && $action === 'submit' &&
 			$user->matchEditToken( $request->getVal( 'wpEditToken' ) ) ) {
 			$cSF->doSubmit();
 		} else {
@@ -76,9 +69,7 @@ class RefreshSpecial extends SpecialPage {
 		}
 	}
 
-	/**
-	 * @inheritDoc
-	 */
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'wiki';
 	}
