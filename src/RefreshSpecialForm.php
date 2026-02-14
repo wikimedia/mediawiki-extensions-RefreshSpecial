@@ -1,13 +1,22 @@
 <?php
 
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Linker\LinkRenderer;
+use MediaWiki\SpecialPage\SpecialPageFactory;
+use Wikimedia\Rdbms\ILoadBalancer;
 
 /**
  * RefreshSpecialForm class
  * Constructs and displays the form
  */
 class RefreshSpecialForm extends ContextSource {
+
+	public function __construct(
+		private readonly ILoadBalancer $dbLoadBalancer,
+		private readonly LinkRenderer $linkRenderer,
+		private readonly SpecialPageFactory $specialPageFactory,
+	) {
+	}
 
 	/**
 	 * Show the actual form
@@ -49,7 +58,7 @@ class RefreshSpecialForm extends ContextSource {
 			[ , $special ] = $page;
 
 			/** @var QueryPage $queryPage */
-			$queryPage = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
+			$queryPage = $this->specialPageFactory->getPage( $special );
 			if ( !$queryPage ) {
 				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . " $special\n" );
 				exit;
@@ -136,7 +145,7 @@ class RefreshSpecialForm extends ContextSource {
 			}
 
 			/** @var QueryPage $queryPage */
-			$queryPage = MediaWikiServices::getInstance()->getSpecialPageFactory()->getPage( $special );
+			$queryPage = $this->specialPageFactory->getPage( $special );
 			if ( !$queryPage ) {
 				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
@@ -170,18 +179,17 @@ class RefreshSpecialForm extends ContextSource {
 					$t1 = microtime( true );
 
 					# Reopen any connections that have closed
-					$lb = MediaWikiServices::getInstance()->getDBLoadBalancer();
-					if ( !$lb->pingAll() ) {
+					if ( !$this->dbLoadBalancer->pingAll() ) {
 						$out->addHTML( '<br />' );
 						do {
 							$out->addHTML( $this->msg( 'refreshspecial-reconnecting' )->escaped() . '<br />' );
 							sleep( RefreshSpecial::RECONNECTION_SLEEP );
-						} while ( !$lb->pingAll() );
+						} while ( !$this->dbLoadBalancer->pingAll() );
 						$out->addHTML( $this->msg( 'refreshspecial-reconnected' )->escaped() . '<br /><br />' );
 					}
 
 					# Wait for the slave to catch up
-					$slaveDB = $lb->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
+					$slaveDB = $this->dbLoadBalancer->getConnection( DB_REPLICA, [ 'QueryPage::recache', 'vslow' ] );
 					while ( $slaveDB->getLag() > RefreshSpecial::SLAVE_LAG_LIMIT ) {
 						$out->addHTML( $this->msg( 'refreshspecial-slave-lagged' )->escaped() . '<br />' );
 						sleep( RefreshSpecial::SLAVE_LAG_SLEEP );
@@ -235,7 +243,7 @@ class RefreshSpecialForm extends ContextSource {
 		$this->refreshSpecial();
 
 		$titleObj = SpecialPage::getTitleFor( 'RefreshSpecial' );
-		$link_back = MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
+		$link_back = $this->linkRenderer->makeKnownLink(
 			$titleObj,
 			$this->msg( 'refreshspecial-link-back' )->plain()
 		);

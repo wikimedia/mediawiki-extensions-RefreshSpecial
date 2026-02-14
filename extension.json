@@ -13,7 +13,14 @@
 		"MediaWiki": ">= 1.43"
 	},
 	"SpecialPages": {
-		"RefreshSpecial": "RefreshSpecial"
+		"RefreshSpecial": {
+			"class": "RefreshSpecial",
+			"services": [
+				"DBLoadBalancer",
+				"LinkRenderer",
+				"SpecialPageFactory"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"RefreshSpecial": [

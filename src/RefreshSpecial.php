@@ -1,5 +1,9 @@
 <?php
 
+use MediaWiki\Linker\LinkRenderer;
+use MediaWiki\SpecialPage\SpecialPageFactory;
+use Wikimedia\Rdbms\ILoadBalancer;
+
 /**
  * A special page providing means to manually refresh special pages
  *
@@ -20,7 +24,11 @@ class RefreshSpecial extends SpecialPage {
 	/** @var int interval when slave is lagged */
 	public const SLAVE_LAG_SLEEP = 30;
 
-	public function __construct() {
+	public function __construct(
+		private readonly ILoadBalancer $dbLoadBalancer,
+		private readonly LinkRenderer $linkRenderer,
+		private readonly SpecialPageFactory $specialPageFactory,
+	) {
 		parent::__construct( 'RefreshSpecial', 'refreshspecial' );
 	}
 
@@ -53,7 +61,7 @@ class RefreshSpecial extends SpecialPage {
 
 		$out->setPageTitleMsg( $this->msg( 'refreshspecial-title' ) );
 
-		$cSF = new RefreshSpecialForm();
+		$cSF = new RefreshSpecialForm( $this->dbLoadBalancer, $this->linkRenderer, $this->specialPageFactory );
 		$cSF->setContext( $this->getContext() );
 
 		$action = $request->getVal( 'action' );
