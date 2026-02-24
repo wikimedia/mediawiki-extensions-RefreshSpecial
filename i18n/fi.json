@@ -27,7 +27,6 @@
 	"refreshspecial-none-selected": "Et ole valinnut yhtään toimintosivua. Palataan oletusasetuksiin.",
 	"refreshspecial-db-error": "Epäonnistui: Tietokantavirhe",
 	"refreshspecial-no-page": "Kyseistä toimintosivua ei ole",
-	"refreshspecial-slave-lagged": "Toisiopalvelin on jäänyt jälkeen. Odotetaan...",
 	"refreshspecial-reconnected": "Yhdistetty uudelleen.",
 	"refreshspecial-reconnecting": "Yhteys epäonnistui, yritetään uudelleen 10 sekunnin kuluttua...",
 	"refreshspecial-page-result": "saatiin $1 {{PLURAL:$1|rivi|riviä}} ajassa",

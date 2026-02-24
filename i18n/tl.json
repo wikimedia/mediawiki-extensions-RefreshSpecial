@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Hindi ka pumili ng anumang natatanging mga pahina.  Nagbabalik sa likas na nakatakdang pagpipilian.",
 	"refreshspecial-db-error": "Nabigo: kamalian sa kalipunan ng dato",
 	"refreshspecial-no-page": "Walang ganyang natatanging pahina",
-	"refreshspecial-slave-lagged": "Naiwan/bumagal ang alipin, naghihintay...",
 	"refreshspecial-reconnected": "Muli nang naugnay.",
 	"refreshspecial-reconnecting": "Nabigo ang pagkakaugnay (koneksyon), muling uugnay sa loob ng 10 segundo...",
 	"refreshspecial-page-result": "nakakuha ng $1 {{PLURAL:$1|pahalang na hanay|pahalang na mga hanay}} mula sa",

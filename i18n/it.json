@@ -21,7 +21,6 @@
 	"refreshspecial-none-selected": "Non è stata selezionata alcuna pagina speciale. Ripristino alla selezione di default.",
 	"refreshspecial-db-error": "Fallito: errore del database",
 	"refreshspecial-no-page": "Pagina speciale inesistente",
-	"refreshspecial-slave-lagged": "In attesa per ritardo del server slave...",
 	"refreshspecial-reconnected": "Riconnesso.",
 	"refreshspecial-reconnecting": "Connessione fallita, prossimo tentativo fra 10 secondi...",
 	"refreshspecial-page-result": "{{PLURAL:$1|ottenuta 1 riga|ottenute $1 righe}} in",

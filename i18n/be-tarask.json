@@ -21,7 +21,6 @@
 	"refreshspecial-none-selected": "Вы не абралі ніякай спэцыяльнай старонкі. Вярнуцца да перадвызначанага выбару.",
 	"refreshspecial-db-error": "Памылка базы зьвестак",
 	"refreshspecial-no-page": "Няма такой спэцыяльнай старонкі",
-	"refreshspecial-slave-lagged": "Праблемы сувязі з падпарадкаванай сыстэмай. Калі ласка, пачакайце...",
 	"refreshspecial-reconnected": "Перадалучэньне.",
 	"refreshspecial-reconnecting": "Памылка злучэньня, перадалучэньне праз 10 сэкундаў...",
 	"refreshspecial-page-result": "{{PLURAL:$1|атрыманы $1 радок у|атрыманыя $1 радкі ў|атрыманыя $1 радкоў у}}",

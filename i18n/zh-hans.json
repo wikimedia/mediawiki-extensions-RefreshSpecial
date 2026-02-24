@@ -23,7 +23,6 @@
 	"refreshspecial-none-selected": "您没有选择任何特殊页面。恢复到默认的选择。",
 	"refreshspecial-db-error": "失败：资料库错误",
 	"refreshspecial-no-page": "没有此特殊页面",
-	"refreshspecial-slave-lagged": "从数据库滞后，等待中……",
 	"refreshspecial-reconnected": "已重新连接。",
 	"refreshspecial-reconnecting": "连接失败，在 10 秒后重新连接...",
 	"refreshspecial-page-result": "得到了 $1 行在",

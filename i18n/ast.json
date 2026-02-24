@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Nun seleicionó nenguna páxina especial. Volviendo a la seleición predeterminada.",
 	"refreshspecial-db-error": "Falló: Error de la base de datos",
 	"refreshspecial-no-page": "Nun esiste esa páxina especial",
-	"refreshspecial-slave-lagged": "Retrasu nel sirvidor esclavu, esperando...",
 	"refreshspecial-reconnected": "Reconeutáu.",
 	"refreshspecial-reconnecting": "Falló la conexón, reconeutando en 10 segundos...",
 	"refreshspecial-page-result": "{{PLURAL:$1|recibióse una filera|recibiéronse $1 fileres}} en",

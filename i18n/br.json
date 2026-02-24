@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "N'ho peus dibabet pajenn dibar ebet. Distro d’an dibab dre ziouer.",
 	"refreshspecial-db-error": "C'hwitet : fazi gant an diaz roadennoù",
 	"refreshspecial-no-page": "N'eus ket eus ar bajenn dibar-mañ",
-	"refreshspecial-slave-lagged": "Dale war ar servijer sklav, o gortoz...",
 	"refreshspecial-reconnected": "Adkevreet.",
 	"refreshspecial-reconnecting": "N'oc'h ket bet kevreadet, adkevreadenn a-benn 10 eilenn...",
 	"refreshspecial-page-result": "bet $1 linenn{{PLURAL:$1||}} e",

@@ -28,7 +28,6 @@
 	"refreshspecial-none-selected": "Vous n’avez sélectionné aucune page spéciale. Retour à la sélection par défaut.",
 	"refreshspecial-db-error": "Échec : erreur de la base de données",
 	"refreshspecial-no-page": "Page spéciale inexistante",
-	"refreshspecial-slave-lagged": "Retard sur le serveur esclave, attente en cours...",
 	"refreshspecial-reconnected": "Reconnecté à la base de données.",
 	"refreshspecial-reconnecting": "Échec de la connexion, reconnexion dans 10 secondes...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|ligne obtenue|lignes obtenues}} en",

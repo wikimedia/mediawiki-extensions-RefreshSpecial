@@ -21,7 +21,6 @@
 	"refreshspecial-none-selected": "Nu ai selectat nicio pagină specială. Vor fi readuse marcările implicite.",
 	"refreshspecial-db-error": "Eșuat: eroare la baza de date",
 	"refreshspecial-no-page": "Nu există o astfel de pagină specială",
-	"refreshspecial-slave-lagged": "Întârziere la serverul secundar, aștept ...",
 	"refreshspecial-reconnected": "Reconectat.",
 	"refreshspecial-reconnecting": "Eroare la conectare, reconectare în 10 secunde ...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|rând obținut|rânduri obținute}} în",

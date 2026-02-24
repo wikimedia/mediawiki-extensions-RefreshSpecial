@@ -25,7 +25,7 @@
 	"refreshspecial-none-selected": "{{#FORMAL:Du hast|Sie haben}} keine Spezialseiten ausgewählt; somit Zurücksetzung auf die Standardauswahl.",
 	"refreshspecial-db-error": "Störung: Datenbankfehler",
 	"refreshspecial-no-page": "Keine solche Spezialseite",
-	"refreshspecial-slave-lagged": "Slave-Server hängt hinterher, warten …",
+	"refreshspecial-replica-lagged": "Kopie ist verzögert, wartet …",
 	"refreshspecial-reconnected": "Wiederverbunden.",
 	"refreshspecial-reconnecting": "Verbindung fehlgeschlagen, wiederverbinde in 10 Sekunden …",
 	"refreshspecial-page-result": "enthält {{PLURAL:$1|eine Reihe|$1 Reihen}} in",

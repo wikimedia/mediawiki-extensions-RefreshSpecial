@@ -20,7 +20,6 @@
 	"refreshspecial-none-selected": "Nem jelöltél ki egy speciális lapot sem. Visszatérés az alapértelmezett kijelöléshez.",
 	"refreshspecial-db-error": "Sikertelen: adatbázishiba",
 	"refreshspecial-no-page": "Nincs ilyen speciális lap",
-	"refreshspecial-slave-lagged": "A slave lemaradt, várakozás…",
 	"refreshspecial-reconnected": "Újracsatlakozva.",
 	"refreshspecial-reconnecting": "A kapcsolat megszakadt, újracsatlakozás 10 másodperc múlva…",
 	"refreshspecial-page-result": "$1 sort tartalmaz",

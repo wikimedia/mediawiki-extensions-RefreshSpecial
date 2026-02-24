@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Nonn g'ha state scacchiate nisciuna pàgena speciale. Repristine 'u scacchiamende predefinite.",
 	"refreshspecial-db-error": "Fallite: Errore d'u database",
 	"refreshspecial-no-page": "Nisciuna pàgena speciale",
-	"refreshspecial-slave-lagged": "Stoche aspette pe 'nu retarde d'u server slave...",
 	"refreshspecial-reconnected": "Riconnesse.",
 	"refreshspecial-reconnecting": "Connessione sciute a male, 'u prosseme tendative 'mbrà 10 seconde...",
 	"refreshspecial-page-result": "pigghiate {{PLURAL:$1|'na righe|$1 righe}} jndr'à",

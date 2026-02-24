@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Du hesch kei Spezialsyten ausgwehlt. Wird zrugggsetzt uf d Standarduuswahl.",
 	"refreshspecial-db-error": "Sterig: Datebankfähler",
 	"refreshspecial-no-page": "Kei sonigi Spezialsyte",
-	"refreshspecial-slave-lagged": "Slave-Server hangt, warte ...",
 	"refreshspecial-reconnected": "Wider verbunde.",
 	"refreshspecial-reconnecting": "Verbindig fähl gschlaa, wider verbinde in 10 Sekunde ...",
 	"refreshspecial-page-result": "het {{PLURAL:$1|ei Reihe|$1 Reihe}} in",

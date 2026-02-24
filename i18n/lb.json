@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "Dir hutt keng Spezialssäiten ausgewielt. Zrèck op d'Astellung 'par défaut'",
 	"refreshspecial-db-error": "Et geet net: Feeler vun der Datebank",
 	"refreshspecial-no-page": "Et gëtt keng sou Spezialsäit",
-	"refreshspecial-slave-lagged": "Aarbecht déi nach usteet, an der Maach ...",
 	"refreshspecial-reconnected": "Nees verbonn",
 	"refreshspecial-reconnecting": "D'Verbindung koum net zustan, nei Verbindung an 10 Sekonnen ...",
 	"refreshspecial-page-result": "huet {{PLURAL:$1|eng Zeil|$1 Zeilen}} an",

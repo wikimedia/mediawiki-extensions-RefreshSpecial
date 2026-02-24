@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Ju nuk keni zgjedhur ndonjë faqe të veçantë. U kthye tek default përzgjedhje.",
 	"refreshspecial-db-error": "Gabim: gabim Baza e të dhënave",
 	"refreshspecial-no-page": "Nuk ekziston kjo faqe",
-	"refreshspecial-slave-lagged": "Rob mbetur, duke pritur ...",
 	"refreshspecial-reconnected": "Rilidhën.",
 	"refreshspecial-reconnecting": "Lidhja deshtoi, reconnecting në 10 sekonda ...",
 	"refreshspecial-page-result": "u $1 {{PLURAL:$1|radhë|rreshtave}} në",

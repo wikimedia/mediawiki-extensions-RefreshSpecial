@@ -20,7 +20,6 @@
 	"refreshspecial-none-selected": "Du har ikkje merkt noka spesialsida. Stiller attende til standardval.",
 	"refreshspecial-db-error": "Mislukkast: databasefeil",
 	"refreshspecial-no-page": "Spesialsida finst ikkje",
-	"refreshspecial-slave-lagged": "Forseinking i slavetenaren, ventar...",
 	"refreshspecial-reconnected": "Kopla til på nytt.",
 	"refreshspecial-reconnecting": "Tilkopling mislukkast, prøver om att om ti sekund...",
 	"refreshspecial-page-result": "fekk {{PLURAL:$1|éi rekkja|$1 rekkjer}} i",

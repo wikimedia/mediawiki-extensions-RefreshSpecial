@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "Bạn chưa chọn trang đặc biệt nào. Đang quay về lựa chọn mặc định.",
 	"refreshspecial-db-error": "Không thành công: lỗi cơ sở dữ liệu",
 	"refreshspecial-no-page": "Không có trang đặc biệt như vậy",
-	"refreshspecial-slave-lagged": "Máy phụ bị trễ, đang chờ…",
 	"refreshspecial-reconnected": "Đã kết nối lại.",
 	"refreshspecial-reconnecting": "Kết nối thất bại, đang kết nối lại trong 10 giây nữa…",
 	"refreshspecial-page-result": "có $1 hàng trong",

@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Izbrali niste nobene posebne strani. Vrnitev na privzeto izbiro.",
 	"refreshspecial-db-error": "Neuspešno: Napaka podatkovne zbirke",
 	"refreshspecial-no-page": "Ni take posebne strani",
-	"refreshspecial-slave-lagged": "Zakasnitev podrejenega strežnika, čakanje ...",
 	"refreshspecial-reconnected": "Ponovna povezava.",
 	"refreshspecial-reconnecting": "Povezava ni uspela, ponovna povezava čez 10 sekund ...",
 	"refreshspecial-page-result": "{{PLURAL:$1|prejeta|prejeti|prejete|prejetih}} $1 {{PLURAL:$1|vrstica|vrstici|vrstice|vrstic}}",

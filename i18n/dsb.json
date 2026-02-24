@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Njejsy wubrał specialne boki. Wrośenje k standardnemu wuběrkoju.",
 	"refreshspecial-db-error": "Njewuspěch: zmólka datoweje banki",
 	"refreshspecial-no-page": "Žeden taki specialny bok",
-	"refreshspecial-slave-lagged": "Serwer slave jo pómały, caka se...",
 	"refreshspecial-reconnected": "Znowego zwězany.",
 	"refreshspecial-reconnecting": "Zwisk jo se njeraźił, znowegozwězowanje za 10 sekundow...",
 	"refreshspecial-page-result": "wopśimujo $1 {{PLURAL:$1|rěd|rěda|rědy|rědow}} w",

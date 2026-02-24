@@ -23,7 +23,6 @@
 	"refreshspecial-none-selected": "Nie wybrałeś żadnych stron specjalnych. Przywracanie domyślnego wyboru.",
 	"refreshspecial-db-error": "Niepowodzenie – błąd bazy danych",
 	"refreshspecial-no-page": "Nie ma takiej strony specjalnej",
-	"refreshspecial-slave-lagged": "Opóźnienia w komunikacji z systemem podrzędnym, trwa oczekiwanie...",
 	"refreshspecial-reconnected": "Ponownie połączono.",
 	"refreshspecial-reconnecting": "Połączenie nie powiodło się, ponowne połączenie nastąpi za 10 sekund...",
 	"refreshspecial-page-result": "otrzymała $1 {{PLURAL:$1|wiersz|wiersze|wierszy}} w",

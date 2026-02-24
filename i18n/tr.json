@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "Özel bir sayfa seçmediniz. Varsayılan seçime dönülüyor.",
 	"refreshspecial-db-error": "Başarısız: Veritabanı hatası",
 	"refreshspecial-no-page": "Böyle özel bir sayfa yok",
-	"refreshspecial-slave-lagged": "Köle gecikti, bekliyor...",
 	"refreshspecial-reconnected": "Yeniden bağlanıldı.",
 	"refreshspecial-reconnecting": "Bağlantı başarısız, 10 saniye içinde yeniden bağlanılıyor...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|satır|satır}} aldı",

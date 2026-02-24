@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "לא בחרתם דפים מיוחדים. הבחירה תוחזר לברירת המחדל.",
 	"refreshspecial-db-error": "ההחלפה נכשלה: שגיאת בסיס נתונים",
 	"refreshspecial-no-page": "אין דף מיוחד כזה",
-	"refreshspecial-slave-lagged": "שרת המשנה אינו מעודכן, בהמתנה...",
 	"refreshspecial-reconnected": "בוצעה התחברות מחדש.",
 	"refreshspecial-reconnecting": "ההתחברות נכשלה, מתחבר תוך 10 שניות...",
 	"refreshspecial-page-result": "יש {{PLURAL:$1|שורה אחת|$1 שורות}} ב",

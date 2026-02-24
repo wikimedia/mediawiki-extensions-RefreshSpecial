@@ -21,7 +21,6 @@
 	"refreshspecial-none-selected": "Du har inte valt någon specialsida. Återställer standardvalet.",
 	"refreshspecial-db-error": "Misslyckades: Databasfel",
 	"refreshspecial-no-page": "Ingen sådan specialsida",
-	"refreshspecial-slave-lagged": "Slavservern släpar efter, väntar ...",
 	"refreshspecial-reconnected": "Återansluten.",
 	"refreshspecial-reconnecting": "Anslutning misslyckades, återansluter om 10 sekunder...",
 	"refreshspecial-page-result": "databasen svarade med $1 {{PLURAL:$1|rad|rader}} i",

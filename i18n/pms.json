@@ -20,7 +20,6 @@
 	"refreshspecial-none-selected": "It l'has pa selessionà gnun-e pàgine speciaj. Tornà a la selession ëstàndard.",
 	"refreshspecial-db-error": "Eror: eror dla base ëd dàit",
 	"refreshspecial-no-page": "A-i é pa la pàgina special",
-	"refreshspecial-slave-lagged": "Artard ëd lë s-ciav, speta ...",
 	"refreshspecial-reconnected": "Torna colegà.",
 	"refreshspecial-reconnecting": "Conession falìa, riconession tra 10 second ...",
 	"refreshspecial-page-result": "trovà $1 {{PLURAL:$1|riga|righe}} an",

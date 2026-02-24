@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "您尚未選擇任何特殊頁面。恢復至預設選項。",
 	"refreshspecial-db-error": "失敗：資料庫錯誤",
 	"refreshspecial-no-page": "此特殊頁面不存在",
-	"refreshspecial-slave-lagged": "從資料庫延遲，等待中...",
 	"refreshspecial-reconnected": "已重新連接。",
 	"refreshspecial-reconnecting": "連接失敗，在 10 秒後重新連接...",
 	"refreshspecial-page-result": "取得了 $1 {{PLURAL:$1|列|列}}於",

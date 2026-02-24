@@ -22,7 +22,6 @@
 	"refreshspecial-none-selected": "أنت لم تختر أي صفحة خاصة. استرجاع إلى الاختيار الافتراضي.",
 	"refreshspecial-db-error": "فشل: خطأ قاعدة بيانات",
 	"refreshspecial-no-page": "لا توجد صفحة خاصة كهذه",
-	"refreshspecial-slave-lagged": "الخادم التابع تأخر، جارٍ الانتظار...",
 	"refreshspecial-reconnected": "تمت إعادة التوصيل.",
 	"refreshspecial-reconnecting": "التوصيل فشل، إعادة التوصيل خلال 10 ثواني...",
 	"refreshspecial-page-result": "حصل على {{PLURAL:$1||صف واحد|صفين|$1 صفوف|$1 صفًا|$1 صف}} في",

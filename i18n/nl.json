@@ -21,7 +21,6 @@
 	"refreshspecial-none-selected": "U hebt geen speciale pagina's geselecteerd.\nDe standaardinstellingen zijn hersteld.",
 	"refreshspecial-db-error": "Fout: databasefout",
 	"refreshspecial-no-page": "De speciale pagina bestaat niet",
-	"refreshspecial-slave-lagged": "De slaveserver loopt achter. Een ogenblik geduld...",
 	"refreshspecial-reconnected": "Weer verbonden.",
 	"refreshspecial-reconnecting": "Verbinding kon niet gemaakt worden.\nOver 10 seconden wordt weer geprobeerd verbinding te maken...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|rij|rijen}} verwerkt in",

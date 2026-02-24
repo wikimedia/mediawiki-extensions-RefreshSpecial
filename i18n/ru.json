@@ -24,7 +24,6 @@
 	"refreshspecial-none-selected": "Вы не выбрали служебных страниц. Возвращение к выбору по умолчанию.",
 	"refreshspecial-db-error": "Неудачно. Ошибка базы данных.",
 	"refreshspecial-no-page": "Нет такой служебной страницы",
-	"refreshspecial-slave-lagged": "Лаг зависимого сервера, ожидание...",
 	"refreshspecial-reconnected": "Пересоединение.",
 	"refreshspecial-reconnecting": "Соединение неудачно, пересоединение через 10 секунд...",
 	"refreshspecial-page-result": "выведено $1 {{PLURAL:$1|строка|строки|строк}} в",

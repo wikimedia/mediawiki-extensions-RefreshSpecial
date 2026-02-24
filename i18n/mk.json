@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Немате одбрано ниедна службена страница. Враќам на основно зададениот избор.",
 	"refreshspecial-db-error": "Неуспешно: Грешка во базата на податоци",
 	"refreshspecial-no-page": "Нема таква службена страница",
-	"refreshspecial-slave-lagged": "Зависниот опслужувач заостанува. Чекам...",
 	"refreshspecial-reconnected": "Преповрзано.",
 	"refreshspecial-reconnecting": "Поврзувањето не успеа. Се преповрзувам за 10 секунди...",
 	"refreshspecial-page-result": "{{PLURAL:$1|$Внесен е 1 ред|Внесени се $1 реда}} во",

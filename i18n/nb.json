@@ -20,7 +20,6 @@
 	"refreshspecial-none-selected": "Du har ikke merket noen spesialsider. Tilbakestiller til standardvalg.",
 	"refreshspecial-db-error": "Mislyktes: databasefeil",
 	"refreshspecial-no-page": "Ingen slik spesialside",
-	"refreshspecial-slave-lagged": "Forsinkelse i slavetjeneren, venter ...",
 	"refreshspecial-reconnected": "Tilkoblet på nytt.",
 	"refreshspecial-reconnecting": "Tilkobling mislyktes, prøver igjen om ti sekunder ...",
 	"refreshspecial-page-result": "fikk {{PLURAL:$1|én rad|$1 rader}} i",

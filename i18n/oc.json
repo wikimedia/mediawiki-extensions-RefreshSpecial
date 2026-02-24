@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Avètz pas seleccionat cap de paginas especialas. Retorn cap a la seleccion per defaut.",
 	"refreshspecial-db-error": "Fracàs : error de la basa de donada",
 	"refreshspecial-no-page": "Pas cap de pagina especiala",
-	"refreshspecial-slave-lagged": "Trabalh retardat, en cors...",
 	"refreshspecial-reconnected": "Reconnectat.",
 	"refreshspecial-reconnecting": "Fracàs de la connexion, reconnexion dins 10 segondas...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|linha obtenguda|linhas obtengudas}} en",

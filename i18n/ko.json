@@ -20,7 +20,6 @@
 	"refreshspecial-none-selected": "어떠한 특수 문서도 선택하지 않았습니다. 기본 선택으로 되돌립니다.",
 	"refreshspecial-db-error": "실패: 데이터베이스  오류",
 	"refreshspecial-no-page": "해당하는 특수 문서가 없습니다.",
-	"refreshspecial-slave-lagged": "슬레이브 지연됨, 대기 중...",
 	"refreshspecial-reconnected": "다시 연결됨.",
 	"refreshspecial-reconnecting": "연결 실패, 10초 후에 다시 연결...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|행}}을 얻음",

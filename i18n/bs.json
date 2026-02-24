@@ -21,7 +21,6 @@
 	"refreshspecial-none-selected": "Niste odabrali nijednu posebnu stranicu. Vraćam na pretpostavljeni odabir.",
 	"refreshspecial-db-error": "Neuspjelo: greška baze podataka",
 	"refreshspecial-no-page": "Nema takve specijalne stranice",
-	"refreshspecial-slave-lagged": "Zastoj pomoćnog servera, čekam...",
 	"refreshspecial-reconnected": "Ponovno spojeno.",
 	"refreshspecial-reconnecting": "Spajanje nije uspjelo, ponovno spajanje za 10 sekundi...",
 	"refreshspecial-page-result": "ima $1 {{PLURAL:$1|red|reda|redova}} u",

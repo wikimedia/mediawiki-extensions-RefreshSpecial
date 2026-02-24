@@ -19,7 +19,6 @@
 	"refreshspecial-none-selected": "Njejsy specialne strony wubrał. Nawrót k standardnemu wuběrej",
 	"refreshspecial-db-error": "Njewuspěch: zmylk datoweje banki",
 	"refreshspecial-no-page": "Žana tajka specialna strona",
-	"refreshspecial-slave-lagged": "Zwisk ze serwerom slave je pomały, čaka so...",
 	"refreshspecial-reconnected": "Znowa zwjazany.",
 	"refreshspecial-reconnecting": "Zwisk je so njeporadźił, znowazwjazowanje za 10 sekundow...",
 	"refreshspecial-page-result": "wobsahuje $1 {{PLURAL:$1|rjad|rjadaj|rjady|rjadow}} w",

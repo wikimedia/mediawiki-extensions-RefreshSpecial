@@ -24,7 +24,6 @@
 	"refreshspecial-none-selected": "شما هیچ صفحهٔ ویژه‌ای را انتخاب نکرده‌اید. بازگرداندن به انتخاب پیش‌فرض.",
 	"refreshspecial-db-error": "عدم موفقیت: خطای پایگاه اطلاعاتی",
 	"refreshspecial-no-page": "چنین صفحهٔ ویژه‌ای وجود ندارد",
-	"refreshspecial-slave-lagged": "وقفه گرفتاری، انتظار...",
 	"refreshspecial-reconnected": "مجدداً متصل شده.",
 	"refreshspecial-reconnecting": "اتصال برقرار نشد، ۱۰ ثانیه دیگر دوباره وصل می‌شود...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|ردیف|ردیف}} شدن در",
