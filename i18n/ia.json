@@ -19,6 +19,7 @@
 	"refreshspecial-none-selected": "Tu non ha seligite alcun pagina special. Le selection retorna al predefinite.",
 	"refreshspecial-db-error": "Falta: error del base de datos",
 	"refreshspecial-no-page": "Iste pagina special non existe",
+	"refreshspecial-replica-lagged": "Replica in retardo; attende…",
 	"refreshspecial-reconnected": "Reconnectite.",
 	"refreshspecial-reconnecting": "Connexion fallite, reconnexion post 10 secundas...",
 	"refreshspecial-page-result": "obteneva $1 {{PLURAL:$1|linea|lineas}} in",
