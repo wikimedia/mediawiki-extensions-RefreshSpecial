@@ -20,6 +20,7 @@
 	"refreshspecial-none-selected": "Non seleccionou ningunha páxina especial. Revertendo á selección por defecto.",
 	"refreshspecial-db-error": "Fallou: erro da base de datos",
 	"refreshspecial-no-page": "Non existe tal páxina especial",
+	"refreshspecial-replica-lagged": "A réplica vai con atraso, agardando...",
 	"refreshspecial-reconnected": "Reconectado.",
 	"refreshspecial-reconnecting": "Fallou a conexión, reconectando en 10 segundos...",
 	"refreshspecial-page-result": "{{PLURAL:$1|Obtívose unha liña|Obtivéronse $1 liñas}} en",
