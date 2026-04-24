@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Priviet",
+			"Tensama0415",
 			"아라"
 		]
 	},
@@ -24,5 +25,6 @@
 	"refreshspecial-reconnecting": "연결 실패, 10초 후에 다시 연결...",
 	"refreshspecial-page-result": "$1 {{PLURAL:$1|행}}을 얻음",
 	"refreshspecial-total-display": " $3 동안(스크립트 실행 완수는 $4) $2 {{PLURAL:$2|행}}의 총계를 구하는 $1 {{PLURAL:$1|문서}}를 새로 고침",
+	"action-refreshspecial": "특수 문서를 새로 고칠",
 	"right-refreshspecial": "특수 문서를 새로 고침"
 }
