@@ -29,7 +29,16 @@ class RefreshSpecial extends SpecialPage {
 		private readonly LinkRenderer $linkRenderer,
 		private readonly SpecialPageFactory $specialPageFactory,
 	) {
-		parent::__construct( 'RefreshSpecial', 'refreshspecial' );
+		if ( version_compare( MW_VERSION, '1.46', '>=' ) ) {
+			parent::__construct( 'RefreshSpecial' );
+		} else {
+			parent::__construct( 'RefreshSpecial', 'refreshspecial' );
+		}
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'refreshspecial';
 	}
 
 	/** @inheritDoc */
