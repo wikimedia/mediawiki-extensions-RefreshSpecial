@@ -3,6 +3,7 @@
 		"authors": [
 			"AS",
 			"Andriykopanytsia",
+			"Movses",
 			"Piramidion",
 			"Prima klasy4na",
 			"Ата"
@@ -23,6 +24,7 @@
 	"refreshspecial-none-selected": "Ви не обрали жодної спеціальної сторінки. Повернення до вибору за замовчуванням.",
 	"refreshspecial-db-error": "Помилка: Помилка бази даних",
 	"refreshspecial-no-page": "Немає такої спеціальної сторінки",
+	"refreshspecial-replica-lagged": "Репліка затримується, очікуємо...",
 	"refreshspecial-reconnected": "Повторне з'єднання.",
 	"refreshspecial-reconnecting": "Не вдалося встановити з'єднання, повтор через 10 секунд ...",
 	"refreshspecial-page-result": "отримано $1 {{PLURAL:$1|рядок|рядки|рядків}} за",
