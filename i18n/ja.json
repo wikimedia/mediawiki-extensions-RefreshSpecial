@@ -3,7 +3,8 @@
 		"authors": [
 			"Aotake",
 			"Fryed-peach",
-			"Shirayuki"
+			"Shirayuki",
+			"Tensama0415"
 		]
 	},
 	"refreshspecial": "特別ページを更新",
@@ -21,6 +22,7 @@
 	"refreshspecial-none-selected": "特別ページを1つも選択していません。既定の選択状態に戻します。",
 	"refreshspecial-db-error": "失敗: データベースのエラー",
 	"refreshspecial-no-page": "そのような特別ページはありません",
+	"refreshspecial-replica-lagged": "レプリカの遅延、待機中...",
 	"refreshspecial-reconnected": "再接続しました。",
 	"refreshspecial-reconnecting": "接続失敗、10 秒後に再接続します...",
 	"refreshspecial-page-result": "$1{{PLURAL:$1|行}}を取得",
