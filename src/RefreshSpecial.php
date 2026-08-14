@@ -59,8 +59,9 @@ class RefreshSpecial extends SpecialPage {
 		$this->checkReadOnly();
 
 		// Is the user blocked? If so they can't make new wikis
-		if ( $user->getBlock() ) {
-			throw new UserBlockedError( $user->getBlock() );
+		$block = $user->getBlock();
+		if ( $block ) {
+			throw new UserBlockedError( $block );
 		}
 
 		// Bump up PHP's memory and time limits a bit, the defaults aren't good

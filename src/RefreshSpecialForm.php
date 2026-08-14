@@ -70,7 +70,7 @@ class RefreshSpecialForm extends ContextSource {
 				$out->addHTML(
 					"\t\t\t\t\t<li>
 						<input type=\"checkbox\" name=\"wpSpecial[]\" value=\"$specialEsc\" $checked />
-						<b>" . htmlspecialchars( $queryPage->getDescription() ) . "</b>
+						<b>" . $queryPage->getDescription()->escaped() . "</b>
 					</li>\n"
 				);
 			}
@@ -93,7 +93,7 @@ class RefreshSpecialForm extends ContextSource {
 	/**
 	 * Take amount of elapsed time, produce hours (hopefully never needed...), minutes, seconds
 	 *
-	 * @param int $amount
+	 * @param int|float $amount
 	 * @return int[] Amount of elapsed time
 	 */
 	private function computeTime( $amount ): array {
@@ -144,8 +144,8 @@ class RefreshSpecialForm extends ContextSource {
 				continue;
 			}
 
-			/** @var QueryPage $queryPage */
 			$queryPage = $this->specialPageFactory->getPage( $special );
+			'@phan-var QueryPage $queryPage'; /** @var QueryPage $queryPage */
 			if ( !$queryPage ) {
 				$out->addWikiTextAsInterface( $this->msg( 'refreshspecial-no-page' )->plain() . ": $special\n" );
 				exit;
@@ -196,7 +196,7 @@ class RefreshSpecialForm extends ContextSource {
 					}
 
 					$elapsed_total = microtime( true ) - $t1;
-					$total['total_elapsed'] += $elapsed + $elapsed_total;
+					$total['total_elapsed'] += $elapsed_total;
 				} else {
 					$out->addHTML( $this->msg( 'refreshspecial-skipped' )->escaped() . '<br />' );
 				}
