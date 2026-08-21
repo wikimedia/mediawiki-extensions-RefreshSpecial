@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Wizzard"
 		]
 	},
 	"refreshspecial": "Obnoviť špeciálne stránky",
@@ -20,9 +21,11 @@
 	"refreshspecial-none-selected": "Nevybrali ste žiadne špeciálne stránky. Vracia sa pôvodný výber.",
 	"refreshspecial-db-error": "Chyba: chyba databázy",
 	"refreshspecial-no-page": "Taká špeciálna stránka neexistuje",
+	"refreshspecial-replica-lagged": "Replika zaostáva, čaká sa…",
 	"refreshspecial-reconnected": "Znovu pripojený.",
 	"refreshspecial-reconnecting": "Spojenie zlyhalo, opätovné pripojenie o 10 sekúnd...",
 	"refreshspecial-page-result": "{{PLURAL:$1|zadaný $1 riadok|zadané $1 riadky|zadaných $1 riadkov}}",
 	"refreshspecial-total-display": "{{PLURAL:$1|Obnovená $1 stránka|Obnovené $1 stránky|Obnovených $1 stránok}}, čo činí $2 {{PLURAL:$2|riadok|riadky|riadkov}} za čas $3 (celkový čas behu skriptu je $4)",
+	"action-refreshspecial": "obnoviť špeciálne stránky",
 	"right-refreshspecial": "Obnoviť špeciálne stránky"
 }
