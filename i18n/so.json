@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"refreshspecial": "Cusboonaysii bogagga gaarka ah",
+	"refreshspecial-desc": "Waxay oggolaanaysaa [[Special:RefreshSpecial|cusboonaysiinta gacanta ee bogagga gaarka ah]] ee bogagga gaarka ah",
+	"refreshspecial-title": "Cusboonaysii bogagga gaarka ah",
+	"refreshspecial-help": "Boggan gaarka ah wuxuu bixiyaa hab lagu cusboonaysiin karo bogagga gaarka ah gacanta.\nMarkaad doorato dhammaan bogagga aad rabto inaad cusboonaysiiso, guji badhanka \"{{int:refreshspecial-button}}\" ee hoose si aad u cusboonaysiiso bogagga gaarka ah ee la doortay.\n'''Digniin:''' Cusboonaysiintu waxay qaadan kartaa waqti wiki-yada waaweyn.",
+	"refreshspecial-button": "Cusboonaysii kuwa la doortay",
+	"refreshspecial-fail": "Fadlan dooro ugu yaraan hal bog oo gaar ah si loo cusboonaysiiyo.",
+	"refreshspecial-refreshing": "Cusboonaysiinta bogagga gaarka ah",
+	"refreshspecial-skipped": "jaban, waa laga booday",
+	"refreshspecial-choice": "Cusboonaysiinta bogagga gaarka ah",
+	"refreshspecial-js-disabled": "(<i>Ma dooran kartid dhammaan bogagga marka JavaScript-ka uu naafo yahay</i>)",
+	"refreshspecial-select-all-pages": "Dooro dhammaan bogagga",
+	"refreshspecial-link-back": "Ku noqo bogga gaarka ah",
+	"refreshspecial-none-selected": "Ma aadan dooran wax bogag gaar ah. Waxaa dib loogu celinayaa doorashada caadiga ah.",
+	"refreshspecial-db-error": "Waa fashilantay: Khalad kaydka xogta",
+	"refreshspecial-no-page": "Ma jiro bog gaar ah oo noocaas ah",
+	"refreshspecial-replica-lagged": "Nuqulku wuu dib dhacay, waa la sugayaa...",
+	"refreshspecial-reconnected": "Dib ayaa loo xiray.",
+	"refreshspecial-reconnecting": "Xiriirku wuu fashilmay, dib ayaa loogu xirayaa 10 ilbiriqsi gudahood...",
+	"refreshspecial-page-result": "Waxaa la helay $1 {{PLURAL:$1|saf|safaf}} gudaha",
+	"refreshspecial-total-display": "Waxaa la cusboonaysiiyay $1 {{PLURAL:$1|bog|bogag}} oo wadartoodu tahay $2 {{PLURAL:$2|saf|safaf}} muddo ah $3 (muddada dhammaystiran ee socodsiinta qoraalku waa $4)",
+	"action-refreshspecial": "Cusboonaysii bogagga gaarka ah",
+	"right-refreshspecial": "Cusboonaysii bogagga gaarka ah"
+}
