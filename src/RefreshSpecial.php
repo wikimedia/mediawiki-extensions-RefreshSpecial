@@ -33,6 +33,7 @@ class RefreshSpecial extends SpecialPage {
 		if ( version_compare( MW_VERSION, '1.46', '>=' ) ) {
 			parent::__construct( 'RefreshSpecial' );
 		} else {
+			// @phan-suppress-next-line PhanParamTooMany
 			parent::__construct( 'RefreshSpecial', 'refreshspecial' );
 		}
 	}
