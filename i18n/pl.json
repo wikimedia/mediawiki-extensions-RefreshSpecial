@@ -4,6 +4,7 @@
 			"Derbeth",
 			"Jwitos",
 			"Leinad",
+			"PanWor",
 			"Sp5uhe",
 			"Woytecr"
 		]
@@ -20,7 +21,7 @@
 	"refreshspecial-js-disabled": "(<i>Nie możesz wybrać wszystkich stron, gdy JavaScript jest wyłączony</i>)",
 	"refreshspecial-select-all-pages": "Zaznacz wszystkie strony",
 	"refreshspecial-link-back": "Powrót do strony specjalnej",
-	"refreshspecial-none-selected": "Nie wybrałeś żadnych stron specjalnych. Przywracanie domyślnego wyboru.",
+	"refreshspecial-none-selected": "Nie wybrano żadnych stron specjalnych. Przywracanie domyślnego wyboru.",
 	"refreshspecial-db-error": "Niepowodzenie – błąd bazy danych",
 	"refreshspecial-no-page": "Nie ma takiej strony specjalnej",
 	"refreshspecial-reconnected": "Ponownie połączono.",
